@@ -43,7 +43,7 @@
 			height: 269px;
 			@include box-sizing;
 		}
-		.price{
+		> .price{
 			color: #fff;
 			font-size: 17px;
 			width: 188px;

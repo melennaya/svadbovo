@@ -28,23 +28,22 @@ $(document).ready(function() {
   
 
     $('.toggle').click(function(){
-if ($('#filter').is(":visible")) {
-$('#filter').slideUp("fast", function() {
+        if ($('#filter').is(":visible")) {
+        $('#filter').slideUp("fast", function() {
             $('.options-up').removeClass('options-up').addClass('options-down');
             $('.options-down').text('Параметры подбора')
           });
-}else{
- $('#filter').slideDown("fast", function() {
+        }else{
+         $('#filter').slideDown("fast", function() {
             $('.options-down').removeClass('options-down').addClass('options-up');
             $('.options-up').text('Скрыть параметры')
           });
-}
-return false;
-});
+        }
+        return false;
+    });
      
 
-      $("#carousel").clickCarousel({ margin: 18 });
-    $("#carousel2").clickCarousel({ margin: 18 });
+    $("#carousel").clickCarousel({ margin: 18 });
 
     $(".sliderkit").sliderkit({
         shownavitems: 8,
