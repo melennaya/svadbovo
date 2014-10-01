@@ -1,0 +1,87 @@
+.content{
+	.section {
+		.tabs {
+			//background: url(../images/tabs.png) repeat-x center bottom;
+			border-bottom: 1px solid #e8e8e8;
+			margin: 0 0 12px 0;
+			li {
+				position: relative;
+				display: inline-block;
+				@include background(tab1, 0);
+				@include sprite-dimensions($icons, tab1);
+				@include sprite-background-position($icons, tab1, 0, +7);
+				text-align: center;
+				padding: 12px 0 0 0;
+				height: 26px;
+				margin: 0 -25px 0 0;
+				//margin: 0 20px 0 0;
+				z-index: 0;
+				font-size: 14px;
+				color: #1f75b0;
+				&.current {
+					@extend li;
+					z-index: 1;
+					top: 1px;
+					color: #000;
+				}
+				&:hover {
+					cursor: pointer;
+				}
+			}
+		}
+		.box {
+			margin: 25px 0 0 0;
+			> h2{
+				font-size: 18px;
+				font-weight: normal;
+			}
+		}
+	}
+	.dress-card-catalog{
+		display: inline-block;
+		margin: 0 13px 20px 0;
+		@include box-sizing;
+		width: 230px;		
+		border: 1px solid #eee;
+		padding: 20px 20px 10px;
+		position: relative;
+		img{
+			width: 188px;
+			height: 269px;
+			@include box-sizing;
+		}
+		.description{
+			text-align: center;
+			> span{
+				margin: 10px 0 5px;
+				font-size: 12px;
+				color: #adadad;
+				display: block;
+			}
+			a{
+				font-size: 14px;
+				display: block;
+			}
+			.price{
+			color: #db1c5d;
+			font-size: 23px;
+			display: block;
+			padding: 8px 0 8px;
+			text-align: center;
+			margin: 5px 0 0 0;
+			span{
+				color: #c8c2b4;
+				font-size: 15px;
+				display: inline;
+			}
+		}
+			.rating{
+				@include rating;
+				float: none;
+				a{
+					margin: 0;
+				}
+			}
+		}
+	}
+}
