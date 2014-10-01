@@ -1,0 +1,743 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"im",
+				"important"
+			],
+			[
+				"slide",
+				"slideUp	.slideUp()"
+			],
+			[
+				"sc",
+				"script	Tag"
+			],
+			[
+				"inpu",
+				"input	input - submit"
+			],
+			[
+				"text",
+				"textarea"
+			],
+			[
+				"la",
+				"label	<label> with <input>"
+			],
+			[
+				"in",
+				"input	input - password"
+			],
+			[
+				"img",
+				"img	img"
+			],
+			[
+				"labe",
+				"label	<label>"
+			],
+			[
+				"for",
+				"form	<form>"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"sp",
+				"icons-sprite"
+			],
+			[
+				"tit",
+				"title	Attr"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"td",
+				"td	<td>"
+			],
+			[
+				"tr",
+				"tr	<tr>"
+			],
+			[
+				"icon",
+				"icons-sprite"
+			],
+			[
+				"textt",
+				"text-decoration"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"a",
+				"a	<a>"
+			],
+			[
+				"input",
+				"input	input - text"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"bord",
+				"border-top"
+			],
+			[
+				"div",
+				"div	Tag"
+			],
+			[
+				"span",
+				"span	Tag"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"ico",
+				"icons"
+			],
+			[
+				"sprite-h",
+				"sprite-height"
+			],
+			[
+				"icons",
+				"icons-layout"
+			],
+			[
+				"ti",
+				"title	Attr"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": ".wrapper {width: 1260px; margin: auto;}\n// sprites\n$icons-layout: \n$icons-spacing: 20px;\n$icons-sprite-dimensions: true;\n@import \"icons/*.png\";\n$border: 1px solid;\n.clearfix {\n  content: \".\";\n  display: block;\n  height: 0;\n  clear: both;\n  visibility: hidden;\n}\nbody {\n	background: #fff;\n	font: {\n		family: Arial;\n		size: 16px;\n	}\n	color: #000;\n	line-height: 18px;\n}\n\na {\n	text-decoration: underline;\n	&:hover {\n		text-decoration: none;\n	}\n	color: #1f75b0;\n}\n\ninput:focus, select:focus, textarea:focus {\n	outline: none;\n}\n\n\n\n@mixin p {\n	font-size: 14px;\n	color: #333;\n	line-height: 21px;\n}\n\n@mixin label {\n	display: block;\n	font-weight: bold;\n	font-size: 15px;\n	color: #72838d;\n	margin: 15px 0 5px 0;\n}\n\n@mixin clean {\n	font: {\n		size: 14px;\n		style: italic;\n	}\n	color: #adadad;\n	display: block;\n	text-align: center;\n	background: url(../images/punktir.png) repeat-x 0 center;\n	padding: 15px 0;\n	span {\n		text-align: center;\n		background: #fff;\n		padding: 0 45px;\n	}\n}\n\n@mixin forms {\n	@include border-radius(4px);\n	border: $border #e8e8e8;\n	padding: 7px 0 7px 10px;\n	color: #333;	\n}\n\n@mixin submit {\n	background: #58a5cf;\n	border: $border #2e87bb;\n	@include border-radius(4px);\n	font-size: 19px;\n	color: #fff;\n	padding: 8px 24px 7px;\n	margin: 20px 0 0 0;\n}\n\nh1 {\n	font-size: 23px;\n	color: #ac296a;\n	text-transform: uppercase;\n}\nh2 {\n	font-size: 27px;\n	font-weight: bold;\n	color: #333;\n	margin: 18px 0 0 0;\n}\nh3 {\n	font-size: 18px;\n	color: #ac296a;\n}\n\n@mixin h2 {\n	font-size: 20px;\n	font-weight: normal;\n}",
+			"file": "/C/Sites/myart/sass/config.scss",
+			"file_size": 1592,
+			"file_write_time": 130502469128710938,
+			"settings":
+			{
+				"buffer_size": 1504,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Sites/myart/index.html",
+			"settings":
+			{
+				"buffer_size": 405,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Sites/myart/sass/screen.scss",
+			"settings":
+			{
+				"buffer_size": 100,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				":",
+				"View: Toggle Menu"
+			],
+			[
+				"",
+				"Set Syntax: HTML"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Руслан/Desktop/verstala/svadba_profile_reklamodatel.html",
+		"/C/Users/Руслан/Desktop/verstala/sass/screen.scss",
+		"/C/Users/Руслан/Desktop/verstala/config.rb",
+		"/C/Users/Руслан/Desktop/verstala/sass/config.scss",
+		"/C/Users/Руслан/Desktop/verstala/svadba_profile_reklamodatel_nastroiki.html",
+		"/C/Users/Руслан/Desktop/verstala/svadba_profile_reklamodatel_add_calendar.html",
+		"/C/Users/Руслан/Desktop/verstala/stylesheets/config.css",
+		"/C/Users/Руслан/Desktop/verstala/svadba_profile_reklamodatel.sublime-workspace",
+		"/C/Users/Руслан/Desktop/verstala/svadba_profile_reklamodatel.sublime-project",
+		"/C/WebServers/home/loc.svadbovo/www/sass/screen.scss",
+		"/C/Users/Руслан/Desktop/verstala/images/icons-s29c4d1a434.png",
+		"/C/Users/Руслан/Desktop/verstala/stylesheets/screen.css",
+		"/C/Users/Руслан/Desktop/verstala/index.htm",
+		"/C/Users/Руслан/Desktop/verstala/svadba_profile_reklamodatel",
+		"/D/MIX/Работа/Web - design/1 туц/Постоянка/PSD_svadbavo/Верстка/style.scss",
+		"/D/MIX/Работа/Web - design/1 туц/Постоянка/PSD_svadbavo/Верстка/style.sass"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"font-size: 14px;",
+			"user",
+			"redact",
+			";\n"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Sites/myart/sass/config.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1504,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								66,
+								66
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"encoding_helper_encoding": "UTF-8",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Sublime-Text-2-SASS-Package/Syntaxes/SASS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Sites/myart/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 405,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								364,
+								364
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"encoding_helper_encoding": "UTF-8",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Sites/myart/sass/screen.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 100,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								100,
+								100
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"encoding_helper_encoding": "UTF-8",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Sublime-Text-2-SASS-Package/Syntaxes/SASS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "svadba_profile_reklamodatel.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 125.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

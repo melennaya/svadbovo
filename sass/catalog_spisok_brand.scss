@@ -1,0 +1,270 @@
+//content
+.content{
+	.categories{
+		margin: 10px 0 0 0;
+		padding: 20px 0 15px;
+		font-size: 15px;
+		border-top: 1px solid #e5e5e5;
+		border-bottom: 1px solid #e5e5e5;
+		position: relative;
+		a{
+			color: #db1c5d;
+			margin: 0 20px 0 0;
+		}
+		span{
+			font-weight: bold;
+			margin: 0 20px 0 0;
+		}
+	}
+	.brend{
+		&:before{
+			@include background(background-element, 0);
+			@include sprite-dimensions($icons, background-element);
+			position:absolute;
+			display: block;
+			content: '';
+			left: 200px;
+			top: 45px;
+		}
+	}
+	.filter{
+		padding: 15px 0;
+		color: #999;
+		font-size: 15px;
+		form{
+			select{
+				@include forms;
+				padding: 5px 10px 6px;
+				text-transform: lowercase;
+				font-size: 15px;
+			}
+			input{
+				@include forms;
+				background-color: #fbfbfb;
+				padding: 7px 10px;
+				font-size: 14px;
+				color: #666;
+				@include border-radius(2px);
+			}
+			.show{
+				display: inline-block;
+				float: right;
+			}
+		}		
+	}
+	.brend-card{
+		width: 700px;
+		min-height: 310px;
+		position: relative;
+		border: 1px solid #e8e8e8;
+		margin: 0 0 17px 0;
+		padding: 25px 22px 25px 15px;
+		> a{
+			position: relative;
+			top: -5px;
+			&:after{
+				@include background(heart, 0);
+				@include sprite-dimensions($icons, heart);
+				margin-left: 10px;
+				position: absolute;
+				content: '';
+				top: 0px;
+			}
+		}
+		> img{
+			margin: 0 25px 0 0;
+		}
+		.collection{
+			position: relative;
+			height: 300px;
+			.carousel {
+			position: absolute;
+			overflow: hidden;
+			min-width: 680px; 
+			min-height: 232px;
+			top: 10px;
+			left: 10px;
+			a {
+				position: absolute;
+				display: inline-block;
+				border: $border #e0e0e0;
+				@include box-sizing;
+			    padding: 15px 0 0 0;
+				min-width: 157px;
+				min-height: 212px;
+			}
+		}
+		span {
+			display: block;
+			position: absolute;
+			width: 30px;
+			height: 52px;
+			cursor: pointer;
+			top: 100px;
+			&.carouselLeft {
+				@include background(left-an, 0);
+				&.active, &:hover {
+					@include background(left-ac, 0);
+				}
+			}
+			&.carouselRight {
+				@include background(right-an, 0);
+				right: 0;
+				&.active, &:hover {
+					@include background(right-ac, 0);
+				}
+			}
+		}
+		}
+		.collection-footer{
+			position: absolute;
+			top: 310px;
+			width: 680px;
+			.number{
+				float: right;
+			}
+		}
+		.rating{
+			@include rating;
+			margin: 0 30px 0 0;
+			a{
+				margin: 0;
+			}
+		}
+		> a{
+			font-size: 23px;
+		}
+		> p{
+			margin: 15px 0;
+			font-size: 14px;
+		}
+	}
+	> .articles{
+		padding: 50px 0 0 0;
+		h2{
+			font-size: 26px;
+			font-weight: normal;
+			color: #ac296a;
+			text-transform: uppercase;
+		}
+		p{
+			margin: 25px 0 0 0;
+			font-size: 14px;
+		}
+		h3{
+			margin: 45px 0 0 0;
+			font-size: 20px;
+		}
+	}
+}
+//sidebar-right
+.sidebar-right{
+	.add-firm{
+		color: #69c158;
+		display: block;
+		width: 200px;
+		font-size: 18px;
+		padding: 0 0 0 30px;
+		@include box-sizing;
+		@include background(plus-big, 0);
+	}
+	> span{
+		padding: 10px 0 0 30px;
+		display: block;
+		width: 200px;
+		font-size: 12px;
+		line-height: 12px;
+		margin: 0 0 20px 0;
+	}
+	.options-up{
+		width: 140px;
+		display: block;
+		margin: 0 0 15px 0;
+		font-size: 14px;
+		color: #fff;
+		text-decoration: none;
+		border: 1px solid #5e92b5;
+		@include border-radius(2px);
+		background-color: #77abcf;
+		padding: 10px 50px 10px 30px;
+		position: relative;
+		&:before{
+			@include background(gear, 0);
+			@include sprite-dimensions($icons, gear);
+			position: absolute;
+			content: '';
+			left: 8px;
+			top: 11px;
+		}
+		&:after{
+			@include background(up-arrow, 0);
+			@include sprite-dimensions($icons, up-arrow);
+			position: absolute;
+			content: '';
+			right: 10px;
+			top: 10px;
+		}
+	}
+	form{
+		margin: 30px 0 20px 0;
+		.form-header{
+			margin: 0 0 20px 0;
+			> span{
+				color: #333;
+				display: block;
+				font-weight: bold;
+				margin: 0 0 10px 0;
+				span{
+					color: #666;
+					font-weight: normal;
+				}
+			}
+			input[type="text"]{
+				width: 65px;
+				padding: 10px;
+				border: 1px solid #e8e8e8;
+				@include border-radius(3px);
+			}
+		}
+		> span{
+			color: #333;
+			display: block;
+			font-weight: bold;
+			margin: 0px 0 10px 0;
+			padding: 0 0 0 15px;
+			@include background(black-row-bottom, 0);
+			@include sprite-background-position($icons, black-row-bottom, 0, +3);
+		}
+		.checkboxes{
+			margin: 0 0 35px 0;
+		}
+		.close{
+			@include background(black-row-left, 0);
+			@include sprite-background-position($icons, black-row-left);
+		}
+		.form-footer{
+			margin: 20px 0 0 0;
+			input[type="submit"]{
+				padding: 7px 10px;
+				font-size: 14px;
+				color: #333;
+			}
+			a{
+				font-size: 12px;
+				margin: 0 0 0 10px;
+			}
+		}
+	}
+}
+//footer
+.footer{
+	.wrapper{
+		.social{
+			float: right;
+			font-size: 14px;
+			span{
+				display: block;
+			}
+		}
+	}
+}

@@ -1,0 +1,318 @@
+.wrapper {width: 1260px; margin: auto;}
+$icons: sprite-map("icons/*.png", $spacing: 100px, $icons-sprite-dimensions: true);
+$border: 1px solid;
+.clearfix {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+body {
+	background: #fff;
+	font: {
+		family: Arial;
+		size: 16px;
+	}
+	color: #000;
+	line-height: 18px;
+}
+
+a {
+	text-decoration: underline;
+	&:hover {
+		text-decoration: none;
+	}
+	color: #1f75b0;
+}
+
+input:focus, select:focus, textarea:focus {
+	outline: none;
+}
+
+
+@mixin background ($url, $position) {
+	background: {
+		image: sprite-url($icons);
+		repeat: no-repeat;
+		position: sprite-position($icons, $url, $position);
+	}
+}
+
+@mixin box-sizing {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+@mixin p {
+	font-size: 14px;
+	color: #333;
+	line-height: 21px;
+}
+
+@mixin label {
+	display: block;
+	font-weight: bold;
+	font-size: 15px;
+	color: #72838d;
+	margin: 15px 0 5px 0;
+}
+
+@mixin clean {
+	font: {
+		size: 14px;
+		style: italic;
+	}
+	color: #adadad;
+	display: block;
+	text-align: center;
+	background: url(../images/punktir.png) repeat-x 0 center;
+	padding: 15px 0;
+	span {
+		text-align: center;
+		background: #fff;
+		padding: 0 45px;
+	}
+}
+
+@mixin close {
+	display: block;
+	position: absolute;
+	@include background(close, 0);
+	@include sprite-dimensions($icons, close);
+	right: 10px;
+	top: 10px;
+}
+
+@mixin password-change {
+	.password-change {
+		margin: 30px 0 0 0;
+		label {
+			@include label;
+			span {
+				width: 160px;
+				margin: 0 10px 0 0;
+				display: inline-block;
+			}
+			input {
+				@include forms;
+				width: 180px;
+			}
+		}
+	}
+}
+
+@mixin forms {
+	@include border-radius(4px);
+	@include box-sizing;
+	border: $border #e8e8e8;
+	padding: 7px 0 7px 10px;
+	color: #333;	
+	behavior: url(/PIE.htc);
+}
+
+@mixin submit {
+	background: #58a5cf;
+	border: $border #2e87bb;
+	@include border-radius(4px);
+	font-size: 19px;
+	color: #fff;
+	padding: 8px 24px 7px;
+	margin: 20px 0 0 0;
+	&:active {
+		position: relative;
+		top: 2px;
+	}
+}
+
+@mixin submit-white {
+	@include submit;
+	background: #fafafa;
+	border: $border #d1d1d1;
+	color: #333;
+}
+
+@mixin submit-plus {
+	background-color: #f8f8f8;
+	border: $border #d1d1d1;
+	@include border-radius(2px);
+	height: 33px;
+	@include p;
+}
+
+@mixin file-upload {
+	width: 100%;
+	@include box-sizing;
+	@include forms;
+	padding: 2px;
+	position: relative;
+	overflow: hidden;
+	button {
+		@include submit-plus;
+		@include background(upload, 0);
+		@include sprite-background-position($icons, upload, +6, +5);
+		@include box-sizing;
+		padding: 2px 0 0 21px;
+		width: 84px;
+		height: 26px;
+		float: right;
+	}
+	input[type=file] {
+    	position: absolute;
+    	left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		@include scale(20);
+		@include opacity(0);
+		letter-spacing: 10em;
+		cursor: pointer;
+   	}
+	input[type="url"] {
+		@include forms;
+		display: block;
+		width: 100%;
+		margin: 0;
+		border: 0;
+		padding: 5px 0 5px 14px;
+	}
+	#hide {
+		display: none;
+	}
+}
+
+h1 {
+	font-size: 23px;
+	color: #ac296a;
+	text-transform: uppercase;
+}
+h2 {
+	font-size: 27px;
+	font-weight: bold;
+	color: #333;
+	margin: 18px 0 0 0;
+}
+h3 {
+	font-size: 18px;
+	color: #ac296a;
+}
+
+@mixin h2 {
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.redact {
+	position: absolute;
+	right: 0;
+	font-size: 14px;
+	@include background(redact, 0);
+	@include sprite-background-position($icons, redact, 0, +5);
+	padding: 0 0 0 15px;
+}
+
+.pagination {
+	margin: 25px 0 0 0;
+	a, span {
+		@include p;
+		font-size: 15px;
+		color: #000;
+		text-decoration: none;
+		padding: 7px 14px;
+		border: $border #e8e8e8;
+		border-collapse: collapse;
+		margin: 0 -5px 0 0;
+	}
+	span, a:hover {
+		background-color: #fef5e5;
+	}
+	.next {
+		@include background(next, 0);
+		@include sprite-background-position($icons, next, +103, +8);
+		padding: 7px 35px 7px 14px;
+	}
+	.prev {
+		@include background(prev, 0);
+		@include sprite-background-position($icons, prev, +10, +8);
+		padding: 7px 14px 7px 35px;
+	}
+}
+
+.breadcrumbs {
+	margin: 16px 0 0 0;
+	a {
+		font-size: 12px;
+		color: #db1c5d;
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
+		&:before {
+			position: relative;
+			content: " ";
+			display: inline-block;
+			@include background(bread-arr, 0);
+			@include sprite-dimensions($icons, bread-arr);
+			top: -2px;
+			margin-right: 5px;
+		}
+		&:first-child:before {
+			@include background(bread-home, 0);
+			@include sprite-dimensions($icons, bread-home);
+			margin: 0 2px 0 0;
+			top: 1px;
+		}
+	}
+	span {
+		@extend a;
+		color: #333;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
+
+.online {
+	display: inline-block;
+	position: relative;
+	top: -1px;
+	@include background(online, 0);
+	@include sprite-dimensions($icons, online);
+}
+
+@mixin rating {
+	float: right;				
+	margin: 0 0 15px 0;
+	span {
+		display: inline-block;
+		vertical-align: middle;
+		font-size: 15px;
+		font-weight: bold;
+		margin: 0 10px 0 0;
+		&.good {
+			color: #666;
+		}
+		&.excellent {
+			color: #59a924;
+		}
+		&.bad {
+			color: #d35416;
+		}
+	}
+	a {
+		display: inline-block;
+		margin: 0 -15px 0 0;
+		vertical-align: middle;
+		@include sprite-dimensions($icons, star-full);
+		&.full {
+			@include background(star-full, 0);
+		}
+		&.nofull {
+			@include background(star-nofull, 0);
+		}
+		&:hover {
+			@include background(star-full, 0);
+		}
+	}
+}

@@ -1,0 +1,219 @@
+//content
+.content{
+	.main-article{
+		border-bottom: 1px solid #ddd;
+		padding: 0 0 20px 0;
+		p{
+			padding: 15px 0 0 0;
+			font-size: 14px;
+		}
+		h2{
+			color: #c9308b;
+			font-size: 20px;
+		}
+		img{
+			margin: 10px 0 0 0;
+		}
+		ul{
+			li{
+				padding: 10px 0 0 0;
+				font-size: 14px;
+				&:before{
+					content: "\002022"; 
+					color: #c9308b;
+				}
+			}
+		}
+		.main-article-footer{
+			margin: 15px 0 0 0;
+			img{
+				margin: 0 0 0 10px;
+				position: relative;
+				top: 5px;
+			}
+			> span{
+				font-weight: bold;
+				font-size: 15px;
+			}
+			> a {
+				margin: 0 0 0 10px;
+				font-size: 12px;
+			}
+			.likes-counter{
+				margin: 5px 0 0 0;
+				display: inline-block;
+				float: right;
+				a{
+					@include background(likes_big, 0);
+					padding: 0 0 0 20px;
+					font-size: 14px;
+					color: #f07677;
+				}
+				span{
+					padding: 3px 11px;
+					font-size: 12px;
+					@include background(likes-count, 0);
+				}
+			}
+		}
+	}
+	.similar-articles{
+		padding: 20px 0 20px 0;
+		h2{
+			color: #ac296a;
+			font-size: 23px;
+			font-weight: normal;
+			text-transform: uppercase;
+		}
+		.item{
+			width: 365px;
+			float: left;
+			> span{
+				display: block;
+				font-size: 10px;
+				color: #999;
+				margin: 10px 0 5px;
+				text-transform: uppercase;
+			}
+			img{
+				float: left;
+				width: 90px;
+				height: 67px;
+				@include box-sizing;
+				border: 1px solid #eee;
+				background-color: #fff;
+				padding: 4px;
+			}
+			.description{
+				width: 260px;
+				margin: 0 0 0 10px;
+				float: left;
+				a{
+					font-size: 14px;
+				}
+				.counter{
+					margin: 5px 0 0 0;
+					font-size: 14px;
+					.likes{
+						padding: 0 0 0 15px;
+						color: #f07677;
+						@include background(likes, 0);
+						@include sprite-background-position($icons, likes, 0, 3);
+					}
+					.comments{
+						padding: 0 0 0 15px;
+						@include background(comments, 0);
+						@include sprite-background-position($icons, comments, 0, 3);
+					}
+				}
+			}
+		}
+	}
+	.all-comments{
+		.avatar{
+			float: left;
+			margin: 0 15px 0 0;
+		}
+		h2{
+			font-size: 23px;
+			font-weight: normal;
+			text-transform: uppercase;
+			span{
+				color: #f07677;
+			}
+		}
+		.send-comment{
+			margin: 20px 0 0 0;
+			padding: 15px;
+			border: 1px solid #f9dbe5;
+			background-color: #faedf2;
+			form{
+				float: left;
+				textarea{
+					float: left;
+					border: 1px solid #f2e0e7;
+					width: 490px;
+					height: 50px;
+					resize: none;
+				}
+				input{
+					float: left;
+					margin: 10px 0 0 20px;
+					background-color: #e45284;
+					border: 1px solid #db1c5d;
+					padding: 6px 20px;
+					color: #fff;
+					font-size: 15px;
+					@include border-radius(3px);
+				}
+			}
+		}
+		.user-comment{
+			margin: 25px 0 40px;
+			padding: 0 15px;
+			.comment{
+				float: left;
+				width: 640px;
+				font-size: 14px;
+				.comment-header{
+					.name{
+						color: #ac296a;
+					}
+					.last-online{
+						font-size: 12px;
+						color: #666;
+					}
+				}
+				.comment-footer{
+					margin: 10px 0 0 0;
+					font-size: 12px;
+					a{
+						text-decoration: none;
+						padding: 0 0 0 16px;
+						&.reply{
+							text-decoration: none;
+							margin: 0 40px 0 0;
+							@include background(reply, 0);
+							&:hover{
+								text-decoration: underline;
+							}
+						}
+						&.spam{
+							@include background(spam, 0);
+							color: #999;
+							&:hover{
+								text-decoration: underline;
+							}
+						}
+						&.likes{
+							float: right;
+							color: #f07677;
+							@include background(likes, 0);
+							@include sprite-background-position($icons, likes, 0, 3);
+							&:hover{
+								text-decoration: underline;
+							}
+						}
+					}
+				}
+			}
+			> .reply{
+				margin: 40px 0 0 0;
+				float: right;
+				.comment{
+					width: 571px;
+				}
+			}
+		}
+		.pre-comments-text{
+			margin: 20px 0 0 0;
+			text-align: center;
+			border: 1px solid #f9dbe5;
+			background-color: #faedf2;
+			padding: 20px 0;
+			a{
+				color: #db1c5d;
+			}
+		}
+	}
+}

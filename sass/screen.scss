@@ -1,0 +1,39 @@
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/utilities";
+@import "config.scss";
+
+
+// top-n-bar
+@import "top-n-bar.scss";
+
+// footer
+@import "footer.scss";
+
+//sidebar-left
+@import "sidebar-left.scss";
+
+//content
+@import "content.scss";
+
+// sidebar-right
+@import "sidebar-right.scss";
+
+// reklamodatel
+@import "reklamodatel.scss";
+
+//user
+@import "user.scss";
+
+//modal
+@import "modal.scss";
+
+//index
+@import "main.scss";
+@import "article_list.scss";
+@import "article.scss";
+@import "catalog_spisok.scss";
+@import "catalog_spisok_brand.scss";
+@import "catalog_spisok_tovar.scss";
+@import "firm_spec.scss";
+@import "kartochka_catalog.scss";

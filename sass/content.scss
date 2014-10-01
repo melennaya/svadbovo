@@ -1,0 +1,42 @@
+// content
+.content {
+	width: 739px;
+	display: inline-block;
+	margin: 40px 0 0 26px;
+	padding: 0 0 0 35px;
+	border-left: 1px dashed #ebebeb;
+	position: relative;
+	> .add {
+		@include submit;
+		position: absolute;
+		right: 0;
+		top: -15px;
+		font-size: 14px;
+		@include background(add, 0);
+		@include sprite-background-position($icons, add, +14, +7);
+		padding: 8px 24px 7px 40px;
+		&:active {
+			position: absolute;
+			top: -13px;
+		}
+	}
+	> .new-album {
+		@extend .add;
+		@include background(new-album, 0);
+		@include sprite-background-position($icons, new-album, +14, +10);
+		text-decoration: none;
+	}
+	> .add-video {
+		@extend .new-album;
+		@include background(add-video, 0);
+		@include sprite-background-position($icons, add-video, +14, +10);
+	}
+	> .add-photo {
+		@extend .new-album;
+	}
+	> .add-friend {
+		@extend .new-album;
+		@include background(add-friend, 0);
+		@include sprite-background-position($icons, add-friend, +14, +9);
+	}
+}

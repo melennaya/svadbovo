@@ -1,0 +1,45 @@
+//content
+.content{
+	.special-offers{
+		&:before{
+			@include background(background-element, 0);
+			@include sprite-dimensions($icons, background-element);
+			position:absolute;
+			content: '';
+			left: 140px;
+			top: 45px;
+		}
+	}
+	.offers-50{
+		&:before{
+			@include background(offers-50, 0);
+			@include sprite-dimensions($icons, offers-50);
+			position: absolute;
+			content: '';
+			top: 10px;
+			left: 10px;
+		}
+	}
+	.offers-25{
+		&:before{
+			@include background(offers-25, 0);
+			@include sprite-dimensions($icons, offers-25);
+			position: absolute;
+			content: '';
+			top: 10px;
+			left: 10px;
+		}
+	}
+	.offers-15{
+		&:before{
+			@include background(offers-15, 0);
+			@include sprite-dimensions($icons, offers-15);
+			position: absolute;
+			content: '';
+			top: 10px;
+			left: 10px;
+		}
+	}
+}
+
+

@@ -1,0 +1,414 @@
+//user-profile
+.user-profile {
+	h2 {
+		@include h2;
+		text-transform: uppercase;
+	}
+	.personal-information {
+		label {
+			@include label;
+			span {
+				width: 90px;
+				display: inline-block;
+			}
+			input, select {
+				@include forms;
+				width: 390px;
+				font-size: 18px;
+				line-height: 1;
+				color: #333;
+			}
+			select {
+				width: 403px;
+			}
+		}
+	}
+
+	//user-contacts 
+	.user-contacts {
+		margin: 35px 0 0 0;
+		label {
+			@include label;
+			span {
+				width: 90px;
+				display: inline-block;
+				@include box-sizing;
+				padding: 0 0 5px 31px;
+			}
+			&.email {
+				span {
+					@include background(email, 0);
+				}
+			}
+			&.icq {
+				span {
+					@include background(icq, 0);
+				}
+			}
+			&.skype {
+				span {
+					@include background(skype, -5px);
+				}
+			}
+			> input {
+				@include forms;
+				width: 280px;
+			}
+			strong {
+				@include p;
+				font-weight: normal;
+				input[type=checkbox] {
+					position: relative;
+					top: 2px;
+				}
+			}
+		}
+	}
+
+	//user-social
+	.user-social {
+		margin: 35px 0;
+		label {
+			@include label;
+			padding: 0 0 0 46px;
+			&.facebook {
+				@include background(facebook, 0);
+			}
+			&.twitter {
+				@include background(twitter, 0);
+			}
+			&.vk {
+				@include background(vk, 0);
+			}
+			&.odkl {
+				@include background(odkl, 0);
+			}
+			> input {
+				@include forms;
+				width: 327px;
+			} 
+			strong {
+				@include p;
+				font-weight: normal;
+				input[type=checkbox] {
+					position: relative;
+					top: 2px;
+				}
+			}
+		}
+	}
+	@include password-change;
+	input[type=submit] {
+		@include submit;
+	}
+}
+
+//user-photo-album, user-photo, user-video
+.user-photo-album, .user-video, .user-photo {
+	ul {
+		li {
+			width: 232px;
+			@include box-sizing;
+			position: relative;
+			display: inline-block;
+			vertical-align: top;
+			margin: 20px 0 0 0;
+			&:nth-child(3n+2) {
+				margin: 20px 17px 0;
+			}
+			&.margin {
+				margin: 20px 17px 0;
+			}
+			&:hover {
+				.redact {
+					display: block;
+				}
+				.delete {
+					display: block;
+				}
+			}
+			img {
+				display: block;
+				background: url(../images/album-li.png) no-repeat center center;
+				padding: 0 5px 5px 0;
+				margin: 0 auto 5px;
+			}
+			a {
+				display: block;
+				&.redact, &.delete {
+					display: none;
+					position: absolute;
+					@include submit-white;
+					@include box-sizing;
+					padding: 0;
+					width: 27px;
+					height: 27px;
+					top: -12px;
+					&:active {
+						position: absolute;
+						top: -10px;
+					}
+				}
+				&.redact {
+					@include background(redact-album, 0);
+					@include sprite-background-position($icons, redact-album, +5, +5);
+					right: 42px;
+				}
+				&.delete {
+					@include background(delete, 0);
+					@include sprite-background-position($icons, delete, +5, +6);
+					right: 9px;
+				}
+			}
+			div {
+				font-size: 12px;
+				color: #333;
+				margin: 3px 0 0 0;
+				&.date {
+					float: left;
+				}
+				&.count {
+					float: right;
+				}
+			}
+		}
+	}
+}
+
+//user-video 
+.user-video {
+	ul {
+		li {
+			vertical-align: top;
+			img {
+				background: none;
+				border-top: 22px inset #000;
+				border-bottom: 22px inset #000;
+				padding: 0;
+			}
+			div {
+				&.count {
+					float: none;
+				}
+			}
+			.time {
+				position: absolute;
+				right: 0;
+				top: 180px;
+				right: 10px;
+				color: #fff;
+				font-size: 11px;
+				background: #3f3f3e;
+				padding: 1px 3px;
+			}
+		}
+	}
+}
+
+//user-photo-clean, user-video-clean
+.user-photo-clean, .user-video-clean {
+	background: url(../images/photo-clean.png) no-repeat center center;
+	border: $border #dbdbdb;
+	width: 742px;
+	height: 257px;
+	@include box-sizing;
+	margin: 25px 0 0 0;
+	text-align: center;
+	span {
+		display: block;
+		text-align: center;
+		width: 335px;
+		margin: 60px auto 26px;
+		font-size: 20px;
+		color: #333;
+		line-height: 22px;
+	}
+	> .add-photo {
+		@include submit-white;
+		font-size: 14px;
+		@include background(new-album, 0);
+		@include sprite-background-position($icons, new-album, +14, +10);
+		text-decoration: none;
+		padding: 8px 24px 7px 40px;
+	}
+	> .add-video {
+		@extend .add-photo;
+		@include background(add-video, 0);
+		@include sprite-background-position($icons, add-video, +14, +10);
+	}
+}
+
+.user-photo {
+	ul {
+		li {
+			&:hover {
+				cursor: pointer;
+			}
+			img {
+				padding: 0;
+				background: none;
+			}
+			.meta {
+				float: right;
+				> div {
+					padding: 0 0 0 16px;
+					font-size: 12px;
+					line-height: 12px;
+					font-weight: bold;
+					display: inline-block;
+					vertical-align: top;
+					&.likes {
+						color: #f07677;
+						@include background(likes, 0);
+					}
+					&.comments {
+						color: #222;
+						@include background(comments, 0);
+						margin: 3px 0 0 10px;
+					}
+				}
+			}
+		}
+	}
+}
+
+.user-friend {
+	ul {
+		li {
+			width: 227px;
+			display: inline-block;
+			margin: 15px 0 5px;
+			&:nth-child(3n+2) {
+				margin: 15px 24px 5px;
+			}
+			&.margin {
+				margin: 15px 24px 5px;
+			}
+			img {
+				float: left;
+				margin: 0 8px 0 0;
+			}
+			.right {
+				width: 140px;
+				height: 73px;
+				float: left;
+				margin: 7px 0 0 0;
+				position: relative;
+				a {
+					text-decoration: none;
+				}
+				.buttons {
+					position: absolute;
+					bottom: 5px;
+					a {
+						display: block;
+						margin: 5px 0 0 0!important;
+						&.msg, &.delete {
+							@include submit-white;
+							@include box-sizing;
+							display: inline-block;
+							vertical-align: top;
+							width: 27px;
+							height: 27px;
+							padding: 0;
+						}
+						&.msg {
+							@include background(msg, 0);
+							@include sprite-background-position($icons, msg, +7, +5);
+							font-size: 12px;
+							color: #666;
+							text-decoration: none;
+							width: 105px;
+							padding: 4px 0 0 27px;
+							margin: 5px 0 0 0!important;
+						}
+						&.delete {
+							@include background(delete, 0);
+							@include sprite-background-position($icons, delete, +5, +6);
+						}
+					}
+				}
+			}
+			
+		}
+	}
+}
+
+.izbrannoe {
+	.izbran {
+		padding: 15px;
+		border: $border #e8e8e8;
+		position: relative;
+		margin: 25px 0 0 0;
+		img {
+			float: left;
+		}
+		.izbran-info {
+			width: 550px;
+			float: right;
+			h2 {
+				@include h2;
+				margin: 10px 0 15px;
+				font-size: 19px;
+				color: #ac296a;
+				float: left;
+			}
+			.rating {
+				@include rating;
+				margin: 8px 0 0 0;
+				a {
+					margin: 0;
+				}
+			}
+			p {
+				width: 450px;
+				@include p;
+				line-height: 18px;
+			}
+			.buttons {
+				margin: 5px 0 0 0;
+				a {
+					display: block;
+					margin: 5px 0 0 0!important;
+					&.msg, &.delete {
+						@include submit-white;
+						@include box-sizing;
+						display: inline-block;
+						vertical-align: top;
+						width: 27px;
+						height: 27px;
+						padding: 0;
+					}
+					&.msg {
+						@include background(msg, 0);
+						@include sprite-background-position($icons, msg, +7, +5);
+						font-size: 14px;
+						color: #666;
+						text-decoration: none;
+						width: 191px;
+						padding: 4px 0 0 27px;
+						margin: 5px 0 0 0!important;
+					}
+					&.delete {
+						@include background(delete, 0);
+						@include sprite-background-position($icons, delete, +5, +6);
+					}
+				}
+			}
+			.catalog-info {
+				position: absolute;
+				bottom: 12px;
+				ul {
+					li {
+						display: inline-block;
+						margin: 0 30px 0 0;
+						@include p;
+						a {
+							
+						}
+					}
+				}
+			}
+		}
+	}
+}

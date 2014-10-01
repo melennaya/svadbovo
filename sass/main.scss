@@ -1,0 +1,182 @@
+// top
+.top {
+	.top-menu {
+		a {
+			border-bottom: 1px dashed #b8cadb;
+			padding: 0 0 3px 0;
+			&:hover {
+				text-decoration: none;
+				color: #db1c5d;
+				border-color: #f2b0c6;
+			}
+		}
+	}
+	.user-enter {
+		a {
+			float: left;
+			font-size: 14px;
+			text-decoration: none;
+			margin: 0 0 0 7px;
+			@include border-radius(3px);
+			&.enter {
+				background-color: #fbfbfb;
+				border: 1px solid #d1d1d1;
+				padding: 6px 16px;
+				color: #666;
+			}
+			&.sign-up {
+				background-color: #e45284;
+				border: 1px solid #db1c5d;
+				padding: 6px 20px;
+				color: #fff;
+			}
+		}
+	}
+}
+//wrapper
+.wrapper {
+	.main {
+		font-size: 14px;
+		width: 995px; 
+		border: none;
+		h2 {
+			position:relative;
+			font-size: 26px;
+			line-height: 38px;
+			color: #ac296a;
+			text-transform: uppercase;
+			padding: 0 0 20px 0;
+			font-weight: normal;
+			&:after{
+				@include background(folder, 0);
+				@include sprite-dimensions($icons, folder);
+				margin-left: 10px;
+				position: absolute;
+				content: '';
+			}
+		}
+		.left-block-top {
+			float: left;
+			width: 763px;
+			@include box-sizing;
+			h1 {
+				font-size: 26px;
+				padding: 0 0 20px 0;
+			}
+			> p{
+				text-align: center;
+				padding: 0 28px 0 0;
+			}
+			.main-top-catalog {
+				margin: 25px 0 0 0;
+				.item{
+					display: inline-block;
+					margin: 0 12px 10px -4px;
+					
+					img {
+						width: 174px;
+						height: 163px;
+						@include box-sizing;
+						border: 1px solid #eee;
+						background-color: #fff;
+						padding: 4px;
+						margin: 0 0 7px 0;
+					}
+					> a {
+						display: block;
+						text-align: center;
+						font-size: 16px;
+					}
+					> p {
+						line-height: 20px;
+						font-size: 12px;
+						text-align: center;
+						color: #999;
+						span{
+							color: #333;
+						}
+					}
+				}
+			}
+		}
+		.right-block-top {
+			float: left;
+		}
+		.central-block {
+			padding: 20px 0 0 0;
+			> p {
+				margin: 0 0 20px 0;
+			}
+			.wedding-magazine-block {
+				padding: 20px 0 0 0;
+				h2 {
+					&:after{
+						@include background(magazine, 0);
+						@include sprite-dimensions($icons, magazine);
+						position:absolute;
+						content: '';
+					}
+				}
+				.wedding-magazine {
+					.item {
+						width: 291px;
+						display: inline-block;
+						margin: 0 40px 40px -4px;
+						img {
+							width: 291px;
+							height: 169px;
+							@include box-sizing;
+							border: 1px solid #eee;
+							background-color: #fff;
+							padding: 4px;
+						}
+						> span {
+							display: block;
+							font-size: 10px;
+							color: #999;
+							margin: 10px 0 5px;
+							text-transform: uppercase;
+						}
+						a {
+							font-size: 18px;
+							display: block;
+							margin: 0 0 5px 0;
+						}
+						p {
+							margin: 0 0 10px 0;
+						}
+						.counter {
+							.likes {
+								@include background(likes_big, 0);
+								@include sprite-background-position($icons, likes_big, 0, 3);
+								padding: 0 5px 0 20px;
+								color: #f07677;
+								font-size: 18px;
+							}
+							.comments {
+								@include background(comments_big, 0);
+								@include sprite-background-position($icons, comments_big, 0, 3);
+								padding: 0 0 0 20px;
+								color: #333;
+								font-size: 18px;
+							}
+						}
+					}
+				}
+			}
+			.left-block-bottom{
+				float: left;
+				width: 676px;
+				@include box-sizing;
+				padding: 0 20px 0 0;
+				p{
+					margin: 0 0 20px 0;
+				}
+			}
+			.right-block-bottom{
+				float: left;
+				padding: 15px 0 0 0;
+			}
+		}
+	}
+}

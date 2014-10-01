@@ -1,0 +1,196 @@
+//content
+.content{
+	.categories{
+		margin: 10px 0 0 0;
+		padding: 20px 0 15px;
+		font-size: 15px;
+		border-top: 1px solid #e5e5e5;
+		border-bottom: 1px solid #e5e5e5;
+		
+		a{
+			color: #db1c5d;
+			margin: 0 20px 0 0;
+		}
+		span{
+			font-weight: bold;
+		}
+	}
+	.salon{
+		&:before{
+			@include background(background-element, 0);
+			@include sprite-dimensions($icons, background-element);
+			position:absolute;
+			content: '';
+			left: 370px;
+			top: 45px;
+		}
+	}
+	.filter{
+		padding: 15px 0;
+		color: #999;
+		font-size: 15px;
+		form{
+			select{
+				@include forms;
+				padding: 5px 10px 6px;
+				text-transform: lowercase;
+				font-size: 15px;
+			}
+			input{
+				@include forms;
+				background-color: #fbfbfb;
+				padding: 7px 10px;
+				font-size: 14px;
+				color: #666;
+				@include border-radius(2px);
+			}
+			.show{
+				display: inline-block;
+				float: right;
+			}
+		}		
+	}
+	.top{
+		background-color: #fffbec;
+	}
+	.salon-card{
+		position: relative;
+		border: 1px solid #e8e8e8;
+		margin: 0 0 17px 0;
+		padding: 25px 20px;
+		.rating{
+			@include rating;
+			margin: 0 30px 0 0;
+			a{
+				margin: 0;
+			}
+		}
+		.top-salon{
+			position: absolute;
+			top: -1px;
+			right: 0;
+		}
+		> a{
+			font-size: 23px;
+		}
+		> p{
+			margin: 15px 0;
+			font-size: 14px;
+		}
+		.dress{
+			float: left;
+			width: 220px;
+			margin: 0 0 0 12px;
+			background: url('../images/card-li.png') no-repeat;
+			height: 317px;
+			&:first-child{
+				margin: 0;
+			}
+			img{
+				width: 218px;
+				height: 313px;
+				@include box-sizing;
+				position: relative;
+				left: -3px;
+				top:4px;
+			}
+			a{
+				width: 218px;
+				background: url('../images/dress-bg-gray.png');
+				font-size: 14px;
+				color: #fff;
+				display: block;
+				position:relative;
+				left: -3px;
+				top: -30px;
+				padding: 8px 0 8px;
+				text-align: center;
+				&:hover{
+					background: url('../images/dress-bg-pink.png');
+				}
+			}
+		}
+	}
+	> .articles{
+		padding: 50px 0 0 0;
+		h2{
+			font-size: 26px;
+			font-weight: normal;
+			color: #ac296a;
+			text-transform: uppercase;
+		}
+		p{
+			margin: 25px 0 0 0;
+			font-size: 14px;
+		}
+		h3{
+			margin: 45px 0 0 0;
+			font-size: 20px;
+		}
+	}
+}
+//sidebar-right
+.sidebar-right{
+	.add-firm{
+		color: #69c158;
+		display: block;
+		width: 200px;
+		font-size: 18px;
+		padding: 0 0 0 30px;
+		@include box-sizing;
+		@include background(plus-big, 0);
+	}
+	> span{
+		padding: 10px 0 0 30px;
+		display: block;
+		width: 200px;
+		font-size: 12px;
+		line-height: 12px;
+		margin: 0 0 20px 0;
+	}
+	.options-down{
+		width: 140px;
+		display: block;
+		margin: 0 0 15px 0;
+		font-size: 14px;
+		color: #fff;
+		text-decoration: none;
+		border: 1px solid #5e92b5;
+		@include border-radius(2px);
+		background-color: #77abcf;
+		padding: 10px 50px 10px 30px;
+		position: relative;
+		&:before{
+			@include background(gear, 0);
+			@include sprite-dimensions($icons, gear);
+			position:absolute;
+			content: '';
+			left: 8px;
+			top: 11px;
+		}
+		&:after{
+			@include background(down-arrow, 0);
+			@include sprite-dimensions($icons, down-arrow);
+			position:absolute;
+			content: '';
+			right: 10px;
+			top: 10px;
+		}
+		//@include background(gear, 0);
+		//@include sprite-background-position($icons, gear, 10, 12);
+		//@include background(down-arrow, 0);
+		//@include sprite-background-position($icons, down-arrow, 0, 40);
+	}
+}
+//footer
+.footer{
+	.wrapper{
+		.social{
+			float: right;
+			font-size: 14px;
+			span{
+				display: block;
+			}
+		}
+	}
+}

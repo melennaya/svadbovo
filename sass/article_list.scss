@@ -1,0 +1,170 @@
+//content
+.content{
+	border:none;
+	.block-top{
+		padding: 0 0 15px 0;
+		border-bottom: 1px solid #ccc;
+		p{
+			margin: 15px 0 0 0;
+			text-align: center;
+			font-size: 14px;
+		}
+	}
+	.article_list{
+		.article-topic{
+			border-bottom: 1px solid #ccc;
+			padding: 0 0 20px 0;
+			h2{
+				font-size: 20px;
+				color: #db1c5d;
+				font-weight: normal;
+				margin: 25px 0 10px 0;
+			}
+			> img{
+				float: left;
+				width: 483px;
+				height: 303px;
+				@include box-sizing;
+				border: 1px solid #eee;
+				background-color: #fff;
+				padding: 4px;
+			}
+			.description{
+				float: left;
+				width: 220px;
+				padding: 0 0 0 30px;
+				> span {
+					display: block;
+					font-size: 10px;
+					color: #999;
+					margin: 10px 0 5px;
+					text-transform: uppercase;
+				}
+				a {
+					display: block;
+					margin: 0 0 5px 0;
+				}
+				p {
+					margin: 0 0 10px 0;
+					font-size: 14px;
+				}
+				.counter {
+					.likes {
+						@include background(likes_big, 0);
+						@include sprite-background-position($icons, likes_big, 0, 3);
+						padding: 0 5px 0 20px;
+						color: #f07677;
+						font-size: 18px;
+					}
+					.comments {
+						@include background(comments_big, 0);
+						@include sprite-background-position($icons, comments_big, 0, 3);
+						padding: 0 0 0 20px;
+						color: #333;
+						font-size: 18px;
+					}
+				}
+			}
+			.articles{
+				margin: 20px 0 0 0;
+				.item{
+					width: 221px;
+					float: left;
+					margin: 0 0 0 35px ;
+					&:first-child{
+						margin: 0;
+					}
+					img {
+						width: 221px;
+						height: 139px;
+						@include box-sizing;
+						border: 1px solid #eee;
+						background-color: #fff;
+						padding: 4px;
+					}
+					> span {
+						display: block;
+						font-size: 10px;
+						color: #999;
+						margin: 10px 0 5px;
+						text-transform: uppercase;
+					}
+					a {
+						display: block;
+						margin: 0 0 5px 0;
+					}
+					p {
+						margin: 0 0 10px 0;
+						font-size: 14px;
+					}
+					.counter {
+						.likes {
+							@include background(likes_big, 0);
+							@include sprite-background-position($icons, likes_big, 0, 3);
+							padding: 0 5px 0 20px;
+							color: #f07677;
+							font-size: 18px;
+						}
+						.comments {
+							@include background(comments_big, 0);
+							@include sprite-background-position($icons, comments_big, 0, 3);
+							padding: 0 0 0 20px;
+							color: #333;
+							font-size: 18px;
+						}
+					}
+				}
+			}
+		}
+	}	
+}
+//sidebar-right
+.sidebar-right{
+	.new-articles{
+		padding: 50px 0 0 0;
+		width: 232px;
+		h2{
+			font-size: 26px;
+			color: #ac296a;
+			text-transform: uppercase;
+			font-weight: normal;
+			margin: 0 0 20px 0;
+		}
+		.item{
+			width: 232px;
+			margin: 0 0 20px 0;
+			&:first-child{
+				margin: 0;
+			}
+			img {
+				width: 232px;
+				height: 138px;
+				@include box-sizing;
+				border: 1px solid #eee;
+				background-color: #fff;
+				padding: 4px;
+			}
+			> span {
+				display: block;
+				font-size: 10px;
+				color: #999;
+				margin: 10px 0 5px;
+				text-transform: uppercase;
+			}
+			a {
+				display: block;
+				margin: 0 0 5px 0;
+				font-size: 14px;
+			}
+			.counter {
+				.likes {
+					@include background(likes, 0);
+					@include sprite-background-position($icons, likes, 0, 3);
+					padding: 0 5px 0 15px;
+					color: #f07677;
+					font-size: 14px;
+				}
+			}
+		}
+	}
+}

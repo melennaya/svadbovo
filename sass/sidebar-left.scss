@@ -1,0 +1,121 @@
+// sidebar-left
+.sidebar-left {
+	width: 198px;
+	margin: 40px 0 0 0;
+	display: inline-block;
+	vertical-align: top;
+	.logo-company {
+		img {
+			display: block;
+		}
+		a {
+			display: block;
+			background: #fbfbfb;
+			@include background(change-logo, 0);	
+			@include sprite-background-position($icons, change-logo, +10, +10);
+			border: $border #d6d6d6;
+			@include border-radius(4px);
+			padding: 10px 0 9px 34px;
+			font-size: 14px;
+			color: #666;
+			text-decoration: none;
+			margin: 10px 0 15px 0;
+		}
+	}
+	.user-menu {
+		@for $i from 1 through 10 {
+			ul li {
+				a {
+					font-size: 15px;
+					margin: 0 0 0 25px;
+				}
+				display: block;
+				position: relative;
+				padding: 9px 0 9px 8px;
+				margin: 5px 0;
+				border: $border #fff;
+				&:hover, &.active {
+					background-color: #efd6e3;
+					border: $border #e4bacf;
+					@include border-radius (5px);
+					cursor: pointer;
+					a {
+						color: #ac296a;
+						text-decoration: none;
+					}
+				}
+				&.profile-rekl-cat-#{$i} { 
+					@include background(profile-rekl-cat-#{$i}, 0);
+					@include sprite-background-position($icons, profile-rekl-cat-#{$i}, +11, +11);
+				}
+			}
+		}
+		@for $i from 1 through 8 {
+			ul li {
+				&.profile-user-cat-#{$i} { 
+					@include background(profile-user-cat-#{$i}, 0);
+					@include sprite-background-position($icons, profile-user-cat-#{$i}, +11, +11);
+				}
+			}
+		}
+	}
+	.main-menu {
+		@for $i from 1 through 14 {
+			ul {
+				> li {
+					&.main-cat-#{$i} {
+						position:relative;
+						border-bottom: 1px dotted #bfbfbf;
+						padding: 15px 0 10px 38px;
+						> a {
+							text-decoration: none;
+							color: #000;
+							display: block;
+							padding: 0 0 5px 0;
+						}
+						&:hover, &.active {
+							>a{
+								text-decoration: underline;
+								color: #db1c5d;
+							}
+						}
+						&:before {
+							@include background(main-cat-#{$i}, 0);
+							@include sprite-dimensions($icons, main-cat-#{$i});
+							position:absolute;
+							display: block;
+							content: '';
+							left: -10px;
+							top: 7px;
+						}
+					}
+					ul {
+						li {
+							a {
+								font-size: 12px;
+								padding: 2px 3px 0;
+							}
+							&:hover, &.active {
+								a{
+									background-color: #ca76a0;
+									text-decoration: none;
+									color: #fff;
+									@include border-radius(2px);
+								}
+							}
+						}
+					}
+					&.main-cat-14 {
+						> a {
+							text-decoration: underline;
+							color: #db1c5d;
+							&:hover{
+								text-decoration: none
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
