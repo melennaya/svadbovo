@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin 'background'.
-        on line 5 of C:/Users/kolochan/Dropbox/verstka/svadbovo/sass/catalog_spisok_tovar.scss, in `background'
-        from line 5 of C:/Users/kolochan/Dropbox/verstka/svadbovo/sass/catalog_spisok_tovar.scss
+        on line 5 of C:/Git/svadbovo/sass/catalog_spisok_tovar.scss, in `background'
+        from line 5 of C:/Git/svadbovo/sass/catalog_spisok_tovar.scss
 
 1: //content
 2: .content{
@@ -15,8 +15,8 @@ Error: Undefined mixin 'background'.
 10: 			left: 50px;
 
 Backtrace:
-C:/Users/kolochan/Dropbox/verstka/svadbovo/sass/catalog_spisok_tovar.scss:5:in `background'
-C:/Users/kolochan/Dropbox/verstka/svadbovo/sass/catalog_spisok_tovar.scss:5
+C:/Git/svadbovo/sass/catalog_spisok_tovar.scss:5:in `background'
+C:/Git/svadbovo/sass/catalog_spisok_tovar.scss:5
 C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:338:in `block in visit_mixin'
 C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/stack.rb:115:in `with_frame'
@@ -91,4 +91,4 @@ C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'background'.\A         on line 5 of C:/Users/kolochan/Dropbox/verstka/svadbovo/sass/catalog_spisok_tovar.scss, in `background'\A         from line 5 of C:/Users/kolochan/Dropbox/verstka/svadbovo/sass/catalog_spisok_tovar.scss\A \A 1: //content\A 2: .content{\A 3: 	> .dress{\A 4: 		&:before{\A 5: 			@include background(background-element, 0);\A 6: 			@include sprite-dimensions($icons, background-element);\A 7: 			position:absolute;\A 8: 			display: block;\A 9: 			content: '';\A 10: 			left: 50px;"; }
+  content: "Error: Undefined mixin 'background'.\A         on line 5 of C:/Git/svadbovo/sass/catalog_spisok_tovar.scss, in `background'\A         from line 5 of C:/Git/svadbovo/sass/catalog_spisok_tovar.scss\A \A 1: //content\A 2: .content{\A 3: 	> .dress{\A 4: 		&:before{\A 5: 			@include background(background-element, 0);\A 6: 			@include sprite-dimensions($icons, background-element);\A 7: 			position:absolute;\A 8: 			display: block;\A 9: 			content: '';\A 10: 			left: 50px;"; }
