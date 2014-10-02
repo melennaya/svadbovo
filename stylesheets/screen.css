@@ -113,10 +113,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   position: absolute;
   right: 0;
   font-size: 14px;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -10473px;
-  background-position: 0 -10468px;
+  background-position: 0 -10821px;
+  background-position: 0 -10816px;
   padding: 0 0 0 15px;
 }
 
@@ -139,17 +139,17 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   background-color: #fef5e5;
 }
 .pagination .next {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -6669px;
-  background-position: 103px -6661px;
+  background-position: 0 -6904px;
+  background-position: 103px -6896px;
   padding: 7px 35px 7px 14px;
 }
 .pagination .prev, .pagination .calendar .cal .month .next, .calendar .cal .month .pagination .next, .pagination .calendar .cal table td .next, .calendar .cal table td .pagination .next {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -8162px;
-  background-position: 10px -8154px;
+  background-position: 0 -8510px;
+  background-position: 10px -8502px;
   padding: 7px 14px 7px 35px;
 }
 
@@ -168,7 +168,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   position: relative;
   content: " ";
   display: inline-block;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
   background-position: 0 -910px;
   height: 5px;
@@ -177,7 +177,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   margin-right: 5px;
 }
 .breadcrumbs a:first-child:before, .breadcrumbs span:first-child:before {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
   background-position: 0 -1015px;
   height: 11px;
@@ -196,9 +196,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   display: inline-block;
   position: relative;
   top: -1px;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -7502px;
+  background-position: 0 -7737px;
   height: 7px;
   width: 7px;
 }
@@ -208,9 +208,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 }
 .top .logo {
   float: left;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -3839px;
+  background-position: 0 -3955px;
   height: 62px;
   width: 209px;
 }
@@ -244,10 +244,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   border-radius: 4px;
   border: 1px solid #d6d6d6;
   background: #fafafa;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -12807px;
-  background-position: 11px -12796px;
+  background-position: 0 -13155px;
+  background-position: 11px -13144px;
 }
 .top .user-enter .messages .count, .top .user-enter .profile .count {
   display: block;
@@ -268,7 +268,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   height: auto;
   font-size: 14px;
   color: #262a2c;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
   background-position: 0 -1242px;
   background-position: 150px -1229px;
@@ -303,16 +303,16 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   display: block;
   padding: 0 0 0 28px;
   margin: 0 0 10px 0;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -12575px;
-  background-position: 0 -12573px;
+  background-position: 0 -12923px;
+  background-position: 0 -12921px;
 }
 .top .user-enter .profile .hidden a + a, .top .user-enter .profile .hidden .breadcrumbs span + a, .breadcrumbs .top .user-enter .profile .hidden span + a, .top .user-enter .profile .hidden .breadcrumbs a + span, .breadcrumbs .top .user-enter .profile .hidden a + span, .top .user-enter .profile .hidden .breadcrumbs span + span, .breadcrumbs .top .user-enter .profile .hidden span + span {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -12691px;
-  background-position: 0 -12689px;
+  background-position: 0 -13039px;
+  background-position: 0 -13037px;
 }
 
 .bar {
@@ -377,9 +377,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 }
 .footer .footer-logo {
   float: left;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -3696px;
+  background-position: 0 -3812px;
   height: 43px;
   width: 146px;
   vertical-align: top;
@@ -422,7 +422,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 .sidebar-left .logo-company a, .sidebar-left .logo-company .breadcrumbs span, .breadcrumbs .sidebar-left .logo-company span {
   display: block;
   background: #fbfbfb;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
   background-position: 0 -1126px;
   background-position: 10px -1116px;
@@ -460,10 +460,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   text-decoration: none;
 }
 .sidebar-left .user-menu ul li.profile-rekl-cat-1, .sidebar-left .user-menu ul .card .section .tabs li.profile-rekl-cat-1.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-rekl-cat-1.current {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -8276px;
-  background-position: 11px -8265px;
+  background-position: 0 -8624px;
+  background-position: 11px -8613px;
 }
 .sidebar-left .user-menu ul li, .sidebar-left .user-menu ul .card .section .tabs li.current, .card .section .tabs .sidebar-left .user-menu ul li.current {
   display: block;
@@ -489,94 +489,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   text-decoration: none;
 }
 .sidebar-left .user-menu ul li.profile-rekl-cat-2, .sidebar-left .user-menu ul .card .section .tabs li.profile-rekl-cat-2.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-rekl-cat-2.current {
-  background-image: url('../images/icons-s01d664eba8.png');
-  background-repeat: no-repeat;
-  background-position: 0 -8506px;
-  background-position: 11px -8495px;
-}
-.sidebar-left .user-menu ul li, .sidebar-left .user-menu ul .card .section .tabs li.current, .card .section .tabs .sidebar-left .user-menu ul li.current {
-  display: block;
-  position: relative;
-  padding: 9px 0 9px 8px;
-  margin: 5px 0;
-  border: 1px solid #fff;
-}
-.sidebar-left .user-menu ul li a, .sidebar-left .user-menu ul .card .section .tabs li.current a, .card .section .tabs .sidebar-left .user-menu ul li.current a, .sidebar-left .user-menu ul li .breadcrumbs span, .breadcrumbs .sidebar-left .user-menu ul li span, .sidebar-left .user-menu ul .card .section .tabs li.current .breadcrumbs span, .breadcrumbs .sidebar-left .user-menu ul .card .section .tabs li.current span, .card .section .tabs .sidebar-left .user-menu ul li.current .breadcrumbs span, .breadcrumbs .card .section .tabs .sidebar-left .user-menu ul li.current span {
-  font-size: 15px;
-  margin: 0 0 0 25px;
-}
-.sidebar-left .user-menu ul li:hover, .sidebar-left .user-menu ul .card .section .tabs li.current:hover, .card .section .tabs .sidebar-left .user-menu ul li.current:hover, .sidebar-left .user-menu ul li.active, .sidebar-left .user-menu ul .card .section .tabs li.active.current, .card .section .tabs .sidebar-left .user-menu ul li.active.current {
-  background-color: #efd6e3;
-  border: 1px solid #e4bacf;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-.sidebar-left .user-menu ul li:hover a, .sidebar-left .user-menu ul .card .section .tabs li.current:hover a, .card .section .tabs .sidebar-left .user-menu ul li.current:hover a, .sidebar-left .user-menu ul li:hover .breadcrumbs span, .breadcrumbs .sidebar-left .user-menu ul li:hover span, .sidebar-left .user-menu ul li.active a, .sidebar-left .user-menu ul .card .section .tabs li.active.current a, .card .section .tabs .sidebar-left .user-menu ul li.active.current a, .sidebar-left .user-menu ul li.active .breadcrumbs span, .breadcrumbs .sidebar-left .user-menu ul li.active span {
-  color: #ac296a;
-  text-decoration: none;
-}
-.sidebar-left .user-menu ul li.profile-rekl-cat-3, .sidebar-left .user-menu ul .card .section .tabs li.profile-rekl-cat-3.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-rekl-cat-3.current {
-  background-image: url('../images/icons-s01d664eba8.png');
-  background-repeat: no-repeat;
-  background-position: 0 -8622px;
-  background-position: 11px -8611px;
-}
-.sidebar-left .user-menu ul li, .sidebar-left .user-menu ul .card .section .tabs li.current, .card .section .tabs .sidebar-left .user-menu ul li.current {
-  display: block;
-  position: relative;
-  padding: 9px 0 9px 8px;
-  margin: 5px 0;
-  border: 1px solid #fff;
-}
-.sidebar-left .user-menu ul li a, .sidebar-left .user-menu ul .card .section .tabs li.current a, .card .section .tabs .sidebar-left .user-menu ul li.current a, .sidebar-left .user-menu ul li .breadcrumbs span, .breadcrumbs .sidebar-left .user-menu ul li span, .sidebar-left .user-menu ul .card .section .tabs li.current .breadcrumbs span, .breadcrumbs .sidebar-left .user-menu ul .card .section .tabs li.current span, .card .section .tabs .sidebar-left .user-menu ul li.current .breadcrumbs span, .breadcrumbs .card .section .tabs .sidebar-left .user-menu ul li.current span {
-  font-size: 15px;
-  margin: 0 0 0 25px;
-}
-.sidebar-left .user-menu ul li:hover, .sidebar-left .user-menu ul .card .section .tabs li.current:hover, .card .section .tabs .sidebar-left .user-menu ul li.current:hover, .sidebar-left .user-menu ul li.active, .sidebar-left .user-menu ul .card .section .tabs li.active.current, .card .section .tabs .sidebar-left .user-menu ul li.active.current {
-  background-color: #efd6e3;
-  border: 1px solid #e4bacf;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-.sidebar-left .user-menu ul li:hover a, .sidebar-left .user-menu ul .card .section .tabs li.current:hover a, .card .section .tabs .sidebar-left .user-menu ul li.current:hover a, .sidebar-left .user-menu ul li:hover .breadcrumbs span, .breadcrumbs .sidebar-left .user-menu ul li:hover span, .sidebar-left .user-menu ul li.active a, .sidebar-left .user-menu ul .card .section .tabs li.active.current a, .card .section .tabs .sidebar-left .user-menu ul li.active.current a, .sidebar-left .user-menu ul li.active .breadcrumbs span, .breadcrumbs .sidebar-left .user-menu ul li.active span {
-  color: #ac296a;
-  text-decoration: none;
-}
-.sidebar-left .user-menu ul li.profile-rekl-cat-4, .sidebar-left .user-menu ul .card .section .tabs li.profile-rekl-cat-4.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-rekl-cat-4.current {
-  background-image: url('../images/icons-s01d664eba8.png');
-  background-repeat: no-repeat;
-  background-position: 0 -8738px;
-  background-position: 11px -8727px;
-}
-.sidebar-left .user-menu ul li, .sidebar-left .user-menu ul .card .section .tabs li.current, .card .section .tabs .sidebar-left .user-menu ul li.current {
-  display: block;
-  position: relative;
-  padding: 9px 0 9px 8px;
-  margin: 5px 0;
-  border: 1px solid #fff;
-}
-.sidebar-left .user-menu ul li a, .sidebar-left .user-menu ul .card .section .tabs li.current a, .card .section .tabs .sidebar-left .user-menu ul li.current a, .sidebar-left .user-menu ul li .breadcrumbs span, .breadcrumbs .sidebar-left .user-menu ul li span, .sidebar-left .user-menu ul .card .section .tabs li.current .breadcrumbs span, .breadcrumbs .sidebar-left .user-menu ul .card .section .tabs li.current span, .card .section .tabs .sidebar-left .user-menu ul li.current .breadcrumbs span, .breadcrumbs .card .section .tabs .sidebar-left .user-menu ul li.current span {
-  font-size: 15px;
-  margin: 0 0 0 25px;
-}
-.sidebar-left .user-menu ul li:hover, .sidebar-left .user-menu ul .card .section .tabs li.current:hover, .card .section .tabs .sidebar-left .user-menu ul li.current:hover, .sidebar-left .user-menu ul li.active, .sidebar-left .user-menu ul .card .section .tabs li.active.current, .card .section .tabs .sidebar-left .user-menu ul li.active.current {
-  background-color: #efd6e3;
-  border: 1px solid #e4bacf;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-.sidebar-left .user-menu ul li:hover a, .sidebar-left .user-menu ul .card .section .tabs li.current:hover a, .card .section .tabs .sidebar-left .user-menu ul li.current:hover a, .sidebar-left .user-menu ul li:hover .breadcrumbs span, .breadcrumbs .sidebar-left .user-menu ul li:hover span, .sidebar-left .user-menu ul li.active a, .sidebar-left .user-menu ul .card .section .tabs li.active.current a, .card .section .tabs .sidebar-left .user-menu ul li.active.current a, .sidebar-left .user-menu ul li.active .breadcrumbs span, .breadcrumbs .sidebar-left .user-menu ul li.active span {
-  color: #ac296a;
-  text-decoration: none;
-}
-.sidebar-left .user-menu ul li.profile-rekl-cat-5, .sidebar-left .user-menu ul .card .section .tabs li.profile-rekl-cat-5.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-rekl-cat-5.current {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
   background-position: 0 -8854px;
   background-position: 11px -8843px;
@@ -604,11 +517,98 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   color: #ac296a;
   text-decoration: none;
 }
-.sidebar-left .user-menu ul li.profile-rekl-cat-6, .sidebar-left .user-menu ul .card .section .tabs li.profile-rekl-cat-6.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-rekl-cat-6.current {
-  background-image: url('../images/icons-s01d664eba8.png');
+.sidebar-left .user-menu ul li.profile-rekl-cat-3, .sidebar-left .user-menu ul .card .section .tabs li.profile-rekl-cat-3.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-rekl-cat-3.current {
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -8969px;
-  background-position: 11px -8958px;
+  background-position: 0 -8970px;
+  background-position: 11px -8959px;
+}
+.sidebar-left .user-menu ul li, .sidebar-left .user-menu ul .card .section .tabs li.current, .card .section .tabs .sidebar-left .user-menu ul li.current {
+  display: block;
+  position: relative;
+  padding: 9px 0 9px 8px;
+  margin: 5px 0;
+  border: 1px solid #fff;
+}
+.sidebar-left .user-menu ul li a, .sidebar-left .user-menu ul .card .section .tabs li.current a, .card .section .tabs .sidebar-left .user-menu ul li.current a, .sidebar-left .user-menu ul li .breadcrumbs span, .breadcrumbs .sidebar-left .user-menu ul li span, .sidebar-left .user-menu ul .card .section .tabs li.current .breadcrumbs span, .breadcrumbs .sidebar-left .user-menu ul .card .section .tabs li.current span, .card .section .tabs .sidebar-left .user-menu ul li.current .breadcrumbs span, .breadcrumbs .card .section .tabs .sidebar-left .user-menu ul li.current span {
+  font-size: 15px;
+  margin: 0 0 0 25px;
+}
+.sidebar-left .user-menu ul li:hover, .sidebar-left .user-menu ul .card .section .tabs li.current:hover, .card .section .tabs .sidebar-left .user-menu ul li.current:hover, .sidebar-left .user-menu ul li.active, .sidebar-left .user-menu ul .card .section .tabs li.active.current, .card .section .tabs .sidebar-left .user-menu ul li.active.current {
+  background-color: #efd6e3;
+  border: 1px solid #e4bacf;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.sidebar-left .user-menu ul li:hover a, .sidebar-left .user-menu ul .card .section .tabs li.current:hover a, .card .section .tabs .sidebar-left .user-menu ul li.current:hover a, .sidebar-left .user-menu ul li:hover .breadcrumbs span, .breadcrumbs .sidebar-left .user-menu ul li:hover span, .sidebar-left .user-menu ul li.active a, .sidebar-left .user-menu ul .card .section .tabs li.active.current a, .card .section .tabs .sidebar-left .user-menu ul li.active.current a, .sidebar-left .user-menu ul li.active .breadcrumbs span, .breadcrumbs .sidebar-left .user-menu ul li.active span {
+  color: #ac296a;
+  text-decoration: none;
+}
+.sidebar-left .user-menu ul li.profile-rekl-cat-4, .sidebar-left .user-menu ul .card .section .tabs li.profile-rekl-cat-4.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-rekl-cat-4.current {
+  background-image: url('../images/icons-s1c680ce5c9.png');
+  background-repeat: no-repeat;
+  background-position: 0 -9086px;
+  background-position: 11px -9075px;
+}
+.sidebar-left .user-menu ul li, .sidebar-left .user-menu ul .card .section .tabs li.current, .card .section .tabs .sidebar-left .user-menu ul li.current {
+  display: block;
+  position: relative;
+  padding: 9px 0 9px 8px;
+  margin: 5px 0;
+  border: 1px solid #fff;
+}
+.sidebar-left .user-menu ul li a, .sidebar-left .user-menu ul .card .section .tabs li.current a, .card .section .tabs .sidebar-left .user-menu ul li.current a, .sidebar-left .user-menu ul li .breadcrumbs span, .breadcrumbs .sidebar-left .user-menu ul li span, .sidebar-left .user-menu ul .card .section .tabs li.current .breadcrumbs span, .breadcrumbs .sidebar-left .user-menu ul .card .section .tabs li.current span, .card .section .tabs .sidebar-left .user-menu ul li.current .breadcrumbs span, .breadcrumbs .card .section .tabs .sidebar-left .user-menu ul li.current span {
+  font-size: 15px;
+  margin: 0 0 0 25px;
+}
+.sidebar-left .user-menu ul li:hover, .sidebar-left .user-menu ul .card .section .tabs li.current:hover, .card .section .tabs .sidebar-left .user-menu ul li.current:hover, .sidebar-left .user-menu ul li.active, .sidebar-left .user-menu ul .card .section .tabs li.active.current, .card .section .tabs .sidebar-left .user-menu ul li.active.current {
+  background-color: #efd6e3;
+  border: 1px solid #e4bacf;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.sidebar-left .user-menu ul li:hover a, .sidebar-left .user-menu ul .card .section .tabs li.current:hover a, .card .section .tabs .sidebar-left .user-menu ul li.current:hover a, .sidebar-left .user-menu ul li:hover .breadcrumbs span, .breadcrumbs .sidebar-left .user-menu ul li:hover span, .sidebar-left .user-menu ul li.active a, .sidebar-left .user-menu ul .card .section .tabs li.active.current a, .card .section .tabs .sidebar-left .user-menu ul li.active.current a, .sidebar-left .user-menu ul li.active .breadcrumbs span, .breadcrumbs .sidebar-left .user-menu ul li.active span {
+  color: #ac296a;
+  text-decoration: none;
+}
+.sidebar-left .user-menu ul li.profile-rekl-cat-5, .sidebar-left .user-menu ul .card .section .tabs li.profile-rekl-cat-5.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-rekl-cat-5.current {
+  background-image: url('../images/icons-s1c680ce5c9.png');
+  background-repeat: no-repeat;
+  background-position: 0 -9202px;
+  background-position: 11px -9191px;
+}
+.sidebar-left .user-menu ul li, .sidebar-left .user-menu ul .card .section .tabs li.current, .card .section .tabs .sidebar-left .user-menu ul li.current {
+  display: block;
+  position: relative;
+  padding: 9px 0 9px 8px;
+  margin: 5px 0;
+  border: 1px solid #fff;
+}
+.sidebar-left .user-menu ul li a, .sidebar-left .user-menu ul .card .section .tabs li.current a, .card .section .tabs .sidebar-left .user-menu ul li.current a, .sidebar-left .user-menu ul li .breadcrumbs span, .breadcrumbs .sidebar-left .user-menu ul li span, .sidebar-left .user-menu ul .card .section .tabs li.current .breadcrumbs span, .breadcrumbs .sidebar-left .user-menu ul .card .section .tabs li.current span, .card .section .tabs .sidebar-left .user-menu ul li.current .breadcrumbs span, .breadcrumbs .card .section .tabs .sidebar-left .user-menu ul li.current span {
+  font-size: 15px;
+  margin: 0 0 0 25px;
+}
+.sidebar-left .user-menu ul li:hover, .sidebar-left .user-menu ul .card .section .tabs li.current:hover, .card .section .tabs .sidebar-left .user-menu ul li.current:hover, .sidebar-left .user-menu ul li.active, .sidebar-left .user-menu ul .card .section .tabs li.active.current, .card .section .tabs .sidebar-left .user-menu ul li.active.current {
+  background-color: #efd6e3;
+  border: 1px solid #e4bacf;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.sidebar-left .user-menu ul li:hover a, .sidebar-left .user-menu ul .card .section .tabs li.current:hover a, .card .section .tabs .sidebar-left .user-menu ul li.current:hover a, .sidebar-left .user-menu ul li:hover .breadcrumbs span, .breadcrumbs .sidebar-left .user-menu ul li:hover span, .sidebar-left .user-menu ul li.active a, .sidebar-left .user-menu ul .card .section .tabs li.active.current a, .card .section .tabs .sidebar-left .user-menu ul li.active.current a, .sidebar-left .user-menu ul li.active .breadcrumbs span, .breadcrumbs .sidebar-left .user-menu ul li.active span {
+  color: #ac296a;
+  text-decoration: none;
+}
+.sidebar-left .user-menu ul li.profile-rekl-cat-6, .sidebar-left .user-menu ul .card .section .tabs li.profile-rekl-cat-6.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-rekl-cat-6.current {
+  background-image: url('../images/icons-s1c680ce5c9.png');
+  background-repeat: no-repeat;
+  background-position: 0 -9317px;
+  background-position: 11px -9306px;
 }
 .sidebar-left .user-menu ul li, .sidebar-left .user-menu ul .card .section .tabs li.current, .card .section .tabs .sidebar-left .user-menu ul li.current {
   display: block;
@@ -634,10 +634,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   text-decoration: none;
 }
 .sidebar-left .user-menu ul li.profile-rekl-cat-7, .sidebar-left .user-menu ul .card .section .tabs li.profile-rekl-cat-7.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-rekl-cat-7.current {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -9085px;
-  background-position: 11px -9074px;
+  background-position: 0 -9433px;
+  background-position: 11px -9422px;
 }
 .sidebar-left .user-menu ul li, .sidebar-left .user-menu ul .card .section .tabs li.current, .card .section .tabs .sidebar-left .user-menu ul li.current {
   display: block;
@@ -663,10 +663,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   text-decoration: none;
 }
 .sidebar-left .user-menu ul li.profile-rekl-cat-8, .sidebar-left .user-menu ul .card .section .tabs li.profile-rekl-cat-8.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-rekl-cat-8.current {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -9200px;
-  background-position: 11px -9189px;
+  background-position: 0 -9548px;
+  background-position: 11px -9537px;
 }
 .sidebar-left .user-menu ul li, .sidebar-left .user-menu ul .card .section .tabs li.current, .card .section .tabs .sidebar-left .user-menu ul li.current {
   display: block;
@@ -692,10 +692,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   text-decoration: none;
 }
 .sidebar-left .user-menu ul li.profile-rekl-cat-9, .sidebar-left .user-menu ul .card .section .tabs li.profile-rekl-cat-9.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-rekl-cat-9.current {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -9316px;
-  background-position: 11px -9305px;
+  background-position: 0 -9664px;
+  background-position: 11px -9653px;
 }
 .sidebar-left .user-menu ul li, .sidebar-left .user-menu ul .card .section .tabs li.current, .card .section .tabs .sidebar-left .user-menu ul li.current {
   display: block;
@@ -721,58 +721,58 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   text-decoration: none;
 }
 .sidebar-left .user-menu ul li.profile-rekl-cat-10, .sidebar-left .user-menu ul .card .section .tabs li.profile-rekl-cat-10.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-rekl-cat-10.current {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -8390px;
-  background-position: 11px -8379px;
+  background-position: 0 -8738px;
+  background-position: 11px -8727px;
 }
 .sidebar-left .user-menu ul li.profile-user-cat-1, .sidebar-left .user-menu ul .card .section .tabs li.profile-user-cat-1.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-user-cat-1.current {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -9432px;
-  background-position: 11px -9421px;
+  background-position: 0 -9780px;
+  background-position: 11px -9769px;
 }
 .sidebar-left .user-menu ul li.profile-user-cat-2, .sidebar-left .user-menu ul .card .section .tabs li.profile-user-cat-2.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-user-cat-2.current {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -9548px;
-  background-position: 11px -9537px;
+  background-position: 0 -9896px;
+  background-position: 11px -9885px;
 }
 .sidebar-left .user-menu ul li.profile-user-cat-3, .sidebar-left .user-menu ul .card .section .tabs li.profile-user-cat-3.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-user-cat-3.current {
-  background-image: url('../images/icons-s01d664eba8.png');
-  background-repeat: no-repeat;
-  background-position: 0 -9663px;
-  background-position: 11px -9652px;
-}
-.sidebar-left .user-menu ul li.profile-user-cat-4, .sidebar-left .user-menu ul .card .section .tabs li.profile-user-cat-4.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-user-cat-4.current {
-  background-image: url('../images/icons-s01d664eba8.png');
-  background-repeat: no-repeat;
-  background-position: 0 -9779px;
-  background-position: 11px -9768px;
-}
-.sidebar-left .user-menu ul li.profile-user-cat-5, .sidebar-left .user-menu ul .card .section .tabs li.profile-user-cat-5.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-user-cat-5.current {
-  background-image: url('../images/icons-s01d664eba8.png');
-  background-repeat: no-repeat;
-  background-position: 0 -9895px;
-  background-position: 11px -9884px;
-}
-.sidebar-left .user-menu ul li.profile-user-cat-6, .sidebar-left .user-menu ul .card .section .tabs li.profile-user-cat-6.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-user-cat-6.current {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
   background-position: 0 -10011px;
   background-position: 11px -10000px;
 }
-.sidebar-left .user-menu ul li.profile-user-cat-7, .sidebar-left .user-menu ul .card .section .tabs li.profile-user-cat-7.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-user-cat-7.current {
-  background-image: url('../images/icons-s01d664eba8.png');
+.sidebar-left .user-menu ul li.profile-user-cat-4, .sidebar-left .user-menu ul .card .section .tabs li.profile-user-cat-4.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-user-cat-4.current {
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
   background-position: 0 -10127px;
   background-position: 11px -10116px;
 }
-.sidebar-left .user-menu ul li.profile-user-cat-8, .sidebar-left .user-menu ul .card .section .tabs li.profile-user-cat-8.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-user-cat-8.current {
-  background-image: url('../images/icons-s01d664eba8.png');
+.sidebar-left .user-menu ul li.profile-user-cat-5, .sidebar-left .user-menu ul .card .section .tabs li.profile-user-cat-5.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-user-cat-5.current {
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
   background-position: 0 -10243px;
   background-position: 11px -10232px;
+}
+.sidebar-left .user-menu ul li.profile-user-cat-6, .sidebar-left .user-menu ul .card .section .tabs li.profile-user-cat-6.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-user-cat-6.current {
+  background-image: url('../images/icons-s1c680ce5c9.png');
+  background-repeat: no-repeat;
+  background-position: 0 -10359px;
+  background-position: 11px -10348px;
+}
+.sidebar-left .user-menu ul li.profile-user-cat-7, .sidebar-left .user-menu ul .card .section .tabs li.profile-user-cat-7.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-user-cat-7.current {
+  background-image: url('../images/icons-s1c680ce5c9.png');
+  background-repeat: no-repeat;
+  background-position: 0 -10475px;
+  background-position: 11px -10464px;
+}
+.sidebar-left .user-menu ul li.profile-user-cat-8, .sidebar-left .user-menu ul .card .section .tabs li.profile-user-cat-8.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-user-cat-8.current {
+  background-image: url('../images/icons-s1c680ce5c9.png');
+  background-repeat: no-repeat;
+  background-position: 0 -10591px;
+  background-position: 11px -10580px;
 }
 .sidebar-left .main-menu ul > li.main-cat-1, .sidebar-left .main-menu .card .section .tabs ul > li.main-cat-1.current, .card .section .tabs .sidebar-left .main-menu ul > li.main-cat-1.current {
   position: relative;
@@ -790,9 +790,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   color: #db1c5d;
 }
 .sidebar-left .main-menu ul > li.main-cat-1:before, .sidebar-left .main-menu .card .section .tabs ul > li.main-cat-1.current:before, .card .section .tabs .sidebar-left .main-menu ul > li.main-cat-1.current:before {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -4134px;
+  background-position: 0 -4250px;
   height: 57px;
   width: 49px;
   position: absolute;
@@ -836,9 +836,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   color: #db1c5d;
 }
 .sidebar-left .main-menu ul > li.main-cat-2:before, .sidebar-left .main-menu .card .section .tabs ul > li.main-cat-2.current:before, .card .section .tabs .sidebar-left .main-menu ul > li.main-cat-2.current:before {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -5035px;
+  background-position: 0 -5151px;
   height: 49px;
   width: 45px;
   position: absolute;
@@ -882,9 +882,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   color: #db1c5d;
 }
 .sidebar-left .main-menu ul > li.main-cat-3:before, .sidebar-left .main-menu .card .section .tabs ul > li.main-cat-3.current:before, .card .section .tabs .sidebar-left .main-menu ul > li.main-cat-3.current:before {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -5184px;
+  background-position: 0 -5300px;
   height: 49px;
   width: 49px;
   position: absolute;
@@ -928,9 +928,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   color: #db1c5d;
 }
 .sidebar-left .main-menu ul > li.main-cat-4:before, .sidebar-left .main-menu .card .section .tabs ul > li.main-cat-4.current:before, .card .section .tabs .sidebar-left .main-menu ul > li.main-cat-4.current:before {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -5333px;
+  background-position: 0 -5449px;
   height: 49px;
   width: 49px;
   position: absolute;
@@ -974,9 +974,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   color: #db1c5d;
 }
 .sidebar-left .main-menu ul > li.main-cat-5:before, .sidebar-left .main-menu .card .section .tabs ul > li.main-cat-5.current:before, .card .section .tabs .sidebar-left .main-menu ul > li.main-cat-5.current:before {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -5482px;
+  background-position: 0 -5598px;
   height: 57px;
   width: 49px;
   position: absolute;
@@ -1020,9 +1020,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   color: #db1c5d;
 }
 .sidebar-left .main-menu ul > li.main-cat-6:before, .sidebar-left .main-menu .card .section .tabs ul > li.main-cat-6.current:before, .card .section .tabs .sidebar-left .main-menu ul > li.main-cat-6.current:before {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -5639px;
+  background-position: 0 -5755px;
   height: 50px;
   width: 49px;
   position: absolute;
@@ -1066,9 +1066,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   color: #db1c5d;
 }
 .sidebar-left .main-menu ul > li.main-cat-7:before, .sidebar-left .main-menu .card .section .tabs ul > li.main-cat-7.current:before, .card .section .tabs .sidebar-left .main-menu ul > li.main-cat-7.current:before {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -5789px;
+  background-position: 0 -5905px;
   height: 49px;
   width: 49px;
   position: absolute;
@@ -1112,9 +1112,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   color: #db1c5d;
 }
 .sidebar-left .main-menu ul > li.main-cat-8:before, .sidebar-left .main-menu .card .section .tabs ul > li.main-cat-8.current:before, .card .section .tabs .sidebar-left .main-menu ul > li.main-cat-8.current:before {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -5938px;
+  background-position: 0 -6054px;
   height: 53px;
   width: 49px;
   position: absolute;
@@ -1158,9 +1158,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   color: #db1c5d;
 }
 .sidebar-left .main-menu ul > li.main-cat-9:before, .sidebar-left .main-menu .card .section .tabs ul > li.main-cat-9.current:before, .card .section .tabs .sidebar-left .main-menu ul > li.main-cat-9.current:before {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -6091px;
+  background-position: 0 -6207px;
   height: 48px;
   width: 49px;
   position: absolute;
@@ -1204,9 +1204,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   color: #db1c5d;
 }
 .sidebar-left .main-menu ul > li.main-cat-10:before, .sidebar-left .main-menu .card .section .tabs ul > li.main-cat-10.current:before, .card .section .tabs .sidebar-left .main-menu ul > li.main-cat-10.current:before {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -4291px;
+  background-position: 0 -4407px;
   height: 47px;
   width: 49px;
   position: absolute;
@@ -1250,9 +1250,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   color: #db1c5d;
 }
 .sidebar-left .main-menu ul > li.main-cat-11:before, .sidebar-left .main-menu .card .section .tabs ul > li.main-cat-11.current:before, .card .section .tabs .sidebar-left .main-menu ul > li.main-cat-11.current:before {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -4438px;
+  background-position: 0 -4554px;
   height: 53px;
   width: 49px;
   position: absolute;
@@ -1296,9 +1296,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   color: #db1c5d;
 }
 .sidebar-left .main-menu ul > li.main-cat-12:before, .sidebar-left .main-menu .card .section .tabs ul > li.main-cat-12.current:before, .card .section .tabs .sidebar-left .main-menu ul > li.main-cat-12.current:before {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -4591px;
+  background-position: 0 -4707px;
   height: 54px;
   width: 49px;
   position: absolute;
@@ -1342,9 +1342,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   color: #db1c5d;
 }
 .sidebar-left .main-menu ul > li.main-cat-13:before, .sidebar-left .main-menu .card .section .tabs ul > li.main-cat-13.current:before, .card .section .tabs .sidebar-left .main-menu ul > li.main-cat-13.current:before {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -4745px;
+  background-position: 0 -4861px;
   height: 52px;
   width: 49px;
   position: absolute;
@@ -1388,9 +1388,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   color: #db1c5d;
 }
 .sidebar-left .main-menu ul > li.main-cat-14:before, .sidebar-left .main-menu .card .section .tabs ul > li.main-cat-14.current:before, .card .section .tabs .sidebar-left .main-menu ul > li.main-cat-14.current:before {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -4897px;
+  background-position: 0 -5013px;
   height: 38px;
   width: 49px;
   position: absolute;
@@ -1441,7 +1441,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   right: 0;
   top: -15px;
   font-size: 14px;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
   background-position: 0 -232px;
   background-position: 14px -225px;
@@ -1456,20 +1456,20 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   top: -13px;
 }
 .content > .new-album, .content > .add-video, .content > .add-photo, .content > .add-friend {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -6355px;
-  background-position: 14px -6345px;
+  background-position: 0 -6590px;
+  background-position: 14px -6580px;
   text-decoration: none;
 }
 .content > .add-video {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
   background-position: 0 -116px;
   background-position: 14px -106px;
 }
 .content > .add-friend {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
   background-position: 0 0;
   background-position: 14px 9px;
@@ -1587,9 +1587,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 .profile-reklamodatel .firm-card .catalog-source a, .profile-reklamodatel .text-company .catalog-source a, .profile-reklamodatel .firm-card .catalog-source .breadcrumbs span, .breadcrumbs .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel .text-company .catalog-source .breadcrumbs span, .breadcrumbs .profile-reklamodatel .text-company .catalog-source span {
   font-size: 15px;
   color: #333;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -7386px;
+  background-position: 0 -7621px;
   padding: 0 15px 0 25px;
   text-decoration: none;
 }
@@ -1726,10 +1726,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   font-style: italic;
   font-size: 13px;
   color: #333;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -2913px;
-  background-position: 0 -2910px;
+  background-position: 0 -3029px;
+  background-position: 0 -3026px;
 }
 .calendar .cal {
   margin: 40px 0 0 0;
@@ -1743,17 +1743,17 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   display: inline-block;
 }
 .calendar .cal .month .prev, .calendar .cal table td .prev, .calendar .cal .month .next, .calendar .cal table td .next {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -8162px;
+  background-position: 0 -8510px;
   height: 14px;
   width: 17px;
   margin: 0 25px 0 0;
 }
 .calendar .cal .month .next, .calendar .cal table td .next {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -6669px;
+  background-position: 0 -6904px;
   margin: 0 0 0 25px;
 }
 .calendar .cal table {
@@ -1853,22 +1853,22 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   width: 180px;
 }
 .about-company .site, .about-company .email, .about-company .skype {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -11232px;
-  background-position: 55px -11224px;
+  background-position: 0 -11580px;
+  background-position: 55px -11572px;
 }
 .about-company .email, .about-company .skype {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -2038px;
-  background-position: 52px -2030px;
+  background-position: 0 -2154px;
+  background-position: 52px -2146px;
 }
 .about-company .skype {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -11352px;
-  background-position: 48px -11344px;
+  background-position: 0 -11700px;
+  background-position: 48px -11692px;
 }
 .about-company input[type=submit] {
   background: #58a5cf;
@@ -2005,19 +2005,19 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   width: 16px;
 }
 .otzivi .otziv .user-info .rating a.full, .otzivi .otziv .user-info .rating .breadcrumbs span.full, .breadcrumbs .otzivi .otziv .user-info .rating span.full {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -11702px;
+  background-position: 0 -12050px;
 }
 .otzivi .otziv .user-info .rating a.nofull, .otzivi .otziv .user-info .rating .breadcrumbs span.nofull, .breadcrumbs .otzivi .otziv .user-info .rating span.nofull {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -11818px;
+  background-position: 0 -12166px;
 }
 .otzivi .otziv .user-info .rating a:hover, .otzivi .otziv .user-info .rating .breadcrumbs span:hover, .breadcrumbs .otzivi .otziv .user-info .rating span:hover {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -11702px;
+  background-position: 0 -12050px;
 }
 .otzivi .otziv .user-info p {
   font-size: 16px;
@@ -2045,10 +2045,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   right: 25px;
   bottom: 25px;
   font-weight: normal;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -9085px;
-  background-position: 0 -9083px;
+  background-position: 0 -9433px;
+  background-position: 0 -9431px;
 }
 .otzivi .otziv .user-info .post-answer:hover {
   text-decoration: none;
@@ -2090,10 +2090,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   font-size: 14px;
   color: #333;
   line-height: 21px;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -7848px;
-  background-position: 13px -7840px;
+  background-position: 0 -8196px;
+  background-position: 13px -8188px;
   padding: 0 15px 0 36px;
 }
 .tovar-uslug .add-tovar span {
@@ -2159,25 +2159,25 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   top: 100px;
 }
 .tovar-uslug .foto-tovar span.carouselLeft {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -3197px;
+  background-position: 0 -3313px;
 }
 .tovar-uslug .foto-tovar span.carouselLeft.active, .tovar-uslug .foto-tovar span.carouselLeft:hover {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -3045px;
+  background-position: 0 -3161px;
 }
 .tovar-uslug .foto-tovar span.carouselRight {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -10847px;
+  background-position: 0 -11195px;
   right: 0;
 }
 .tovar-uslug .foto-tovar span.carouselRight.active, .tovar-uslug .foto-tovar span.carouselRight:hover {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -10695px;
+  background-position: 0 -11043px;
 }
 .tovar-uslug .foto-tovar input[type=submit] {
   background-color: #f8f8f8;
@@ -2189,10 +2189,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   font-size: 14px;
   color: #333;
   line-height: 21px;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -7848px;
-  background-position: 13px -7840px;
+  background-position: 0 -8196px;
+  background-position: 13px -8188px;
   padding: 0 15px 0 36px;
   position: absolute;
   bottom: 0;
@@ -2269,10 +2269,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   font-size: 14px;
   color: #333;
   line-height: 21px;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -7848px;
-  background-position: 13px -7840px;
+  background-position: 0 -8196px;
+  background-position: 13px -8188px;
   padding: 0 15px 0 36px;
   margin: 10px 0 0 0;
 }
@@ -2426,19 +2426,19 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   padding: 0 0 5px 31px;
 }
 .user-profile .user-contacts label.email span, .user-profile .user-contacts .about-company label.skype span, .about-company .user-profile .user-contacts label.skype span {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -2038px;
+  background-position: 0 -2154px;
 }
 .user-profile .user-contacts label.icq span {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -2791px;
+  background-position: 0 -2907px;
 }
 .user-profile .user-contacts label.skype span {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: -5px -11352px;
+  background-position: -5px -11700px;
 }
 .user-profile .user-contacts label > input {
   -moz-border-radius: 4px;
@@ -2475,24 +2475,24 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   padding: 0 0 0 46px;
 }
 .user-profile .user-social label.facebook {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -2155px;
+  background-position: 0 -2271px;
 }
 .user-profile .user-social label.twitter {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -12209px;
+  background-position: 0 -12557px;
 }
 .user-profile .user-social label.vk {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -12923px;
+  background-position: 0 -13271px;
 }
 .user-profile .user-social label.odkl {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -6783px;
+  background-position: 0 -7018px;
 }
 .user-profile .user-social label > input {
   -moz-border-radius: 4px;
@@ -2624,17 +2624,17 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   top: -10px;
 }
 .user-photo-album ul li a.redact, .user-photo-album ul .card .section .tabs li.current a.redact, .card .section .tabs .user-photo-album ul li.current a.redact, .user-photo-album ul li .breadcrumbs span.redact, .breadcrumbs .user-photo-album ul li span.redact, .user-photo-album ul .card .section .tabs li.current .breadcrumbs span.redact, .breadcrumbs .user-photo-album ul .card .section .tabs li.current span.redact, .card .section .tabs .user-photo-album ul li.current .breadcrumbs span.redact, .breadcrumbs .card .section .tabs .user-photo-album ul li.current span.redact, .user-video ul li a.redact, .user-video ul .card .section .tabs li.current a.redact, .card .section .tabs .user-video ul li.current a.redact, .user-video ul li .breadcrumbs span.redact, .breadcrumbs .user-video ul li span.redact, .user-video ul .card .section .tabs li.current .breadcrumbs span.redact, .breadcrumbs .user-video ul .card .section .tabs li.current span.redact, .card .section .tabs .user-video ul li.current .breadcrumbs span.redact, .breadcrumbs .card .section .tabs .user-video ul li.current span.redact, .user-photo ul li a.redact, .user-photo ul .card .section .tabs li.current a.redact, .card .section .tabs .user-photo ul li.current a.redact, .user-photo ul li .breadcrumbs span.redact, .breadcrumbs .user-photo ul li span.redact, .user-photo ul .card .section .tabs li.current .breadcrumbs span.redact, .breadcrumbs .user-photo ul .card .section .tabs li.current span.redact, .card .section .tabs .user-photo ul li.current .breadcrumbs span.redact, .breadcrumbs .card .section .tabs .user-photo ul li.current span.redact {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -10357px;
-  background-position: 5px -10352px;
+  background-position: 0 -10705px;
+  background-position: 5px -10700px;
   right: 42px;
 }
 .user-photo-album ul li a.delete, .user-photo-album ul .card .section .tabs li.current a.delete, .card .section .tabs .user-photo-album ul li.current a.delete, .user-photo-album ul li .breadcrumbs span.delete, .breadcrumbs .user-photo-album ul li span.delete, .user-photo-album ul .card .section .tabs li.current .breadcrumbs span.delete, .breadcrumbs .user-photo-album ul .card .section .tabs li.current span.delete, .card .section .tabs .user-photo-album ul li.current .breadcrumbs span.delete, .breadcrumbs .card .section .tabs .user-photo-album ul li.current span.delete, .user-video ul li a.delete, .user-video ul .card .section .tabs li.current a.delete, .card .section .tabs .user-video ul li.current a.delete, .user-video ul li .breadcrumbs span.delete, .breadcrumbs .user-video ul li span.delete, .user-video ul .card .section .tabs li.current .breadcrumbs span.delete, .breadcrumbs .user-video ul .card .section .tabs li.current span.delete, .card .section .tabs .user-video ul li.current .breadcrumbs span.delete, .breadcrumbs .card .section .tabs .user-video ul li.current span.delete, .user-photo ul li a.delete, .user-photo ul .card .section .tabs li.current a.delete, .card .section .tabs .user-photo ul li.current a.delete, .user-photo ul li .breadcrumbs span.delete, .breadcrumbs .user-photo ul li span.delete, .user-photo ul .card .section .tabs li.current .breadcrumbs span.delete, .breadcrumbs .user-photo ul .card .section .tabs li.current span.delete, .card .section .tabs .user-photo ul li.current .breadcrumbs span.delete, .breadcrumbs .card .section .tabs .user-photo ul li.current span.delete {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -1805px;
-  background-position: 5px -1799px;
+  background-position: 0 -1921px;
+  background-position: 5px -1915px;
   right: 9px;
 }
 .user-photo-album ul li div, .user-photo-album ul .card .section .tabs li.current div, .card .section .tabs .user-photo-album ul li.current div, .user-video ul li div, .user-video ul .card .section .tabs li.current div, .card .section .tabs .user-video ul li.current div, .user-photo ul li div, .user-photo ul .card .section .tabs li.current div, .card .section .tabs .user-photo ul li.current div {
@@ -2706,10 +2706,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   border: 1px solid #d1d1d1;
   color: #333;
   font-size: 14px;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -6355px;
-  background-position: 14px -6345px;
+  background-position: 0 -6590px;
+  background-position: 14px -6580px;
   text-decoration: none;
   padding: 8px 24px 7px 40px;
 }
@@ -2718,7 +2718,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   top: 2px;
 }
 .user-photo-clean > .add-video, .user-video-clean > .add-video {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
   background-position: 0 -116px;
   background-position: 14px -106px;
@@ -2744,15 +2744,15 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 }
 .user-photo ul li .meta > div.likes, .user-photo ul .card .section .tabs li.current .meta > div.likes, .card .section .tabs .user-photo ul li.current .meta > div.likes {
   color: #f07677;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -3468px;
+  background-position: 0 -3584px;
 }
 .user-photo ul li .meta > div.comments, .user-photo ul .card .section .tabs li.current .meta > div.comments, .card .section .tabs .user-photo ul li.current .meta > div.comments {
   color: #222;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -1463px;
+  background-position: 0 -1579px;
   margin: 3px 0 0 10px;
 }
 
@@ -2816,10 +2816,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   top: 2px;
 }
 .user-friend ul li .right .buttons a.msg, .user-friend ul li .right .buttons .breadcrumbs span.msg, .breadcrumbs .user-friend ul li .right .buttons span.msg {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -6239px;
-  background-position: 7px -6234px;
+  background-position: 0 -6355px;
+  background-position: 7px -6350px;
   font-size: 12px;
   color: #666;
   text-decoration: none;
@@ -2828,10 +2828,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   margin: 5px 0 0 0 !important;
 }
 .user-friend ul li .right .buttons a.delete, .user-friend ul li .right .buttons .breadcrumbs span.delete, .breadcrumbs .user-friend ul li .right .buttons span.delete {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -1805px;
-  background-position: 5px -1799px;
+  background-position: 0 -1921px;
+  background-position: 5px -1915px;
 }
 
 .izbrannoe .izbran {
@@ -2884,19 +2884,19 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   width: 16px;
 }
 .izbrannoe .izbran .izbran-info .rating a.full, .izbrannoe .izbran .izbran-info .rating .breadcrumbs span.full, .breadcrumbs .izbrannoe .izbran .izbran-info .rating span.full {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -11702px;
+  background-position: 0 -12050px;
 }
 .izbrannoe .izbran .izbran-info .rating a.nofull, .izbrannoe .izbran .izbran-info .rating .breadcrumbs span.nofull, .breadcrumbs .izbrannoe .izbran .izbran-info .rating span.nofull {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -11818px;
+  background-position: 0 -12166px;
 }
 .izbrannoe .izbran .izbran-info .rating a:hover, .izbrannoe .izbran .izbran-info .rating .breadcrumbs span:hover, .breadcrumbs .izbrannoe .izbran .izbran-info .rating span:hover {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -11702px;
+  background-position: 0 -12050px;
 }
 .izbrannoe .izbran .izbran-info .rating a, .izbrannoe .izbran .izbran-info .rating .breadcrumbs span, .breadcrumbs .izbrannoe .izbran .izbran-info .rating span {
   margin: 0;
@@ -2942,10 +2942,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   top: 2px;
 }
 .izbrannoe .izbran .izbran-info .buttons a.msg, .izbrannoe .izbran .izbran-info .buttons .breadcrumbs span.msg, .breadcrumbs .izbrannoe .izbran .izbran-info .buttons span.msg {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -6239px;
-  background-position: 7px -6234px;
+  background-position: 0 -6355px;
+  background-position: 7px -6350px;
   font-size: 14px;
   color: #666;
   text-decoration: none;
@@ -2954,10 +2954,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   margin: 5px 0 0 0 !important;
 }
 .izbrannoe .izbran .izbran-info .buttons a.delete, .izbrannoe .izbran .izbran-info .buttons .breadcrumbs span.delete, .breadcrumbs .izbrannoe .izbran .izbran-info .buttons span.delete {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -1805px;
-  background-position: 5px -1799px;
+  background-position: 0 -1921px;
+  background-position: 5px -1915px;
 }
 .izbrannoe .izbran .izbran-info .catalog-info {
   position: absolute;
@@ -3001,9 +3001,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 .modal .close, .modal-add-photo .close, .modal-add-video .close {
   display: block;
   position: absolute;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -1349px;
+  background-position: 0 -1465px;
   height: 14px;
   width: 13px;
   right: 10px;
@@ -3080,10 +3080,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   background: #fafafa;
   border: 1px solid #d1d1d1;
   color: #333;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -1805px;
-  background-position: 15px -1792px;
+  background-position: 0 -1921px;
+  background-position: 15px -1908px;
   background-color: #fafafa;
   border: 1px solid #d1d1d1;
   color: #333;
@@ -3128,10 +3128,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   font-size: 14px;
   color: #333;
   line-height: 21px;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -12461px;
-  background-position: 6px -12456px;
+  background-position: 0 -12809px;
+  background-position: 6px -12804px;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -3179,10 +3179,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   display: block;
   padding: 0 0 0 45px;
   margin: 15px 0 0 0;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -2913px;
-  background-position: 0 -2910px;
+  background-position: 0 -3029px;
+  background-position: 0 -3026px;
   font-size: 14px;
   color: #333;
   line-height: 21px;
@@ -3244,9 +3244,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 .modal-add-photo .uploaded > div .options label.select .select-list:after, .modal-add-video .uploaded > div .options label.select .select-list:after {
   content: "";
   display: block;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -11125px;
+  background-position: 0 -11473px;
   height: 7px;
   width: 11px;
   position: absolute;
@@ -3308,9 +3308,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 .modal-view-photo .close {
   display: block;
   position: absolute;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -1349px;
+  background-position: 0 -1465px;
   height: 14px;
   width: 13px;
   right: 10px;
@@ -3378,17 +3378,17 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   cursor: pointer;
 }
 .modal-view-photo .modal-view .sliderkit .sliderkit-nav .sliderkit-go-btn.sliderkit-go-prev {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -7963px;
+  background-position: 0 -8311px;
   height: 99px;
   width: 53px;
   left: 20px;
 }
 .modal-view-photo .modal-view .sliderkit .sliderkit-nav .sliderkit-go-btn.sliderkit-go-next {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -6470px;
+  background-position: 0 -6705px;
   height: 99px;
   width: 53px;
   right: 20px;
@@ -3438,10 +3438,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   text-decoration: none;
   font-size: 14px;
   color: #666;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -10357px;
-  background-position: 7px -10352px;
+  background-position: 0 -10705px;
+  background-position: 7px -10700px;
   width: 136px !important;
   padding: 4px 4px 4px 30px;
 }
@@ -3449,10 +3449,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   width: 27px !important;
   height: 27px;
   padding: 0;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -1805px;
-  background-position: 5px -1799px;
+  background-position: 0 -1921px;
+  background-position: 5px -1915px;
 }
 .modal-view-photo .modal-view .meta .fright {
   float: right;
@@ -3481,15 +3481,15 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 }
 .modal-view-photo .modal-view .meta .fright .likes {
   color: #f07677;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -3468px;
+  background-position: 0 -3584px;
 }
 .modal-view-photo .modal-view .meta .fright .comments {
   color: #222;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -1463px;
+  background-position: 0 -1579px;
 }
 .modal-view-photo .modal-comments {
   width: 375px;
@@ -3615,9 +3615,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   font-weight: normal;
 }
 .wrapper .main h2:after {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -2288px;
+  background-position: 0 -2404px;
   height: 35px;
   width: 42px;
   margin-left: 10px;
@@ -3684,9 +3684,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   padding: 20px 0 0 0;
 }
 .wrapper .main .central-block .wedding-magazine-block h2:after {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -4001px;
+  background-position: 0 -4117px;
   height: 33px;
   width: 44px;
   position: absolute;
@@ -3723,19 +3723,19 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   margin: 0 0 10px 0;
 }
 .wrapper .main .central-block .wedding-magazine-block .wedding-magazine .item .counter .likes {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -3580px;
-  background-position: 0 -3577px;
+  background-position: 0 -3696px;
+  background-position: 0 -3693px;
   padding: 0 5px 0 20px;
   color: #f07677;
   font-size: 18px;
 }
 .wrapper .main .central-block .wedding-magazine-block .wedding-magazine .item .counter .comments {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -1575px;
-  background-position: 0 -1572px;
+  background-position: 0 -1691px;
+  background-position: 0 -1688px;
   padding: 0 0 0 20px;
   color: #333;
   font-size: 18px;
@@ -3810,19 +3810,19 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   font-size: 14px;
 }
 .content .article_list .article-topic .description .counter .likes {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -3580px;
-  background-position: 0 -3577px;
+  background-position: 0 -3696px;
+  background-position: 0 -3693px;
   padding: 0 5px 0 20px;
   color: #f07677;
   font-size: 18px;
 }
 .content .article_list .article-topic .description .counter .comments {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -1575px;
-  background-position: 0 -1572px;
+  background-position: 0 -1691px;
+  background-position: 0 -1688px;
   padding: 0 0 0 20px;
   color: #333;
   font-size: 18px;
@@ -3864,19 +3864,19 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   font-size: 14px;
 }
 .content .article_list .article-topic .articles .item .counter .likes {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -3580px;
-  background-position: 0 -3577px;
+  background-position: 0 -3696px;
+  background-position: 0 -3693px;
   padding: 0 5px 0 20px;
   color: #f07677;
   font-size: 18px;
 }
 .content .article_list .article-topic .articles .item .counter .comments {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -1575px;
-  background-position: 0 -1572px;
+  background-position: 0 -1691px;
+  background-position: 0 -1688px;
   padding: 0 0 0 20px;
   color: #333;
   font-size: 18px;
@@ -3923,10 +3923,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   font-size: 14px;
 }
 .sidebar-right .new-articles .item .counter .likes {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -3468px;
-  background-position: 0 -3465px;
+  background-position: 0 -3584px;
+  background-position: 0 -3581px;
   padding: 0 5px 0 15px;
   color: #f07677;
   font-size: 14px;
@@ -3977,9 +3977,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   float: right;
 }
 .content .main-article .main-article-footer .likes-counter a, .content .main-article .main-article-footer .likes-counter .breadcrumbs span, .breadcrumbs .content .main-article .main-article-footer .likes-counter span {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -3580px;
+  background-position: 0 -3696px;
   padding: 0 0 0 20px;
   font-size: 14px;
   color: #f07677;
@@ -3987,9 +3987,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 .content .main-article .main-article-footer .likes-counter span {
   padding: 3px 11px;
   font-size: 12px;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -3349px;
+  background-position: 0 -3465px;
 }
 .content .similar-articles {
   padding: 20px 0 20px 0;
@@ -4037,17 +4037,17 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 .content .similar-articles .item .description .counter .likes {
   padding: 0 0 0 15px;
   color: #f07677;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -3468px;
-  background-position: 0 -3465px;
+  background-position: 0 -3584px;
+  background-position: 0 -3581px;
 }
 .content .similar-articles .item .description .counter .comments {
   padding: 0 0 0 15px;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -1463px;
-  background-position: 0 -1460px;
+  background-position: 0 -1579px;
+  background-position: 0 -1576px;
 }
 .content .all-comments .avatar {
   float: left;
@@ -4116,17 +4116,17 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 .content .all-comments .user-comment .comment .comment-footer a.reply, .content .all-comments .user-comment .comment .comment-footer .breadcrumbs span.reply, .breadcrumbs .content .all-comments .user-comment .comment .comment-footer span.reply {
   text-decoration: none;
   margin: 0 40px 0 0;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -10583px;
+  background-position: 0 -10931px;
 }
 .content .all-comments .user-comment .comment .comment-footer a.reply:hover, .content .all-comments .user-comment .comment .comment-footer .breadcrumbs span.reply:hover, .breadcrumbs .content .all-comments .user-comment .comment .comment-footer span.reply:hover {
   text-decoration: underline;
 }
 .content .all-comments .user-comment .comment .comment-footer a.spam, .content .all-comments .user-comment .comment .comment-footer .breadcrumbs span.spam, .breadcrumbs .content .all-comments .user-comment .comment .comment-footer span.spam {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -11590px;
+  background-position: 0 -11938px;
   color: #999;
 }
 .content .all-comments .user-comment .comment .comment-footer a.spam:hover, .content .all-comments .user-comment .comment .comment-footer .breadcrumbs span.spam:hover, .breadcrumbs .content .all-comments .user-comment .comment .comment-footer span.spam:hover {
@@ -4135,10 +4135,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 .content .all-comments .user-comment .comment .comment-footer a.likes, .content .all-comments .user-comment .comment .comment-footer .breadcrumbs span.likes, .breadcrumbs .content .all-comments .user-comment .comment .comment-footer span.likes {
   float: right;
   color: #f07677;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -3468px;
-  background-position: 0 -3465px;
+  background-position: 0 -3584px;
+  background-position: 0 -3581px;
 }
 .content .all-comments .user-comment .comment .comment-footer a.likes:hover, .content .all-comments .user-comment .comment .comment-footer .breadcrumbs span.likes:hover, .breadcrumbs .content .all-comments .user-comment .comment .comment-footer span.likes:hover {
   text-decoration: underline;
@@ -4176,7 +4176,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   font-weight: bold;
 }
 .content .salon:before {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
   background-position: 0 -350px;
   height: 9px;
@@ -4267,19 +4267,19 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   width: 16px;
 }
 .content .salon-card .rating a.full, .content .salon-card .rating .breadcrumbs span.full, .breadcrumbs .content .salon-card .rating span.full {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -11702px;
+  background-position: 0 -12050px;
 }
 .content .salon-card .rating a.nofull, .content .salon-card .rating .breadcrumbs span.nofull, .breadcrumbs .content .salon-card .rating span.nofull {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -11818px;
+  background-position: 0 -12166px;
 }
 .content .salon-card .rating a:hover, .content .salon-card .rating .breadcrumbs span:hover, .breadcrumbs .content .salon-card .rating span:hover {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -11702px;
+  background-position: 0 -12050px;
 }
 .content .salon-card .rating a, .content .salon-card .rating .breadcrumbs span, .breadcrumbs .content .salon-card .rating span {
   margin: 0;
@@ -4358,9 +4358,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -7609px;
+  background-position: 0 -7957px;
 }
 .sidebar-right > span {
   padding: 10px 0 0 30px;
@@ -4386,9 +4386,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   position: relative;
 }
 .sidebar-right .options-down:before {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -2423px;
+  background-position: 0 -2539px;
   height: 16px;
   width: 16px;
   position: absolute;
@@ -4397,9 +4397,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   top: 11px;
 }
 .sidebar-right .options-down:after {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -1918px;
+  background-position: 0 -2034px;
   height: 20px;
   width: 20px;
   position: absolute;
@@ -4433,7 +4433,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   margin: 0 20px 0 0;
 }
 .content .brend:before {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
   background-position: 0 -350px;
   height: 9px;
@@ -4500,9 +4500,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   top: -5px;
 }
 .content .brend-card > a:after, .content .breadcrumbs .brend-card > span:after, .breadcrumbs .content .brend-card > span:after {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -2665px;
+  background-position: 0 -2781px;
   height: 26px;
   width: 26px;
   margin-left: 10px;
@@ -4545,25 +4545,25 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   top: 100px;
 }
 .content .brend-card .collection span.carouselLeft {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -3197px;
+  background-position: 0 -3313px;
 }
 .content .brend-card .collection span.carouselLeft.active, .content .brend-card .collection span.carouselLeft:hover {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -3045px;
+  background-position: 0 -3161px;
 }
 .content .brend-card .collection span.carouselRight {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -10847px;
+  background-position: 0 -11195px;
   right: 0;
 }
 .content .brend-card .collection span.carouselRight.active, .content .brend-card .collection span.carouselRight:hover {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -10695px;
+  background-position: 0 -11043px;
 }
 .content .brend-card .collection-footer {
   position: absolute;
@@ -4602,19 +4602,19 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   width: 16px;
 }
 .content .brend-card .rating a.full, .content .brend-card .rating .breadcrumbs span.full, .breadcrumbs .content .brend-card .rating span.full {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -11702px;
+  background-position: 0 -12050px;
 }
 .content .brend-card .rating a.nofull, .content .brend-card .rating .breadcrumbs span.nofull, .breadcrumbs .content .brend-card .rating span.nofull {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -11818px;
+  background-position: 0 -12166px;
 }
 .content .brend-card .rating a:hover, .content .brend-card .rating .breadcrumbs span:hover, .breadcrumbs .content .brend-card .rating span:hover {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -11702px;
+  background-position: 0 -12050px;
 }
 .content .brend-card .rating a, .content .brend-card .rating .breadcrumbs span, .breadcrumbs .content .brend-card .rating span {
   margin: 0;
@@ -4653,9 +4653,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -7609px;
+  background-position: 0 -7957px;
 }
 .sidebar-right > span {
   padding: 10px 0 0 30px;
@@ -4681,9 +4681,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   position: relative;
 }
 .sidebar-right .options-up:before {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -2423px;
+  background-position: 0 -2539px;
   height: 16px;
   width: 16px;
   position: absolute;
@@ -4692,9 +4692,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   top: 11px;
 }
 .sidebar-right .options-up:after {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -12341px;
+  background-position: 0 -12689px;
   height: 20px;
   width: 20px;
   position: absolute;
@@ -4732,7 +4732,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   font-weight: bold;
   margin: 0px 0 10px 0;
   padding: 0 0 0 15px;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
   background-position: 0 -568px;
   background-position: 0 -565px;
@@ -4741,7 +4741,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   margin: 0 0 35px 0;
 }
 .sidebar-right form .close {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
   background-position: 0 -679px;
   background-position: 0 -679px;
@@ -4768,7 +4768,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 }
 
 .content > .dress:before {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
   background-position: 0 -350px;
   height: 9px;
@@ -4802,9 +4802,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   position: relative;
 }
 .content .dress-card:after {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -2665px;
+  background-position: 0 -2781px;
   height: 26px;
   width: 26px;
   position: absolute;
@@ -4836,9 +4836,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   margin: 0 15px 0 0;
 }
 .content .dress-card > .price .old-price:before {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -1691px;
+  background-position: 0 -1807px;
   height: 14px;
   width: 55px;
   position: absolute;
@@ -4890,27 +4890,27 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   width: 16px;
 }
 .content .dress-card .description .rating a.full, .content .dress-card .description .rating .breadcrumbs span.full, .breadcrumbs .content .dress-card .description .rating span.full {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -11702px;
+  background-position: 0 -12050px;
 }
 .content .dress-card .description .rating a.nofull, .content .dress-card .description .rating .breadcrumbs span.nofull, .breadcrumbs .content .dress-card .description .rating span.nofull {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -11818px;
+  background-position: 0 -12166px;
 }
 .content .dress-card .description .rating a:hover, .content .dress-card .description .rating .breadcrumbs span:hover, .breadcrumbs .content .dress-card .description .rating span:hover {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -11702px;
+  background-position: 0 -12050px;
 }
 .content .dress-card .description .rating a, .content .dress-card .description .rating .breadcrumbs span, .breadcrumbs .content .dress-card .description .rating span {
   margin: 0;
 }
 .content > .like:after {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -2539px;
+  background-position: 0 -2655px;
   height: 26px;
   width: 26px;
   position: absolute;
@@ -4953,14 +4953,14 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   margin: 20px 0 25px 0;
   display: block;
   padding: 0 0 0 20px;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -7732px;
+  background-position: 0 -8080px;
   font-weight: bold;
 }
 
 .content .special-offers:before {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
   background-position: 0 -350px;
   height: 9px;
@@ -4971,9 +4971,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   top: 45px;
 }
 .content .offers-50:before {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -7229px;
+  background-position: 0 -7464px;
   height: 57px;
   width: 59px;
   position: absolute;
@@ -4982,9 +4982,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   left: 10px;
 }
 .content .offers-25:before {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -7072px;
+  background-position: 0 -7307px;
   height: 57px;
   width: 59px;
   position: absolute;
@@ -4993,9 +4993,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   left: 10px;
 }
 .content .offers-15:before {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -6915px;
+  background-position: 0 -7150px;
   height: 57px;
   width: 59px;
   position: absolute;
@@ -5062,19 +5062,19 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   width: 16px;
 }
 .card .main-salon-card .description .rating a.full, .card .main-salon-card .description .rating .breadcrumbs span.full, .breadcrumbs .card .main-salon-card .description .rating span.full {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -11702px;
+  background-position: 0 -12050px;
 }
 .card .main-salon-card .description .rating a.nofull, .card .main-salon-card .description .rating .breadcrumbs span.nofull, .breadcrumbs .card .main-salon-card .description .rating span.nofull {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -11818px;
+  background-position: 0 -12166px;
 }
 .card .main-salon-card .description .rating a:hover, .card .main-salon-card .description .rating .breadcrumbs span:hover, .breadcrumbs .card .main-salon-card .description .rating span:hover {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -11702px;
+  background-position: 0 -12050px;
 }
 .card .main-salon-card .description .rating a, .card .main-salon-card .description .rating .breadcrumbs span, .breadcrumbs .card .main-salon-card .description .rating span {
   margin: 0;
@@ -5092,10 +5092,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 }
 .card .main-salon-card .description .buttons .msg {
   display: inline-block;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -6239px;
-  background-position: 7px -6232px;
+  background-position: 0 -6355px;
+  background-position: 7px -6348px;
   font-size: 12px;
   color: #666;
   text-decoration: none;
@@ -5108,7 +5108,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 }
 .card .main-salon-card .description .buttons .bookmark {
   display: inline-block;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
   background-position: 0 -794px;
   background-position: 7px -787px;
@@ -5141,6 +5141,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   width: 210px;
+  height: 348px;
 }
 .card .section {
   position: relative;
@@ -5152,12 +5153,12 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 .card .section .tabs li, .card .section .tabs li.current {
   position: relative;
   display: inline-block;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -11934px;
+  background-position: 0 -12282px;
   height: 32px;
   width: 156px;
-  background-position: 0 -11927px;
+  background-position: 0 -12275px;
   text-align: center;
   padding: 12px 0 0 0;
   height: 26px;
@@ -5214,9 +5215,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   position: relative;
 }
 .card .section .box .options .options-up:before {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -2423px;
+  background-position: 0 -2539px;
   height: 16px;
   width: 16px;
   position: absolute;
@@ -5225,9 +5226,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   top: 11px;
 }
 .card .section .box .options .options-up:after {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -12341px;
+  background-position: 0 -12689px;
   height: 20px;
   width: 20px;
   position: absolute;
@@ -5251,9 +5252,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   position: relative;
 }
 .card .section .box .options .options-down:before {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -2423px;
+  background-position: 0 -2539px;
   height: 16px;
   width: 16px;
   position: absolute;
@@ -5262,9 +5263,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   top: 11px;
 }
 .card .section .box .options .options-down:after {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -1918px;
+  background-position: 0 -2034px;
   height: 20px;
   width: 20px;
   position: absolute;
@@ -5302,7 +5303,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   font-weight: bold;
   margin: 0px 0 10px 0;
   padding: 0 0 0 15px;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
   background-position: 0 -568px;
   background-position: 0 -565px;
@@ -5311,7 +5312,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   margin: 0 0 35px 0;
 }
 .card .section .box .options form .close {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
   background-position: 0 -679px;
   background-position: 0 -679px;
@@ -5362,9 +5363,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   margin: 20px 0 25px 0;
   display: block;
   padding: 0 0 0 20px;
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -7732px;
+  background-position: 0 -8080px;
   font-weight: bold;
 }
 .card .dress-card-catalog {
@@ -5440,20 +5441,61 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   width: 16px;
 }
 .card .dress-card-catalog .description .rating a.full, .card .dress-card-catalog .description .rating .breadcrumbs span.full, .breadcrumbs .card .dress-card-catalog .description .rating span.full {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -11702px;
+  background-position: 0 -12050px;
 }
 .card .dress-card-catalog .description .rating a.nofull, .card .dress-card-catalog .description .rating .breadcrumbs span.nofull, .breadcrumbs .card .dress-card-catalog .description .rating span.nofull {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -11818px;
+  background-position: 0 -12166px;
 }
 .card .dress-card-catalog .description .rating a:hover, .card .dress-card-catalog .description .rating .breadcrumbs span:hover, .breadcrumbs .card .dress-card-catalog .description .rating span:hover {
-  background-image: url('../images/icons-s01d664eba8.png');
+  background-image: url('../images/icons-s1c680ce5c9.png');
   background-repeat: no-repeat;
-  background-position: 0 -11702px;
+  background-position: 0 -12050px;
 }
 .card .dress-card-catalog .description .rating a, .card .dress-card-catalog .description .rating .breadcrumbs span, .breadcrumbs .card .dress-card-catalog .description .rating span {
   margin: 0;
+}
+
+.card .section .box .main-block-salon .address {
+  margin: 0 0 40px 0;
+}
+.card .section .box .main-block-salon .address > span {
+  margin: 0 0 10px 0;
+  display: block;
+  padding: 0 0 0 25px;
+  color: #333;
+}
+.card .section .box .main-block-salon .address > span.street {
+  font-size: 15px;
+  color: #ac296a;
+  background-image: url('../images/icons-s1c680ce5c9.png');
+  background-repeat: no-repeat;
+  background-position: 0 -6471px;
+  background-position: 0 -6471px;
+}
+.card .section .box .main-block-salon .address > span.metro {
+  font-size: 15px;
+}
+.card .section .box .main-block-salon .address > span.phone {
+  font-weight: bold;
+  font-size: 13px;
+  background-image: url('../images/icons-s1c680ce5c9.png');
+  background-repeat: no-repeat;
+  background-position: 0 -7844px;
+  background-position: 0 -7844px;
+}
+.card .section .box .main-block-salon .address > span.time {
+  font-size: 13px;
+  background-image: url('../images/icons-s1c680ce5c9.png');
+  background-repeat: no-repeat;
+  background-position: 0 -1349px;
+  background-position: 0 -1349px;
+}
+.card .section .box > img {
+  display: block;
+  margin: -30px 0 0 50px;
+  float: left;
 }
