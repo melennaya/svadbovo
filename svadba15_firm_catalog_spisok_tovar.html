@@ -5,6 +5,8 @@
     <!--[if IE]>
        <link href="stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
        <![endif]--> 
+       <script type="text/javascript" src="http://yandex.st/jquery/1.11.1/jquery.min.js"></script>
+       <script src="javascript/script.js" type="text/javascript" charset="utf-8" async defer></script>
        <meta http-equiv="content-type" content="text/html;charset=utf-8" />
        <title>Свадьбово</title>
    </head>
@@ -411,10 +413,10 @@
    			<span>И о вас узнают тысячи 
    				потенциальних клиентов
    			</span>
-   			<a href="#" class="options-up">Скрыть параметры</a>
-            <a href="#" class="new">Новые</a><a href="#" class="used">Подержанные</a>
-            <a href="#" class="add-dress">Добавить подержанное платье</a>
-   			<form>
+   			<a href="#" class="options-up toggle">Скрыть параметры</a>
+   			<form id="filter">
+            	<a href="#" class="new">Новые</a><a href="#" class="used">Подержанные</a>
+            	<a href="#" class="add-dress">Добавить подержанное платье</a>
    				<div class="form-header">
    					<span>Диапазон цен <span> руб.</span></span>
    					<input type="text"> - <input type="text">

@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin 'border-radius'.
-        on line 20 of C:/Users/kolochan/Dropbox/verstka/svadbovo/sass/main.scss, in `border-radius'
-        from line 20 of C:/Users/kolochan/Dropbox/verstka/svadbovo/sass/main.scss
+        on line 20 of C:/Git/svadbovo/sass/main.scss, in `border-radius'
+        from line 20 of C:/Git/svadbovo/sass/main.scss
 
 15: 		a {
 16: 			float: left;
@@ -16,8 +16,8 @@ Error: Undefined mixin 'border-radius'.
 25: 				color: #666;
 
 Backtrace:
-C:/Users/kolochan/Dropbox/verstka/svadbovo/sass/main.scss:20:in `border-radius'
-C:/Users/kolochan/Dropbox/verstka/svadbovo/sass/main.scss:20
+C:/Git/svadbovo/sass/main.scss:20:in `border-radius'
+C:/Git/svadbovo/sass/main.scss:20
 C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:338:in `block in visit_mixin'
 C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/stack.rb:115:in `with_frame'
@@ -92,4 +92,4 @@ C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'border-radius'.\A         on line 20 of C:/Users/kolochan/Dropbox/verstka/svadbovo/sass/main.scss, in `border-radius'\A         from line 20 of C:/Users/kolochan/Dropbox/verstka/svadbovo/sass/main.scss\A \A 15: 		a {\A 16: 			float: left;\A 17: 			font-size: 14px;\A 18: 			text-decoration: none;\A 19: 			margin: 0 0 0 7px;\A 20: 			@include border-radius(3px);\A 21: 			&.enter {\A 22: 				background-color: #fbfbfb;\A 23: 				border: 1px solid #d1d1d1;\A 24: 				padding: 6px 16px;\A 25: 				color: #666;"; }
+  content: "Error: Undefined mixin 'border-radius'.\A         on line 20 of C:/Git/svadbovo/sass/main.scss, in `border-radius'\A         from line 20 of C:/Git/svadbovo/sass/main.scss\A \A 15: 		a {\A 16: 			float: left;\A 17: 			font-size: 14px;\A 18: 			text-decoration: none;\A 19: 			margin: 0 0 0 7px;\A 20: 			@include border-radius(3px);\A 21: 			&.enter {\A 22: 				background-color: #fbfbfb;\A 23: 				border: 1px solid #d1d1d1;\A 24: 				padding: 6px 16px;\A 25: 				color: #666;"; }
