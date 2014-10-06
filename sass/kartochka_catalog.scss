@@ -1,0 +1,338 @@
+.card{
+	width: 995px; 
+	border: none;
+	> .breadcrumbs {
+		margin: 0px 0 0 0;
+	}
+	.main-salon-card{
+		float: left;
+		width: 739px;
+		margin: 10px 0 0 0;
+		border: 1px solid #e8e8e8;
+		padding: 10px 10px 50px 10px;
+		> img{
+			float: left;
+			@include box-sizing;
+			width: 246px;
+			height: 336px;
+		}
+		.description{
+			float: left;
+			width: 450px;
+			padding: 30px 0 0 20px;
+			.rating{
+				position: relative;
+				top: -30px;
+				@include rating;
+				margin: 0 30px 0 0;
+				a{
+					margin: 0;
+				}
+			}
+			> span{
+				text-transform: uppercase;
+				font-size: 14px;
+				color: #333;
+			}
+			h1{
+				margin: 10px 0;
+			}
+			.buttons {
+				margin: 0 0 15px 0;
+				.msg {
+					display: inline-block;
+					@include background(msg, 0);
+					@include sprite-background-position($icons, msg, +7, +7);
+					font-size: 12px;
+					color: #666;
+					text-decoration: none;
+					padding: 6px 15px 6px 30px;
+					background-color: #fafafa;
+					border: 1px solid #d1d1d1;
+					@include border-radius(3px);
+				}
+				.bookmark{
+					display: inline-block;
+					@include background(bookmark, 0);
+					@include sprite-background-position($icons, bookmark, +7, +7);
+					font-size: 12px;
+					color: #666;
+					text-decoration: none;
+					padding: 6px 15px 6px 30px;
+					background-color: #fafafa;
+					border: 1px solid #d1d1d1;
+					@include border-radius(3px);
+				}
+			}
+			p{
+				font-size: 14px;
+				color: #333;
+				margin: 0 0 10px 0;
+			}
+			> a{
+				font-size: 14px;
+			}
+			>img{
+				display: block;
+				margin: 20px 0 0 0;
+			}
+		}
+	}
+	
+	.special-offer-image{
+		float: left;
+		margin: 10px 0 70px 20px;
+		@include box-sizing;
+		width: 210px;
+		height: 348px;
+	}
+	
+	.section {
+		position: relative;
+		top: -59px;
+		.tabs {
+			//background: url(../images/tabs.png) repeat-x center bottom;
+			//border-bottom: 1px solid #e8e8e8;
+			margin: 0 0 12px 0;
+			li {
+				position: relative;
+				display: inline-block;
+				@include background(tab1, 0);
+				@include sprite-dimensions($icons, tab1);
+				@include sprite-background-position($icons, tab1, 0, +7);
+				text-align: center;
+				padding: 12px 0 0 0;
+				height: 26px;
+				margin: 0 -25px 0 0;
+				//margin: 0 20px 0 0;
+				z-index: 0;
+				font-size: 14px;
+				color: #1f75b0;
+				&.current {
+					@extend li;
+					z-index: 1;
+					top: 1px;
+					color: #000;
+				}
+				&:hover {
+					cursor: pointer;
+				}
+			}
+		}
+		.box {
+			margin: 25px 0 0 0;
+			> h2{
+				font-size: 18px;
+				font-weight: normal;
+				margin: 18px 0 20px;
+				//color: #333;
+				//margin: 0;
+				//padding: 0;
+			}
+			.special-offers{
+				border-top: none;
+				padding: 0 0 15px 0;
+				&:before{
+					top: 25px;
+				}
+			}
+			.main-block-salon{
+				width: 739px;
+				float: left;
+			}
+			.options{
+				margin: 0 0 0 20px;
+				width: 236px;
+				float: left;
+				.options-up{
+					width: 140px;
+					display: block;
+					margin: 10px 0 15px 14px;
+					font-size: 14px;
+					color: #fff;
+					text-decoration: none;
+					border: 1px solid #5e92b5;
+					@include border-radius(2px);
+					background-color: #77abcf;
+					padding: 10px 50px 10px 30px;
+					position: relative;
+					&:before{
+						@include background(gear, 0);
+						@include sprite-dimensions($icons, gear);
+						position: absolute;
+						content: '';
+						left: 8px;
+						top: 11px;
+					}
+					&:after{
+						@include background(up-arrow, 0);
+						@include sprite-dimensions($icons, up-arrow);
+						position: absolute;
+						content: '';
+						right: 10px;
+						top: 10px;
+					}
+				}
+				.options-down{
+					width: 140px;
+					display: block;
+					margin: 10px 0 15px 14px;
+					font-size: 14px;
+					color: #fff;
+					text-decoration: none;
+					border: 1px solid #5e92b5;
+					@include border-radius(2px);
+					background-color: #77abcf;
+					padding: 10px 50px 10px 30px;
+					position: relative;
+					&:before{
+						@include background(gear, 0);
+						@include sprite-dimensions($icons, gear);
+						position:absolute;
+						content: '';
+						left: 8px;
+						top: 11px;
+					}
+					&:after{
+						@include background(down-arrow, 0);
+						@include sprite-dimensions($icons, down-arrow);
+						position:absolute;
+						content: '';
+						right: 10px;
+						top: 10px;
+					}
+		//@include background(gear, 0);
+		//@include sprite-background-position($icons, gear, 10, 12);
+		//@include background(down-arrow, 0);
+		//@include sprite-background-position($icons, down-arrow, 0, 40);
+	}
+	form{
+		margin: 30px 0 20px 25px;
+		.form-header{
+			margin: 0 0 20px 0;
+			> span{
+				color: #333;
+				display: block;
+				font-weight: bold;
+				margin: 0 0 10px 0;
+				span{
+					color: #666;
+					font-weight: normal;
+				}
+			}
+			input[type="text"]{
+				width: 65px;
+				padding: 10px;
+				border: 1px solid #e8e8e8;
+				@include border-radius(3px);
+			}
+		}
+		> span{
+			color: #333;
+			display: block;
+			font-weight: bold;
+			margin: 0px 0 10px 0;
+			padding: 0 0 0 15px;
+			@include background(black-row-bottom, 0);
+			@include sprite-background-position($icons, black-row-bottom, 0, +3);
+		}
+		.checkboxes{
+			margin: 0 0 35px 0;
+		}
+		.close{
+			@include background(black-row-left, 0);
+			@include sprite-background-position($icons, black-row-left);
+		}
+		.form-footer{
+			margin: 20px 0 0 0;
+			input[type="submit"]{
+				padding: 7px 10px;
+				font-size: 14px;
+				color: #333;
+			}
+			a{
+				font-size: 12px;
+				margin: 0 0 0 10px;
+			}
+		}
+		.new{
+			text-decoration: none;
+			font-size: 14px;
+			color: #666;
+			border: 1px solid #d6d6d6;
+			display: inline-block;
+			background-color: #fdfdfd;
+			padding: 10px 20px;
+			@include border-top-left-radius(2px);
+			@include border-bottom-left-radius(2px);
+		}
+		.used{
+			text-decoration: none;
+			font-size: 14px;
+			color: #666;
+			border: 1px solid #c6c6c6;
+			display: inline-block;
+			background-color: #e3e3e3;
+			padding: 10px 20px;
+			@include border-top-right-radius(2px);
+			@include border-bottom-right-radius(2px);
+		}
+		.add-dress{
+			margin: 20px 0 25px 0;
+			display: block;
+			padding: 0 0 0 20px;
+			@include background(plus-blue, 0);
+			font-weight: bold;
+		}
+	}
+}
+}
+}
+.dress-card-catalog{
+	display: inline-block;
+	margin: 0 13px 20px 0;
+	@include box-sizing;
+	width: 230px;		
+	border: 1px solid #eee;
+	padding: 20px 20px 10px;
+	position: relative;
+	img{
+		width: 188px;
+		height: 269px;
+		@include box-sizing;
+	}
+	.description{
+		text-align: center;
+		> span{
+			margin: 10px 0 5px;
+			font-size: 12px;
+			color: #adadad;
+			display: block;
+		}
+		a{
+			font-size: 14px;
+			display: block;
+		}
+		.price{
+			color: #db1c5d;
+			font-size: 23px;
+			display: block;
+			padding: 8px 0 8px;
+			text-align: center;
+			margin: 5px 0 0 0;
+			span{
+				color: #c8c2b4;
+				font-size: 15px;
+				display: inline;
+			}
+		}
+		.rating{
+			@include rating;
+			float: none;
+			a{
+				margin: 0;
+			}
+		}
+	}
+}
+}

@@ -43,7 +43,7 @@
 			height: 269px;
 			@include box-sizing;
 		}
-		.price{
+		> .price{
 			color: #fff;
 			font-size: 17px;
 			width: 188px;
@@ -103,6 +103,7 @@
 	}
 }
 .sidebar-right{
+	form{
 		.new{
 			text-decoration: none;
 			font-size: 14px;
@@ -126,10 +127,11 @@
 			@include border-bottom-right-radius(2px);
 		}
 		.add-dress{
-			margin: 15px 0 0 0;
+			margin: 20px 0 25px 0;
 			display: block;
 			padding: 0 0 0 20px;
 			@include background(plus-blue, 0);
 			font-weight: bold;
 		}
 	}
+}
