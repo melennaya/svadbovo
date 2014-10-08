@@ -1,14 +1,6 @@
 //content
 .content{
 	.special-offers{
-		&:before{
-			@include background(background-element, 0);
-			@include sprite-dimensions($icons, background-element);
-			position:absolute;
-			content: '';
-			left: 140px;
-			top: 45px;
-		}
 	}
 	.offers-50{
 		&:before{

@@ -11,18 +11,17 @@
 			color: #db1c5d;
 			margin: 0 20px 0 0;
 		}
-		span{
+		> span{
 			font-weight: bold;
-		}
-	}
-	.salon{
-		&:before{
-			@include background(background-element, 0);
-			@include sprite-dimensions($icons, background-element);
-			position:absolute;
-			content: '';
-			left: 370px;
-			top: 45px;
+			position: relative;
+			&:before{
+				@include background(background-element, 0);
+				@include sprite-dimensions($icons, background-element);
+				position:absolute;
+				content: '';
+				left: 70px;
+				top: 25px;
+			}
 		}
 	}
 	.filter{

@@ -1,0 +1,241 @@
+@charset "utf-8";
+.cities-list{
+	.cities{
+		ul{
+			margin: 10px 0px;
+			display: inline-block;
+			vertical-align: top;
+			position: relative;
+			li{
+				width: 230px;
+				a{
+					color: #333;
+					text-decoration: none;
+					display: inline-block;
+					padding: 3px 7px;
+					&:hover{
+						background-color: #db1d5d;
+						@include border-radius(2px);
+						color: #fff;
+					}
+					span{
+						color: #999;
+					}
+				}
+			}
+			&.letter-a{
+				&:before{
+					content: "A";
+					position: absolute;
+					left: -15px;
+					top: 2px;
+					color: #ac296a;
+					font-weight: bold;
+				}
+			}
+			&.letter-b{
+				&:before{
+					content: "Б";
+					position: absolute;
+					left: -15px;
+					top: 2px;
+					color: #ac296a;
+					font-weight: bold;
+				}
+			}
+			&.letter-c{
+				&:before{
+					content: "В";
+					position: absolute;
+					left: -15px;
+					top: 2px;
+					color: #ac296a;
+					font-weight: bold;
+				}
+			}
+			&.letter-d{
+				&:before{
+					content: "Г";
+					position: absolute;
+					left: -15px;
+					top: 2px;
+					color: #ac296a;
+					font-weight: bold;
+				}
+			}
+			&.letter-e{
+				&:before{
+					content: "Е";
+					position: absolute;
+					left: -15px;
+					top: 2px;
+					color: #ac296a;
+					font-weight: bold;
+				}
+			}
+			&.letter-f{
+				&:before{
+					content: "И";
+					position: absolute;
+					left: -15px;
+					top: 2px;
+					color: #ac296a;
+					font-weight: bold;
+				}
+			}
+			&.letter-g{
+				&:before{
+					content: "К";
+					position: absolute;
+					left: -15px;
+					top: 2px;
+					color: #ac296a;
+					font-weight: bold;
+				}
+			}
+			&.letter-h{
+				&:before{
+					content: "Л";
+					position: absolute;
+					left: -15px;
+					top: 2px;
+					color: #ac296a;
+					font-weight: bold;
+				}
+			}
+			&.letter-i{
+				&:before{
+					content: "М";
+					position: absolute;
+					left: -15px;
+					top: 2px;
+					color: #ac296a;
+					font-weight: bold;
+				}
+			}
+			&.letter-j{
+				&:before{
+					content: "Н";
+					position: absolute;
+					left: -15px;
+					top: 2px;
+					color: #ac296a;
+					font-weight: bold;
+				}
+			}
+			&.letter-k{
+				&:before{
+					content: "О";
+					position: absolute;
+					left: -15px;
+					top: 2px;
+					color: #ac296a;
+					font-weight: bold;
+				}
+			}
+			&.letter-l{
+				&:before{
+					content: "П";
+					position: absolute;
+					left: -15px;
+					top: 2px;
+					color: #ac296a;
+					font-weight: bold;
+				}
+			}
+			&.letter-m{
+				&:before{
+					content: "Р";
+					position: absolute;
+					left: -15px;
+					top: 2px;
+					color: #ac296a;
+					font-weight: bold;
+				}
+			}
+			&.letter-n{
+				&:before{
+					content: "С";
+					position: absolute;
+					left: -15px;
+					top: 2px;
+					color: #ac296a;
+					font-weight: bold;
+				}
+			}
+			&.letter-o{
+				&:before{
+					content: "Т";
+					position: absolute;
+					left: -15px;
+					top: 2px;
+					color: #ac296a;
+					font-weight: bold;
+				}
+			}
+			&.letter-p{
+				&:before{
+					content: "У";
+					position: absolute;
+					left: -15px;
+					top: 2px;
+					color: #ac296a;
+					font-weight: bold;
+				}
+			}
+			&.letter-q{
+				&:before{
+					content: "Х";
+					position: absolute;
+					left: -15px;
+					top: 2px;
+					color: #ac296a;
+					font-weight: bold;
+				}
+			}
+			&.letter-r{
+				&:before{
+					content: "Ч";
+					position: absolute;
+					left: -15px;
+					top: 2px;
+					color: #ac296a;
+					font-weight: bold;
+				}
+			}
+			&.letter-s{
+				&:before{
+					content: "Я";
+					position: absolute;
+					left: -15px;
+					top: 2px;
+					color: #ac296a;
+					font-weight: bold;
+				}
+			}
+		}
+	}
+	.cities-main{
+		margin: 10px 0 0 0;
+		ul{
+			li{
+				a{
+					font-weight: bold;
+					color: #000;
+					text-decoration: none;
+					display: inline-block;
+					padding: 3px 7px;
+					&:hover{
+						background-color: #db1d5d;
+						@include border-radius(2px);
+						color: #fff;
+					}
+					span{
+						font-weight: normal;
+						color: #999;
+					}
+				}
+			}
+		}
+	}
+}

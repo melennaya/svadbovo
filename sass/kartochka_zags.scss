@@ -1,0 +1,112 @@
+.registry-office-card{
+	> .breadcrumbs {
+		margin: 0px 0 0 0;
+	}
+	.main-registry-office-card{
+		float: left;
+		width: 739px;
+		margin: 10px 0 0 0;
+		border: 1px solid #e8e8e8;
+		padding: 10px 10px 20px 10px;
+		.rating{
+			@include rating;
+			float: none;
+			margin: 10px 30px 0 0;
+			a{
+				margin: 0;
+			}
+		}
+		.address{
+			margin: 10px 0 0 0;
+			> span{
+				margin: 0 0 10px 0;
+				display: block;
+				padding: 0 0 0 25px;
+				color: #333;
+				&.street{
+					font-size: 15px;
+					color: #ac296a;
+					@include background(nav, 0);
+					@include sprite-background-position($icons, nav, 0, 0);
+				}
+				&.phone{
+					font-weight: bold;
+					font-size: 13px;
+					@include background(phone, 0);
+					@include sprite-background-position($icons, phone, 0, 0);
+				}
+				&.time{
+					font-size: 13px;
+					@include background(clock, 0);
+					@include sprite-background-position($icons, clock, 0, 0);
+				}
+			}
+		}
+		>img{
+			float: right;
+			position: relative;
+			top: -30px;
+		}
+	}
+	.section{
+		position: relative;
+		top: -39px;
+		.tabs {
+			margin: 0 0 12px 0;
+			li {
+				position: relative;
+				display: inline-block;
+				@include background(tab1, 0);
+				@include sprite-dimensions($icons, tab1);
+				@include sprite-background-position($icons, tab1, 0, +7);
+				text-align: center;
+				padding: 12px 0 0 0;
+				height: 26px;
+				margin: 0 -25px 0 0;
+				//margin: 0 20px 0 0;
+				z-index: 0;
+				font-size: 14px;
+				color: #1f75b0;
+				span{
+					color: #000;
+				}
+				&.current {
+					@extend li;
+					z-index: 1;
+					top: 1px;
+					color: #000;
+				}
+				&:hover {
+					cursor: pointer;
+				}
+			}
+		}
+		.box{
+			> h2{
+				font-size: 18px;
+				font-weight: normal;
+				margin: 18px 0 20px;
+			}
+			.description{
+				strong{ 
+					font-weight: bold !important;
+				}
+				> p{
+					margin: 25px 0 10px 0;
+					font-size: 14px;
+				}
+				img{
+					float: left;
+					&.first{
+						margin: 0 10px 0 0;
+					}
+				}
+			}
+		}
+	}
+}
+.sidebar-right{
+	img{
+		margin: 10px 0 0 0;
+	}
+}

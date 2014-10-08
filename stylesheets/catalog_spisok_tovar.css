@@ -1,27 +1,39 @@
 /*
 Error: Undefined mixin 'background'.
-        on line 5 of C:/Git/svadbovo/sass/catalog_spisok_tovar.scss, in `background'
-        from line 5 of C:/Git/svadbovo/sass/catalog_spisok_tovar.scss
+        on line 6 of C:/Git/svadbovo/sass/catalog_spisok_tovar.scss, in `background'
+        from line 6 of C:/Git/svadbovo/sass/catalog_spisok_tovar.scss
 
 1: //content
 2: .content{
 3: 	> .dress{
-4: 		&:before{
-5: 			@include background(background-element, 0);
-6: 			@include sprite-dimensions($icons, background-element);
-7: 			position:absolute;
-8: 			display: block;
-9: 			content: '';
-10: 			left: 50px;
+4: 		span{
+5: 			&:before{
+6: 				@include background(background-element, 0);
+7: 				@include sprite-dimensions($icons, background-element);
+8: 				position:absolute;
+9: 				display: block;
+10: 				content: '';
+11: 				left: 50px;
 
 Backtrace:
-C:/Git/svadbovo/sass/catalog_spisok_tovar.scss:5:in `background'
-C:/Git/svadbovo/sass/catalog_spisok_tovar.scss:5
+C:/Git/svadbovo/sass/catalog_spisok_tovar.scss:6:in `background'
+C:/Git/svadbovo/sass/catalog_spisok_tovar.scss:6
 C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:338:in `block in visit_mixin'
 C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/stack.rb:115:in `with_frame'
 C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/stack.rb:98:in `with_mixin'
 C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:336:in `visit_mixin'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:420:in `map'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
 C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
 C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/stack.rb:79:in `block in with_base'
@@ -91,4 +103,4 @@ C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'background'.\A         on line 5 of C:/Git/svadbovo/sass/catalog_spisok_tovar.scss, in `background'\A         from line 5 of C:/Git/svadbovo/sass/catalog_spisok_tovar.scss\A \A 1: //content\A 2: .content{\A 3: 	> .dress{\A 4: 		&:before{\A 5: 			@include background(background-element, 0);\A 6: 			@include sprite-dimensions($icons, background-element);\A 7: 			position:absolute;\A 8: 			display: block;\A 9: 			content: '';\A 10: 			left: 50px;"; }
+  content: "Error: Undefined mixin 'background'.\A         on line 6 of C:/Git/svadbovo/sass/catalog_spisok_tovar.scss, in `background'\A         from line 6 of C:/Git/svadbovo/sass/catalog_spisok_tovar.scss\A \A 1: //content\A 2: .content{\A 3: 	> .dress{\A 4: 		span{\A 5: 			&:before{\A 6: 				@include background(background-element, 0);\A 7: 				@include sprite-dimensions($icons, background-element);\A 8: 				position:absolute;\A 9: 				display: block;\A 10: 				content: '';\A 11: 				left: 50px;"; }

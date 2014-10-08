@@ -1,28 +1,39 @@
 /*
 Error: Undefined mixin 'background'.
-        on line 20 of C:/Users/kolochan/Dropbox/verstka/svadbovo/sass/catalog_spisok.scss, in `background'
-        from line 20 of C:/Users/kolochan/Dropbox/verstka/svadbovo/sass/catalog_spisok.scss
+        on line 18 of C:/Git/svadbovo/sass/catalog_spisok.scss, in `background'
+        from line 18 of C:/Git/svadbovo/sass/catalog_spisok.scss
 
+13: 		}
+14: 		> span{
 15: 			font-weight: bold;
-16: 		}
-17: 	}
-18: 	.salon{
-19: 		&:before{
-20: 			@include background(background-element, 0);
-21: 			@include sprite-dimensions($icons, background-element);
-22: 			position:absolute;
-23: 			content: '';
-24: 			left: 370px;
-25: 			top: 45px;
+16: 			position: relative;
+17: 			&:before{
+18: 				@include background(background-element, 0);
+19: 				@include sprite-dimensions($icons, background-element);
+20: 				position:absolute;
+21: 				content: '';
+22: 				left: 70px;
+23: 				top: 25px;
 
 Backtrace:
-C:/Users/kolochan/Dropbox/verstka/svadbovo/sass/catalog_spisok.scss:20:in `background'
-C:/Users/kolochan/Dropbox/verstka/svadbovo/sass/catalog_spisok.scss:20
+C:/Git/svadbovo/sass/catalog_spisok.scss:18:in `background'
+C:/Git/svadbovo/sass/catalog_spisok.scss:18
 C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:338:in `block in visit_mixin'
 C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/stack.rb:115:in `with_frame'
 C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/stack.rb:98:in `with_mixin'
 C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:336:in `visit_mixin'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:420:in `map'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
 C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
 C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/stack.rb:79:in `block in with_base'
@@ -92,4 +103,4 @@ C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'background'.\A         on line 20 of C:/Users/kolochan/Dropbox/verstka/svadbovo/sass/catalog_spisok.scss, in `background'\A         from line 20 of C:/Users/kolochan/Dropbox/verstka/svadbovo/sass/catalog_spisok.scss\A \A 15: 			font-weight: bold;\A 16: 		}\A 17: 	}\A 18: 	.salon{\A 19: 		&:before{\A 20: 			@include background(background-element, 0);\A 21: 			@include sprite-dimensions($icons, background-element);\A 22: 			position:absolute;\A 23: 			content: '';\A 24: 			left: 370px;\A 25: 			top: 45px;"; }
+  content: "Error: Undefined mixin 'background'.\A         on line 18 of C:/Git/svadbovo/sass/catalog_spisok.scss, in `background'\A         from line 18 of C:/Git/svadbovo/sass/catalog_spisok.scss\A \A 13: 		}\A 14: 		> span{\A 15: 			font-weight: bold;\A 16: 			position: relative;\A 17: 			&:before{\A 18: 				@include background(background-element, 0);\A 19: 				@include sprite-dimensions($icons, background-element);\A 20: 				position:absolute;\A 21: 				content: '';\A 22: 				left: 70px;\A 23: 				top: 25px;"; }
