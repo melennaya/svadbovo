@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin 'close'.
-        on line 29 of C:/Users/kolochan/Dropbox/verstka/svadbovo/sass/modal.scss, in `close'
-        from line 29 of C:/Users/kolochan/Dropbox/verstka/svadbovo/sass/modal.scss
+        on line 29 of C:/Git/svadbovo/sass/modal.scss, in `close'
+        from line 29 of C:/Git/svadbovo/sass/modal.scss
 
 24: 		@extend h1;
 25: 		text-align: center;
@@ -16,8 +16,8 @@ Error: Undefined mixin 'close'.
 34: 		}
 
 Backtrace:
-C:/Users/kolochan/Dropbox/verstka/svadbovo/sass/modal.scss:29:in `close'
-C:/Users/kolochan/Dropbox/verstka/svadbovo/sass/modal.scss:29
+C:/Git/svadbovo/sass/modal.scss:29:in `close'
+C:/Git/svadbovo/sass/modal.scss:29
 C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:338:in `block in visit_mixin'
 C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/stack.rb:115:in `with_frame'
@@ -81,4 +81,4 @@ C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'close'.\A         on line 29 of C:/Users/kolochan/Dropbox/verstka/svadbovo/sass/modal.scss, in `close'\A         from line 29 of C:/Users/kolochan/Dropbox/verstka/svadbovo/sass/modal.scss\A \A 24: 		@extend h1;\A 25: 		text-align: center;\A 26: 		margin: 15px 0 20px;\A 27: 	}\A 28: 	.close {\A 29: 		@include close;\A 30: 	}\A 31: 	label {\A 32: 		span {\A 33: 			@include label;\A 34: 		}"; }
+  content: "Error: Undefined mixin 'close'.\A         on line 29 of C:/Git/svadbovo/sass/modal.scss, in `close'\A         from line 29 of C:/Git/svadbovo/sass/modal.scss\A \A 24: 		@extend h1;\A 25: 		text-align: center;\A 26: 		margin: 15px 0 20px;\A 27: 	}\A 28: 	.close {\A 29: 		@include close;\A 30: 	}\A 31: 	label {\A 32: 		span {\A 33: 			@include label;\A 34: 		}"; }

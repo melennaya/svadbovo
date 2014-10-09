@@ -10,13 +10,13 @@ $(document).ready(function() {
         $("input[name='delete").css('display', 'inline-block');
     });
     $(".modal input[name='cancel'], .mask, .close").click(function() {
-        $(".mask, .modal, .modal-add-photo, .modal-add-video, .modal-view-photo").fadeOut('fast');
+        $(".mask, .modal, .modal-add-photo, .modal-add-video, .modal-view-photo, .user-enter-window").fadeOut('fast');
         $("input[name='delete']").css('display', 'none');
     });
 
     //other-modal
-    $(".add-photo, .add-video").click(function() {
-        $(".mask, .modal-add-photo, .modal-add-video").fadeIn('fast');
+    $(".add-photo, .add-video, .enter").click(function() {
+        $(".mask, .modal-add-photo, .modal-add-video, .user-enter-window").fadeIn('fast');
     });
 
     $(".video-from a").click(function() {

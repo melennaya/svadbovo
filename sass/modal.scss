@@ -1,5 +1,5 @@
 // modal
-	/* add-cal */
+/* add-cal */
 .mask {
 	position: fixed;
 	width: 100%;
@@ -59,7 +59,7 @@
 	}
 }
 
-.modal-add-photo, .modal-add-video {
+.modal-add-photo, .modal-add-video{
 	@extend .modal;
 	top: 10%;
 	width: 820px;
@@ -151,6 +151,89 @@
 		}
 	}
 }
+
+.user-enter-window{
+	@extend .modal;
+	width: 490px;
+	@include box-sizing;
+	padding: 0;
+	.main-window{
+		padding: 30px 85px 0 75px;
+		h1{
+			font-size: 26px;
+		}
+		> label {
+			@include label;
+			font-weight: normal;
+			margin: 0 0 10px 0;
+			> span{
+				font-weight: normal;
+				float: left;
+			}
+			input[type=text] {
+				margin: 5px 0 0 0;
+				width: 265px;
+				height: 35px;
+				float: right;
+			}
+		}
+		.remember{
+			width: 265px;
+			float: right;
+			font-size: 12px;
+			> input{
+				float: left;
+			}
+			a{
+				float: right;
+			}
+		}
+		input[type=submit]{
+			float: right;
+			padding: 15px 98px;
+			font-size: 24px;
+			margin: 20px 0 30px 0;
+		}
+	}
+	.dashed{
+		height: 2px;
+		border-top: 1px dashed #f3f3f3;
+	}
+	.sign-up-block{
+		padding: 28px 0;
+		text-align: center;
+		background-color: #f3f3f3;
+		> a{
+			font-size: 24px;
+			color: #db1c5d;
+			display: block;
+			margin: 12px 0 20px;
+		}
+		>span{
+			font-size: 19px;
+			color: #333;
+		}
+		.social-sign-up-block{
+			span{
+				font-size: 15px;
+				color: #333;
+				display: block;
+				margin: 0 0 10px 0;
+			}
+			.social-sign-up-icons{
+				display: inline-block;
+				a{
+					float: left;
+					margin: 0 15px 0 0;
+					&.last{
+						margin: 0;
+					}
+				}
+			}
+		}
+	}
+}
+
 
 .modal-add-video {
 	.video-from {

@@ -3,7 +3,8 @@ html, body, div, span, applet, object, iframe,
 h1,
 .modal h1,
 .modal-add-photo h1,
-.modal-add-video h1, h2, h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel .text-company .catalog-source span, h4, h5, h6, p, blockquote, pre,
+.modal-add-video h1,
+.user-enter-window h1, h2, h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel .text-company .catalog-source span, h4, h5, h6, p, blockquote, pre,
 a,
 .breadcrumbs span, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -92,7 +93,7 @@ input:focus, select:focus, .bar .search input[type=text]:focus, textarea:focus {
   outline: none;
 }
 
-h1, .modal h1, .modal-add-photo h1, .modal-add-video h1 {
+h1, .modal h1, .modal-add-photo h1, .modal-add-video h1, .user-enter-window h1 {
   font-size: 23px;
   color: #ac296a;
   text-transform: uppercase;
@@ -2983,7 +2984,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   display: none;
 }
 
-.modal, .modal-add-photo, .modal-add-video {
+.modal, .modal-add-photo, .modal-add-video, .user-enter-window {
   width: 573px;
   padding: 25px;
   background: #fff;
@@ -2995,11 +2996,11 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   z-index: 999;
   display: none;
 }
-.modal h1, .modal-add-photo h1, .modal-add-video h1 {
+.modal h1, .modal-add-photo h1, .modal-add-video h1, .user-enter-window h1 {
   text-align: center;
   margin: 15px 0 20px;
 }
-.modal .close, .modal-add-photo .close, .modal-add-video .close {
+.modal .close, .modal-add-photo .close, .modal-add-video .close, .user-enter-window .close {
   display: block;
   position: absolute;
   background-image: url('../images/icons-sc3bc4ff168.png');
@@ -3010,14 +3011,14 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   right: 10px;
   top: 10px;
 }
-.modal label span, .modal-add-photo label span, .modal-add-video label span {
+.modal label span, .modal-add-photo label span, .modal-add-video label span, .user-enter-window label span {
   display: block;
   font-weight: bold;
   font-size: 15px;
   color: #72838d;
   margin: 15px 0 5px 0;
 }
-.modal label input[type=text], .modal-add-photo label input[type=text], .modal-add-video label input[type=text], .modal label textarea, .modal-add-photo label textarea, .modal-add-video label textarea {
+.modal label input[type=text], .modal-add-photo label input[type=text], .modal-add-video label input[type=text], .user-enter-window label input[type=text], .modal label textarea, .modal-add-photo label textarea, .modal-add-video label textarea, .user-enter-window label textarea {
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
@@ -3030,10 +3031,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   behavior: url(/PIE.htc);
   width: 98%;
 }
-.modal label textarea, .modal-add-photo label textarea, .modal-add-video label textarea {
+.modal label textarea, .modal-add-photo label textarea, .modal-add-video label textarea, .user-enter-window label textarea {
   height: 150px;
 }
-.modal input[type=submit], .modal-add-photo input[type=submit], .modal-add-video input[type=submit] {
+.modal input[type=submit], .modal-add-photo input[type=submit], .modal-add-video input[type=submit], .user-enter-window input[type=submit] {
   background: #58a5cf;
   border: 1px solid #2e87bb;
   -moz-border-radius: 4px;
@@ -3044,11 +3045,11 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   padding: 8px 24px 7px;
   margin: 20px 0 0 0;
 }
-.modal input[type=submit]:active, .modal-add-photo input[type=submit]:active, .modal-add-video input[type=submit]:active {
+.modal input[type=submit]:active, .modal-add-photo input[type=submit]:active, .modal-add-video input[type=submit]:active, .user-enter-window input[type=submit]:active {
   position: relative;
   top: 2px;
 }
-.modal input[type=submit].cancel, .modal-add-photo input[type=submit].cancel, .modal-add-video input[type=submit].cancel {
+.modal input[type=submit].cancel, .modal-add-photo input[type=submit].cancel, .modal-add-video input[type=submit].cancel, .user-enter-window input[type=submit].cancel {
   background: #58a5cf;
   border: 1px solid #2e87bb;
   -moz-border-radius: 4px;
@@ -3062,11 +3063,11 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   border: 1px solid #d1d1d1;
   color: #333;
 }
-.modal input[type=submit].cancel:active, .modal-add-photo input[type=submit].cancel:active, .modal-add-video input[type=submit].cancel:active {
+.modal input[type=submit].cancel:active, .modal-add-photo input[type=submit].cancel:active, .modal-add-video input[type=submit].cancel:active, .user-enter-window input[type=submit].cancel:active {
   position: relative;
   top: 2px;
 }
-.modal input[type=submit].delete, .modal-add-photo input[type=submit].delete, .modal-add-video input[type=submit].delete {
+.modal input[type=submit].delete, .modal-add-photo input[type=submit].delete, .modal-add-video input[type=submit].delete, .user-enter-window input[type=submit].delete {
   float: right;
   display: none;
   background: #58a5cf;
@@ -3090,7 +3091,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   color: #333;
   padding-left: 34px;
 }
-.modal input[type=submit].delete:active, .modal-add-photo input[type=submit].delete:active, .modal-add-video input[type=submit].delete:active {
+.modal input[type=submit].delete:active, .modal-add-photo input[type=submit].delete:active, .modal-add-video input[type=submit].delete:active, .user-enter-window input[type=submit].delete:active {
   position: relative;
   top: 2px;
 }
@@ -3265,6 +3266,91 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 }
 .modal-add-photo .uploaded > div .options label.select .select-list select option, .modal-add-photo .uploaded > div .options label.select .select-list .bar .search input[type=text] option, .bar .search .modal-add-photo .uploaded > div .options label.select .select-list input[type=text] option, .modal-add-video .uploaded > div .options label.select .select-list select option, .modal-add-video .uploaded > div .options label.select .select-list .bar .search input[type=text] option, .bar .search .modal-add-video .uploaded > div .options label.select .select-list input[type=text] option {
   border: 0;
+}
+
+.user-enter-window {
+  width: 490px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 0;
+}
+.user-enter-window .main-window {
+  padding: 30px 85px 0 75px;
+}
+.user-enter-window .main-window h1 {
+  font-size: 26px;
+}
+.user-enter-window .main-window > label {
+  display: block;
+  font-weight: bold;
+  font-size: 15px;
+  color: #72838d;
+  margin: 15px 0 5px 0;
+  font-weight: normal;
+  margin: 0 0 10px 0;
+}
+.user-enter-window .main-window > label > span {
+  font-weight: normal;
+  float: left;
+}
+.user-enter-window .main-window > label input[type=text] {
+  margin: 5px 0 0 0;
+  width: 265px;
+  height: 35px;
+  float: right;
+}
+.user-enter-window .main-window .remember {
+  width: 265px;
+  float: right;
+  font-size: 12px;
+}
+.user-enter-window .main-window .remember > input {
+  float: left;
+}
+.user-enter-window .main-window .remember a, .user-enter-window .main-window .remember .breadcrumbs span, .breadcrumbs .user-enter-window .main-window .remember span {
+  float: right;
+}
+.user-enter-window .main-window input[type=submit] {
+  float: right;
+  padding: 15px 98px;
+  font-size: 24px;
+  margin: 20px 0 30px 0;
+}
+.user-enter-window .dashed {
+  height: 2px;
+  border-top: 1px dashed #f3f3f3;
+}
+.user-enter-window .sign-up-block {
+  padding: 28px 0;
+  text-align: center;
+  background-color: #f3f3f3;
+}
+.user-enter-window .sign-up-block > a, .user-enter-window .breadcrumbs .sign-up-block > span, .breadcrumbs .user-enter-window .sign-up-block > span {
+  font-size: 24px;
+  color: #db1c5d;
+  display: block;
+  margin: 12px 0 20px;
+}
+.user-enter-window .sign-up-block > span {
+  font-size: 19px;
+  color: #333;
+}
+.user-enter-window .sign-up-block .social-sign-up-block span {
+  font-size: 15px;
+  color: #333;
+  display: block;
+  margin: 0 0 10px 0;
+}
+.user-enter-window .sign-up-block .social-sign-up-block .social-sign-up-icons {
+  display: inline-block;
+}
+.user-enter-window .sign-up-block .social-sign-up-block .social-sign-up-icons a, .user-enter-window .sign-up-block .social-sign-up-block .social-sign-up-icons .breadcrumbs span, .breadcrumbs .user-enter-window .sign-up-block .social-sign-up-block .social-sign-up-icons span {
+  float: left;
+  margin: 0 15px 0 0;
+}
+.user-enter-window .sign-up-block .social-sign-up-block .social-sign-up-icons a.last, .user-enter-window .sign-up-block .social-sign-up-block .social-sign-up-icons .breadcrumbs span.last, .breadcrumbs .user-enter-window .sign-up-block .social-sign-up-block .social-sign-up-icons span.last {
+  margin: 0;
 }
 
 .modal-add-video .video-from {
