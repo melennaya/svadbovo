@@ -1,0 +1,13 @@
+.card .section .box .description strong {
+  font-weight: bold !important;
+}
+.card .section .box .description > p {
+  margin: 25px 0 10px 0;
+  font-size: 14px;
+}
+.card .section .box .description img {
+  float: left;
+}
+.card .section .box .description img.first {
+  margin: 0 10px 0 0;
+}

@@ -58,7 +58,7 @@
 		position: relative;
 		border: 1px solid #e8e8e8;
 		margin: 0 0 17px 0;
-		padding: 25px 22px 25px 15px;
+		padding: 25px 22px 20px 15px;
 		> a{
 			position: relative;
 			top: -5px;
@@ -74,88 +74,102 @@
 		> img{
 			margin: 0 25px 0 0;
 		}
-		.collection{
-			position: relative;
-			height: 300px;
-			.carousel {
-			position: absolute;
-			overflow: hidden;
-			min-width: 680px; 
-			min-height: 232px;
-			top: 10px;
-			left: 10px;
-			a {
+		.collection-block{
+			.collection{
+				margin: 10px 0 10px 0;
+				position: relative;
+			//height: 300px;
+			.carousel{
+				font-size: 0;
+				overflow: hidden;
+				a{
+					display: inline-block;
+					margin: 0 10px 0 0;
+					font-size: 16px;
+					>img{
+						width: 159px;
+						height: 228px;
+						@include box-sizing;
+					}
+				}
+			}
+			span {
+				display: block;
 				position: absolute;
-				display: inline-block;
-				border: $border #e0e0e0;
-				@include box-sizing;
-			    padding: 15px 0 0 0;
-				min-width: 157px;
-				min-height: 212px;
-			}
-		}
-		span {
-			display: block;
-			position: absolute;
-			width: 30px;
-			height: 52px;
-			cursor: pointer;
-			top: 100px;
-			&.carouselLeft {
-				@include background(left-an, 0);
-				&.active, &:hover {
-					@include background(left-ac, 0);
+				width: 30px;
+				height: 52px;
+				cursor: pointer;
+				top: 80px;
+				right: -10px;
+				&.carouselLeft {
+					@include background(left-an, 0);
+					&.active, &:hover {
+						@include background(left-ac, 0);
+					}
+				}
+				&.carouselRight {
+					@include background(right-an, 0);
+					right: -10px;
+					&.active, &:hover {
+						@include background(right-ac, 0);
+					}
 				}
 			}
-			&.carouselRight {
-				@include background(right-an, 0);
-				right: 0;
-				&.active, &:hover {
-					@include background(right-ac, 0);
-				}
-			}
-		}
 		}
 		.collection-footer{
-			position: absolute;
-			top: 310px;
-			width: 680px;
+			margin: 0 0 20px 0;
+			width: 666px;
 			.number{
 				float: right;
 			}
 		}
-		.rating{
-			@include rating;
-			margin: 0 30px 0 0;
-			a{
-				margin: 0;
+		.collection-block-footer{
+			text-align: center;
+			.show-collection{
+				color: #db1c5d; 
+				display: inline-block;
+				margin: 10px 0 0 0;
+				padding: 12px 45px;
+				text-decoration: none;
+				background-color: #fbfbfb;
+				border: 1px solid #d6d6d6;
+				@include border-radius(2px);
 			}
 		}
-		> a{
-			font-size: 23px;
-		}
-		> p{
-			margin: 15px 0;
-			font-size: 14px;
+	}
+
+	.rating{
+		@include rating;
+		margin: 0 0px 0 0;
+		a{
+			margin: 0;
 		}
 	}
-	> .articles{
-		padding: 50px 0 0 0;
-		h2{
-			font-size: 26px;
-			font-weight: normal;
-			color: #ac296a;
-			text-transform: uppercase;
-		}
-		p{
-			margin: 25px 0 0 0;
-			font-size: 14px;
-		}
-		h3{
-			margin: 45px 0 0 0;
-			font-size: 20px;
-		}
+	> a{
+		font-size: 23px;
 	}
+	> p{
+		margin: 15px 0;
+		font-size: 14px;
+	}
+}
+> .articles{
+	padding: 50px 0 0 0;
+	h2{
+		font-size: 26px;
+		font-weight: normal;
+		color: #ac296a;
+		text-transform: uppercase;
+	}
+	p{
+		margin: 25px 0 0 0;
+		font-size: 14px;
+	}
+	h3{
+		margin: 45px 0 0 0;
+		font-size: 20px;
+	}
+}
 }
 //sidebar-right
 .sidebar-right{
@@ -211,6 +225,7 @@
 			margin: 0 0 20px 0;
 			> span{
 				color: #333;
+				font-size: 14px;
 				display: block;
 				font-weight: bold;
 				margin: 0 0 10px 0;
@@ -227,6 +242,7 @@
 			}
 		}
 		> span{
+			font-size: 14px;
 			color: #333;
 			display: block;
 			font-weight: bold;
@@ -235,8 +251,32 @@
 			@include background(black-row-bottom, 0);
 			@include sprite-background-position($icons, black-row-bottom, 0, +3);
 		}
-		.checkboxes{
-			margin: 0 0 35px 0;
+		@for $i from 1 through 5 {
+			.checkboxes{
+				margin: 0 0 35px 0;
+				div{
+					label{
+						position: relative;
+						top: -2px;
+						line-height: 16px;
+						margin: 0 0 0 5px;
+						font-size: 12px;
+						color: #666;
+						&.color-#{$i} { 
+							padding: 0 0 0 15px;
+							@include background(color-#{$i}, 0);
+							@include sprite-background-position($icons, color-#{$i}, 0, +3);
+						}
+					}
+					> input{
+						&:checked{
+							+label{
+								color: #db1c5d;
+							}
+						}
+					}
+				}
+			}
 		}
 		.close{
 			@include background(black-row-left, 0);

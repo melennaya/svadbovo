@@ -1,5 +1,5 @@
 // modal
-	/* add-cal */
+/* add-cal */
 .mask {
 	position: fixed;
 	width: 100%;
@@ -59,7 +59,7 @@
 	}
 }
 
-.modal-add-photo, .modal-add-video {
+.modal-add-photo, .modal-add-video{
 	@extend .modal;
 	top: 10%;
 	width: 820px;
@@ -146,6 +146,191 @@
 							}
 						}
 					}
+				}
+			}
+		}
+	}
+}
+
+.user-enter-window{
+	@extend .modal;
+	width: 490px;
+	@include box-sizing;
+	padding: 0;
+	.main-window{
+		padding: 30px 85px 0 75px;
+		h1{
+			font-size: 26px;
+		}
+		> label {
+			@include label;
+			font-weight: normal;
+			margin: 0 0 10px 0;
+			> span{
+				font-weight: normal;
+				float: left;
+			}
+			input[type=text] {
+				margin: 5px 0 0 0;
+				width: 265px;
+				height: 35px;
+				float: right;
+			}
+		}
+		.remember{
+			width: 265px;
+			float: right;
+			font-size: 12px;
+			label{
+				margin: 1px 0 0;
+				display: inline-block;
+			}
+			>input{
+				float: left;
+			}
+			a{
+				float: right;
+			}
+		}
+		input[type=submit]{
+			float: right;
+			padding: 15px 98px;
+			font-size: 24px;
+			margin: 20px 0 30px 0;
+		}
+	}
+	.dashed{
+		height: 2px;
+		border-top: 1px dashed #f3f3f3;
+	}
+	.sign-up-block{
+		padding: 28px 0;
+		text-align: center;
+		background-color: #f3f3f3;
+		> a{
+			font-size: 24px;
+			color: #db1c5d;
+			display: block;
+			margin: 12px 0 20px;
+		}
+		>span{
+			font-size: 19px;
+			color: #333;
+		}
+		.social-sign-up-block{
+			span{
+				font-size: 15px;
+				color: #333;
+				display: block;
+				margin: 0 0 10px 0;
+			}
+			.social-sign-up-icons{
+				display: inline-block;
+				a{
+					float: left;
+					margin: 0 15px 0 0;
+					&.last{
+						margin: 0;
+					}
+				}
+			}
+		}
+	}
+}
+
+.user-sign-up-window{
+	@extend .modal;
+	width: 590px;
+	@include box-sizing;
+	padding: 0;
+	.main-window{
+		padding: 40px 58px 0 57px;
+		h1{
+			font-size: 26px;
+		}
+		> label {
+			padding: 13px 0px;
+			text-align: center;
+			width: 230px;
+			@include box-sizing;
+			background-color: #f7f7f7;
+			@include label;
+			@include border-radius(2px);
+			display: inline-block;
+			font-weight: normal;
+			margin: 0 0 10px 0;
+			font-size: 16px;
+			color: #333;
+			&.first{
+				margin: 0 10px 0 0;
+			}
+		}
+		.right-block{
+			margin: 30px 0 0 0;
+			position: relative;
+			float: right;
+			width: 385px;
+			.sign-up-image{
+				position: absolute;
+				left: -110px;
+				top: -10px;
+			}
+			p{
+				color: #db1c5d;
+				font-size: 16px;
+				margin: 0 0 40px 0;
+			}
+			input[type=submit]{
+				padding: 15px 35px;
+				text-align: center;
+				font-size: 24px;
+				margin: 30px 0 30px;
+			}
+			label{
+				span{
+					font-size: 20px;
+					color: #566b77;
+					font-weight: normal;
+				}
+				&.e-mail{
+					input{
+						height: 35px;
+						width: 295px;
+					}
+				}
+				&.key{
+					input{
+						height: 35px;
+						width: 140px;
+						float: left;
+						margin: 0 20px 0 0;
+						display: inline-block;
+					}
+				}
+			}
+		}
+	}
+	.dashed{
+		height: 2px;
+		border-top: 1px dashed #f3f3f3;
+	}
+	.sign-up-block{
+		padding: 28px 0;
+		text-align: center;
+		background-color: #f3f3f3;
+		>span{
+			font-size: 19px;
+			color: #333;
+			display: block;
+		}
+		.social-sign-up-icons{
+			display: inline-block;
+			margin: 10px 0 0 0;
+			a{
+				float: left;
+				margin: 0 15px 0 0;
+				&.last{
+					margin: 0;
 				}
 			}
 		}

@@ -1,0 +1,9 @@
+.search .categories {
+  border-top: none;
+}
+.search .filter {
+  display: inline-block;
+  float: right;
+  position: relative;
+  top: -60px;
+}

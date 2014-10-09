@@ -1,22 +1,23 @@
 /*
 Error: Undefined mixin 'background'.
-        on line 5 of C:/Users/kolochan/Dropbox/verstka/svadbovo/sass/firm_spec.scss, in `background'
-        from line 5 of C:/Users/kolochan/Dropbox/verstka/svadbovo/sass/firm_spec.scss
+        on line 7 of C:/Git/svadbovo/sass/firm_spec.scss, in `background'
+        from line 7 of C:/Git/svadbovo/sass/firm_spec.scss
 
-1: //content
 2: .content{
 3: 	.special-offers{
-4: 		&:before{
-5: 			@include background(background-element, 0);
-6: 			@include sprite-dimensions($icons, background-element);
-7: 			position:absolute;
-8: 			content: '';
-9: 			left: 140px;
-10: 			top: 45px;
+4: 	}
+5: 	.offers-50{
+6: 		&:before{
+7: 			@include background(offers-50, 0);
+8: 			@include sprite-dimensions($icons, offers-50);
+9: 			position: absolute;
+10: 			content: '';
+11: 			top: 10px;
+12: 			left: 10px;
 
 Backtrace:
-C:/Users/kolochan/Dropbox/verstka/svadbovo/sass/firm_spec.scss:5:in `background'
-C:/Users/kolochan/Dropbox/verstka/svadbovo/sass/firm_spec.scss:5
+C:/Git/svadbovo/sass/firm_spec.scss:7:in `background'
+C:/Git/svadbovo/sass/firm_spec.scss:7
 C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:338:in `block in visit_mixin'
 C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/stack.rb:115:in `with_frame'
@@ -91,4 +92,4 @@ C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'background'.\A         on line 5 of C:/Users/kolochan/Dropbox/verstka/svadbovo/sass/firm_spec.scss, in `background'\A         from line 5 of C:/Users/kolochan/Dropbox/verstka/svadbovo/sass/firm_spec.scss\A \A 1: //content\A 2: .content{\A 3: 	.special-offers{\A 4: 		&:before{\A 5: 			@include background(background-element, 0);\A 6: 			@include sprite-dimensions($icons, background-element);\A 7: 			position:absolute;\A 8: 			content: '';\A 9: 			left: 140px;\A 10: 			top: 45px;"; }
+  content: "Error: Undefined mixin 'background'.\A         on line 7 of C:/Git/svadbovo/sass/firm_spec.scss, in `background'\A         from line 7 of C:/Git/svadbovo/sass/firm_spec.scss\A \A 2: .content{\A 3: 	.special-offers{\A 4: 	}\A 5: 	.offers-50{\A 6: 		&:before{\A 7: 			@include background(offers-50, 0);\A 8: 			@include sprite-dimensions($icons, offers-50);\A 9: 			position: absolute;\A 10: 			content: '';\A 11: 			top: 10px;\A 12: 			left: 10px;"; }

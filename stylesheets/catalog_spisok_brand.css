@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin 'background'.
-        on line 21 of C:/Users/kolochan/Dropbox/verstka/svadbovo/sass/catalog_spisok_brand.scss, in `background'
-        from line 21 of C:/Users/kolochan/Dropbox/verstka/svadbovo/sass/catalog_spisok_brand.scss
+        on line 21 of C:/Git/svadbovo/sass/catalog_spisok_brand.scss, in `background'
+        from line 21 of C:/Git/svadbovo/sass/catalog_spisok_brand.scss
 
 16: 			margin: 0 20px 0 0;
 17: 		}
@@ -16,8 +16,8 @@ Error: Undefined mixin 'background'.
 26: 			left: 200px;
 
 Backtrace:
-C:/Users/kolochan/Dropbox/verstka/svadbovo/sass/catalog_spisok_brand.scss:21:in `background'
-C:/Users/kolochan/Dropbox/verstka/svadbovo/sass/catalog_spisok_brand.scss:21
+C:/Git/svadbovo/sass/catalog_spisok_brand.scss:21:in `background'
+C:/Git/svadbovo/sass/catalog_spisok_brand.scss:21
 C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:338:in `block in visit_mixin'
 C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/stack.rb:115:in `with_frame'
@@ -92,4 +92,4 @@ C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'background'.\A         on line 21 of C:/Users/kolochan/Dropbox/verstka/svadbovo/sass/catalog_spisok_brand.scss, in `background'\A         from line 21 of C:/Users/kolochan/Dropbox/verstka/svadbovo/sass/catalog_spisok_brand.scss\A \A 16: 			margin: 0 20px 0 0;\A 17: 		}\A 18: 	}\A 19: 	.brend{\A 20: 		&:before{\A 21: 			@include background(background-element, 0);\A 22: 			@include sprite-dimensions($icons, background-element);\A 23: 			position:absolute;\A 24: 			display: block;\A 25: 			content: '';\A 26: 			left: 200px;"; }
+  content: "Error: Undefined mixin 'background'.\A         on line 21 of C:/Git/svadbovo/sass/catalog_spisok_brand.scss, in `background'\A         from line 21 of C:/Git/svadbovo/sass/catalog_spisok_brand.scss\A \A 16: 			margin: 0 20px 0 0;\A 17: 		}\A 18: 	}\A 19: 	.brend{\A 20: 		&:before{\A 21: 			@include background(background-element, 0);\A 22: 			@include sprite-dimensions($icons, background-element);\A 23: 			position:absolute;\A 24: 			display: block;\A 25: 			content: '';\A 26: 			left: 200px;"; }

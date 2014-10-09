@@ -1,0 +1,113 @@
+.content{
+	border:none;
+	.bregistry-offices-block-top{
+		padding: 0 0 15px 0;
+		border-bottom: 1px solid #ccc;
+		p{
+			margin: 15px 0 0 0;
+			text-align: center;
+			font-size: 14px;
+		}
+	}
+	.registry-office-block{
+		border: 1px solid #e8e8e8;
+		padding: 20px 15px 5px 20px;
+		margin: 10px 0 0 0;
+		> a{
+			font-size: 23px;
+		}
+		.rating{
+			@include rating;
+			margin: 0;
+			a{
+				margin: 0;
+			}
+		}
+		> p{
+			margin: 10px 0;
+			font-size: 14px;
+		}
+		> img{
+			margin: 0 13px 0 0;
+			width: 218px;
+			height: 163px;
+			@include box-sizing;
+		}
+		.address{
+			margin: 10px 0 0 0;
+			> span{
+				margin: 0 0 10px 0;
+				display: block;
+				padding: 0 0 0 25px;
+				color: #333;
+				&.street{
+					font-size: 15px;
+					color: #ac296a;
+					@include background(nav, 0);
+					@include sprite-background-position($icons, nav, 0, 0);
+				}
+				&.phone{
+					font-weight: bold;
+					font-size: 13px;
+					@include background(phone, 0);
+					@include sprite-background-position($icons, phone, 0, 0);
+				}
+				&.time{
+					font-size: 13px;
+					@include background(clock, 0);
+					@include sprite-background-position($icons, clock, 0, 0);
+				}
+			}
+		}
+	}
+}
+
+.sidebar-right{
+	.new-articles-top{
+		width: 232px;
+		h2{
+			font-size: 26px;
+			color: #ac296a;
+			text-transform: uppercase;
+			font-weight: normal;
+			margin: 0 0 20px 0;
+			line-height: 26px;
+		}
+		.item{
+			width: 232px;
+			margin: 0 0 20px 0;
+			&:first-child{
+				margin: 0;
+			}
+			img {
+				width: 232px;
+				height: 138px;
+				@include box-sizing;
+				border: 1px solid #eee;
+				background-color: #fff;
+				padding: 4px;
+			}
+			> span {
+				display: block;
+				font-size: 10px;
+				color: #999;
+				margin: 10px 0 5px;
+				text-transform: uppercase;
+			}
+			a {
+				display: block;
+				margin: 0 0 5px 0;
+				font-size: 14px;
+			}
+			.counter {
+				.likes {
+					@include background(likes, 0);
+					@include sprite-background-position($icons, likes, 0, 3);
+					padding: 0 5px 0 15px;
+					color: #f07677;
+					font-size: 14px;
+				}
+			}
+		}
+	}
+}

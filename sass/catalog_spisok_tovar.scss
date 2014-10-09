@@ -1,14 +1,16 @@
 //content
 .content{
 	> .dress{
-		&:before{
-			@include background(background-element, 0);
-			@include sprite-dimensions($icons, background-element);
-			position:absolute;
-			display: block;
-			content: '';
-			left: 50px;
-			top: 45px;
+		span{
+			&:before{
+				@include background(background-element, 0);
+				@include sprite-dimensions($icons, background-element);
+				position:absolute;
+				display: block;
+				content: '';
+				left: 50px;
+				top: 25px;
+			}
 		}
 	}
 	> .tags{
