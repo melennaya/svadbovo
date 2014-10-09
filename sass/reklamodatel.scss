@@ -456,26 +456,26 @@
 	}
 	.foto-tovar {
 		position: relative;
-		width: 600px;
+		width: 460px;
 		min-height: 310px;
 		h3 {
 			@include label;
 		}
-		.carousel {
-			position: absolute;
-			overflow: hidden;
-			min-width: 510px; 
-			min-height: 232px;
-			top: 30px;
-			left: 45px;
-			a {
-				position: absolute;
-				display: inline-block;
-				border: $border #e0e0e0;
-				@include box-sizing;
-			    padding: 15px 0 0 0;
-				min-width: 157px;
-				min-height: 212px;
+		.caroufredsel_wrapper{
+			margin: 0 0 0 40px !important;
+			#carousel7{
+				font-size: 0;
+				overflow: hidden;
+				a{
+					display: inline-block;
+					margin: 0 10px 0 0;
+					font-size: 16px;
+					>img{
+						width: 131px;
+						height: 221px;
+						@include box-sizing;
+					}
+				}
 			}
 		}
 		span {
@@ -487,13 +487,14 @@
 			top: 100px;
 			&.carouselLeft {
 				@include background(left-an, 0);
+				left: 0;
 				&.active, &:hover {
 					@include background(left-ac, 0);
 				}
 			}
 			&.carouselRight {
 				@include background(right-an, 0);
-				right: 0;
+				right: -40px;
 				&.active, &:hover {
 					@include background(right-ac, 0);
 				}

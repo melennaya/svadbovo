@@ -10,7 +10,7 @@ $(document).ready(function() {
         $("input[name='delete").css('display', 'inline-block');
     });
     $(".modal input[name='cancel'], .mask, .close").click(function() {
-        $(".mask, .modal, .modal-add-photo, .modal-add-video, .modal-view-photo, .user-enter-window, .user-sign-up-window").fadeOut('fast');
+        $(".mask, .modal, .modal-add-photo, .modal-add-video, .modal-view-photo, .user-enter-window, .user-sign-up-window, .advertiser-sign-up-window").fadeOut('fast');
         $("input[name='delete']").css('display', 'none');
     });
 
@@ -21,9 +21,13 @@ $(document).ready(function() {
     $(".enter").click(function() {
         $(".mask, .user-enter-window").fadeIn('fast');
     });
-    $(".sign-up").click(function() {
+    /*$(".sign-up").click(function() {
         $(".mask, .user-sign-up-window").fadeIn('fast');
+    });*/
+    $(".sign-up").click(function() {
+        $(".mask, .advertiser-sign-up-window").fadeIn('fast');
     });
+    
 
     $(".video-from a").click(function() {
         $(this).attr('id', 'active').siblings().removeAttr('id');
@@ -47,9 +51,10 @@ $(document).ready(function() {
        }
        return false;
    });
+   // $("#carousel").clickCarousel({ margin: 18 });
 //carousels catalog_spisok_brand
 
-    for (var i = 1; i <= 6; i++) {
+    for (var i = 1; i <= 7; i++) {
         $('#carousel'+i).carouFredSel({
         items               : 4,
         direction           : "left",
@@ -68,6 +73,24 @@ $(document).ready(function() {
     };
 
 //end carousels
+  $('#carousel7').carouFredSel({
+        items               : 3,
+        direction           : "left",
+        prev: '#prev7',
+        next: '#next7',
+        auto: false,
+        height: 211,
+        width: 422,
+        scroll : {
+            items           : 1,
+            easing          : false,
+            duration        : 1000,                         
+            pauseOnHover    : true
+        }                   
+    });
+
+    
+
     $(".sliderkit").sliderkit({
         shownavitems: 8,
         circular: true,
