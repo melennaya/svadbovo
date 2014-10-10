@@ -7,7 +7,7 @@ $(document).ready(function() {
     });
     $(".cal table td.today, .cal table td.want-day").click(function() {
         $(".mask, .modal").fadeIn('fast');
-        $("input[name='delete").css('display', 'inline-block');
+        $("input[name='delete']").css('display', 'inline-block');
     });
     $(".modal input[name='cancel'], .mask, .close").click(function() {
         $(".mask, .modal, .modal-add-photo, .modal-add-video, .modal-view-photo, .user-enter-window, .user-sign-up-window, .advertiser-sign-up-window").fadeOut('fast');
