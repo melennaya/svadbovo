@@ -238,7 +238,7 @@
 	}
 }
 
-.user-sign-up-window{
+.user-sign-up-window, .advertiser-sign-up-window{
 	@extend .modal;
 	width: 590px;
 	@include box-sizing;
@@ -333,6 +333,42 @@
 					margin: 0;
 				}
 			}
+		}
+	}
+}
+.advertiser-sign-up-window{
+	.central-block{
+		label{
+			width: 220px;
+			@include label;
+			margin: 0;
+			&.company-name{
+				width: 100%;
+				span{
+					color: #566b77;
+					font-size: 20px;
+				}
+			}
+			span{
+				color: #576b77;
+				font-weight: normal;
+			}
+			&.user-name, &.user-specialty, &.user-phone{
+				float: left;
+			}
+			&.user-surname, &.user-city{
+				float: right;
+			}
+		}
+	}
+	.sign-up-block{
+		padding: 30px 0 70px;
+		text-align: center;
+		background-color: #f3f3f3;
+		.send-request{
+			margin: 0 0 25px;
+			font-size: 24px;
+			padding: 15px 49px 15px;
 		}
 	}
 }
