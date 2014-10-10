@@ -23,6 +23,7 @@ $(document).ready(function() {
 	});
 	/*$(".sign-up").click(function() {
 		$(".mask, .user-sign-up-window").fadeIn('fast');
+		
 	});*/
 	$(".sign-up").click(function() {
 		$(".mask, .advertiser-sign-up-window").fadeIn('fast');
