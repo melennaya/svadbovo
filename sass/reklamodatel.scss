@@ -462,17 +462,18 @@
 			@include label;
 		}
 		.caroufredsel_wrapper{
-			margin: 0 0 0 40px !important;
+			margin: 0 0 0 45px !important;
 			#carousel7{
 				font-size: 0;
 				overflow: hidden;
 				a{
 					display: inline-block;
-					margin: 0 10px 0 0;
+					margin: 0 20px 0 0;
 					font-size: 16px;
 					>img{
-						width: 131px;
-						height: 221px;
+						border: 1px solid #dddddd;
+						width: 159px;
+						height: 228px;
 						@include box-sizing;
 					}
 				}
@@ -494,7 +495,7 @@
 			}
 			&.carouselRight {
 				@include background(right-an, 0);
-				right: -40px;
+				right: -145px;
 				&.active, &:hover {
 					@include background(right-ac, 0);
 				}

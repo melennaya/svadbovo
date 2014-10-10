@@ -147,6 +147,13 @@
 						@include background(black-row-bottom, 0);
 						@include sprite-background-position($icons, black-row-bottom, 0, +3);
 					}
+					.close{
+						@include background(black-row-left, 0);
+						@include sprite-background-position($icons, black-row-left);
+						+.checkboxes{
+							display: none;
+						}
+					}
 				}
 			}
 			.tabs2{

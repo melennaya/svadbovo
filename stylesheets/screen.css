@@ -2136,7 +2136,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   margin: 15px 0 5px 0;
 }
 .tovar-uslug .foto-tovar .caroufredsel_wrapper {
-  margin: 0 0 0 40px !important;
+  margin: 0 0 0 45px !important;
 }
 .tovar-uslug .foto-tovar .caroufredsel_wrapper #carousel7 {
   font-size: 0;
@@ -2144,12 +2144,13 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 }
 .tovar-uslug .foto-tovar .caroufredsel_wrapper #carousel7 a, .tovar-uslug .foto-tovar .caroufredsel_wrapper #carousel7 .breadcrumbs span, .breadcrumbs .tovar-uslug .foto-tovar .caroufredsel_wrapper #carousel7 span {
   display: inline-block;
-  margin: 0 10px 0 0;
+  margin: 0 20px 0 0;
   font-size: 16px;
 }
 .tovar-uslug .foto-tovar .caroufredsel_wrapper #carousel7 a > img, .tovar-uslug .foto-tovar .caroufredsel_wrapper #carousel7 .breadcrumbs span > img, .breadcrumbs .tovar-uslug .foto-tovar .caroufredsel_wrapper #carousel7 span > img {
-  width: 131px;
-  height: 221px;
+  border: 1px solid #dddddd;
+  width: 159px;
+  height: 228px;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -2177,7 +2178,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   background-image: url('../images/icons-sc3bc4ff168.png');
   background-repeat: no-repeat;
   background-position: 0 -12056px;
-  right: -40px;
+  right: -145px;
 }
 .tovar-uslug .foto-tovar span.carouselRight.active, .tovar-uslug .foto-tovar span.carouselRight:hover {
   background-image: url('../images/icons-sc3bc4ff168.png');
@@ -4957,17 +4958,6 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 .sidebar-right form .form-header {
   margin: 0 0 20px 0;
 }
-.sidebar-right form .form-header > span {
-  color: #333;
-  font-size: 14px;
-  display: block;
-  font-weight: bold;
-  margin: 0 0 10px 0;
-}
-.sidebar-right form .form-header > span span {
-  color: #666;
-  font-weight: normal;
-}
 .sidebar-right form .form-header input[type="text"] {
   width: 65px;
   padding: 10px;
@@ -4975,129 +4965,6 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
-}
-.sidebar-right form > span {
-  font-size: 14px;
-  color: #333;
-  display: block;
-  font-weight: bold;
-  margin: 0px 0 10px 0;
-  padding: 0 0 0 15px;
-  background-image: url('../images/icons-sc3bc4ff168.png');
-  background-repeat: no-repeat;
-  background-position: 0 -568px;
-  background-position: 0 -565px;
-}
-.sidebar-right form .checkboxes {
-  margin: 0 0 35px 0;
-}
-.sidebar-right form .checkboxes div label {
-  position: relative;
-  top: -2px;
-  line-height: 16px;
-  margin: 0 0 0 5px;
-  font-size: 12px;
-  color: #666;
-}
-.sidebar-right form .checkboxes div label.color-1 {
-  padding: 0 0 0 15px;
-  background-image: url('../images/icons-sc3bc4ff168.png');
-  background-repeat: no-repeat;
-  background-position: 0 -1579px;
-  background-position: 0 -1576px;
-}
-.sidebar-right form .checkboxes div > input:checked + label {
-  color: #db1c5d;
-}
-.sidebar-right form .checkboxes {
-  margin: 0 0 35px 0;
-}
-.sidebar-right form .checkboxes div label {
-  position: relative;
-  top: -2px;
-  line-height: 16px;
-  margin: 0 0 0 5px;
-  font-size: 12px;
-  color: #666;
-}
-.sidebar-right form .checkboxes div label.color-2 {
-  padding: 0 0 0 15px;
-  background-image: url('../images/icons-sc3bc4ff168.png');
-  background-repeat: no-repeat;
-  background-position: 0 -1687px;
-  background-position: 0 -1684px;
-}
-.sidebar-right form .checkboxes div > input:checked + label {
-  color: #db1c5d;
-}
-.sidebar-right form .checkboxes {
-  margin: 0 0 35px 0;
-}
-.sidebar-right form .checkboxes div label {
-  position: relative;
-  top: -2px;
-  line-height: 16px;
-  margin: 0 0 0 5px;
-  font-size: 12px;
-  color: #666;
-}
-.sidebar-right form .checkboxes div label.color-3 {
-  padding: 0 0 0 15px;
-  background-image: url('../images/icons-sc3bc4ff168.png');
-  background-repeat: no-repeat;
-  background-position: 0 -1795px;
-  background-position: 0 -1792px;
-}
-.sidebar-right form .checkboxes div > input:checked + label {
-  color: #db1c5d;
-}
-.sidebar-right form .checkboxes {
-  margin: 0 0 35px 0;
-}
-.sidebar-right form .checkboxes div label {
-  position: relative;
-  top: -2px;
-  line-height: 16px;
-  margin: 0 0 0 5px;
-  font-size: 12px;
-  color: #666;
-}
-.sidebar-right form .checkboxes div label.color-4 {
-  padding: 0 0 0 15px;
-  background-image: url('../images/icons-sc3bc4ff168.png');
-  background-repeat: no-repeat;
-  background-position: 0 -1903px;
-  background-position: 0 -1900px;
-}
-.sidebar-right form .checkboxes div > input:checked + label {
-  color: #db1c5d;
-}
-.sidebar-right form .checkboxes {
-  margin: 0 0 35px 0;
-}
-.sidebar-right form .checkboxes div label {
-  position: relative;
-  top: -2px;
-  line-height: 16px;
-  margin: 0 0 0 5px;
-  font-size: 12px;
-  color: #666;
-}
-.sidebar-right form .checkboxes div label.color-5 {
-  padding: 0 0 0 15px;
-  background-image: url('../images/icons-sc3bc4ff168.png');
-  background-repeat: no-repeat;
-  background-position: 0 -2011px;
-  background-position: 0 -2008px;
-}
-.sidebar-right form .checkboxes div > input:checked + label {
-  color: #db1c5d;
-}
-.sidebar-right form .close {
-  background-image: url('../images/icons-sc3bc4ff168.png');
-  background-repeat: no-repeat;
-  background-position: 0 -679px;
-  background-position: 0 -679px;
 }
 .sidebar-right form .form-footer {
   margin: 20px 0 0 0;
@@ -5318,6 +5185,15 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   background-repeat: no-repeat;
   background-position: 0 -568px;
   background-position: 0 -565px;
+}
+.sidebar-right form .section2 .box2.visible .close {
+  background-image: url('../images/icons-sc3bc4ff168.png');
+  background-repeat: no-repeat;
+  background-position: 0 -679px;
+  background-position: 0 -679px;
+}
+.sidebar-right form .section2 .box2.visible .close + .checkboxes {
+  display: none;
 }
 .sidebar-right form .section2 .tabs2 .new, .sidebar-right form .section2 .tabs2 .used {
   float: left;
@@ -5969,6 +5845,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   float: right;
   margin: 0 0 40px 0;
 }
+.card .section .box .options #filter {
+  margin: 30px 0 20px 25px;
+}
 .card .section .box .options .options-up {
   width: 140px;
   display: block;
@@ -6043,23 +5922,31 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   right: 10px;
   top: 10px;
 }
-.card .section .box .options form {
-  margin: 30px 0 20px 25px;
+.card .section .box .advertisement {
+  float: left;
+  margin: 0 0 0 20px;
 }
-.card .section .box .options form .form-header {
+.card .section .long-categories .categories {
+  width: 100%;
+}
+
+#filter {
+  margin: 30px 0 20px 0px;
+}
+#filter .form-header {
   margin: 0 0 20px 0;
 }
-.card .section .box .options form .form-header > span {
+#filter .form-header > span {
   color: #333;
   display: block;
   font-weight: bold;
   margin: 0 0 10px 0;
 }
-.card .section .box .options form .form-header > span span {
+#filter .form-header > span span {
   color: #666;
   font-weight: normal;
 }
-.card .section .box .options form .form-header input[type="text"] {
+#filter .form-header input[type="text"] {
   width: 65px;
   padding: 10px;
   border: 1px solid #e8e8e8;
@@ -6067,7 +5954,44 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
-.card .section .box .options form > span {
+#filter .section2 .box2 {
+  display: none;
+}
+#filter .section2 .box2.visible {
+  display: block;
+}
+#filter .section2 .box2.visible .add-dress {
+  margin: 20px 0 25px 0;
+  display: block;
+  padding: 0 0 0 20px;
+  background-image: url('../images/icons-sc3bc4ff168.png');
+  background-repeat: no-repeat;
+  background-position: 0 -8834px;
+  font-weight: bold;
+}
+#filter .section2 .box2.visible .form-header {
+  margin: 0 0 20px 0;
+}
+#filter .section2 .box2.visible .form-header > span {
+  color: #333;
+  display: block;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+#filter .section2 .box2.visible .form-header > span span {
+  color: #666;
+  font-weight: normal;
+}
+#filter .section2 .box2.visible .form-header input[type="text"] {
+  width: 65px;
+  padding: 10px;
+  border: 1px solid #e8e8e8;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+#filter .section2 .box2.visible > span {
+  font-size: 14px;
   color: #333;
   display: block;
   font-weight: bold;
@@ -6078,133 +6002,20 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   background-position: 0 -568px;
   background-position: 0 -565px;
 }
-.card .section .box .options form .checkboxes {
-  margin: 0 0 35px 0;
+#filter .section2 .box2.visible > span:hover {
+  cursor: pointer;
 }
-.card .section .box .options form .checkboxes div label {
-  position: relative;
-  top: -2px;
-  line-height: 16px;
-  margin: 0 0 0 5px;
-  font-size: 12px;
-  color: #666;
-}
-.card .section .box .options form .checkboxes div label.color-1 {
-  padding: 0 0 0 15px;
-  background-image: url('../images/icons-sc3bc4ff168.png');
-  background-repeat: no-repeat;
-  background-position: 0 -1579px;
-  background-position: 0 -1576px;
-}
-.card .section .box .options form .checkboxes div > input:checked + label {
-  color: #db1c5d;
-}
-.card .section .box .options form .checkboxes {
-  margin: 0 0 35px 0;
-}
-.card .section .box .options form .checkboxes div label {
-  position: relative;
-  top: -2px;
-  line-height: 16px;
-  margin: 0 0 0 5px;
-  font-size: 12px;
-  color: #666;
-}
-.card .section .box .options form .checkboxes div label.color-2 {
-  padding: 0 0 0 15px;
-  background-image: url('../images/icons-sc3bc4ff168.png');
-  background-repeat: no-repeat;
-  background-position: 0 -1687px;
-  background-position: 0 -1684px;
-}
-.card .section .box .options form .checkboxes div > input:checked + label {
-  color: #db1c5d;
-}
-.card .section .box .options form .checkboxes {
-  margin: 0 0 35px 0;
-}
-.card .section .box .options form .checkboxes div label {
-  position: relative;
-  top: -2px;
-  line-height: 16px;
-  margin: 0 0 0 5px;
-  font-size: 12px;
-  color: #666;
-}
-.card .section .box .options form .checkboxes div label.color-3 {
-  padding: 0 0 0 15px;
-  background-image: url('../images/icons-sc3bc4ff168.png');
-  background-repeat: no-repeat;
-  background-position: 0 -1795px;
-  background-position: 0 -1792px;
-}
-.card .section .box .options form .checkboxes div > input:checked + label {
-  color: #db1c5d;
-}
-.card .section .box .options form .checkboxes {
-  margin: 0 0 35px 0;
-}
-.card .section .box .options form .checkboxes div label {
-  position: relative;
-  top: -2px;
-  line-height: 16px;
-  margin: 0 0 0 5px;
-  font-size: 12px;
-  color: #666;
-}
-.card .section .box .options form .checkboxes div label.color-4 {
-  padding: 0 0 0 15px;
-  background-image: url('../images/icons-sc3bc4ff168.png');
-  background-repeat: no-repeat;
-  background-position: 0 -1903px;
-  background-position: 0 -1900px;
-}
-.card .section .box .options form .checkboxes div > input:checked + label {
-  color: #db1c5d;
-}
-.card .section .box .options form .checkboxes {
-  margin: 0 0 35px 0;
-}
-.card .section .box .options form .checkboxes div label {
-  position: relative;
-  top: -2px;
-  line-height: 16px;
-  margin: 0 0 0 5px;
-  font-size: 12px;
-  color: #666;
-}
-.card .section .box .options form .checkboxes div label.color-5 {
-  padding: 0 0 0 15px;
-  background-image: url('../images/icons-sc3bc4ff168.png');
-  background-repeat: no-repeat;
-  background-position: 0 -2011px;
-  background-position: 0 -2008px;
-}
-.card .section .box .options form .checkboxes div > input:checked + label {
-  color: #db1c5d;
-}
-.card .section .box .options form .checkboxes {
-  margin: 0 0 35px 0;
-}
-.card .section .box .options form .close {
+#filter .section2 .box2.visible .close {
   background-image: url('../images/icons-sc3bc4ff168.png');
   background-repeat: no-repeat;
   background-position: 0 -679px;
   background-position: 0 -679px;
 }
-.card .section .box .options form .form-footer {
-  margin: 20px 0 0 0;
+#filter .section2 .box2.visible .close + .checkboxes {
+  display: none;
 }
-.card .section .box .options form .form-footer input[type="submit"] {
-  padding: 7px 10px;
-  font-size: 14px;
-  color: #333;
-}
-.card .section .box .options form .form-footer a, .card .section .box .options form .form-footer .breadcrumbs span, .breadcrumbs .card .section .box .options form .form-footer span {
-  font-size: 12px;
-  margin: 0 0 0 10px;
-}
-.card .section .box .options form .new {
+#filter .section2 .tabs2 .new, #filter .section2 .tabs2 .used {
+  float: left;
   text-decoration: none;
   font-size: 14px;
   color: #666;
@@ -6219,7 +6030,172 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   -webkit-border-bottom-left-radius: 2px;
   border-bottom-left-radius: 2px;
 }
-.card .section .box .options form .used {
+#filter .section2 .tabs2:hover {
+  cursor: pointer;
+}
+#filter .section2 .tabs2 .current2 {
+  background-color: #e3e3e3;
+}
+#filter > span {
+  font-size: 14px;
+  color: #333;
+  display: block;
+  font-weight: bold;
+  margin: 0px 0 10px 0;
+  padding: 0 0 0 15px;
+  background-image: url('../images/icons-sc3bc4ff168.png');
+  background-repeat: no-repeat;
+  background-position: 0 -568px;
+  background-position: 0 -565px;
+}
+#filter > span:hover {
+  cursor: pointer;
+}
+#filter .checkboxes {
+  margin: 0 0 35px 0;
+}
+#filter .checkboxes div label {
+  position: relative;
+  top: -2px;
+  line-height: 16px;
+  margin: 0 0 0 5px;
+  font-size: 12px;
+  color: #666;
+}
+#filter .checkboxes div label.color-1 {
+  padding: 0 0 0 15px;
+  background-image: url('../images/icons-sc3bc4ff168.png');
+  background-repeat: no-repeat;
+  background-position: 0 -1579px;
+  background-position: 0 -1576px;
+}
+#filter .checkboxes div > input:checked + label {
+  color: #db1c5d;
+}
+#filter .checkboxes {
+  margin: 0 0 35px 0;
+}
+#filter .checkboxes div label {
+  position: relative;
+  top: -2px;
+  line-height: 16px;
+  margin: 0 0 0 5px;
+  font-size: 12px;
+  color: #666;
+}
+#filter .checkboxes div label.color-2 {
+  padding: 0 0 0 15px;
+  background-image: url('../images/icons-sc3bc4ff168.png');
+  background-repeat: no-repeat;
+  background-position: 0 -1687px;
+  background-position: 0 -1684px;
+}
+#filter .checkboxes div > input:checked + label {
+  color: #db1c5d;
+}
+#filter .checkboxes {
+  margin: 0 0 35px 0;
+}
+#filter .checkboxes div label {
+  position: relative;
+  top: -2px;
+  line-height: 16px;
+  margin: 0 0 0 5px;
+  font-size: 12px;
+  color: #666;
+}
+#filter .checkboxes div label.color-3 {
+  padding: 0 0 0 15px;
+  background-image: url('../images/icons-sc3bc4ff168.png');
+  background-repeat: no-repeat;
+  background-position: 0 -1795px;
+  background-position: 0 -1792px;
+}
+#filter .checkboxes div > input:checked + label {
+  color: #db1c5d;
+}
+#filter .checkboxes {
+  margin: 0 0 35px 0;
+}
+#filter .checkboxes div label {
+  position: relative;
+  top: -2px;
+  line-height: 16px;
+  margin: 0 0 0 5px;
+  font-size: 12px;
+  color: #666;
+}
+#filter .checkboxes div label.color-4 {
+  padding: 0 0 0 15px;
+  background-image: url('../images/icons-sc3bc4ff168.png');
+  background-repeat: no-repeat;
+  background-position: 0 -1903px;
+  background-position: 0 -1900px;
+}
+#filter .checkboxes div > input:checked + label {
+  color: #db1c5d;
+}
+#filter .checkboxes {
+  margin: 0 0 35px 0;
+}
+#filter .checkboxes div label {
+  position: relative;
+  top: -2px;
+  line-height: 16px;
+  margin: 0 0 0 5px;
+  font-size: 12px;
+  color: #666;
+}
+#filter .checkboxes div label.color-5 {
+  padding: 0 0 0 15px;
+  background-image: url('../images/icons-sc3bc4ff168.png');
+  background-repeat: no-repeat;
+  background-position: 0 -2011px;
+  background-position: 0 -2008px;
+}
+#filter .checkboxes div > input:checked + label {
+  color: #db1c5d;
+}
+#filter .checkboxes {
+  margin: 0 0 35px 0;
+}
+#filter .close {
+  background-image: url('../images/icons-sc3bc4ff168.png');
+  background-repeat: no-repeat;
+  background-position: 0 -679px;
+  background-position: 0 -679px;
+}
+#filter .close + .checkboxes {
+  display: none;
+}
+#filter .form-footer {
+  margin: 20px 0 0 0;
+}
+#filter .form-footer input[type="submit"] {
+  padding: 7px 10px;
+  font-size: 14px;
+  color: #333;
+}
+#filter .form-footer a, #filter .form-footer .breadcrumbs span, .breadcrumbs #filter .form-footer span {
+  font-size: 12px;
+  margin: 0 0 0 10px;
+}
+#filter .new {
+  text-decoration: none;
+  font-size: 14px;
+  color: #666;
+  border: 1px solid #d6d6d6;
+  display: inline-block;
+  background-color: #fdfdfd;
+  padding: 10px 20px;
+  -moz-border-radius-topleft: 2px;
+  -webkit-border-top-left-radius: 2px;
+  border-top-left-radius: 2px;
+  -moz-border-radius-bottomleft: 2px;
+  -webkit-border-bottom-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+#filter .used {
   text-decoration: none;
   font-size: 14px;
   color: #666;
@@ -6234,7 +6210,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   -webkit-border-bottom-right-radius: 2px;
   border-bottom-right-radius: 2px;
 }
-.card .section .box .options form .add-dress {
+#filter .add-dress {
   margin: 20px 0 25px 0;
   display: block;
   padding: 0 0 0 20px;
@@ -6242,13 +6218,6 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   background-repeat: no-repeat;
   background-position: 0 -8834px;
   font-weight: bold;
-}
-.card .section .box .advertisement {
-  float: left;
-  margin: 0 0 0 20px;
-}
-.card .section .long-categories .categories {
-  width: 100%;
 }
 
 .registry-office-card > .breadcrumbs {

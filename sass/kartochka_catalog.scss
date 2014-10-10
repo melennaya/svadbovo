@@ -398,6 +398,9 @@
 				width: 235px;
 				float: right;
 				margin: 0 0 40px 0;
+				#filter{
+					margin: 30px 0 20px 25px;
+				}
 				.options-up{
 					width: 140px;
 					display: block;
@@ -456,112 +459,7 @@
 						top: 10px;
 					}
 				}
-				form{
-					margin: 30px 0 20px 25px;
-					.form-header{
-						margin: 0 0 20px 0;
-						> span{
-							color: #333;
-							display: block;
-							font-weight: bold;
-							margin: 0 0 10px 0;
-							span{
-								color: #666;
-								font-weight: normal;
-							}
-						}
-						input[type="text"]{
-							width: 65px;
-							padding: 10px;
-							border: 1px solid #e8e8e8;
-							@include border-radius(3px);
-						}
-					}
-					> span{
-						color: #333;
-						display: block;
-						font-weight: bold;
-						margin: 0px 0 10px 0;
-						padding: 0 0 0 15px;
-						@include background(black-row-bottom, 0);
-						@include sprite-background-position($icons, black-row-bottom, 0, +3);
-					}
-					@for $i from 1 through 5 {
-						.checkboxes{
-							margin: 0 0 35px 0;
-							div{
-								label{
-									position: relative;
-									top: -2px;
-									line-height: 16px;
-									margin: 0 0 0 5px;
-									font-size: 12px;
-									color: #666;
-									&.color-#{$i} { 
-										padding: 0 0 0 15px;
-										@include background(color-#{$i}, 0);
-										@include sprite-background-position($icons, color-#{$i}, 0, +3);
-									}
-								}
-								> input{
-									&:checked{
-										+label{
-											color: #db1c5d;
-										}
-									}
-								}
-							}
-						}
-					}
-					.checkboxes{
-						margin: 0 0 35px 0;
-					}
-					.close{
-						@include background(black-row-left, 0);
-						@include sprite-background-position($icons, black-row-left);
-					}
-					.form-footer{
-						margin: 20px 0 0 0;
-						input[type="submit"]{
-							padding: 7px 10px;
-							font-size: 14px;
-							color: #333;
-						}
-						a{
-							font-size: 12px;
-							margin: 0 0 0 10px;
-						}
-					}
-					.new{
-						text-decoration: none;
-						font-size: 14px;
-						color: #666;
-						border: 1px solid #d6d6d6;
-						display: inline-block;
-						background-color: #fdfdfd;
-						padding: 10px 20px;
-						@include border-top-left-radius(2px);
-						@include border-bottom-left-radius(2px);
-					}
-					.used{
-						text-decoration: none;
-						font-size: 14px;
-						color: #666;
-						border: 1px solid #c6c6c6;
-						display: inline-block;
-						background-color: #e3e3e3;
-						padding: 10px 20px;
-						@include border-top-right-radius(2px);
-						@include border-bottom-right-radius(2px);
-					}
-					.add-dress{
-						margin: 20px 0 25px 0;
-						display: block;
-						padding: 0 0 0 20px;
-						@include background(plus-blue, 0);
-						font-weight: bold;
-					}
-				}
+				
 			}
 			.advertisement{
 				float: left;
@@ -573,5 +471,194 @@
 				width: 100%;
 			}
 		}
+	}
+}
+#filter{
+	margin: 30px 0 20px 0px;
+	.form-header{
+		margin: 0 0 20px 0;
+		> span{
+			color: #333;
+			display: block;
+			font-weight: bold;
+			margin: 0 0 10px 0;
+			span{
+				color: #666;
+				font-weight: normal;
+			}
+		}
+		input[type="text"]{
+			width: 65px;
+			padding: 10px;
+			border: 1px solid #e8e8e8;
+			@include border-radius(3px);
+		}
+	}
+	.section2{
+		.box2{
+			display: none;
+			&.visible{
+				display: block;
+
+				.add-dress{
+					margin: 20px 0 25px 0;
+					display: block;
+					padding: 0 0 0 20px;
+					@include background(plus-blue, 0);
+					font-weight: bold;
+				}
+				.form-header{
+					margin: 0 0 20px 0;
+					> span{
+						color: #333;
+						display: block;
+						font-weight: bold;
+						margin: 0 0 10px 0;
+						span{
+							color: #666;
+							font-weight: normal;
+						}
+					}
+					input[type="text"]{
+						width: 65px;
+						padding: 10px;
+						border: 1px solid #e8e8e8;
+						@include border-radius(3px);
+					}
+				}
+				> span{
+					font-size: 14px;
+					color: #333;
+					display: block;
+					font-weight: bold;
+					margin: 0px 0 10px 0;
+					padding: 0 0 0 15px;
+					@include background(black-row-bottom, 0);
+					@include sprite-background-position($icons, black-row-bottom, 0, +3);
+					&:hover{
+						cursor: pointer;
+					}
+				}
+				.close{
+					@include background(black-row-left, 0);
+					@include sprite-background-position($icons, black-row-left);
+					+.checkboxes{
+						display: none;
+					}
+				}
+			}
+		}
+		.tabs2{
+			.new, .used{
+				float: left;
+				text-decoration: none;
+				font-size: 14px;
+				color: #666;
+				border: 1px solid #d6d6d6;
+				display: inline-block;
+				background-color: #fdfdfd;
+				padding: 10px 20px;
+				@include border-top-left-radius(2px);
+				@include border-bottom-left-radius(2px);
+			}
+			&:hover{
+				cursor: pointer;
+			}
+			.current2{
+				background-color: #e3e3e3;
+			}
+		}
+	}
+	> span{
+		font-size: 14px;
+		color: #333;
+		display: block;
+		font-weight: bold;
+		margin: 0px 0 10px 0;
+		padding: 0 0 0 15px;
+		@include background(black-row-bottom, 0);
+		@include sprite-background-position($icons, black-row-bottom, 0, +3);
+		&:hover{
+			cursor: pointer;
+		}
+	}
+
+	@for $i from 1 through 5 {
+		.checkboxes{
+			margin: 0 0 35px 0;
+			div{
+				label{
+					position: relative;
+					top: -2px;
+					line-height: 16px;
+					margin: 0 0 0 5px;
+					font-size: 12px;
+					color: #666;
+					&.color-#{$i} { 
+						padding: 0 0 0 15px;
+						@include background(color-#{$i}, 0);
+						@include sprite-background-position($icons, color-#{$i}, 0, +3);
+					}
+				}
+				> input{
+					&:checked{
+						+label{
+							color: #db1c5d;
+						}
+					}
+				}
+			}
+		}
+	}
+	.checkboxes{
+		margin: 0 0 35px 0;
+	}
+	.close{
+		@include background(black-row-left, 0);
+		@include sprite-background-position($icons, black-row-left);
+		+.checkboxes{
+			display: none;
+		}
+	}
+	.form-footer{
+		margin: 20px 0 0 0;
+		input[type="submit"]{
+			padding: 7px 10px;
+			font-size: 14px;
+			color: #333;
+		}
+		a{
+			font-size: 12px;
+			margin: 0 0 0 10px;
+		}
+	}
+	.new{
+		text-decoration: none;
+		font-size: 14px;
+		color: #666;
+		border: 1px solid #d6d6d6;
+		display: inline-block;
+		background-color: #fdfdfd;
+		padding: 10px 20px;
+		@include border-top-left-radius(2px);
+		@include border-bottom-left-radius(2px);
+	}
+	.used{
+		text-decoration: none;
+		font-size: 14px;
+		color: #666;
+		border: 1px solid #c6c6c6;
+		display: inline-block;
+		background-color: #e3e3e3;
+		padding: 10px 20px;
+		@include border-top-right-radius(2px);
+		@include border-bottom-right-radius(2px);
+	}
+	.add-dress{
+		margin: 20px 0 25px 0;
+		display: block;
+		padding: 0 0 0 20px;
+		@include background(plus-blue, 0);
+		font-weight: bold;
 	}
 }
