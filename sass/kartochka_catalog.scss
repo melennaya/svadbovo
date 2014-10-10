@@ -612,6 +612,28 @@
 	}
 	.checkboxes{
 		margin: 0 0 35px 0;
+		div{
+			input[type=checkbox]{
+				position: relative;
+				visibility: hidden;
+				+ label{
+					&:before {
+						content: "";
+						position: absolute;
+						top: 0px;
+						left: -22px;
+						@include background(null-check, 0);
+						@include sprite-dimensions($icons, null-check);
+					}
+				}
+				&:checked{
+					+ label:before{
+						@include background(check, 0);
+						@include sprite-dimensions($icons, check);
+					}
+				}
+			}
+		}
 	}
 	.close{
 		@include background(black-row-left, 0);
