@@ -162,41 +162,43 @@
 		h1{
 			font-size: 26px;
 		}
-		> label {
-			@include label;
-			font-weight: normal;
-			margin: 0 0 10px 0;
-			> span{
+		form{
+			> label {
+				@include label;
 				font-weight: normal;
-				float: left;
+				margin: 0 0 10px 0;
+				> span{
+					font-weight: normal;
+					float: left;
+				}
+				input[type=text] {
+					margin: 5px 0 0 0;
+					width: 265px;
+					height: 35px;
+					float: right;
+				}
 			}
-			input[type=text] {
-				margin: 5px 0 0 0;
+			.remember{
 				width: 265px;
-				height: 35px;
 				float: right;
+				font-size: 12px;
+				label{
+					margin: 1px 0 0;
+					display: inline-block;
+				}
+				>input{
+					float: left;
+				}
+				a{
+					float: right;
+				}
 			}
-		}
-		.remember{
-			width: 265px;
-			float: right;
-			font-size: 12px;
-			label{
-				margin: 1px 0 0;
-				display: inline-block;
-			}
-			>input{
-				float: left;
-			}
-			a{
+			input[type=submit]{
 				float: right;
+				padding: 15px 98px;
+				font-size: 24px;
+				margin: 20px 0 30px 0;
 			}
-		}
-		input[type=submit]{
-			float: right;
-			padding: 15px 98px;
-			font-size: 24px;
-			margin: 20px 0 30px 0;
 		}
 	}
 	.dashed{
@@ -248,7 +250,7 @@
 		h1{
 			font-size: 26px;
 		}
-		> label {
+		label {
 			padding: 13px 0px;
 			text-align: center;
 			width: 230px;
@@ -265,110 +267,151 @@
 				margin: 0 10px 0 0;
 			}
 		}
-		.right-block{
-			margin: 30px 0 0 0;
-			position: relative;
-			float: right;
-			width: 385px;
-			.sign-up-image{
-				position: absolute;
-				left: -110px;
-				top: -10px;
-			}
-			p{
-				color: #db1c5d;
-				font-size: 16px;
-				margin: 0 0 40px 0;
-			}
-			input[type=submit]{
-				padding: 15px 35px;
-				text-align: center;
-				font-size: 24px;
-				margin: 30px 0 30px;
-			}
-			label{
-				span{
-					font-size: 20px;
-					color: #566b77;
-					font-weight: normal;
-				}
-				&.e-mail{
-					input{
-						height: 35px;
-						width: 295px;
-					}
-				}
-				&.key{
-					input{
-						height: 35px;
-						width: 140px;
-						float: left;
-						margin: 0 20px 0 0;
-						display: inline-block;
-					}
-				}
-			}
-		}
 	}
-	.dashed{
-		height: 2px;
-		border-top: 1px dashed #f3f3f3;
-	}
-	.sign-up-block{
-		padding: 28px 0;
-		text-align: center;
-		background-color: #f3f3f3;
-		>span{
-			font-size: 19px;
-			color: #333;
+	.box3{
+		display: none;
+		&.visible {
 			display: block;
 		}
-		.social-sign-up-icons{
-			display: inline-block;
-			margin: 10px 0 0 0;
-			a{
-				float: left;
-				margin: 0 15px 0 0;
-				&.last{
-					margin: 0;
-				}
-			}
-		}
 	}
-}
-.advertiser-sign-up-window{
-	.central-block{
-		label{
-			width: 220px;
-			@include label;
-			margin: 0;
-			&.company-name{
-				width: 100%;
-				span{
-					color: #566b77;
-					font-size: 20px;
-				}
-			}
-			span{
-				color: #576b77;
-				font-weight: normal;
-			}
-			&.user-name, &.user-specialty, &.user-phone{
-				float: left;
-			}
-			&.user-surname, &.user-city{
+	.user{
+		form{
+			.right-block{
+				margin: 30px 0 0 0;
+				padding: 0 58px 0 57px;
+				position: relative;
 				float: right;
+				width: 385px;
+				.sign-up-image{
+					position: absolute;
+					left: -55px;
+					top: -10px;
+				}
+				p{
+					color: #db1c5d;
+					font-size: 16px;
+					margin: 0 0 40px 0;
+				}
+				input[type=submit]{
+					padding: 15px 35px;
+					text-align: center;
+					font-size: 24px;
+					margin: 30px 0 30px;
+				}
+				label{
+					span{
+						font-size: 20px;
+						color: #566b77;
+						font-weight: normal;
+					}
+					&.e-mail{
+						input{
+							height: 35px;
+							width: 295px;
+						}
+					}
+					&.key{
+						input{
+							height: 35px;
+							width: 140px;
+							float: left;
+							margin: 0 20px 0 0;
+							display: inline-block;
+						}
+					}
+				}
+			}
+		}
+		.dashed{
+			height: 2px;
+			border-top: 1px dashed #f3f3f3;
+		}
+		.sign-up-block{
+			padding: 28px 0;
+			text-align: center;
+			background-color: #f3f3f3;
+			span{
+				font-size: 19px;
+				color: #333;
+				display: block;
+			}
+			.social-sign-up-icons{
+				display: inline-block;
+				margin: 10px 0 0 0;
+				a{
+					float: left;
+					margin: 0 15px 0 0;
+					&.last{
+						margin: 0;
+					}
+				}
 			}
 		}
 	}
-	.sign-up-block{
-		padding: 30px 0 70px;
-		text-align: center;
-		background-color: #f3f3f3;
-		.send-request{
-			margin: 0 0 25px;
-			font-size: 24px;
-			padding: 15px 49px 15px;
+	.advertiser{
+		.central-block{
+			padding: 0px 58px 20px 57px;
+			> label{
+				width: 220px;
+				@include label;
+				margin: 0;
+				&.company-name{
+					width: 100%;
+					span{
+						color: #566b77;
+						font-size: 20px;
+					}
+				}
+				> span{
+					color: #576b77;
+					font-weight: normal;
+				}
+				&.user-name, &.user-specialty, &.user-phone{
+					float: left;
+				}
+				&.user-surname, &.user-city{
+					float: right;
+				}
+				select{
+					border: 1px solid #e8e8e8;
+					padding: 7px 0 7px 10px;
+					color: #333;
+					width: 98%;
+					@include box-sizing;
+					@include border-radius(4px);
+				}
+			}
+			.user-agreement{
+				float: right;
+				font-size: 14px;
+				width: 220px;
+				margin: 35px 0 0;
+				label{
+					display: inline;
+					span{
+						display: inline;
+						color: #333;
+						font-weight: normal;
+					}
+					a{
+						display: block;
+					}
+				}
+			}
+		}
+		.dashed{
+			height: 2px;
+			border-top: 1px dashed #f3f3f3;
+		}
+		.sign-up-block{
+			padding: 30px 0 70px;
+			text-align: center;
+			background-color: #f3f3f3;
+			.send-request{
+				margin: 0 0 25px;
+				font-size: 24px;
+				padding: 15px 49px 15px;
+			}
 		}
 	}
 }

@@ -21,13 +21,10 @@ $(document).ready(function() {
 	$(".enter").click(function() {
 		$(".mask, .user-enter-window").fadeIn('fast');
 	});
-	/*$(".sign-up").click(function() {
-		$(".mask, .user-sign-up-window").fadeIn('fast');
-	});*/
-	$(".sign-up").click(function() {
-		$(".mask, .advertiser-sign-up-window").fadeIn('fast');
-	});
 	
+	$(".sign-up").click(function() {
+		$(".mask, .user-sign-up-window").fadeIn('fast');
+	});
 
 	$(".video-from a").click(function() {
 		$(this).attr('id', 'active').siblings().removeAttr('id');
@@ -73,6 +70,11 @@ $(document).ready(function() {
 	$('ul.tabs').on('click', 'li:not(.current)', function() {  
 		$(this).addClass('current').siblings().removeClass('current')  
 		.parents('div.section').find('div.box').eq($(this).index()).fadeIn(150).siblings('div.box').hide();  
+	});
+
+	$('div.main-window').on('click', 'label:not(.current3)', function() {
+		$(this).addClass('current3').siblings().removeClass('current3')  
+		.closest('div.user-sign-up-window').find('div.box3').eq($(this).index() - 2).fadeIn(150).siblings('div.box3').hide();  
 	});
 	
 //carousels catalog_spisok_brand

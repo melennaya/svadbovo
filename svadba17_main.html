@@ -306,7 +306,7 @@
 				<div class="clearfix"></div>
 			</div>
 		</div>
-
+		
 		<!-- user-enter -->
 		<div class="user-enter-window">
 			<div class="main-window">
@@ -353,70 +353,65 @@
 		</div>
 		<!-- user-enter -->
 
-		<!-- user-sign-up advertiser -->
+
+
+
+		<!-- user-sign-up -->
 		<div class="user-sign-up-window">
 			<div class="main-window">
 				<h1>Регистрация</h1>
 				<a class="close" href="#"></a>
-				<label class="">
+
+				<label class="toggle-user first current3">
 					<input type="radio" name="type-of-user" checked>
 					Для пользователей
 				</label>
-				<label>
+
+				<label class="toggle-user">
 					<input type="radio" name="type-of-user">
 					Для рекламодателей
 				</label>
-				<div class="right-block">
-					<img src="images/temp/sign-up-image.png" class="sign-up-image">
-					<p>Мы рады приветствовать Вас на страницах нашего сайта, посвященного свадебной тематике. Ваш личный гид в мире свадеб стал еще лучше.</p>
-					<div class="clearfix"></div>
-					<label class="e-mail">
-						<span>Введите ваш E-mail:</span>
-						<input type="text" name="" value="">
-						<div class="clearfix"></div>
-					</label>
-
-					<label class="key">
-						<span>Введите код</span>
-						<input type="text" name="" value="">
-						<img src="images/temp/captcha.jpg">
-						<div class="clearfix"></div>
-					</label>
-					<input type="submit" name="sign-up" value="Зарегистрироваться" class="sign-up">
-				</div>
-				<div class="clearfix"></div>
 			</div>
-			<div class="dashed"></div>
-			<div class="sign-up-block">
-				<span>Вы можете войти через соц. сети</span>
-				<div class="social-sign-up-icons">
-					<a href="#"><img src="images/temp/social-1.jpg"></a>
-					<a href="#"><img src="images/temp/social-2.jpg"></a>
-					<a href="#"><img src="images/temp/social-3.jpg"></a>
-					<a href="#"><img src="images/temp/social-4.jpg"></a>
-					<a href="#"><img src="images/temp/social-5.jpg"></a>
-					<a href="#" class="last"><img src="images/temp/social-6.jpg"></a>
+
+			<div class="box3 user visible">
+				<form>
+					<div class="right-block">
+						<img src="images/temp/sign-up-image.png" class="sign-up-image">
+						<p>Мы рады приветствовать Вас на страницах нашего сайта, посвященного свадебной тематике. Ваш личный гид в мире свадеб стал еще лучше.</p>
+						<div class="clearfix"></div>
+						<label class="e-mail">
+							<span>Введите ваш E-mail:</span>
+							<input type="text" name="" value="">
+							<div class="clearfix"></div>
+						</label>
+
+						<label class="key">
+							<span>Введите код</span>
+							<input type="text" name="" value="">
+							<img src="images/temp/captcha.jpg">
+							<div class="clearfix"></div>
+						</label>
+						<input type="submit" name="sign-up" value="Зарегистрироваться" class="sign-up">
+					</div>
 					<div class="clearfix"></div>
+				</form>
+				<div class="dashed"></div>
+				<div class="sign-up-block">
+					<span>Вы можете войти через соц. сети</span>
+					<div class="social-sign-up-icons">
+						<a href="#"><img src="images/temp/social-1.jpg"></a>
+						<a href="#"><img src="images/temp/social-2.jpg"></a>
+						<a href="#"><img src="images/temp/social-3.jpg"></a>
+						<a href="#"><img src="images/temp/social-4.jpg"></a>
+						<a href="#"><img src="images/temp/social-5.jpg"></a>
+						<a href="#" class="last"><img src="images/temp/social-6.jpg"></a>
+						<div class="clearfix"></div>
+					</div>
 				</div>
 			</div>
-		</div>
-		<!-- user-sign-up -->
-
-		<!-- advertiser-sign-up -->
-		<div class="advertiser-sign-up-window">
-			<div class="main-window">
-				<h1>Регистрация</h1>
-				<a class="close" href="#"></a>
-				<label class="first">
-					<input type="radio" name="type-of-user-advertiser" >
-					Для пользователей
-				</label>
-				<label>
-					<input type="radio" name="type-of-user-advertiser" checked>
-					Для рекламодателей
-				</label>
-				<div class="central-block">
-					<form>
+			<div class="box3 advertiser">
+				<form>
+					<div class="central-block">
 						<label class="company-name">
 							<span>Название Вашей компании:</span>
 							<input type="text" name="" value="">
@@ -434,32 +429,41 @@
 
 						<label class="user-specialty">
 							<span>Ваша специальность</span>
-							<input type="text" name="" value="">
+							<select name="">
+								<option value=""></option>
+								<option value=""></option>
+							</select>
 						</label>
 
 						<label class="user-city">
 							<span>Ваш город</span>
-							<input type="text" name="" value="">
+							<select name="">
+								<option value=""></option>
+								<option value=""></option>
+							</select>
 						</label>
 						<label class="user-phone">
 							<span>Ваш контактный телефон</span>
 							<input type="text" name="" value="">
 						</label>
-						<label class="user-agreement">
-							<span>Ваш контактный телефон</span>
-							<input type="text" name="" value="">
-						</label>
-
+						<div class="user-agreement">
+							<input type="checkbox" id="agreement" checked>
+							<label for="agreement">
+								<span>Я согласен с условиями</span>
+								<a href="#">Пользовательского соглашения</a>
+							</label>
+						</div>
 						<div class="clearfix"></div>
-					</form>
-				</div>
-			</div>
-			<div class="dashed"></div>
-			<div class="sign-up-block">
-				<input type="submit" name="send-request" value="Отправить заявку" class="send-request">
+					</div>
+					<div class="dashed"></div>
+					<div class="sign-up-block">
+						<input type="submit" name="send-request" value="Отправить заявку" class="send-request">
+					</div>
+				</form>
 			</div>
 		</div>
-		<!-- advertiser-sign-up -->
+
+		<!-- user-sign-up -->
 
 		<div class="mask"></div>
 

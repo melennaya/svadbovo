@@ -3286,7 +3286,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 .user-enter-window .main-window h1 {
   font-size: 26px;
 }
-.user-enter-window .main-window > label {
+.user-enter-window .main-window form > label {
   display: block;
   font-weight: bold;
   font-size: 15px;
@@ -3295,32 +3295,32 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   font-weight: normal;
   margin: 0 0 10px 0;
 }
-.user-enter-window .main-window > label > span {
+.user-enter-window .main-window form > label > span {
   font-weight: normal;
   float: left;
 }
-.user-enter-window .main-window > label input[type=text] {
+.user-enter-window .main-window form > label input[type=text] {
   margin: 5px 0 0 0;
   width: 265px;
   height: 35px;
   float: right;
 }
-.user-enter-window .main-window .remember {
+.user-enter-window .main-window form .remember {
   width: 265px;
   float: right;
   font-size: 12px;
 }
-.user-enter-window .main-window .remember label {
+.user-enter-window .main-window form .remember label {
   margin: 1px 0 0;
   display: inline-block;
 }
-.user-enter-window .main-window .remember > input {
+.user-enter-window .main-window form .remember > input {
   float: left;
 }
-.user-enter-window .main-window .remember a, .user-enter-window .main-window .remember .breadcrumbs span, .breadcrumbs .user-enter-window .main-window .remember span {
+.user-enter-window .main-window form .remember a, .user-enter-window .main-window form .remember .breadcrumbs span, .breadcrumbs .user-enter-window .main-window form .remember span {
   float: right;
 }
-.user-enter-window .main-window input[type=submit] {
+.user-enter-window .main-window form input[type=submit] {
   float: right;
   padding: 15px 98px;
   font-size: 24px;
@@ -3375,7 +3375,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 .user-sign-up-window .main-window h1, .advertiser-sign-up-window .main-window h1 {
   font-size: 26px;
 }
-.user-sign-up-window .main-window > label, .advertiser-sign-up-window .main-window > label {
+.user-sign-up-window .main-window label, .advertiser-sign-up-window .main-window label {
   padding: 13px 0px;
   text-align: center;
   width: 230px;
@@ -3397,74 +3397,83 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   font-size: 16px;
   color: #333;
 }
-.user-sign-up-window .main-window > label.first, .advertiser-sign-up-window .main-window > label.first {
+.user-sign-up-window .main-window label.first, .advertiser-sign-up-window .main-window label.first {
   margin: 0 10px 0 0;
 }
-.user-sign-up-window .main-window .right-block, .advertiser-sign-up-window .main-window .right-block {
+.user-sign-up-window .box3, .advertiser-sign-up-window .box3 {
+  display: none;
+}
+.user-sign-up-window .box3.visible, .advertiser-sign-up-window .box3.visible {
+  display: block;
+}
+.user-sign-up-window .user form .right-block, .advertiser-sign-up-window .user form .right-block {
   margin: 30px 0 0 0;
+  padding: 0 58px 0 57px;
   position: relative;
   float: right;
   width: 385px;
 }
-.user-sign-up-window .main-window .right-block .sign-up-image, .advertiser-sign-up-window .main-window .right-block .sign-up-image {
+.user-sign-up-window .user form .right-block .sign-up-image, .advertiser-sign-up-window .user form .right-block .sign-up-image {
   position: absolute;
-  left: -110px;
+  left: -55px;
   top: -10px;
 }
-.user-sign-up-window .main-window .right-block p, .advertiser-sign-up-window .main-window .right-block p {
+.user-sign-up-window .user form .right-block p, .advertiser-sign-up-window .user form .right-block p {
   color: #db1c5d;
   font-size: 16px;
   margin: 0 0 40px 0;
 }
-.user-sign-up-window .main-window .right-block input[type=submit], .advertiser-sign-up-window .main-window .right-block input[type=submit] {
+.user-sign-up-window .user form .right-block input[type=submit], .advertiser-sign-up-window .user form .right-block input[type=submit] {
   padding: 15px 35px;
   text-align: center;
   font-size: 24px;
   margin: 30px 0 30px;
 }
-.user-sign-up-window .main-window .right-block label span, .advertiser-sign-up-window .main-window .right-block label span {
+.user-sign-up-window .user form .right-block label span, .advertiser-sign-up-window .user form .right-block label span {
   font-size: 20px;
   color: #566b77;
   font-weight: normal;
 }
-.user-sign-up-window .main-window .right-block label.e-mail input, .advertiser-sign-up-window .main-window .right-block label.e-mail input {
+.user-sign-up-window .user form .right-block label.e-mail input, .advertiser-sign-up-window .user form .right-block label.e-mail input {
   height: 35px;
   width: 295px;
 }
-.user-sign-up-window .main-window .right-block label.key input, .advertiser-sign-up-window .main-window .right-block label.key input {
+.user-sign-up-window .user form .right-block label.key input, .advertiser-sign-up-window .user form .right-block label.key input {
   height: 35px;
   width: 140px;
   float: left;
   margin: 0 20px 0 0;
   display: inline-block;
 }
-.user-sign-up-window .dashed, .advertiser-sign-up-window .dashed {
+.user-sign-up-window .user .dashed, .advertiser-sign-up-window .user .dashed {
   height: 2px;
   border-top: 1px dashed #f3f3f3;
 }
-.user-sign-up-window .sign-up-block, .advertiser-sign-up-window .sign-up-block {
+.user-sign-up-window .user .sign-up-block, .advertiser-sign-up-window .user .sign-up-block {
   padding: 28px 0;
   text-align: center;
   background-color: #f3f3f3;
 }
-.user-sign-up-window .sign-up-block > span, .advertiser-sign-up-window .sign-up-block > span {
+.user-sign-up-window .user .sign-up-block span, .advertiser-sign-up-window .user .sign-up-block span {
   font-size: 19px;
   color: #333;
   display: block;
 }
-.user-sign-up-window .sign-up-block .social-sign-up-icons, .advertiser-sign-up-window .sign-up-block .social-sign-up-icons {
+.user-sign-up-window .user .sign-up-block .social-sign-up-icons, .advertiser-sign-up-window .user .sign-up-block .social-sign-up-icons {
   display: inline-block;
   margin: 10px 0 0 0;
 }
-.user-sign-up-window .sign-up-block .social-sign-up-icons a, .user-sign-up-window .sign-up-block .social-sign-up-icons .breadcrumbs span, .breadcrumbs .user-sign-up-window .sign-up-block .social-sign-up-icons span, .advertiser-sign-up-window .sign-up-block .social-sign-up-icons a, .advertiser-sign-up-window .sign-up-block .social-sign-up-icons .breadcrumbs span, .breadcrumbs .advertiser-sign-up-window .sign-up-block .social-sign-up-icons span {
+.user-sign-up-window .user .sign-up-block .social-sign-up-icons a, .user-sign-up-window .user .sign-up-block .social-sign-up-icons .breadcrumbs span, .breadcrumbs .user-sign-up-window .user .sign-up-block .social-sign-up-icons span, .advertiser-sign-up-window .user .sign-up-block .social-sign-up-icons a, .advertiser-sign-up-window .user .sign-up-block .social-sign-up-icons .breadcrumbs span, .breadcrumbs .advertiser-sign-up-window .user .sign-up-block .social-sign-up-icons span {
   float: left;
   margin: 0 15px 0 0;
 }
-.user-sign-up-window .sign-up-block .social-sign-up-icons a.last, .user-sign-up-window .sign-up-block .social-sign-up-icons .breadcrumbs span.last, .breadcrumbs .user-sign-up-window .sign-up-block .social-sign-up-icons span.last, .advertiser-sign-up-window .sign-up-block .social-sign-up-icons a.last, .advertiser-sign-up-window .sign-up-block .social-sign-up-icons .breadcrumbs span.last, .breadcrumbs .advertiser-sign-up-window .sign-up-block .social-sign-up-icons span.last {
+.user-sign-up-window .user .sign-up-block .social-sign-up-icons a.last, .user-sign-up-window .user .sign-up-block .social-sign-up-icons .breadcrumbs span.last, .breadcrumbs .user-sign-up-window .user .sign-up-block .social-sign-up-icons span.last, .advertiser-sign-up-window .user .sign-up-block .social-sign-up-icons a.last, .advertiser-sign-up-window .user .sign-up-block .social-sign-up-icons .breadcrumbs span.last, .breadcrumbs .advertiser-sign-up-window .user .sign-up-block .social-sign-up-icons span.last {
   margin: 0;
 }
-
-.advertiser-sign-up-window .central-block label {
+.user-sign-up-window .advertiser .central-block, .advertiser-sign-up-window .advertiser .central-block {
+  padding: 0px 58px 20px 57px;
+}
+.user-sign-up-window .advertiser .central-block > label, .advertiser-sign-up-window .advertiser .central-block > label {
   width: 220px;
   display: block;
   font-weight: bold;
@@ -3473,29 +3482,62 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   margin: 15px 0 5px 0;
   margin: 0;
 }
-.advertiser-sign-up-window .central-block label.company-name {
+.user-sign-up-window .advertiser .central-block > label.company-name, .advertiser-sign-up-window .advertiser .central-block > label.company-name {
   width: 100%;
 }
-.advertiser-sign-up-window .central-block label.company-name span {
+.user-sign-up-window .advertiser .central-block > label.company-name span, .advertiser-sign-up-window .advertiser .central-block > label.company-name span {
   color: #566b77;
   font-size: 20px;
 }
-.advertiser-sign-up-window .central-block label span {
+.user-sign-up-window .advertiser .central-block > label > span, .advertiser-sign-up-window .advertiser .central-block > label > span {
   color: #576b77;
   font-weight: normal;
 }
-.advertiser-sign-up-window .central-block label.user-name, .advertiser-sign-up-window .central-block label.user-specialty, .advertiser-sign-up-window .central-block label.user-phone {
+.user-sign-up-window .advertiser .central-block > label.user-name, .user-sign-up-window .advertiser .central-block > label.user-specialty, .user-sign-up-window .advertiser .central-block > label.user-phone, .advertiser-sign-up-window .advertiser .central-block > label.user-name, .advertiser-sign-up-window .advertiser .central-block > label.user-specialty, .advertiser-sign-up-window .advertiser .central-block > label.user-phone {
   float: left;
 }
-.advertiser-sign-up-window .central-block label.user-surname, .advertiser-sign-up-window .central-block label.user-city {
+.user-sign-up-window .advertiser .central-block > label.user-surname, .user-sign-up-window .advertiser .central-block > label.user-city, .advertiser-sign-up-window .advertiser .central-block > label.user-surname, .advertiser-sign-up-window .advertiser .central-block > label.user-city {
   float: right;
 }
-.advertiser-sign-up-window .sign-up-block {
+.user-sign-up-window .advertiser .central-block > label select, .user-sign-up-window .advertiser .central-block > label .bar .search input[type=text], .bar .search .user-sign-up-window .advertiser .central-block > label input[type=text], .advertiser-sign-up-window .advertiser .central-block > label select, .advertiser-sign-up-window .advertiser .central-block > label .bar .search input[type=text], .bar .search .advertiser-sign-up-window .advertiser .central-block > label input[type=text] {
+  border: 1px solid #e8e8e8;
+  padding: 7px 0 7px 10px;
+  color: #333;
+  width: 98%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+.user-sign-up-window .advertiser .central-block .user-agreement, .advertiser-sign-up-window .advertiser .central-block .user-agreement {
+  float: right;
+  font-size: 14px;
+  width: 220px;
+  margin: 35px 0 0;
+}
+.user-sign-up-window .advertiser .central-block .user-agreement label, .advertiser-sign-up-window .advertiser .central-block .user-agreement label {
+  display: inline;
+}
+.user-sign-up-window .advertiser .central-block .user-agreement label span, .advertiser-sign-up-window .advertiser .central-block .user-agreement label span {
+  display: inline;
+  color: #333;
+  font-weight: normal;
+}
+.user-sign-up-window .advertiser .central-block .user-agreement label a, .user-sign-up-window .advertiser .central-block .user-agreement label .breadcrumbs span, .breadcrumbs .user-sign-up-window .advertiser .central-block .user-agreement label span, .advertiser-sign-up-window .advertiser .central-block .user-agreement label a, .advertiser-sign-up-window .advertiser .central-block .user-agreement label .breadcrumbs span, .breadcrumbs .advertiser-sign-up-window .advertiser .central-block .user-agreement label span {
+  display: block;
+}
+.user-sign-up-window .advertiser .dashed, .advertiser-sign-up-window .advertiser .dashed {
+  height: 2px;
+  border-top: 1px dashed #f3f3f3;
+}
+.user-sign-up-window .advertiser .sign-up-block, .advertiser-sign-up-window .advertiser .sign-up-block {
   padding: 30px 0 70px;
   text-align: center;
   background-color: #f3f3f3;
 }
-.advertiser-sign-up-window .sign-up-block .send-request {
+.user-sign-up-window .advertiser .sign-up-block .send-request, .advertiser-sign-up-window .advertiser .sign-up-block .send-request {
   margin: 0 0 25px;
   font-size: 24px;
   padding: 15px 49px 15px;
@@ -4732,7 +4774,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   position: relative;
   border: 1px solid #e8e8e8;
   margin: 0 0 17px 0;
-  padding: 25px 22px 20px 15px;
+  padding: 25px 22px 0px 15px;
 }
 .content .brend-card > a, .content .breadcrumbs .brend-card > span, .breadcrumbs .content .brend-card > span {
   position: relative;
@@ -4808,21 +4850,6 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 }
 .content .brend-card .collection-block .collection-footer .number {
   float: right;
-}
-.content .brend-card .collection-block .collection-block-footer {
-  text-align: center;
-}
-.content .brend-card .collection-block .collection-block-footer .show-collection {
-  color: #db1c5d;
-  display: inline-block;
-  margin: 10px 0 0 0;
-  padding: 12px 45px;
-  text-decoration: none;
-  background-color: #fbfbfb;
-  border: 1px solid #d6d6d6;
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
-  border-radius: 2px;
 }
 .content .brend-card .rating {
   float: right;

@@ -58,7 +58,7 @@
 		position: relative;
 		border: 1px solid #e8e8e8;
 		margin: 0 0 17px 0;
-		padding: 25px 22px 20px 15px;
+		padding: 25px 22px 0px 15px;
 		> a{
 			position: relative;
 			top: -5px;
@@ -121,19 +121,6 @@
 			width: 666px;
 			.number{
 				float: right;
-			}
-		}
-		.collection-block-footer{
-			text-align: center;
-			.show-collection{
-				color: #db1c5d; 
-				display: inline-block;
-				margin: 10px 0 0 0;
-				padding: 12px 45px;
-				text-decoration: none;
-				background-color: #fbfbfb;
-				border: 1px solid #d6d6d6;
-				@include border-radius(2px);
 			}
 		}
 	}
