@@ -33,7 +33,6 @@ $(document).ready(function() {
 	});
 
 
-
 	$('.toggle').click(function(){
 		if ($('#filter').is(":visible")) {
 			$('#filter').slideUp("fast", function() {
