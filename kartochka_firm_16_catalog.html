@@ -2,524 +2,810 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
-    <!--[if IE]>
-       <link href="stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
-       <![endif]--> 
-       <script type="text/javascript" src="http://yandex.st/jquery/1.11.1/jquery.min.js"></script>
-       <script src="javascript/script.js" type="text/javascript" charset="utf-8" async defer></script>
-       <script type="text/javascript">
-         $(function() {  
-          $('ul.tabs').on('click', 'li:not(.current)', function() {  
-            $(this).addClass('current').siblings().removeClass('current')  
-            .parents('div.section').find('div.box').eq($(this).index()).fadeIn(150).siblings('div.box').hide();  
-         });
-       });
-      </script>
-      <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-      <title>Свадьбово</title>
-   </head>
+	 <!--[if IE]>
+		 <link href="stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+		 <![endif]--> 
+		 <script type="text/javascript" src="http://yandex.st/jquery/1.11.1/jquery.min.js"></script>
+		 <script src="javascript/script.js" type="text/javascript" charset="utf-8" async defer></script>
+		 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		 <title>Свадьбово</title>
+		</head>
 
-   <body>
-   	<div class="top">
-   		<div class="wrapper">
-   			<a class="logo" href="#" title="Свадьбово"></a>
-   			<div class="top-menu">
-   				<a href="#" title="Каталог фирм">Каталог фирм</a>
-   				<a href="#" title="Свадебный журнал">Свадебный журнал</a>
-   				<a href="#" title="Загсы">Загсы</a>
-   				<a href="#" title="Сервисы">Сервисы</a>
-   			</div>
-   			<div class="user-enter">
-   				<a href="#" class="enter">Войти</a>
-   				<a href="#" class="sign-up">Регистрация</a>
-   			</div>
-   			<div class="clearfix"></div>
-   		</div>
-   	</div>
-   	<div class="bar">
-   		<div class="wrapper">
-   			<form action="svadba-profile-reklamodatel-submit" method="get" accept-charset="utf-8">
-   				<select name="">
-   					<option value="">Хантемансийск</option>
-   					<option value="">Москва</option>
-   				</select>
-   			</form>
-   			<div class="search">
-   				<form action="svadba-profile-reklamodatel-submit" method="get" accept-charset="utf-8">
-   					<input type="text" name="" value="" placeholder="Поиск по сайту">
-   					<input type="submit" name="" value="Найти">
-   				</form>
-   			</div>
-   		</div>
-   	</div>
-   	<div class="wrapper">
-   		<div class="sidebar-left">
-   			<div class="main-menu">
-   				<ul>
-   					<li class="main-cat-1 active"><a href="#">Организаторы</a>
-   						<ul>
-   							<li><a href="#">Свадебные агентства</a></li>
-   							<li><a href="#">Организация свадьбы</a></li>
-   							<li><a href="#">Выездная регистрация</a></li>
-   							<li><a href="#">Свадьба за границей</a></li>
-   							<li><a href="#">Свадебные фирмы</a></li>
-   						</ul>
-   					</li>
-   					<li class="main-cat-2"><a href="#">Аксессуары</a>
-   						<ul>
-   							<li><a href="#">Бокалы</a></li>
-   							<li><a href="#">Открытки и приглашения</a></li>
-   							<li><a href="#">Фигурки на торт</a></li>
-   							<li><a href="#">Ювелиры</a></li>
-   						</ul>
-   					</li>
-   					<li class="main-cat-3"><a href="#">Салоны красоты</a>
-   						<ul>
-   							<li><a href="#">Салоны красоты</a></li>
-   							<li><a href="#">Прически на свадьбу</a></li>
-   							<li><a href="#">Свадебные визажисты</a></li>
-   							<li><a href="#">Свадебные стилисты</a></li>
-   							<li><a href="#">Уход за ногтями</a></li>
-   							<li><a href="#">Косметология</a></li>
-   						</ul>
-   					</li>
-   					<li class="main-cat-4"><a href="#">Автомобили</a>
-   						<ul>
-   							<li><a href="#">Лимузины на свадьбу</a></li>
-   							<li><a href="#">Свадебные автомобили</a></li>
-   							<li><a href="#">Аренда микроавтобуса</a></li>
-   							<li><a href="#">Автобус на свадьбу</a></li>
-   							<li><a href="#">Свадьба на теплоходе</a></li>
-   						</ul>
-   					</li>
-   					<li class="main-cat-5"><a href="#">Свадебные наряды</a>
-   						<ul>
-   							<li><a href="#">Свадебные платья</a></li>
-   							<li><a href="#">Мужские костюмы</a></li>
-   							<li><a href="#">Свадебная обувь</a></li>
-   							<li><a href="#">Аксессуары для невесты</a></li>
-   							<li><a href="#">Прокат свадебных платьев</a></li>
-   							<li><a href="#">Пошив платьев</a></li>
-   							<li><a href="#">Нижнее белье</a></li>
-   						</ul>
-   					</li>
-   					<li class="main-cat-6"><a href="#">Фото и видео</a>
-   						<ul>
-   							<li><a href="#">Свадебный фотограф</a></li>
-   							<li><a href="#">Видеосъемка свадьбы</a></li>
-   						</ul>
-   					</li>
-   					<li class="main-cat-7"><a href="#">Подарки на свадьбу</a>
-   						<ul>
-   							<li><a href="#">Интернет магазины</a></li>
-   							<li><a href="#">Магазины подарков</a></li>
-   							<li><a href="#">Оригинальные подарки</a></li>
-   						</ul>
-   					</li>
-   					<li class="main-cat-8"><a href="#">Оформление</a> 
-   						<ul>
-   							<li><a href="#">Украшение цветами</a></li>
-   							<li><a href="#">Оформление зала</a></li>
-   							<li><a href="#">Украшение машин</a></li>
-   						</ul>
-   					</li>
-   					<li class="main-cat-9"><a href="#">Цветы</a>
-   						<ul>
-   							<li><a href="#">Цветочные магазины</a></li>
-   							<li><a href="#">Свадебные букеты</a></li>
-   						</ul>
-   					</li>
-   					<li class="main-cat-10"><a href="#">Банкетные залы</a>
-   						<ul>
-   							<li><a href="#">Ресторан на свадьбу</a></li>
-   							<li><a href="#">Свадьба в кафе</a></li>
-   							<li><a href="#">Банкетные залы</a></li>
-   							<li><a href="#">Кейтеринг</a></li>
-   						</ul>
-   					</li>
-   					<li class="main-cat-11"><a href="#">Тамада. Ведущий</a> 
-   						<ul>
-   							<li><a href="#">Ведущий на свадьбу</a></li>
-   							<li><a href="#">Тамада на свадьбу</a></li>
-   							<li><a href="#">Музыканты</a></li>
-   							<li><a href="#">Артисты</a></li>
-   							<li><a href="#">Дискотека</a></li>
-   							<li><a href="#">Художник на свадьбу</a></li>
-   						</ul>
-   					</li>
-   					<li class="main-cat-12"><a href="#">Подготовка к свадьбе</a>
-   						<ul>
-   							<li><a href="#">Пригласительные</a></li>
-   							<li><a href="#">Свадебные открытки</a></li>
-   							<li><a href="#">Свадебные торты</a></li>
-   							<li><a href="#">Спиртные напитки</a></li>
-   							<li><a href="#">Школа танцев</a></li>
-   							<li><a href="#">Свадебные аксессуары</a></li>
-   						</ul>
-   					</li>
-   					<li class="main-cat-13"><a href="#">Свадебное путешествие</a> 
-   						<ul>
-   							<li><a href="#">Турфирмы</a></li>
-   							<li><a href="#">Гостиницы</a></li>
-   						</ul>
-   					</li>
-   					<li class="main-cat-14"><a href="#">Спецпредложения</a> 
-   					</li>
-   				</ul>
-   			</div>
-   		</div>
+		<body>
+			<div class="top">
+				<div class="wrapper">
+					<a class="logo" href="#" title="Свадьбово"></a>
+					<div class="top-menu">
+						<a href="#" title="Каталог фирм">Каталог фирм</a>
+						<a href="#" title="Свадебный журнал">Свадебный журнал</a>
+						<a href="#" title="Загсы">Загсы</a>
+						<a href="#" title="Сервисы">Сервисы</a>
+					</div>
+					<div class="user-enter">
+						<a href="#" class="enter">Войти</a>
+						<a href="#" class="sign-up">Регистрация</a>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			<div class="bar">
+				<div class="wrapper">
+					<form action="svadba-profile-reklamodatel-submit" method="get" accept-charset="utf-8">
+						<select name="">
+							<option value="">Хантемансийск</option>
+							<option value="">Москва</option>
+						</select>
+					</form>
+					<div class="search">
+						<form action="svadba-profile-reklamodatel-submit" method="get" accept-charset="utf-8">
+							<input type="text" name="" value="" placeholder="Поиск по сайту">
+							<input type="submit" name="" value="Найти">
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="wrapper">
+				<div class="sidebar-left">
+					<div class="main-menu">
+						<ul>
+							<li class="main-cat-1 active"><a href="#">Организаторы</a>
+								<ul>
+									<li><a href="#">Свадебные агентства</a></li>
+									<li><a href="#">Организация свадьбы</a></li>
+									<li><a href="#">Выездная регистрация</a></li>
+									<li><a href="#">Свадьба за границей</a></li>
+									<li><a href="#">Свадебные фирмы</a></li>
+								</ul>
+							</li>
+							<li class="main-cat-2"><a href="#">Аксессуары</a>
+								<ul>
+									<li><a href="#">Бокалы</a></li>
+									<li><a href="#">Открытки и приглашения</a></li>
+									<li><a href="#">Фигурки на торт</a></li>
+									<li><a href="#">Ювелиры</a></li>
+								</ul>
+							</li>
+							<li class="main-cat-3"><a href="#">Салоны красоты</a>
+								<ul>
+									<li><a href="#">Салоны красоты</a></li>
+									<li><a href="#">Прически на свадьбу</a></li>
+									<li><a href="#">Свадебные визажисты</a></li>
+									<li><a href="#">Свадебные стилисты</a></li>
+									<li><a href="#">Уход за ногтями</a></li>
+									<li><a href="#">Косметология</a></li>
+								</ul>
+							</li>
+							<li class="main-cat-4"><a href="#">Автомобили</a>
+								<ul>
+									<li><a href="#">Лимузины на свадьбу</a></li>
+									<li><a href="#">Свадебные автомобили</a></li>
+									<li><a href="#">Аренда микроавтобуса</a></li>
+									<li><a href="#">Автобус на свадьбу</a></li>
+									<li><a href="#">Свадьба на теплоходе</a></li>
+								</ul>
+							</li>
+							<li class="main-cat-5"><a href="#">Свадебные наряды</a>
+								<ul>
+									<li><a href="#">Свадебные платья</a></li>
+									<li><a href="#">Мужские костюмы</a></li>
+									<li><a href="#">Свадебная обувь</a></li>
+									<li><a href="#">Аксессуары для невесты</a></li>
+									<li><a href="#">Прокат свадебных платьев</a></li>
+									<li><a href="#">Пошив платьев</a></li>
+									<li><a href="#">Нижнее белье</a></li>
+								</ul>
+							</li>
+							<li class="main-cat-6"><a href="#">Фото и видео</a>
+								<ul>
+									<li><a href="#">Свадебный фотограф</a></li>
+									<li><a href="#">Видеосъемка свадьбы</a></li>
+								</ul>
+							</li>
+							<li class="main-cat-7"><a href="#">Подарки на свадьбу</a>
+								<ul>
+									<li><a href="#">Интернет магазины</a></li>
+									<li><a href="#">Магазины подарков</a></li>
+									<li><a href="#">Оригинальные подарки</a></li>
+								</ul>
+							</li>
+							<li class="main-cat-8"><a href="#">Оформление</a> 
+								<ul>
+									<li><a href="#">Украшение цветами</a></li>
+									<li><a href="#">Оформление зала</a></li>
+									<li><a href="#">Украшение машин</a></li>
+								</ul>
+							</li>
+							<li class="main-cat-9"><a href="#">Цветы</a>
+								<ul>
+									<li><a href="#">Цветочные магазины</a></li>
+									<li><a href="#">Свадебные букеты</a></li>
+								</ul>
+							</li>
+							<li class="main-cat-10"><a href="#">Банкетные залы</a>
+								<ul>
+									<li><a href="#">Ресторан на свадьбу</a></li>
+									<li><a href="#">Свадьба в кафе</a></li>
+									<li><a href="#">Банкетные залы</a></li>
+									<li><a href="#">Кейтеринг</a></li>
+								</ul>
+							</li>
+							<li class="main-cat-11"><a href="#">Тамада. Ведущий</a> 
+								<ul>
+									<li><a href="#">Ведущий на свадьбу</a></li>
+									<li><a href="#">Тамада на свадьбу</a></li>
+									<li><a href="#">Музыканты</a></li>
+									<li><a href="#">Артисты</a></li>
+									<li><a href="#">Дискотека</a></li>
+									<li><a href="#">Художник на свадьбу</a></li>
+								</ul>
+							</li>
+							<li class="main-cat-12"><a href="#">Подготовка к свадьбе</a>
+								<ul>
+									<li><a href="#">Пригласительные</a></li>
+									<li><a href="#">Свадебные открытки</a></li>
+									<li><a href="#">Свадебные торты</a></li>
+									<li><a href="#">Спиртные напитки</a></li>
+									<li><a href="#">Школа танцев</a></li>
+									<li><a href="#">Свадебные аксессуары</a></li>
+								</ul>
+							</li>
+							<li class="main-cat-13"><a href="#">Свадебное путешествие</a> 
+								<ul>
+									<li><a href="#">Турфирмы</a></li>
+									<li><a href="#">Гостиницы</a></li>
+								</ul>
+							</li>
+							<li class="main-cat-14"><a href="#">Спецпредложения</a> 
+							</li>
+						</ul>
+					</div>
+				</div>
 
-   		<div class="content card firm-card-catalog">
-            <div class="breadcrumbs">
-               <a href="#" title="Главная">Главная</a>
-               <a href="#" title="Профиль">Каталог фирм</a>
-               <a href="#" title="Профиль">Платья</a>
-               <a href="#" title="Профиль">Свадебные салоны</a>
-               <span>Белый авантаж, свадебный салон</span>
-            </div>
-            <div class="main-salon-card">
-               <img src="images/temp/main-salon-card-image.jpg">
-               <div class="description">
-                  <div class="rating">
-                     <a href="#" class="full"></a>
-                     <a href="#" class="full"></a>
-                     <a href="#" class="full"></a>
-                     <a href="#" class="full"></a>
-                     <a href="#" class="nofull"></a>
-                  </div>
-                  <span>свадебный салон</span>
-                  <h1>Белый Авантаж</h1>
-                  <div class="buttons">
-                   <a class="msg" href="#">Отправить сообщение</a>
-                   <a class="bookmark" href="#">В закладки</a>
-                </div>
-                <p>Дизайн-студия «Амантес» имеет возможность успешно реализовывать свои идеи по двум направлениям: первое- индивидуальный пошив свадебных и вечерних платьевДизайн-студия «Амантес» имеет возможность успешно реализовывать свои идеи по двум направлениям: первое- индивидуальный пошив свадебных и вечерних платьев</p>
-                <a href="#">Читать полностью</a>
-                <img src="images/temp/social-big.jpg">
-             </div>
-             <div class="clearfix"></div>
-          </div>
-          <img src="images/temp/special-offer.jpg" class="special-offer-image">
-          <div class="clearfix"></div>
-         <div class="section">  
-            <ul class="tabs">
-               <li>Новости и Акции</li>                    
-               <li class="current">Каталог</li> 
-               <li>Полное описание</li>
-               <li>Отзывы <span>(8)</span></li>
-               <li>Контакты</li>
-            </ul>
-            <div class="box"></div>
-            <div class="box">
-              <h2>Салон “Белый Авантаж ” предлагает:</h2>
-              <div class="categories long">
-                <a href="#">Платья</a>
-                <span>Свадебные платья</span>
-                <a href="#">Вечерние платья</a>
-                <a href="#">Детские платья</a>
-                <a href="#">Аксессуары для невест</a>
-             </div>
-             <div class="main-block-salon">
-                <div class="filter">
-                  <form action="" method="get">
-                     <span>Выводить:</span>
-                     <select name="">
-                        <option value="">По рейтингу</option>
-                     </select>
-                     <input type="submit" name="" value="Применить">
-                     <div class="show">
-                        <span>Показывать:</span>
-                        <select name="">
-                           <option value="">По 30 позиций</option>
-                        </select>
-                     </div>
-                  </form>
-               </div>
-               <div class="dress-card-catalog">
-                  <img src="images/temp/dress-cart-image.jpg">
-                  <div class="description">
-                     <span class="salon-name">Свадебные платья</span> 
-                     <a href="#">Свадебные платья Вероника</a>
-                     <span class="price">188 000<span>руб.</span></span>
-                     <div class="rating">
-                        <a href="#" class="full"></a>
-                        <a href="#" class="full"></a>
-                        <a href="#" class="full"></a>
-                        <a href="#" class="full"></a>
-                        <a href="#" class="nofull"></a>
-                     </div>
-                  </div>
-               </div>
-               <div class="dress-card-catalog">
-                  <img src="images/temp/dress-cart-image.jpg">
-                  <div class="description">
-                     <span class="salon-name">Свадебные платья</span> 
-                     <a href="#">Свадебные платья Вероника</a>
-                     <span class="price">188 000<span>руб.</span></span>
-                     <div class="rating">
-                        <a href="#" class="full"></a>
-                        <a href="#" class="full"></a>
-                        <a href="#" class="full"></a>
-                        <a href="#" class="full"></a>
-                        <a href="#" class="nofull"></a>
-                     </div>
-                  </div>
-               </div>
-               <div class="dress-card-catalog">
-                  <img src="images/temp/dress-cart-image.jpg">
-                  <div class="description">
-                     <span class="salon-name">Свадебные аксессуары</span> 
-                     <a href="#">Свадебные платья Вероника</a>
-                     <span class="price">188 000<span>руб.</span></span>
-                     <div class="rating">
-                        <a href="#" class="full"></a>
-                        <a href="#" class="full"></a>
-                        <a href="#" class="full"></a>
-                        <a href="#" class="full"></a>
-                        <a href="#" class="nofull"></a>
-                     </div>
-                  </div>
-               </div>
-               <div class="dress-card-catalog">
-                  <img src="images/temp/dress-cart-image.jpg">
-                  <div class="description">
-                     <span class="salon-name">Свадебные аксессуары</span> 
-                     <a href="#">Свадебные платья Вероника</a>
-                     <span class="price">188 000<span>руб.</span></span>
-                     <div class="rating">
-                        <a href="#" class="full"></a>
-                        <a href="#" class="full"></a>
-                        <a href="#" class="full"></a>
-                        <a href="#" class="full"></a>
-                        <a href="#" class="nofull"></a>
-                     </div>
-                  </div>
-               </div>
-               <div class="dress-card-catalog">
-                  <img src="images/temp/dress-cart-image.jpg">
-                  <div class="description">
-                     <span class="salon-name">Свадебные аксессуары</span> 
-                     <a href="#">Свадебные платья Вероника</a>
-                     <span class="price">188 000<span>руб.</span></span>
-                     <div class="rating">
-                        <a href="#" class="full"></a>
-                        <a href="#" class="full"></a>
-                        <a href="#" class="full"></a>
-                        <a href="#" class="full"></a>
-                        <a href="#" class="nofull"></a>
-                     </div>
-                  </div>
-               </div>
-               <div class="dress-card-catalog">
-                  <img src="images/temp/dress-cart-image.jpg">
-                  <div class="description">
-                     <span class="salon-name">Свадебные аксессуары</span> 
-                     <a href="#">Свадебные платья Вероника</a>
-                     <span class="price">188 000<span>руб.</span></span>
-                     <div class="rating">
-                        <a href="#" class="full"></a>
-                        <a href="#" class="full"></a>
-                        <a href="#" class="full"></a>
-                        <a href="#" class="full"></a>
-                        <a href="#" class="nofull"></a>
-                     </div>
-                  </div>
-               </div>
-               <div class="dress-card-catalog">
-                  <img src="images/temp/dress-cart-image.jpg">
-                  <div class="description">
-                     <span class="salon-name">Свадебные аксессуары</span> 
-                     <a href="#">Свадебные платья Вероника</a>
-                     <span class="price">188 000<span>руб.</span></span>
-                     <div class="rating">
-                        <a href="#" class="full"></a>
-                        <a href="#" class="full"></a>
-                        <a href="#" class="full"></a>
-                        <a href="#" class="full"></a>
-                        <a href="#" class="nofull"></a>
-                     </div>
-                  </div>
-               </div>
-               <div class="dress-card-catalog">
-                  <img src="images/temp/dress-cart-image.jpg">
-                  <div class="description">
-                     <span class="salon-name">Свадебные аксессуары</span> 
-                     <a href="#">Свадебные платья Вероника</a>
-                     <span class="price">188 000<span>руб.</span></span>
-                     <div class="rating">
-                        <a href="#" class="full"></a>
-                        <a href="#" class="full"></a>
-                        <a href="#" class="full"></a>
-                        <a href="#" class="full"></a>
-                        <a href="#" class="nofull"></a>
-                     </div>
-                  </div>
-               </div>
-               <div class="dress-card-catalog">
-                  <img src="images/temp/dress-cart-image.jpg">
-                  <div class="description">
-                     <span class="salon-name">Свадебные аксессуары</span> 
-                     <a href="#">Свадебные платья Вероника</a>
-                     <span class="price">188 000<span>руб.</span></span>
-                     <div class="rating">
-                        <a href="#" class="full"></a>
-                        <a href="#" class="full"></a>
-                        <a href="#" class="full"></a>
-                        <a href="#" class="full"></a>
-                        <a href="#" class="nofull"></a>
-                     </div>
-                  </div>
-               </div>
-               <div class="dress-card-catalog">
-                  <img src="images/temp/dress-cart-image.jpg">
-                  <div class="description">
-                     <span class="salon-name">Свадебные аксессуары</span> 
-                     <a href="#">Свадебные платья Вероника</a>
-                     <span class="price">188 000<span>руб.</span></span>
-                     <div class="rating">
-                        <a href="#" class="full"></a>
-                        <a href="#" class="full"></a>
-                        <a href="#" class="full"></a>
-                        <a href="#" class="full"></a>
-                        <a href="#" class="nofull"></a>
-                     </div>
-                  </div>
-               </div>
-               <div class="dress-card-catalog">
-                  <img src="images/temp/dress-cart-image.jpg">
-                  <div class="description">
-                     <span class="salon-name">Свадебные аксессуары</span> 
-                     <a href="#">Свадебные платья Вероника</a>
-                     <span class="price">188 000<span>руб.</span></span>
-                     <div class="rating">
-                        <a href="#" class="full"></a>
-                        <a href="#" class="full"></a>
-                        <a href="#" class="full"></a>
-                        <a href="#" class="full"></a>
-                        <a href="#" class="nofull"></a>
-                     </div>
-                  </div>
-               </div>
-               <div class="dress-card-catalog">
-                  <img src="images/temp/dress-cart-image.jpg">
-                  <div class="description">
-                     <span class="salon-name">Свадебные аксессуары</span> 
-                     <a href="#">Свадебные платья Вероника</a>
-                     <span class="price">188 000<span>руб.</span></span>
-                     <div class="rating">
-                        <a href="#" class="full"></a>
-                        <a href="#" class="full"></a>
-                        <a href="#" class="full"></a>
-                        <a href="#" class="full"></a>
-                        <a href="#" class="nofull"></a>
-                     </div>
-                  </div>
-               </div>
-               <div class="clearfix"></div>
-               <div class="pagination">
-                  <span>1</span>
-                  <a href="#">2</a>
-                  <a href="#">3</a>
-                  <a href="#">4</a>
-                  <a href="#">5</a>
-                  <a href="#">6</a>
-                  <a href="#" class="next">Следующая</a>
-               </div> 
-            </div>
-            <div class="options">
-               <a href="#" class="options-up toggle">Скрыть параметры</a>
-               <form id="filter">
-                  <div class="form-header">
-                    <span>Диапазон цен <span> руб.</span></span>
-                    <input type="text"> - <input type="text">
-                 </div>
-                 <span>Силуэт свадебного платья</span>
-               <div class="checkboxes">
-                  <div><input type="checkbox"><label>А-силуэт</label></div>
-                  <div><input type="checkbox"><label>Ампир</label></div>
-                  <div><input type="checkbox"><label>Принцесса</label></div>
-                  <div><input type="checkbox"><label>Прямое</label></div>
-                  <div><input type="checkbox"><label>Русалка</label></div>
-               </div>
-               <span>Размер женской одежды</span>
-               <div class="checkboxes">
-                  <div><input type="checkbox"><label>40</label></div>
-                  <div><input type="checkbox"><label>42</label></div>
-                  <div><input type="checkbox"><label>44</label></div>
-                  <div><input type="checkbox"><label>46</label></div>
-                  <div><input type="checkbox"><label>48</label></div>
-                  <div><input type="checkbox"><label>50</label></div>
-                  <div><input type="checkbox"><label>52</label></div>
-               </div>
-               <span>Цвет</span>
-               <div class="checkboxes">
-                  <div><input type="checkbox"><label class="color-1">Бежевый</label></div>
-                  <div><input type="checkbox"><label class="color-2">Белый</label></div>
-                  <div><input type="checkbox"><label class="color-3">Голубой</label></div>
-                  <div><input type="checkbox"><label class="color-4">Красный</label></div>
-                  <div><input type="checkbox"><label class="color-5">Синий</label></div>
-               </div>
-               <span>Фасон выреза горловины</span>
-               <div class="checkboxes">
-                  <div><input type="checkbox"><label>Корсетный</label></div>
-               </div>
-               <span>Длина платья</span>
-               <div class="checkboxes">
-                  <div><input type="checkbox"><label>Длинное / макси</label></div>
-                  <div><input type="checkbox"><label>Короткое / мини</label></div>
-                  <div><input type="checkbox"><label>По колено</label></div>
-               </div>
-               <span>Фасон рукава</span>
-               <div class="checkboxes">
-                  <div><input type="checkbox"><label>Без рукава</label></div>
-               </div>
-               <span class="close">Тип ткани</span>
-               <div></div>
-               <span class="close">Шлейф</span>
-               <div></div>
-               <span class="close">Дополнительные аксессуары к платью</span>
-               <div></div>
-               <span class="close">Наличие корсета</span>
-               <div></div>
-               <span class="close">Производитель</span>
-               <div></div>
-               <span class="close">Страна производитель</span>
-               <div></div>
-                 <div class="form-footer">
-                    <input type="submit" name="" value="Применить">
-                    <a href="#">Сбросить</a>
-                 </div>
-              </form>
-           </div>
-        </div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-     </div>
-  </div>
-  <div class="footer">
-   <div class="wrapper">
-    <a class="footer-logo" href="#"></a>
+				<div class="content card">
+					<div class="breadcrumbs">
+						<a href="#" title="Главная">Главная</a>
+						<a href="#" title="Профиль">Каталог фирм</a>
+						<a href="#" title="Профиль">Платья</a>
+						<a href="#" title="Профиль">Свадебные салоны</a>
+						<span>Белый авантаж, свадебный салон</span>
+					</div>
+					<div class="main-salon-card">
+						<img src="images/temp/main-salon-card-image.jpg">
+						<div class="description">
+							<div class="rating">
+								<a href="#" class="full"></a>
+								<a href="#" class="full"></a>
+								<a href="#" class="full"></a>
+								<a href="#" class="full"></a>
+								<a href="#" class="nofull"></a>
+							</div>
+							<span>свадебный салон</span>
+							<h1>Белый Авантаж</h1>
+							<div class="buttons">
+								<a class="msg" href="#">Отправить сообщение</a>
+								<a class="bookmark" href="#">В закладки</a>
+							</div>
+							<p>Дизайн-студия «Амантес» имеет возможность успешно реализовывать свои идеи по двум направлениям: первое- индивидуальный пошив свадебных и вечерних платьевДизайн-студия «Амантес» имеет возможность успешно реализовывать свои идеи по двум направлениям: первое- индивидуальный пошив свадебных и вечерних платьев</p>
+							<a href="#">Читать полностью</a>
+							<img src="images/temp/social-big.jpg">
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<img src="images/temp/special-offer.jpg" class="special-offer-image">
+					<div class="clearfix"></div>
+					<div class="section">  
+						<ul class="tabs">
+							<li class="current">Новости и Акции</li>                    
+							<li>Каталог</li> 
+							<li>Полное описание</li>
+							<li>Отзывы <span>(8)</span></li>
+							<li>Контакты</li>
+						</ul>
+						<div class="box visible">
+							<h2>Новости и Акции  салона “Белый Авантаж ”:</h2>
+							<div class="main-block-salon">
+								<div class="news">
+									<span class="date">26 мая 2014</span>
+									<span class="time">15:30</span>
+									<a href="#">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне</a>
+									<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя</p>
+								</div>
+								<div class="news">
+									<span class="date">26 мая 2014</span>
+									<span class="time">15:30</span>
+									<a href="#">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне</a>
+									<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя</p>
+								</div>
+								<div class="news">
+									<span class="date">26 мая 2014</span>
+									<span class="time">15:30</span>
+									<a href="#">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне</a>
+									<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя</p>
+								</div>
+								<div class="news">
+									<span class="date">26 мая 2014</span>
+									<span class="time">15:30</span>
+									<a href="#">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне</a>
+									<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя</p>
+								</div>
+								<div class="news">
+									<span class="date">26 мая 2014</span>
+									<span class="time">15:30</span>
+									<a href="#">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне</a>
+									<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя</p>
+								</div>
+								<div class="news">
+									<span class="date">26 мая 2014</span>
+									<span class="time">15:30</span>
+									<a href="#">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне</a>
+									<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя</p>
+								</div>
+								<div class="news">
+									<span class="date">26 мая 2014</span>
+									<span class="time">15:30</span>
+									<a href="#">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне</a>
+									<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя</p>
+								</div>
+								<div class="news">
+									<span class="date">26 мая 2014</span>
+									<span class="time">15:30</span>
+									<a href="#">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне</a>
+									<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя</p>
+								</div>
+							</div>
+						</div>
+						<div class="box long-categories" style="display: none;">
+							<h2>Салон “Белый Авантаж ” предлагает:</h2>
+							<div class="categories">
+								<a href="#">Платья</a>
+								<span>Свадебные платья</span>
+								<a href="#">Вечерние платья</a>
+								<a href="#">Детские платья</a>
+								<a href="#">Аксессуары для невест</a>
+							</div>
+							<div class="main-block-salon">
+								<div class="filter">
+									<form action="" method="get">
+										<span>Выводить:</span>
+										<select name="">
+											<option value="">По рейтингу</option>
+										</select>
+										<input type="submit" name="" value="Применить">
+										<div class="show">
+											<span>Показывать:</span>
+											<select name="">
+												<option value="">По 30 позиций</option>
+											</select>
+										</div>
+									</form>
+								</div>
+								<div class="dress-card-catalog">
+									<img src="images/temp/dress-cart-image.jpg">
+									<div class="description">
+										<span class="salon-name">Свадебные платья</span> 
+										<a href="#">Свадебные платья Вероника</a>
+										<span class="price">188 000<span>руб.</span></span>
+										<div class="rating">
+											<a href="#" class="full"></a>
+											<a href="#" class="full"></a>
+											<a href="#" class="full"></a>
+											<a href="#" class="full"></a>
+											<a href="#" class="nofull"></a>
+										</div>
+									</div>
+								</div>
+								<div class="dress-card-catalog">
+									<img src="images/temp/dress-cart-image.jpg">
+									<div class="description">
+										<span class="salon-name">Свадебные платья</span> 
+										<a href="#">Свадебные платья Вероника</a>
+										<span class="price">188 000<span>руб.</span></span>
+										<div class="rating">
+											<a href="#" class="full"></a>
+											<a href="#" class="full"></a>
+											<a href="#" class="full"></a>
+											<a href="#" class="full"></a>
+											<a href="#" class="nofull"></a>
+										</div>
+									</div>
+								</div>
+								<div class="dress-card-catalog">
+									<img src="images/temp/dress-cart-image.jpg">
+									<div class="description">
+										<span class="salon-name">Свадебные аксессуары</span> 
+										<a href="#">Свадебные платья Вероника</a>
+										<span class="price">188 000<span>руб.</span></span>
+										<div class="rating">
+											<a href="#" class="full"></a>
+											<a href="#" class="full"></a>
+											<a href="#" class="full"></a>
+											<a href="#" class="full"></a>
+											<a href="#" class="nofull"></a>
+										</div>
+									</div>
+								</div>
+								<div class="dress-card-catalog">
+									<img src="images/temp/dress-cart-image.jpg">
+									<div class="description">
+										<span class="salon-name">Свадебные аксессуары</span> 
+										<a href="#">Свадебные платья Вероника</a>
+										<span class="price">188 000<span>руб.</span></span>
+										<div class="rating">
+											<a href="#" class="full"></a>
+											<a href="#" class="full"></a>
+											<a href="#" class="full"></a>
+											<a href="#" class="full"></a>
+											<a href="#" class="nofull"></a>
+										</div>
+									</div>
+								</div>
+								<div class="dress-card-catalog">
+									<img src="images/temp/dress-cart-image.jpg">
+									<div class="description">
+										<span class="salon-name">Свадебные аксессуары</span> 
+										<a href="#">Свадебные платья Вероника</a>
+										<span class="price">188 000<span>руб.</span></span>
+										<div class="rating">
+											<a href="#" class="full"></a>
+											<a href="#" class="full"></a>
+											<a href="#" class="full"></a>
+											<a href="#" class="full"></a>
+											<a href="#" class="nofull"></a>
+										</div>
+									</div>
+								</div>
+								<div class="dress-card-catalog">
+									<img src="images/temp/dress-cart-image.jpg">
+									<div class="description">
+										<span class="salon-name">Свадебные аксессуары</span> 
+										<a href="#">Свадебные платья Вероника</a>
+										<span class="price">188 000<span>руб.</span></span>
+										<div class="rating">
+											<a href="#" class="full"></a>
+											<a href="#" class="full"></a>
+											<a href="#" class="full"></a>
+											<a href="#" class="full"></a>
+											<a href="#" class="nofull"></a>
+										</div>
+									</div>
+								</div>
+								<div class="dress-card-catalog">
+									<img src="images/temp/dress-cart-image.jpg">
+									<div class="description">
+										<span class="salon-name">Свадебные аксессуары</span> 
+										<a href="#">Свадебные платья Вероника</a>
+										<span class="price">188 000<span>руб.</span></span>
+										<div class="rating">
+											<a href="#" class="full"></a>
+											<a href="#" class="full"></a>
+											<a href="#" class="full"></a>
+											<a href="#" class="full"></a>
+											<a href="#" class="nofull"></a>
+										</div>
+									</div>
+								</div>
+								<div class="dress-card-catalog">
+									<img src="images/temp/dress-cart-image.jpg">
+									<div class="description">
+										<span class="salon-name">Свадебные аксессуары</span> 
+										<a href="#">Свадебные платья Вероника</a>
+										<span class="price">188 000<span>руб.</span></span>
+										<div class="rating">
+											<a href="#" class="full"></a>
+											<a href="#" class="full"></a>
+											<a href="#" class="full"></a>
+											<a href="#" class="full"></a>
+											<a href="#" class="nofull"></a>
+										</div>
+									</div>
+								</div>
+								<div class="dress-card-catalog">
+									<img src="images/temp/dress-cart-image.jpg">
+									<div class="description">
+										<span class="salon-name">Свадебные аксессуары</span> 
+										<a href="#">Свадебные платья Вероника</a>
+										<span class="price">188 000<span>руб.</span></span>
+										<div class="rating">
+											<a href="#" class="full"></a>
+											<a href="#" class="full"></a>
+											<a href="#" class="full"></a>
+											<a href="#" class="full"></a>
+											<a href="#" class="nofull"></a>
+										</div>
+									</div>
+								</div>
+								<div class="dress-card-catalog">
+									<img src="images/temp/dress-cart-image.jpg">
+									<div class="description">
+										<span class="salon-name">Свадебные аксессуары</span> 
+										<a href="#">Свадебные платья Вероника</a>
+										<span class="price">188 000<span>руб.</span></span>
+										<div class="rating">
+											<a href="#" class="full"></a>
+											<a href="#" class="full"></a>
+											<a href="#" class="full"></a>
+											<a href="#" class="full"></a>
+											<a href="#" class="nofull"></a>
+										</div>
+									</div>
+								</div>
+								<div class="dress-card-catalog">
+									<img src="images/temp/dress-cart-image.jpg">
+									<div class="description">
+										<span class="salon-name">Свадебные аксессуары</span> 
+										<a href="#">Свадебные платья Вероника</a>
+										<span class="price">188 000<span>руб.</span></span>
+										<div class="rating">
+											<a href="#" class="full"></a>
+											<a href="#" class="full"></a>
+											<a href="#" class="full"></a>
+											<a href="#" class="full"></a>
+											<a href="#" class="nofull"></a>
+										</div>
+									</div>
+								</div>
+								<div class="dress-card-catalog">
+									<img src="images/temp/dress-cart-image.jpg">
+									<div class="description">
+										<span class="salon-name">Свадебные аксессуары</span> 
+										<a href="#">Свадебные платья Вероника</a>
+										<span class="price">188 000<span>руб.</span></span>
+										<div class="rating">
+											<a href="#" class="full"></a>
+											<a href="#" class="full"></a>
+											<a href="#" class="full"></a>
+											<a href="#" class="full"></a>
+											<a href="#" class="nofull"></a>
+										</div>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+								<div class="pagination">
+									<span>1</span>
+									<a href="#">2</a>
+									<a href="#">3</a>
+									<a href="#">4</a>
+									<a href="#">5</a>
+									<a href="#">6</a>
+									<a href="#" class="next">Следующая</a>
+								</div> 
+							</div>
+							<div class="options">
+								<a href="#" class="options-up toggle">Скрыть параметры</a>
+								<form id="filter">
+									<div class="form-header">
+										<span>Диапазон цен <span> руб.</span></span>
+										<input type="text"> - <input type="text">
+									</div>
+									<span>Силуэт свадебного платья</span>
+									<div class="checkboxes">
+										<div><input type="checkbox"><label>А-силуэт</label></div>
+										<div><input type="checkbox"><label>Ампир</label></div>
+										<div><input type="checkbox"><label>Принцесса</label></div>
+										<div><input type="checkbox"><label>Прямое</label></div>
+										<div><input type="checkbox"><label>Русалка</label></div>
+									</div>
+									<span>Размер женской одежды</span>
+									<div class="checkboxes">
+										<div><input type="checkbox"><label>40</label></div>
+										<div><input type="checkbox"><label>42</label></div>
+										<div><input type="checkbox"><label>44</label></div>
+										<div><input type="checkbox"><label>46</label></div>
+										<div><input type="checkbox"><label>48</label></div>
+										<div><input type="checkbox"><label>50</label></div>
+										<div><input type="checkbox"><label>52</label></div>
+									</div>
+									<span>Цвет</span>
+									<div class="checkboxes">
+										<div><input type="checkbox"><label class="color-1">Бежевый</label></div>
+										<div><input type="checkbox"><label class="color-2">Белый</label></div>
+										<div><input type="checkbox"><label class="color-3">Голубой</label></div>
+										<div><input type="checkbox"><label class="color-4">Красный</label></div>
+										<div><input type="checkbox"><label class="color-5">Синий</label></div>
+									</div>
+									<span>Фасон выреза горловины</span>
+									<div class="checkboxes">
+										<div><input type="checkbox"><label>Корсетный</label></div>
+									</div>
+									<span>Длина платья</span>
+									<div class="checkboxes">
+										<div><input type="checkbox"><label>Длинное / макси</label></div>
+										<div><input type="checkbox"><label>Короткое / мини</label></div>
+										<div><input type="checkbox"><label>По колено</label></div>
+									</div>
+									<span>Фасон рукава</span>
+									<div class="checkboxes">
+										<div><input type="checkbox"><label>Без рукава</label></div>
+									</div>
+									<span class="close">Тип ткани</span>
+									<div></div>
+									<span class="close">Шлейф</span>
+									<div></div>
+									<span class="close">Дополнительные аксессуары к платью</span>
+									<div></div>
+									<span class="close">Наличие корсета</span>
+									<div></div>
+									<span class="close">Производитель</span>
+									<div></div>
+									<span class="close">Страна производитель</span>
+									<div></div>
+									<div class="form-footer">
+										<input type="submit" name="" value="Применить">
+										<a href="#">Сбросить</a>
+									</div>
+								</form>
+							</div>
+							<div class="advertisement">
+								<img src="images/temp/adsense.jpg">
+							</div>
+						</div>
+						<div class="box" style="display: none;">
+							<h2>Описание салона “Белый Авантаж ”:</h2>
+							<div class="main-block-salon description">
+								<img src="images/temp/salon-photo1.jpg" class="first">
+								<img src="images/temp/salon-photo2.jpg">
+								<div class="clearfix"></div>
+								<p><strong>Чем можно удивить тех, кто, казалось бы, видел уже все и давно перестал удивляться?</strong><br>
+									Непростая задача, но мы все же попробуем.<br>
+									Для искушенных столичных модниц мы распахнули двери роскошных салонов свадебной и вечерней моды «Wedding Rooms».
+								</p>
+								<p>Мы подошли к вопросу открытия «Wedding Rooms» со всей серьезностью.  Длительный период подготовительных работ позволил тщательно изучить мировой рынок и индустрию свадебной и вечерней моды. Личное знакомство, заключенные договора и партнерские соглашения с известнейшими дизайнерами позволяют делать для наших клиентов выгодные предложения по стоимости представленных в наших магазинах платьев и аксессуаров </p>
+								<p>В вопросах мест расположения салонов все тоже тщательно продумывалось, и выбор был сделан не случайно. Главными критериями служили – приближенность к центру, удобство расположения, легкость подъезда на автомобиле.</p>
+								<p>Визуализация внутреннего убранства – это воплощение в жизнь дизайнерских проектов. Сочетание уютной </p>
+								<img src="images/temp/salon-photo3.jpg">
+								<div class="clearfix"></div>
+								<p> Широчайший выбор дизайнерских свадебных платьев от известных мировых марок, таких как ZUHAIR MURAD, ROSA CLARA,YUSUPOVA COUTURE, FRANC SARABIA,  SAN PATRICK, LA SPOSA, CARLO PIGNATELLI OPERE, OZLEM SUER, CHIARADE, FRANCIS MONTESINOS, RIMA BOHSALI, PRINTING, MANUEL ALVARES, ALESSANDRO COUTURE и многих других, собраны в одном месте.</p>
+								<p>И отыскать, среди представленного разнообразия моделей и фасонов, именно то, самое единственное платье, достаточно легко. С европейской  ценовой политикой (от 50 тыс. и до 600 тыс.рублей) для каждой невесты найдётся платье. А квалифицированные консультанты и мастера подскажут и направят Вас в Вашем выборе.</p>
+								<p>А так же мы предлагаем подобрать к наряду различные аксессуары: меховые накидки, фаты, шляпки, перчатки, обувь,сумочки. У нас представлены такие представители, как  Sagittario, Marco Cucinotta, Rocio, Gino Cori, Menbur, Penrose, Agnes Sunyer, Carla Ragaini и другие.</p>
+								<p>Мечтающие о королевской свадьбе девушки тщательно следят за тем, чтобы на их торжестве все было безупречно, включая наряд жениха, наряды родных и близких людей. Чтобы костюм жениха дополнял и гармонично смотрелся с платьем невесты, его довершают правильно подобранными деталями – рубашкой, галстуком, туфлями, запонками, ремнем. Разнообразие аксессуаров для мужчин, ассортимент костюмов и итальянское качество брендов Pat Maseda, Petrelli, Marzullo, Caliban говорит само за себя.</p>
+								<p>Без внимания не останутся и мамы молодоженов. Наряды от Gemy Couture,  Ozlem Suer,  Jovani,  Sherri Hill и эксклюзивные аксессуары к ним, не затмят, но все же не уступят по своей красоте и исполнению образу невесты.</p>
+							</div>
+							<div class="advertisement">
+								<img src="images/temp/adsense.jpg">
+							</div>
+						</div>
+						<div class="box" style="display: none;">
+							<h2>Отзывы о салоне “Белый Авантаж ”:</h2>
+							<div class="categories all">
+								<span>Все</span>
+								<a href="#">Позитивные</a>
+								<a href="#">Негативные</a>
+							</div>
+							<div class="main-block-salon reviews">
+								<div class="filter">
+									<form action="" method="get">
+										<span>Выводить:</span>
+										<select name="">
+											<option value="">По дате размещения</option>
+										</select>
+										<input type="submit" name="" value="Применить">
+										<div class="show">
+											<span>Показывать:</span>
+											<select name="">
+												<option value="">По 5 отзывов</option>
+											</select>
+										</div>
+									</form>
+								</div>
+								<div class="review">
+									<img src="images/temp/avatar-reviews.jpg" class="avatar">
+									<div class="comment-right">
+										<span class="name">Мария Баранова</span>
+										<span class="date">26 мая 2014</span>
+										<span class="time">15:30</span>
+										<div class="rating-block">
+											<div class="rating">
+												<a href="#" class="full"></a>
+												<a href="#" class="full"></a>
+												<a href="#" class="full"></a>
+												<a href="#" class="full"></a>
+												<a href="#" class="nofull"></a>
+											</div>
+											<span class="good">Хорошо</span>
+											<div class="clearfix"></div>
+										</div>
+										<p>Заказывала воздушные шары,фонарик,лепестки роз и пневмохлопушку.Связались со мной рекордно быстро,обьяснили что и как,затем выслали в оговоренные сроки. Очень порадовала возможность накладного платежа. Связались со мной рекордно быстро,обьяснили что и как,затем выслали в оговоренны. Огромное спасибо!С помощью магазина "То-то и оно!"</p>
+										<p class="pros"><span>Плюсы: </span>Вовремя пришло, быстро позвонили по поводу заказа</p>
+										<p class="cons"><span>Минусы: </span>Не все есть в наличии</p>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="review">
+									<img src="images/temp/avatar-reviews.jpg" class="avatar">
+									<div class="comment-right">
+										<span class="name">Мария Баранова</span>
+										<span class="date">26 мая 2014</span>
+										<span class="time">15:30</span>
+										<div class="rating-block">
+											<div class="rating">
+												<a href="#" class="full"></a>
+												<a href="#" class="nofull"></a>
+												<a href="#" class="nofull"></a>
+												<a href="#" class="nofull"></a>
+												<a href="#" class="nofull"></a>
+											</div>
+											<span class="bad">Очень плохо</span>
+											<div class="clearfix"></div>
+										</div>
+										<p>Заказывала воздушные шары,фонарик,лепестки роз и пневмохлопушку.Связались со мной рекордно быстро,обьяснили что и как,затем выслали в оговоренные сроки. Очень порадовала возможность накладного платежа. Связались со мной рекордно быстро,обьяснили что и как,затем выслали в оговоренны. Огромное спасибо!С помощью магазина "То-то и оно!"</p>
+										<p class="pros"><span>Плюсы: </span>Вовремя пришло, быстро позвонили по поводу заказа</p>
+										<p class="cons"><span>Минусы: </span>Не все есть в наличии</p>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="review">
+									<img src="images/temp/avatar-reviews.jpg" class="avatar">
+									<div class="comment-right">
+										<span class="name">Мария Баранова</span>
+										<span class="date">26 мая 2014</span>
+										<span class="time">15:30</span>
+										<div class="rating-block">
+											<div class="rating">
+												<a href="#" class="full"></a>
+												<a href="#" class="full"></a>
+												<a href="#" class="full"></a>
+												<a href="#" class="full"></a>
+												<a href="#" class="full"></a>
+											</div>
+											<span class="perfect">Отлично</span>
+											<div class="clearfix"></div>
+										</div>
+										<p>Заказывала воздушные шары,фонарик,лепестки роз и пневмохлопушку.Связались со мной рекордно быстро,обьяснили что и как,затем выслали в оговоренные сроки. Очень порадовала возможность накладного платежа. Связались со мной рекордно быстро,обьяснили что и как,затем выслали в оговоренны. Огромное спасибо!С помощью магазина "То-то и оно!"</p>
+										<div class="clearfix"></div>
+										<p class="pros"><span>Плюсы: </span>Вовремя пришло, быстро позвонили по поводу заказа</p>
+										<p class="cons"><span>Минусы: </span>Не все есть в наличии</p>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="review">
+									<img src="images/temp/avatar-reviews.jpg" class="avatar">
+									<div class="comment-right">
+										<span class="name">Мария Баранова</span>
+										<span class="date">26 мая 2014</span>
+										<span class="time">15:30</span>
+										<div class="rating-block">
+											<div class="rating">
+												<a href="#" class="full"></a>
+												<a href="#" class="full"></a>
+												<a href="#" class="full"></a>
+												<a href="#" class="full"></a>
+												<a href="#" class="nofull"></a>
+											</div>
+											<span class="good">Хорошо</span>
+											<div class="clearfix"></div>
+										</div>
+										<p>Заказывала воздушные шары,фонарик,лепестки роз и пневмохлопушку.Связались со мной рекордно быстро,обьяснили что и как,затем выслали в оговоренные сроки. Очень порадовала возможность накладного платежа. Связались со мной рекордно быстро,обьяснили что и как,затем выслали в оговоренны. Огромное спасибо!С помощью магазина "То-то и оно!"</p>
+										<div class="clearfix"></div>
+										<p class="pros"><span>Плюсы: </span>Вовремя пришло, быстро позвонили по поводу заказа</p>
+										<p class="cons"><span>Минусы: </span>Не все есть в наличии</p>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+							<div class="clearfix"></div>
+							<div class="pagination">
+								<span>1</span>
+								<a href="#">2</a>
+								<a href="#">3</a>
+								<a href="#">4</a>
+								<a href="#">5</a>
+								<a href="#">6</a>
+								<a href="#" class="next">Следующая</a>
+							</div> 
+							<div class="add-review">
+								<form>
+									<span>Добавить отзыв</span>
+									<div class="review">
+										<span>Отзыв</span>
+										<textarea></textarea>
+										<a href="#" class="pros">Добавить плюсы</a>
+										<a href="#" class="cons">Указать минусы</a>
+										<input type="submit" value="Добавить отзыв">
+									</div>
+									<div class="overall-rating">
+										<span>Общая оценка</span>
+										<div><input name="rating" type="radio" value=""> Очень плохо
+											<div class="rating">
+												<a href="#" class="full"></a>
+												<a href="#" class="nofull"></a>
+												<a href="#" class="nofull"></a>
+												<a href="#" class="nofull"></a>
+												<a href="#" class="nofull"></a>
+											</div>
+										</div>
+										<div><input name="rating" type="radio" value=""> Плохо
+											<div class="rating">
+												<a href="#" class="full"></a>
+												<a href="#" class="full"></a>
+												<a href="#" class="nofull"></a>
+												<a href="#" class="nofull"></a>
+												<a href="#" class="nofull"></a>
+											</div>
+										</div>
+										<div><input name="rating" type="radio" value=""> Нормально
+											<div class="rating">
+												<a href="#" class="full"></a>
+												<a href="#" class="full"></a>
+												<a href="#" class="full"></a>
+												<a href="#" class="nofull"></a>
+												<a href="#" class="nofull"></a>
+											</div>
+										</div>
+										<div><input name="rating" type="radio" value=""> Хорошо
+											<div class="rating">
+												<a href="#" class="full"></a>
+												<a href="#" class="full"></a>
+												<a href="#" class="full"></a>
+												<a href="#" class="full"></a>
+												<a href="#" class="nofull"></a>
+											</div>
+										</div>
+										<div><input name="rating" type="radio" value=""> Отлично
+											<div class="rating">
+												<a href="#" class="full"></a>
+												<a href="#" class="full"></a>
+												<a href="#" class="full"></a>
+												<a href="#" class="full"></a>
+												<a href="#" class="full"></a>
+											</div>
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</form>
+							</div>
+						</div>
+						<div class="box" style="display: none;">
+							<h2>Контакты салона “Белый Авантаж ”:</h2>
+							<div class="main-block-salon">
+								<div class="address">                 
+									<span class="street">ул. Знаменка, д.7 с.3. ( деловой дом «Знаменка,7», 1 этаж)</span>
+									<span class="metro">м. Боровицкая, Библиотека имени Ленина, Арбатская, Александровский сад, Кропоткинская</span>
+									<span class="phone">+3840 46 54 655, +3840 46 54 655</span>
+									<span class="time">08:00-22:00</span>
+								</div>
+								<div class="address">
+									<span class="street">ул. Знаменка, д.7 с.3. ( деловой дом «Знаменка,7», 1 этаж)</span>
+									<span class="metro">м. Боровицкая, Библиотека имени Ленина, Арбатская, Александровский сад, Кропоткинская</span>
+									<span class="phone">+3840 46 54 655, +3840 46 54 655</span>
+									<span class="time">08:00-22:00</span>
+								</div>               
+								<div class="address">
+									<span class="street">ул. Знаменка, д.7 с.3. ( деловой дом «Знаменка,7», 1 этаж)</span>
+									<span class="metro">м. Боровицкая, Библиотека имени Ленина, Арбатская, Александровский сад, Кропоткинская</span>
+									<span class="phone">+3840 46 54 655, +3840 46 54 655</span>
+									<span class="time">08:00-22:00</span>
+								</div>
+								<img src="images/temp/map.jpg">              
+							</div>
+							<div class="advertisement">
+								<img src="images/temp/adsense.jpg">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer">
+					<div class="wrapper">
+						<a class="footer-logo" href="#"></a>
 
-    <div class="phone">
-     Телефон в Москве
-     <span>(495) 660-77-44</span>
-  </div>
+						<div class="phone">
+							Телефон в Москве
+							<span>(495) 660-77-44</span>
+						</div>
 
-  <div class="footer-menu">
-     <a href="#" title="Обратная связь">Обратная связь</a>
-     <a href="#" title="Размещение в каталоге">Размещение в каталоге</a>
-     <a href="#" title="Реклама на сайте">Реклама на сайте</a>
-     <a href="#" title="Помощь и правила сайта">Помощь и правила сайта</a>
-  </div>
+						<div class="footer-menu">
+							<a href="#" title="Обратная связь">Обратная связь</a>
+							<a href="#" title="Размещение в каталоге">Размещение в каталоге</a>
+							<a href="#" title="Реклама на сайте">Реклама на сайте</a>
+							<a href="#" title="Помощь и правила сайта">Помощь и правила сайта</a>
+						</div>
 
-  <div class="social">
-     <span>Мы в соц.сетях</span>
-     <img src="images/temp/social.jpg">
-  </div>
-  <div class="clearfix"></div>
-</div>
-</div>
-</div>
-</body>
-</html>
+						<div class="social">
+							<span>Мы в соц.сетях</span>
+							<img src="images/temp/social.jpg">
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+		</body>
+		</html>

@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'box-sizing'.
-        on line 14 of C:/Git/svadbovo/sass/kartochka_catalog.scss, in `box-sizing'
-        from line 14 of C:/Git/svadbovo/sass/kartochka_catalog.scss
+        on line 15 of C:/Git/svadbovo/sass/kartochka_catalog.scss, in `box-sizing'
+        from line 15 of C:/Git/svadbovo/sass/kartochka_catalog.scss
 
-9: 		margin: 10px 0 0 0;
-10: 		border: 1px solid #e8e8e8;
-11: 		padding: 10px 10px 50px 10px;
-12: 		> img{
-13: 			float: left;
-14: 			@include box-sizing;
-15: 			width: 246px;
-16: 			height: 336px;
-17: 		}
-18: 		.description{
-19: 			float: left;
+10: 		margin: 10px 0 0 0;
+11: 		border: 1px solid #e8e8e8;
+12: 		padding: 10px 10px 50px 10px;
+13: 		> img{
+14: 			float: left;
+15: 			@include box-sizing;
+16: 			width: 246px;
+17: 			height: 336px;
+18: 		}
+19: 		.description{
+20: 			float: left;
 
 Backtrace:
-C:/Git/svadbovo/sass/kartochka_catalog.scss:14:in `box-sizing'
-C:/Git/svadbovo/sass/kartochka_catalog.scss:14
+C:/Git/svadbovo/sass/kartochka_catalog.scss:15:in `box-sizing'
+C:/Git/svadbovo/sass/kartochka_catalog.scss:15
 C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:338:in `block in visit_mixin'
 C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/lib/sass/stack.rb:115:in `with_frame'
@@ -92,4 +92,4 @@ C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.4/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'box-sizing'.\A         on line 14 of C:/Git/svadbovo/sass/kartochka_catalog.scss, in `box-sizing'\A         from line 14 of C:/Git/svadbovo/sass/kartochka_catalog.scss\A \A 9: 		margin: 10px 0 0 0;\A 10: 		border: 1px solid #e8e8e8;\A 11: 		padding: 10px 10px 50px 10px;\A 12: 		> img{\A 13: 			float: left;\A 14: 			@include box-sizing;\A 15: 			width: 246px;\A 16: 			height: 336px;\A 17: 		}\A 18: 		.description{\A 19: 			float: left;"; }
+  content: "Error: Undefined mixin 'box-sizing'.\A         on line 15 of C:/Git/svadbovo/sass/kartochka_catalog.scss, in `box-sizing'\A         from line 15 of C:/Git/svadbovo/sass/kartochka_catalog.scss\A \A 10: 		margin: 10px 0 0 0;\A 11: 		border: 1px solid #e8e8e8;\A 12: 		padding: 10px 10px 50px 10px;\A 13: 		> img{\A 14: 			float: left;\A 15: 			@include box-sizing;\A 16: 			width: 246px;\A 17: 			height: 336px;\A 18: 		}\A 19: 		.description{\A 20: 			float: left;"; }
