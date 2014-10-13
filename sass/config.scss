@@ -316,3 +316,38 @@ h3 {
 		}
 	}
 }
+@mixin rating-small {
+	float: right;				
+	margin: 0 0 15px 0;
+	span {
+		display: inline-block;
+		vertical-align: middle;
+		font-size: 15px;
+		font-weight: bold;
+		margin: 0 10px 0 0;
+		&.good {
+			color: #666;
+		}
+		&.excellent {
+			color: #59a924;
+		}
+		&.bad {
+			color: #d35416;
+		}
+	}
+	a {
+		display: inline-block;
+		margin: 0 -15px 0 0;
+		vertical-align: middle;
+		@include sprite-dimensions($icons, star-full-small);
+		&.full {
+			@include background(star-full-small, 0);
+		}
+		&.nofull {
+			@include background(star-nofull-small, 0);
+		}
+		&:hover {
+			@include background(star-full-small, 0);
+		}
+	}
+}

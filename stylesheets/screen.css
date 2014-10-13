@@ -6,7 +6,8 @@ h1,
 .modal-add-video h1,
 .user-enter-window h1,
 .user-sign-up-window h1,
-.advertiser-sign-up-window h1, h2, h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel .text-company .catalog-source span, h4, h5, h6, p, blockquote, pre,
+.advertiser-sign-up-window h1,
+.wedding-dress-window h1, h2, h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel .text-company .catalog-source span, h4, h5, h6, p, blockquote, pre,
 a,
 .breadcrumbs span, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -95,7 +96,7 @@ input:focus, select:focus, .bar .search input[type=text]:focus, textarea:focus {
   outline: none;
 }
 
-h1, .modal h1, .modal-add-photo h1, .modal-add-video h1, .user-enter-window h1, .user-sign-up-window h1, .advertiser-sign-up-window h1 {
+h1, .modal h1, .modal-add-photo h1, .modal-add-video h1, .user-enter-window h1, .user-sign-up-window h1, .advertiser-sign-up-window h1, .wedding-dress-window h1 {
   font-size: 23px;
   color: #ac296a;
   text-transform: uppercase;
@@ -117,10 +118,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   position: absolute;
   right: 0;
   font-size: 14px;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -11908px;
-  background-position: 0 -11903px;
+  background-position: 0 -12197px;
+  background-position: 0 -12192px;
   padding: 0 0 0 15px;
 }
 
@@ -143,17 +144,17 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   background-color: #fef5e5;
 }
 .pagination .next {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -7664px;
-  background-position: 103px -7656px;
+  background-position: 0 -7953px;
+  background-position: 103px -7945px;
   padding: 7px 35px 7px 14px;
 }
 .pagination .prev, .pagination .calendar .cal .month .next, .calendar .cal .month .pagination .next, .pagination .calendar .cal table td .next, .calendar .cal table td .pagination .next {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -9490px;
-  background-position: 10px -9482px;
+  background-position: 0 -9779px;
+  background-position: 10px -9771px;
   padding: 7px 14px 7px 35px;
 }
 
@@ -172,7 +173,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   position: relative;
   content: " ";
   display: inline-block;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -910px;
   height: 5px;
@@ -181,7 +182,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   margin-right: 5px;
 }
 .breadcrumbs a:first-child:before, .breadcrumbs span:first-child:before {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -1015px;
   height: 11px;
@@ -200,9 +201,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   display: inline-block;
   position: relative;
   top: -1px;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -8610px;
+  background-position: 0 -8899px;
   height: 7px;
   width: 7px;
 }
@@ -212,9 +213,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 }
 .top .logo {
   float: left;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -4715px;
+  background-position: 0 -5004px;
   height: 62px;
   width: 209px;
 }
@@ -248,10 +249,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   border-radius: 4px;
   border: 1px solid #d6d6d6;
   background: #fafafa;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -14242px;
-  background-position: 11px -14231px;
+  background-position: 0 -14929px;
+  background-position: 11px -14918px;
 }
 .top .user-enter .messages .count, .top .user-enter .profile .count {
   display: block;
@@ -272,7 +273,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   height: auto;
   font-size: 14px;
   color: #262a2c;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -1355px;
   background-position: 150px -1342px;
@@ -307,16 +308,16 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   display: block;
   padding: 0 0 0 28px;
   margin: 0 0 10px 0;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -14010px;
-  background-position: 0 -14008px;
+  background-position: 0 -14697px;
+  background-position: 0 -14695px;
 }
 .top .user-enter .profile .hidden a + a, .top .user-enter .profile .hidden .breadcrumbs span + a, .breadcrumbs .top .user-enter .profile .hidden span + a, .top .user-enter .profile .hidden .breadcrumbs a + span, .breadcrumbs .top .user-enter .profile .hidden a + span, .top .user-enter .profile .hidden .breadcrumbs span + span, .breadcrumbs .top .user-enter .profile .hidden span + span {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -14126px;
-  background-position: 0 -14124px;
+  background-position: 0 -14813px;
+  background-position: 0 -14811px;
 }
 
 .bar {
@@ -381,9 +382,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 }
 .footer .footer-logo {
   float: left;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -4572px;
+  background-position: 0 -4861px;
   height: 43px;
   width: 146px;
   vertical-align: top;
@@ -426,7 +427,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 .sidebar-left .logo-company a, .sidebar-left .logo-company .breadcrumbs span, .breadcrumbs .sidebar-left .logo-company span {
   display: block;
   background: #fbfbfb;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -1126px;
   background-position: 10px -1116px;
@@ -464,10 +465,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   text-decoration: none;
 }
 .sidebar-left .user-menu ul li.profile-rekl-cat-1, .sidebar-left .user-menu ul .card .section .tabs li.profile-rekl-cat-1.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-rekl-cat-1.current, .sidebar-left .user-menu ul .registry-office-card .section .tabs li.profile-rekl-cat-1.current, .registry-office-card .section .tabs .sidebar-left .user-menu ul li.profile-rekl-cat-1.current {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -9604px;
-  background-position: 11px -9593px;
+  background-position: 0 -9893px;
+  background-position: 11px -9882px;
 }
 .sidebar-left .user-menu ul li, .sidebar-left .user-menu ul .card .section .tabs li.current, .card .section .tabs .sidebar-left .user-menu ul li.current, .sidebar-left .user-menu ul .registry-office-card .section .tabs li.current, .registry-office-card .section .tabs .sidebar-left .user-menu ul li.current {
   display: block;
@@ -493,10 +494,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   text-decoration: none;
 }
 .sidebar-left .user-menu ul li.profile-rekl-cat-2, .sidebar-left .user-menu ul .card .section .tabs li.profile-rekl-cat-2.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-rekl-cat-2.current, .sidebar-left .user-menu ul .registry-office-card .section .tabs li.profile-rekl-cat-2.current, .registry-office-card .section .tabs .sidebar-left .user-menu ul li.profile-rekl-cat-2.current {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -9834px;
-  background-position: 11px -9823px;
+  background-position: 0 -10123px;
+  background-position: 11px -10112px;
 }
 .sidebar-left .user-menu ul li, .sidebar-left .user-menu ul .card .section .tabs li.current, .card .section .tabs .sidebar-left .user-menu ul li.current, .sidebar-left .user-menu ul .registry-office-card .section .tabs li.current, .registry-office-card .section .tabs .sidebar-left .user-menu ul li.current {
   display: block;
@@ -522,10 +523,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   text-decoration: none;
 }
 .sidebar-left .user-menu ul li.profile-rekl-cat-3, .sidebar-left .user-menu ul .card .section .tabs li.profile-rekl-cat-3.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-rekl-cat-3.current, .sidebar-left .user-menu ul .registry-office-card .section .tabs li.profile-rekl-cat-3.current, .registry-office-card .section .tabs .sidebar-left .user-menu ul li.profile-rekl-cat-3.current {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -9950px;
-  background-position: 11px -9939px;
+  background-position: 0 -10239px;
+  background-position: 11px -10228px;
 }
 .sidebar-left .user-menu ul li, .sidebar-left .user-menu ul .card .section .tabs li.current, .card .section .tabs .sidebar-left .user-menu ul li.current, .sidebar-left .user-menu ul .registry-office-card .section .tabs li.current, .registry-office-card .section .tabs .sidebar-left .user-menu ul li.current {
   display: block;
@@ -551,10 +552,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   text-decoration: none;
 }
 .sidebar-left .user-menu ul li.profile-rekl-cat-4, .sidebar-left .user-menu ul .card .section .tabs li.profile-rekl-cat-4.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-rekl-cat-4.current, .sidebar-left .user-menu ul .registry-office-card .section .tabs li.profile-rekl-cat-4.current, .registry-office-card .section .tabs .sidebar-left .user-menu ul li.profile-rekl-cat-4.current {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -10066px;
-  background-position: 11px -10055px;
+  background-position: 0 -10355px;
+  background-position: 11px -10344px;
 }
 .sidebar-left .user-menu ul li, .sidebar-left .user-menu ul .card .section .tabs li.current, .card .section .tabs .sidebar-left .user-menu ul li.current, .sidebar-left .user-menu ul .registry-office-card .section .tabs li.current, .registry-office-card .section .tabs .sidebar-left .user-menu ul li.current {
   display: block;
@@ -580,10 +581,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   text-decoration: none;
 }
 .sidebar-left .user-menu ul li.profile-rekl-cat-5, .sidebar-left .user-menu ul .card .section .tabs li.profile-rekl-cat-5.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-rekl-cat-5.current, .sidebar-left .user-menu ul .registry-office-card .section .tabs li.profile-rekl-cat-5.current, .registry-office-card .section .tabs .sidebar-left .user-menu ul li.profile-rekl-cat-5.current {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -10182px;
-  background-position: 11px -10171px;
+  background-position: 0 -10471px;
+  background-position: 11px -10460px;
 }
 .sidebar-left .user-menu ul li, .sidebar-left .user-menu ul .card .section .tabs li.current, .card .section .tabs .sidebar-left .user-menu ul li.current, .sidebar-left .user-menu ul .registry-office-card .section .tabs li.current, .registry-office-card .section .tabs .sidebar-left .user-menu ul li.current {
   display: block;
@@ -609,10 +610,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   text-decoration: none;
 }
 .sidebar-left .user-menu ul li.profile-rekl-cat-6, .sidebar-left .user-menu ul .card .section .tabs li.profile-rekl-cat-6.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-rekl-cat-6.current, .sidebar-left .user-menu ul .registry-office-card .section .tabs li.profile-rekl-cat-6.current, .registry-office-card .section .tabs .sidebar-left .user-menu ul li.profile-rekl-cat-6.current {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -10297px;
-  background-position: 11px -10286px;
+  background-position: 0 -10586px;
+  background-position: 11px -10575px;
 }
 .sidebar-left .user-menu ul li, .sidebar-left .user-menu ul .card .section .tabs li.current, .card .section .tabs .sidebar-left .user-menu ul li.current, .sidebar-left .user-menu ul .registry-office-card .section .tabs li.current, .registry-office-card .section .tabs .sidebar-left .user-menu ul li.current {
   display: block;
@@ -638,10 +639,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   text-decoration: none;
 }
 .sidebar-left .user-menu ul li.profile-rekl-cat-7, .sidebar-left .user-menu ul .card .section .tabs li.profile-rekl-cat-7.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-rekl-cat-7.current, .sidebar-left .user-menu ul .registry-office-card .section .tabs li.profile-rekl-cat-7.current, .registry-office-card .section .tabs .sidebar-left .user-menu ul li.profile-rekl-cat-7.current {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -10413px;
-  background-position: 11px -10402px;
+  background-position: 0 -10702px;
+  background-position: 11px -10691px;
 }
 .sidebar-left .user-menu ul li, .sidebar-left .user-menu ul .card .section .tabs li.current, .card .section .tabs .sidebar-left .user-menu ul li.current, .sidebar-left .user-menu ul .registry-office-card .section .tabs li.current, .registry-office-card .section .tabs .sidebar-left .user-menu ul li.current {
   display: block;
@@ -667,10 +668,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   text-decoration: none;
 }
 .sidebar-left .user-menu ul li.profile-rekl-cat-8, .sidebar-left .user-menu ul .card .section .tabs li.profile-rekl-cat-8.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-rekl-cat-8.current, .sidebar-left .user-menu ul .registry-office-card .section .tabs li.profile-rekl-cat-8.current, .registry-office-card .section .tabs .sidebar-left .user-menu ul li.profile-rekl-cat-8.current {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -10528px;
-  background-position: 11px -10517px;
+  background-position: 0 -10817px;
+  background-position: 11px -10806px;
 }
 .sidebar-left .user-menu ul li, .sidebar-left .user-menu ul .card .section .tabs li.current, .card .section .tabs .sidebar-left .user-menu ul li.current, .sidebar-left .user-menu ul .registry-office-card .section .tabs li.current, .registry-office-card .section .tabs .sidebar-left .user-menu ul li.current {
   display: block;
@@ -696,10 +697,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   text-decoration: none;
 }
 .sidebar-left .user-menu ul li.profile-rekl-cat-9, .sidebar-left .user-menu ul .card .section .tabs li.profile-rekl-cat-9.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-rekl-cat-9.current, .sidebar-left .user-menu ul .registry-office-card .section .tabs li.profile-rekl-cat-9.current, .registry-office-card .section .tabs .sidebar-left .user-menu ul li.profile-rekl-cat-9.current {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -10644px;
-  background-position: 11px -10633px;
+  background-position: 0 -10933px;
+  background-position: 11px -10922px;
 }
 .sidebar-left .user-menu ul li, .sidebar-left .user-menu ul .card .section .tabs li.current, .card .section .tabs .sidebar-left .user-menu ul li.current, .sidebar-left .user-menu ul .registry-office-card .section .tabs li.current, .registry-office-card .section .tabs .sidebar-left .user-menu ul li.current {
   display: block;
@@ -725,58 +726,58 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   text-decoration: none;
 }
 .sidebar-left .user-menu ul li.profile-rekl-cat-10, .sidebar-left .user-menu ul .card .section .tabs li.profile-rekl-cat-10.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-rekl-cat-10.current, .sidebar-left .user-menu ul .registry-office-card .section .tabs li.profile-rekl-cat-10.current, .registry-office-card .section .tabs .sidebar-left .user-menu ul li.profile-rekl-cat-10.current {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -9718px;
-  background-position: 11px -9707px;
+  background-position: 0 -10007px;
+  background-position: 11px -9996px;
 }
 .sidebar-left .user-menu ul li.profile-user-cat-1, .sidebar-left .user-menu ul .card .section .tabs li.profile-user-cat-1.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-user-cat-1.current, .sidebar-left .user-menu ul .registry-office-card .section .tabs li.profile-user-cat-1.current, .registry-office-card .section .tabs .sidebar-left .user-menu ul li.profile-user-cat-1.current {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -10760px;
-  background-position: 11px -10749px;
+  background-position: 0 -11049px;
+  background-position: 11px -11038px;
 }
 .sidebar-left .user-menu ul li.profile-user-cat-2, .sidebar-left .user-menu ul .card .section .tabs li.profile-user-cat-2.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-user-cat-2.current, .sidebar-left .user-menu ul .registry-office-card .section .tabs li.profile-user-cat-2.current, .registry-office-card .section .tabs .sidebar-left .user-menu ul li.profile-user-cat-2.current {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -10876px;
-  background-position: 11px -10865px;
+  background-position: 0 -11165px;
+  background-position: 11px -11154px;
 }
 .sidebar-left .user-menu ul li.profile-user-cat-3, .sidebar-left .user-menu ul .card .section .tabs li.profile-user-cat-3.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-user-cat-3.current, .sidebar-left .user-menu ul .registry-office-card .section .tabs li.profile-user-cat-3.current, .registry-office-card .section .tabs .sidebar-left .user-menu ul li.profile-user-cat-3.current {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -10991px;
-  background-position: 11px -10980px;
+  background-position: 0 -11280px;
+  background-position: 11px -11269px;
 }
 .sidebar-left .user-menu ul li.profile-user-cat-4, .sidebar-left .user-menu ul .card .section .tabs li.profile-user-cat-4.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-user-cat-4.current, .sidebar-left .user-menu ul .registry-office-card .section .tabs li.profile-user-cat-4.current, .registry-office-card .section .tabs .sidebar-left .user-menu ul li.profile-user-cat-4.current {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -11107px;
-  background-position: 11px -11096px;
+  background-position: 0 -11396px;
+  background-position: 11px -11385px;
 }
 .sidebar-left .user-menu ul li.profile-user-cat-5, .sidebar-left .user-menu ul .card .section .tabs li.profile-user-cat-5.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-user-cat-5.current, .sidebar-left .user-menu ul .registry-office-card .section .tabs li.profile-user-cat-5.current, .registry-office-card .section .tabs .sidebar-left .user-menu ul li.profile-user-cat-5.current {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -11223px;
-  background-position: 11px -11212px;
+  background-position: 0 -11512px;
+  background-position: 11px -11501px;
 }
 .sidebar-left .user-menu ul li.profile-user-cat-6, .sidebar-left .user-menu ul .card .section .tabs li.profile-user-cat-6.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-user-cat-6.current, .sidebar-left .user-menu ul .registry-office-card .section .tabs li.profile-user-cat-6.current, .registry-office-card .section .tabs .sidebar-left .user-menu ul li.profile-user-cat-6.current {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -11339px;
-  background-position: 11px -11328px;
+  background-position: 0 -11628px;
+  background-position: 11px -11617px;
 }
 .sidebar-left .user-menu ul li.profile-user-cat-7, .sidebar-left .user-menu ul .card .section .tabs li.profile-user-cat-7.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-user-cat-7.current, .sidebar-left .user-menu ul .registry-office-card .section .tabs li.profile-user-cat-7.current, .registry-office-card .section .tabs .sidebar-left .user-menu ul li.profile-user-cat-7.current {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -11455px;
-  background-position: 11px -11444px;
+  background-position: 0 -11744px;
+  background-position: 11px -11733px;
 }
 .sidebar-left .user-menu ul li.profile-user-cat-8, .sidebar-left .user-menu ul .card .section .tabs li.profile-user-cat-8.current, .card .section .tabs .sidebar-left .user-menu ul li.profile-user-cat-8.current, .sidebar-left .user-menu ul .registry-office-card .section .tabs li.profile-user-cat-8.current, .registry-office-card .section .tabs .sidebar-left .user-menu ul li.profile-user-cat-8.current {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -11571px;
-  background-position: 11px -11560px;
+  background-position: 0 -11860px;
+  background-position: 11px -11849px;
 }
 .sidebar-left .main-menu ul > li.main-cat-1, .sidebar-left .main-menu .card .section .tabs ul > li.main-cat-1.current, .card .section .tabs .sidebar-left .main-menu ul > li.main-cat-1.current, .sidebar-left .main-menu .registry-office-card .section .tabs ul > li.main-cat-1.current, .registry-office-card .section .tabs .sidebar-left .main-menu ul > li.main-cat-1.current {
   position: relative;
@@ -794,9 +795,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   color: #db1c5d;
 }
 .sidebar-left .main-menu ul > li.main-cat-1:before, .sidebar-left .main-menu .card .section .tabs ul > li.main-cat-1.current:before, .card .section .tabs .sidebar-left .main-menu ul > li.main-cat-1.current:before, .sidebar-left .main-menu .registry-office-card .section .tabs ul > li.main-cat-1.current:before, .registry-office-card .section .tabs .sidebar-left .main-menu ul > li.main-cat-1.current:before {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -5010px;
+  background-position: 0 -5299px;
   height: 57px;
   width: 49px;
   position: absolute;
@@ -840,9 +841,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   color: #db1c5d;
 }
 .sidebar-left .main-menu ul > li.main-cat-2:before, .sidebar-left .main-menu .card .section .tabs ul > li.main-cat-2.current:before, .card .section .tabs .sidebar-left .main-menu ul > li.main-cat-2.current:before, .sidebar-left .main-menu .registry-office-card .section .tabs ul > li.main-cat-2.current:before, .registry-office-card .section .tabs .sidebar-left .main-menu ul > li.main-cat-2.current:before {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -5911px;
+  background-position: 0 -6200px;
   height: 49px;
   width: 45px;
   position: absolute;
@@ -886,9 +887,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   color: #db1c5d;
 }
 .sidebar-left .main-menu ul > li.main-cat-3:before, .sidebar-left .main-menu .card .section .tabs ul > li.main-cat-3.current:before, .card .section .tabs .sidebar-left .main-menu ul > li.main-cat-3.current:before, .sidebar-left .main-menu .registry-office-card .section .tabs ul > li.main-cat-3.current:before, .registry-office-card .section .tabs .sidebar-left .main-menu ul > li.main-cat-3.current:before {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -6060px;
+  background-position: 0 -6349px;
   height: 49px;
   width: 49px;
   position: absolute;
@@ -932,9 +933,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   color: #db1c5d;
 }
 .sidebar-left .main-menu ul > li.main-cat-4:before, .sidebar-left .main-menu .card .section .tabs ul > li.main-cat-4.current:before, .card .section .tabs .sidebar-left .main-menu ul > li.main-cat-4.current:before, .sidebar-left .main-menu .registry-office-card .section .tabs ul > li.main-cat-4.current:before, .registry-office-card .section .tabs .sidebar-left .main-menu ul > li.main-cat-4.current:before {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -6209px;
+  background-position: 0 -6498px;
   height: 49px;
   width: 49px;
   position: absolute;
@@ -978,9 +979,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   color: #db1c5d;
 }
 .sidebar-left .main-menu ul > li.main-cat-5:before, .sidebar-left .main-menu .card .section .tabs ul > li.main-cat-5.current:before, .card .section .tabs .sidebar-left .main-menu ul > li.main-cat-5.current:before, .sidebar-left .main-menu .registry-office-card .section .tabs ul > li.main-cat-5.current:before, .registry-office-card .section .tabs .sidebar-left .main-menu ul > li.main-cat-5.current:before {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -6358px;
+  background-position: 0 -6647px;
   height: 57px;
   width: 49px;
   position: absolute;
@@ -1024,9 +1025,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   color: #db1c5d;
 }
 .sidebar-left .main-menu ul > li.main-cat-6:before, .sidebar-left .main-menu .card .section .tabs ul > li.main-cat-6.current:before, .card .section .tabs .sidebar-left .main-menu ul > li.main-cat-6.current:before, .sidebar-left .main-menu .registry-office-card .section .tabs ul > li.main-cat-6.current:before, .registry-office-card .section .tabs .sidebar-left .main-menu ul > li.main-cat-6.current:before {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -6515px;
+  background-position: 0 -6804px;
   height: 50px;
   width: 49px;
   position: absolute;
@@ -1070,9 +1071,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   color: #db1c5d;
 }
 .sidebar-left .main-menu ul > li.main-cat-7:before, .sidebar-left .main-menu .card .section .tabs ul > li.main-cat-7.current:before, .card .section .tabs .sidebar-left .main-menu ul > li.main-cat-7.current:before, .sidebar-left .main-menu .registry-office-card .section .tabs ul > li.main-cat-7.current:before, .registry-office-card .section .tabs .sidebar-left .main-menu ul > li.main-cat-7.current:before {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -6665px;
+  background-position: 0 -6954px;
   height: 49px;
   width: 49px;
   position: absolute;
@@ -1116,9 +1117,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   color: #db1c5d;
 }
 .sidebar-left .main-menu ul > li.main-cat-8:before, .sidebar-left .main-menu .card .section .tabs ul > li.main-cat-8.current:before, .card .section .tabs .sidebar-left .main-menu ul > li.main-cat-8.current:before, .sidebar-left .main-menu .registry-office-card .section .tabs ul > li.main-cat-8.current:before, .registry-office-card .section .tabs .sidebar-left .main-menu ul > li.main-cat-8.current:before {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -6814px;
+  background-position: 0 -7103px;
   height: 53px;
   width: 49px;
   position: absolute;
@@ -1162,9 +1163,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   color: #db1c5d;
 }
 .sidebar-left .main-menu ul > li.main-cat-9:before, .sidebar-left .main-menu .card .section .tabs ul > li.main-cat-9.current:before, .card .section .tabs .sidebar-left .main-menu ul > li.main-cat-9.current:before, .sidebar-left .main-menu .registry-office-card .section .tabs ul > li.main-cat-9.current:before, .registry-office-card .section .tabs .sidebar-left .main-menu ul > li.main-cat-9.current:before {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -6967px;
+  background-position: 0 -7256px;
   height: 48px;
   width: 49px;
   position: absolute;
@@ -1208,9 +1209,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   color: #db1c5d;
 }
 .sidebar-left .main-menu ul > li.main-cat-10:before, .sidebar-left .main-menu .card .section .tabs ul > li.main-cat-10.current:before, .card .section .tabs .sidebar-left .main-menu ul > li.main-cat-10.current:before, .sidebar-left .main-menu .registry-office-card .section .tabs ul > li.main-cat-10.current:before, .registry-office-card .section .tabs .sidebar-left .main-menu ul > li.main-cat-10.current:before {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -5167px;
+  background-position: 0 -5456px;
   height: 47px;
   width: 49px;
   position: absolute;
@@ -1254,9 +1255,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   color: #db1c5d;
 }
 .sidebar-left .main-menu ul > li.main-cat-11:before, .sidebar-left .main-menu .card .section .tabs ul > li.main-cat-11.current:before, .card .section .tabs .sidebar-left .main-menu ul > li.main-cat-11.current:before, .sidebar-left .main-menu .registry-office-card .section .tabs ul > li.main-cat-11.current:before, .registry-office-card .section .tabs .sidebar-left .main-menu ul > li.main-cat-11.current:before {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -5314px;
+  background-position: 0 -5603px;
   height: 53px;
   width: 49px;
   position: absolute;
@@ -1300,9 +1301,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   color: #db1c5d;
 }
 .sidebar-left .main-menu ul > li.main-cat-12:before, .sidebar-left .main-menu .card .section .tabs ul > li.main-cat-12.current:before, .card .section .tabs .sidebar-left .main-menu ul > li.main-cat-12.current:before, .sidebar-left .main-menu .registry-office-card .section .tabs ul > li.main-cat-12.current:before, .registry-office-card .section .tabs .sidebar-left .main-menu ul > li.main-cat-12.current:before {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -5467px;
+  background-position: 0 -5756px;
   height: 54px;
   width: 49px;
   position: absolute;
@@ -1346,9 +1347,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   color: #db1c5d;
 }
 .sidebar-left .main-menu ul > li.main-cat-13:before, .sidebar-left .main-menu .card .section .tabs ul > li.main-cat-13.current:before, .card .section .tabs .sidebar-left .main-menu ul > li.main-cat-13.current:before, .sidebar-left .main-menu .registry-office-card .section .tabs ul > li.main-cat-13.current:before, .registry-office-card .section .tabs .sidebar-left .main-menu ul > li.main-cat-13.current:before {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -5621px;
+  background-position: 0 -5910px;
   height: 52px;
   width: 49px;
   position: absolute;
@@ -1392,9 +1393,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   color: #db1c5d;
 }
 .sidebar-left .main-menu ul > li.main-cat-14:before, .sidebar-left .main-menu .card .section .tabs ul > li.main-cat-14.current:before, .card .section .tabs .sidebar-left .main-menu ul > li.main-cat-14.current:before, .sidebar-left .main-menu .registry-office-card .section .tabs ul > li.main-cat-14.current:before, .registry-office-card .section .tabs .sidebar-left .main-menu ul > li.main-cat-14.current:before {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -5773px;
+  background-position: 0 -6062px;
   height: 38px;
   width: 49px;
   position: absolute;
@@ -1445,7 +1446,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   right: 0;
   top: -15px;
   font-size: 14px;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -232px;
   background-position: 14px -225px;
@@ -1460,20 +1461,20 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   top: -13px;
 }
 .content > .new-album, .content > .add-video, .content > .add-photo, .content > .add-friend {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -7350px;
-  background-position: 14px -7340px;
+  background-position: 0 -7639px;
+  background-position: 14px -7629px;
   text-decoration: none;
 }
 .content > .add-video {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -116px;
   background-position: 14px -106px;
 }
 .content > .add-friend {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 0;
   background-position: 14px 9px;
@@ -1591,9 +1592,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 .profile-reklamodatel .firm-card .catalog-source a, .profile-reklamodatel .text-company .catalog-source a, .profile-reklamodatel .firm-card .catalog-source .breadcrumbs span, .breadcrumbs .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel .text-company .catalog-source .breadcrumbs span, .breadcrumbs .profile-reklamodatel .text-company .catalog-source span {
   font-size: 15px;
   color: #333;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -8494px;
+  background-position: 0 -8783px;
   padding: 0 15px 0 25px;
   text-decoration: none;
 }
@@ -1731,10 +1732,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   font-style: italic;
   font-size: 13px;
   color: #333;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -3789px;
-  background-position: 0 -3786px;
+  background-position: 0 -3904px;
+  background-position: 0 -3901px;
 }
 .calendar .cal {
   margin: 40px 0 0 0;
@@ -1748,17 +1749,17 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   display: inline-block;
 }
 .calendar .cal .month .prev, .calendar .cal table td .prev, .calendar .cal .month .next, .calendar .cal table td .next {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -9490px;
+  background-position: 0 -9779px;
   height: 14px;
   width: 17px;
   margin: 0 25px 0 0;
 }
 .calendar .cal .month .next, .calendar .cal table td .next {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -7664px;
+  background-position: 0 -7953px;
   margin: 0 0 0 25px;
 }
 .calendar .cal table {
@@ -1858,22 +1859,22 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   width: 180px;
 }
 .about-company .site, .about-company .email, .about-company .skype {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -12667px;
-  background-position: 55px -12659px;
+  background-position: 0 -13130px;
+  background-position: 55px -13122px;
 }
 .about-company .email, .about-company .skype {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -2807px;
   background-position: 52px -2799px;
 }
 .about-company .skype {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -12787px;
-  background-position: 48px -12779px;
+  background-position: 0 -13250px;
+  background-position: 48px -13242px;
 }
 .about-company input[type=submit] {
   background: #58a5cf;
@@ -2010,19 +2011,19 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   width: 16px;
 }
 .otzivi .otziv .user-info .rating a.full, .otzivi .otziv .user-info .rating .breadcrumbs span.full, .breadcrumbs .otzivi .otziv .user-info .rating span.full {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13137px;
+  background-position: 0 -13712px;
 }
 .otzivi .otziv .user-info .rating a.nofull, .otzivi .otziv .user-info .rating .breadcrumbs span.nofull, .breadcrumbs .otzivi .otziv .user-info .rating span.nofull {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13253px;
+  background-position: 0 -13940px;
 }
 .otzivi .otziv .user-info .rating a:hover, .otzivi .otziv .user-info .rating .breadcrumbs span:hover, .breadcrumbs .otzivi .otziv .user-info .rating span:hover {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13137px;
+  background-position: 0 -13712px;
 }
 .otzivi .otziv .user-info p {
   font-size: 16px;
@@ -2050,10 +2051,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   right: 25px;
   bottom: 25px;
   font-weight: normal;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -10413px;
-  background-position: 0 -10411px;
+  background-position: 0 -10702px;
+  background-position: 0 -10700px;
 }
 .otzivi .otziv .user-info .post-answer:hover {
   text-decoration: none;
@@ -2095,10 +2096,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   font-size: 14px;
   color: #333;
   line-height: 21px;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -9176px;
-  background-position: 13px -9168px;
+  background-position: 0 -9465px;
+  background-position: 13px -9457px;
   padding: 0 15px 0 36px;
 }
 .tovar-uslug .add-tovar span {
@@ -2165,26 +2166,26 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   top: 100px;
 }
 .tovar-uslug .foto-tovar span.carouselLeft {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -4073px;
+  background-position: 0 -4188px;
   left: 0;
 }
 .tovar-uslug .foto-tovar span.carouselLeft.active, .tovar-uslug .foto-tovar span.carouselLeft:hover {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -3921px;
+  background-position: 0 -4036px;
 }
 .tovar-uslug .foto-tovar span.carouselRight {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -12282px;
+  background-position: 0 -12571px;
   right: -145px;
 }
 .tovar-uslug .foto-tovar span.carouselRight.active, .tovar-uslug .foto-tovar span.carouselRight:hover {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -12130px;
+  background-position: 0 -12419px;
 }
 .tovar-uslug .foto-tovar input[type=submit] {
   background-color: #f8f8f8;
@@ -2196,10 +2197,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   font-size: 14px;
   color: #333;
   line-height: 21px;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -9176px;
-  background-position: 13px -9168px;
+  background-position: 0 -9465px;
+  background-position: 13px -9457px;
   padding: 0 15px 0 36px;
   position: absolute;
   bottom: 0;
@@ -2276,10 +2277,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   font-size: 14px;
   color: #333;
   line-height: 21px;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -9176px;
-  background-position: 13px -9168px;
+  background-position: 0 -9465px;
+  background-position: 13px -9457px;
   padding: 0 15px 0 36px;
   margin: 10px 0 0 0;
 }
@@ -2433,19 +2434,19 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   padding: 0 0 5px 31px;
 }
 .user-profile .user-contacts label.email span, .user-profile .user-contacts .about-company label.skype span, .about-company .user-profile .user-contacts label.skype span {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -2807px;
 }
 .user-profile .user-contacts label.icq span {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -3667px;
 }
 .user-profile .user-contacts label.skype span {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: -5px -12787px;
+  background-position: -5px -13250px;
 }
 .user-profile .user-contacts label > input {
   -moz-border-radius: 4px;
@@ -2482,24 +2483,24 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   padding: 0 0 0 46px;
 }
 .user-profile .user-social label.facebook {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -2924px;
 }
 .user-profile .user-social label.twitter {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13644px;
+  background-position: 0 -14331px;
 }
 .user-profile .user-social label.vk {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -14358px;
+  background-position: 0 -15045px;
 }
 .user-profile .user-social label.odkl {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -7891px;
+  background-position: 0 -8180px;
 }
 .user-profile .user-social label > input {
   -moz-border-radius: 4px;
@@ -2631,14 +2632,14 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   top: -10px;
 }
 .user-photo-album ul li a.redact, .user-photo-album ul .card .section .tabs li.current a.redact, .card .section .tabs .user-photo-album ul li.current a.redact, .user-photo-album ul .registry-office-card .section .tabs li.current a.redact, .registry-office-card .section .tabs .user-photo-album ul li.current a.redact, .user-photo-album ul li .breadcrumbs span.redact, .breadcrumbs .user-photo-album ul li span.redact, .user-photo-album ul .card .section .tabs li.current .breadcrumbs span.redact, .breadcrumbs .user-photo-album ul .card .section .tabs li.current span.redact, .card .section .tabs .user-photo-album ul li.current .breadcrumbs span.redact, .breadcrumbs .card .section .tabs .user-photo-album ul li.current span.redact, .user-photo-album ul .registry-office-card .section .tabs li.current .breadcrumbs span.redact, .breadcrumbs .user-photo-album ul .registry-office-card .section .tabs li.current span.redact, .registry-office-card .section .tabs .user-photo-album ul li.current .breadcrumbs span.redact, .breadcrumbs .registry-office-card .section .tabs .user-photo-album ul li.current span.redact, .user-video ul li a.redact, .user-video ul .card .section .tabs li.current a.redact, .card .section .tabs .user-video ul li.current a.redact, .user-video ul .registry-office-card .section .tabs li.current a.redact, .registry-office-card .section .tabs .user-video ul li.current a.redact, .user-video ul li .breadcrumbs span.redact, .breadcrumbs .user-video ul li span.redact, .user-video ul .card .section .tabs li.current .breadcrumbs span.redact, .breadcrumbs .user-video ul .card .section .tabs li.current span.redact, .card .section .tabs .user-video ul li.current .breadcrumbs span.redact, .breadcrumbs .card .section .tabs .user-video ul li.current span.redact, .user-video ul .registry-office-card .section .tabs li.current .breadcrumbs span.redact, .breadcrumbs .user-video ul .registry-office-card .section .tabs li.current span.redact, .registry-office-card .section .tabs .user-video ul li.current .breadcrumbs span.redact, .breadcrumbs .registry-office-card .section .tabs .user-video ul li.current span.redact, .user-photo ul li a.redact, .user-photo ul .card .section .tabs li.current a.redact, .card .section .tabs .user-photo ul li.current a.redact, .user-photo ul .registry-office-card .section .tabs li.current a.redact, .registry-office-card .section .tabs .user-photo ul li.current a.redact, .user-photo ul li .breadcrumbs span.redact, .breadcrumbs .user-photo ul li span.redact, .user-photo ul .card .section .tabs li.current .breadcrumbs span.redact, .breadcrumbs .user-photo ul .card .section .tabs li.current span.redact, .card .section .tabs .user-photo ul li.current .breadcrumbs span.redact, .breadcrumbs .card .section .tabs .user-photo ul li.current span.redact, .user-photo ul .registry-office-card .section .tabs li.current .breadcrumbs span.redact, .breadcrumbs .user-photo ul .registry-office-card .section .tabs li.current span.redact, .registry-office-card .section .tabs .user-photo ul li.current .breadcrumbs span.redact, .breadcrumbs .registry-office-card .section .tabs .user-photo ul li.current span.redact {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -11792px;
-  background-position: 5px -11787px;
+  background-position: 0 -12081px;
+  background-position: 5px -12076px;
   right: 42px;
 }
 .user-photo-album ul li a.delete, .user-photo-album ul .card .section .tabs li.current a.delete, .card .section .tabs .user-photo-album ul li.current a.delete, .user-photo-album ul .registry-office-card .section .tabs li.current a.delete, .registry-office-card .section .tabs .user-photo-album ul li.current a.delete, .user-photo-album ul li .breadcrumbs span.delete, .breadcrumbs .user-photo-album ul li span.delete, .user-photo-album ul .card .section .tabs li.current .breadcrumbs span.delete, .breadcrumbs .user-photo-album ul .card .section .tabs li.current span.delete, .card .section .tabs .user-photo-album ul li.current .breadcrumbs span.delete, .breadcrumbs .card .section .tabs .user-photo-album ul li.current span.delete, .user-photo-album ul .registry-office-card .section .tabs li.current .breadcrumbs span.delete, .breadcrumbs .user-photo-album ul .registry-office-card .section .tabs li.current span.delete, .registry-office-card .section .tabs .user-photo-album ul li.current .breadcrumbs span.delete, .breadcrumbs .registry-office-card .section .tabs .user-photo-album ul li.current span.delete, .user-video ul li a.delete, .user-video ul .card .section .tabs li.current a.delete, .card .section .tabs .user-video ul li.current a.delete, .user-video ul .registry-office-card .section .tabs li.current a.delete, .registry-office-card .section .tabs .user-video ul li.current a.delete, .user-video ul li .breadcrumbs span.delete, .breadcrumbs .user-video ul li span.delete, .user-video ul .card .section .tabs li.current .breadcrumbs span.delete, .breadcrumbs .user-video ul .card .section .tabs li.current span.delete, .card .section .tabs .user-video ul li.current .breadcrumbs span.delete, .breadcrumbs .card .section .tabs .user-video ul li.current span.delete, .user-video ul .registry-office-card .section .tabs li.current .breadcrumbs span.delete, .breadcrumbs .user-video ul .registry-office-card .section .tabs li.current span.delete, .registry-office-card .section .tabs .user-video ul li.current .breadcrumbs span.delete, .breadcrumbs .registry-office-card .section .tabs .user-video ul li.current span.delete, .user-photo ul li a.delete, .user-photo ul .card .section .tabs li.current a.delete, .card .section .tabs .user-photo ul li.current a.delete, .user-photo ul .registry-office-card .section .tabs li.current a.delete, .registry-office-card .section .tabs .user-photo ul li.current a.delete, .user-photo ul li .breadcrumbs span.delete, .breadcrumbs .user-photo ul li span.delete, .user-photo ul .card .section .tabs li.current .breadcrumbs span.delete, .breadcrumbs .user-photo ul .card .section .tabs li.current span.delete, .card .section .tabs .user-photo ul li.current .breadcrumbs span.delete, .breadcrumbs .card .section .tabs .user-photo ul li.current span.delete, .user-photo ul .registry-office-card .section .tabs li.current .breadcrumbs span.delete, .breadcrumbs .user-photo ul .registry-office-card .section .tabs li.current span.delete, .registry-office-card .section .tabs .user-photo ul li.current .breadcrumbs span.delete, .breadcrumbs .registry-office-card .section .tabs .user-photo ul li.current span.delete {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -2574px;
   background-position: 5px -2568px;
@@ -2713,10 +2714,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   border: 1px solid #d1d1d1;
   color: #333;
   font-size: 14px;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -7350px;
-  background-position: 14px -7340px;
+  background-position: 0 -7639px;
+  background-position: 14px -7629px;
   text-decoration: none;
   padding: 8px 24px 7px 40px;
 }
@@ -2725,7 +2726,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   top: 2px;
 }
 .user-photo-clean > .add-video, .user-video-clean > .add-video {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -116px;
   background-position: 14px -106px;
@@ -2751,13 +2752,13 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 }
 .user-photo ul li .meta > div.likes, .user-photo ul .card .section .tabs li.current .meta > div.likes, .card .section .tabs .user-photo ul li.current .meta > div.likes, .user-photo ul .registry-office-card .section .tabs li.current .meta > div.likes, .registry-office-card .section .tabs .user-photo ul li.current .meta > div.likes {
   color: #f07677;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -4344px;
+  background-position: 0 -4633px;
 }
 .user-photo ul li .meta > div.comments, .user-photo ul .card .section .tabs li.current .meta > div.comments, .card .section .tabs .user-photo ul li.current .meta > div.comments, .user-photo ul .registry-office-card .section .tabs li.current .meta > div.comments, .registry-office-card .section .tabs .user-photo ul li.current .meta > div.comments {
   color: #222;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -2232px;
   margin: 3px 0 0 10px;
@@ -2823,10 +2824,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   top: 2px;
 }
 .user-friend ul li .right .buttons a.msg, .user-friend ul li .right .buttons .breadcrumbs span.msg, .breadcrumbs .user-friend ul li .right .buttons span.msg {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -7115px;
-  background-position: 7px -7110px;
+  background-position: 0 -7404px;
+  background-position: 7px -7399px;
   font-size: 12px;
   color: #666;
   text-decoration: none;
@@ -2835,7 +2836,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   margin: 5px 0 0 0 !important;
 }
 .user-friend ul li .right .buttons a.delete, .user-friend ul li .right .buttons .breadcrumbs span.delete, .breadcrumbs .user-friend ul li .right .buttons span.delete {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -2574px;
   background-position: 5px -2568px;
@@ -2891,19 +2892,19 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   width: 16px;
 }
 .izbrannoe .izbran .izbran-info .rating a.full, .izbrannoe .izbran .izbran-info .rating .breadcrumbs span.full, .breadcrumbs .izbrannoe .izbran .izbran-info .rating span.full {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13137px;
+  background-position: 0 -13712px;
 }
 .izbrannoe .izbran .izbran-info .rating a.nofull, .izbrannoe .izbran .izbran-info .rating .breadcrumbs span.nofull, .breadcrumbs .izbrannoe .izbran .izbran-info .rating span.nofull {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13253px;
+  background-position: 0 -13940px;
 }
 .izbrannoe .izbran .izbran-info .rating a:hover, .izbrannoe .izbran .izbran-info .rating .breadcrumbs span:hover, .breadcrumbs .izbrannoe .izbran .izbran-info .rating span:hover {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13137px;
+  background-position: 0 -13712px;
 }
 .izbrannoe .izbran .izbran-info .rating a, .izbrannoe .izbran .izbran-info .rating .breadcrumbs span, .breadcrumbs .izbrannoe .izbran .izbran-info .rating span {
   margin: 0;
@@ -2949,10 +2950,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   top: 2px;
 }
 .izbrannoe .izbran .izbran-info .buttons a.msg, .izbrannoe .izbran .izbran-info .buttons .breadcrumbs span.msg, .breadcrumbs .izbrannoe .izbran .izbran-info .buttons span.msg {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -7115px;
-  background-position: 7px -7110px;
+  background-position: 0 -7404px;
+  background-position: 7px -7399px;
   font-size: 14px;
   color: #666;
   text-decoration: none;
@@ -2961,7 +2962,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   margin: 5px 0 0 0 !important;
 }
 .izbrannoe .izbran .izbran-info .buttons a.delete, .izbrannoe .izbran .izbran-info .buttons .breadcrumbs span.delete, .breadcrumbs .izbrannoe .izbran .izbran-info .buttons span.delete {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -2574px;
   background-position: 5px -2568px;
@@ -2989,7 +2990,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   display: none;
 }
 
-.modal, .modal-add-photo, .modal-add-video, .user-enter-window, .user-sign-up-window, .advertiser-sign-up-window {
+.modal, .modal-add-photo, .modal-add-video, .user-enter-window, .user-sign-up-window, .advertiser-sign-up-window, .wedding-dress-window {
   width: 573px;
   padding: 25px;
   background: #fff;
@@ -3001,14 +3002,14 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   z-index: 999;
   display: none;
 }
-.modal h1, .modal-add-photo h1, .modal-add-video h1, .user-enter-window h1, .user-sign-up-window h1, .advertiser-sign-up-window h1 {
+.modal h1, .modal-add-photo h1, .modal-add-video h1, .user-enter-window h1, .user-sign-up-window h1, .advertiser-sign-up-window h1, .wedding-dress-window h1 {
   text-align: center;
   margin: 15px 0 20px;
 }
-.modal .close, .modal-add-photo .close, .modal-add-video .close, .user-enter-window .close, .user-sign-up-window .close, .advertiser-sign-up-window .close {
+.modal .close, .modal-add-photo .close, .modal-add-video .close, .user-enter-window .close, .user-sign-up-window .close, .advertiser-sign-up-window .close, .wedding-dress-window .close {
   display: block;
   position: absolute;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -1578px;
   height: 14px;
@@ -3016,14 +3017,14 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   right: 10px;
   top: 10px;
 }
-.modal label span, .modal-add-photo label span, .modal-add-video label span, .user-enter-window label span, .user-sign-up-window label span, .advertiser-sign-up-window label span {
+.modal label span, .modal-add-photo label span, .modal-add-video label span, .user-enter-window label span, .user-sign-up-window label span, .advertiser-sign-up-window label span, .wedding-dress-window label span {
   display: block;
   font-weight: bold;
   font-size: 15px;
   color: #72838d;
   margin: 15px 0 5px 0;
 }
-.modal label input[type=text], .modal-add-photo label input[type=text], .modal-add-video label input[type=text], .user-enter-window label input[type=text], .user-sign-up-window label input[type=text], .advertiser-sign-up-window label input[type=text], .modal label textarea, .modal-add-photo label textarea, .modal-add-video label textarea, .user-enter-window label textarea, .user-sign-up-window label textarea, .advertiser-sign-up-window label textarea {
+.modal label input[type=text], .modal-add-photo label input[type=text], .modal-add-video label input[type=text], .user-enter-window label input[type=text], .user-sign-up-window label input[type=text], .advertiser-sign-up-window label input[type=text], .wedding-dress-window label input[type=text], .modal label textarea, .modal-add-photo label textarea, .modal-add-video label textarea, .user-enter-window label textarea, .user-sign-up-window label textarea, .advertiser-sign-up-window label textarea, .wedding-dress-window label textarea {
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
@@ -3036,10 +3037,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   behavior: url(/PIE.htc);
   width: 98%;
 }
-.modal label textarea, .modal-add-photo label textarea, .modal-add-video label textarea, .user-enter-window label textarea, .user-sign-up-window label textarea, .advertiser-sign-up-window label textarea {
+.modal label textarea, .modal-add-photo label textarea, .modal-add-video label textarea, .user-enter-window label textarea, .user-sign-up-window label textarea, .advertiser-sign-up-window label textarea, .wedding-dress-window label textarea {
   height: 150px;
 }
-.modal input[type=submit], .modal-add-photo input[type=submit], .modal-add-video input[type=submit], .user-enter-window input[type=submit], .user-sign-up-window input[type=submit], .advertiser-sign-up-window input[type=submit] {
+.modal input[type=submit], .modal-add-photo input[type=submit], .modal-add-video input[type=submit], .user-enter-window input[type=submit], .user-sign-up-window input[type=submit], .advertiser-sign-up-window input[type=submit], .wedding-dress-window input[type=submit] {
   background: #58a5cf;
   border: 1px solid #2e87bb;
   -moz-border-radius: 4px;
@@ -3050,11 +3051,11 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   padding: 8px 24px 7px;
   margin: 20px 0 0 0;
 }
-.modal input[type=submit]:active, .modal-add-photo input[type=submit]:active, .modal-add-video input[type=submit]:active, .user-enter-window input[type=submit]:active, .user-sign-up-window input[type=submit]:active, .advertiser-sign-up-window input[type=submit]:active {
+.modal input[type=submit]:active, .modal-add-photo input[type=submit]:active, .modal-add-video input[type=submit]:active, .user-enter-window input[type=submit]:active, .user-sign-up-window input[type=submit]:active, .advertiser-sign-up-window input[type=submit]:active, .wedding-dress-window input[type=submit]:active {
   position: relative;
   top: 2px;
 }
-.modal input[type=submit].cancel, .modal-add-photo input[type=submit].cancel, .modal-add-video input[type=submit].cancel, .user-enter-window input[type=submit].cancel, .user-sign-up-window input[type=submit].cancel, .advertiser-sign-up-window input[type=submit].cancel {
+.modal input[type=submit].cancel, .modal-add-photo input[type=submit].cancel, .modal-add-video input[type=submit].cancel, .user-enter-window input[type=submit].cancel, .user-sign-up-window input[type=submit].cancel, .advertiser-sign-up-window input[type=submit].cancel, .wedding-dress-window input[type=submit].cancel {
   background: #58a5cf;
   border: 1px solid #2e87bb;
   -moz-border-radius: 4px;
@@ -3068,11 +3069,11 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   border: 1px solid #d1d1d1;
   color: #333;
 }
-.modal input[type=submit].cancel:active, .modal-add-photo input[type=submit].cancel:active, .modal-add-video input[type=submit].cancel:active, .user-enter-window input[type=submit].cancel:active, .user-sign-up-window input[type=submit].cancel:active, .advertiser-sign-up-window input[type=submit].cancel:active {
+.modal input[type=submit].cancel:active, .modal-add-photo input[type=submit].cancel:active, .modal-add-video input[type=submit].cancel:active, .user-enter-window input[type=submit].cancel:active, .user-sign-up-window input[type=submit].cancel:active, .advertiser-sign-up-window input[type=submit].cancel:active, .wedding-dress-window input[type=submit].cancel:active {
   position: relative;
   top: 2px;
 }
-.modal input[type=submit].delete, .modal-add-photo input[type=submit].delete, .modal-add-video input[type=submit].delete, .user-enter-window input[type=submit].delete, .user-sign-up-window input[type=submit].delete, .advertiser-sign-up-window input[type=submit].delete {
+.modal input[type=submit].delete, .modal-add-photo input[type=submit].delete, .modal-add-video input[type=submit].delete, .user-enter-window input[type=submit].delete, .user-sign-up-window input[type=submit].delete, .advertiser-sign-up-window input[type=submit].delete, .wedding-dress-window input[type=submit].delete {
   float: right;
   display: none;
   background: #58a5cf;
@@ -3087,7 +3088,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   background: #fafafa;
   border: 1px solid #d1d1d1;
   color: #333;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -2574px;
   background-position: 15px -2561px;
@@ -3096,7 +3097,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   color: #333;
   padding-left: 34px;
 }
-.modal input[type=submit].delete:active, .modal-add-photo input[type=submit].delete:active, .modal-add-video input[type=submit].delete:active, .user-enter-window input[type=submit].delete:active, .user-sign-up-window input[type=submit].delete:active, .advertiser-sign-up-window input[type=submit].delete:active {
+.modal input[type=submit].delete:active, .modal-add-photo input[type=submit].delete:active, .modal-add-video input[type=submit].delete:active, .user-enter-window input[type=submit].delete:active, .user-sign-up-window input[type=submit].delete:active, .advertiser-sign-up-window input[type=submit].delete:active, .wedding-dress-window input[type=submit].delete:active {
   position: relative;
   top: 2px;
 }
@@ -3135,10 +3136,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   font-size: 14px;
   color: #333;
   line-height: 21px;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13896px;
-  background-position: 6px -13891px;
+  background-position: 0 -14583px;
+  background-position: 6px -14578px;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -3186,10 +3187,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   display: block;
   padding: 0 0 0 45px;
   margin: 15px 0 0 0;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -3789px;
-  background-position: 0 -3786px;
+  background-position: 0 -3904px;
+  background-position: 0 -3901px;
   font-size: 14px;
   color: #333;
   line-height: 21px;
@@ -3251,9 +3252,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 .modal-add-photo .uploaded > div .options label.select .select-list:after, .modal-add-video .uploaded > div .options label.select .select-list:after {
   content: "";
   display: block;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -12560px;
+  background-position: 0 -13023px;
   height: 7px;
   width: 11px;
   position: absolute;
@@ -3585,7 +3586,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 .modal-view-photo .close {
   display: block;
   position: absolute;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -1578px;
   height: 14px;
@@ -3655,17 +3656,17 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   cursor: pointer;
 }
 .modal-view-photo .modal-view .sliderkit .sliderkit-nav .sliderkit-go-btn.sliderkit-go-prev {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -9291px;
+  background-position: 0 -9580px;
   height: 99px;
   width: 53px;
   left: 20px;
 }
 .modal-view-photo .modal-view .sliderkit .sliderkit-nav .sliderkit-go-btn.sliderkit-go-next {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -7465px;
+  background-position: 0 -7754px;
   height: 99px;
   width: 53px;
   right: 20px;
@@ -3715,10 +3716,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   text-decoration: none;
   font-size: 14px;
   color: #666;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -11792px;
-  background-position: 7px -11787px;
+  background-position: 0 -12081px;
+  background-position: 7px -12076px;
   width: 136px !important;
   padding: 4px 4px 4px 30px;
 }
@@ -3726,7 +3727,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   width: 27px !important;
   height: 27px;
   padding: 0;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -2574px;
   background-position: 5px -2568px;
@@ -3758,13 +3759,13 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 }
 .modal-view-photo .modal-view .meta .fright .likes {
   color: #f07677;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -4344px;
+  background-position: 0 -4633px;
 }
 .modal-view-photo .modal-view .meta .fright .comments {
   color: #222;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -2232px;
 }
@@ -3846,6 +3847,230 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   top: 2px;
 }
 
+.wedding-dress-window {
+  width: 913px;
+  padding: 25px 30px 25px 25px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.wedding-dress-window .slider-block {
+  float: left;
+  position: relative;
+}
+.wedding-dress-window .slider-block .carousel {
+  font-size: 0;
+  overflow: hidden;
+}
+.wedding-dress-window .slider-block .carousel div {
+  display: inline-block;
+  font-size: 16px;
+  position: relative;
+}
+.wedding-dress-window .slider-block .carousel div > img {
+  width: 480px;
+  height: 679px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.wedding-dress-window .slider-block .carousel div span {
+  display: block;
+  margin: 20px 0 0 0;
+  color: #448700;
+  font-size: 17px;
+  text-align: center;
+  position: relative;
+}
+.wedding-dress-window .slider-block .carousel div span:before {
+  background-image: url('../images/icons-s6a0f003861.png');
+  background-repeat: no-repeat;
+  background-position: 0 -3789px;
+  height: 15px;
+  width: 14px;
+  position: absolute;
+  content: '';
+  top: 0px;
+  left: 32%;
+}
+.wedding-dress-window .slider-block > span {
+  display: block;
+  position: absolute;
+  cursor: pointer;
+  top: 305px;
+}
+.wedding-dress-window .slider-block > span.carouselLeft {
+  background-image: url('../images/icons-s6a0f003861.png');
+  background-repeat: no-repeat;
+  background-position: 0 -4340px;
+  height: 74px;
+  width: 74px;
+  left: 20px;
+}
+.wedding-dress-window .slider-block > span.carouselLeft.active, .wedding-dress-window .slider-block > span.carouselLeft:hover {
+  background-image: url('../images/icons-s6a0f003861.png');
+  background-repeat: no-repeat;
+  background-position: 0 -4340px;
+  height: 74px;
+  width: 74px;
+}
+.wedding-dress-window .slider-block > span.carouselRight {
+  background-image: url('../images/icons-s6a0f003861.png');
+  background-repeat: no-repeat;
+  background-position: 0 -12571px;
+  height: 52px;
+  width: 30px;
+  left: 390px;
+}
+.wedding-dress-window .slider-block > span.carouselRight.active, .wedding-dress-window .slider-block > span.carouselRight:hover {
+  background-image: url('../images/icons-s6a0f003861.png');
+  background-repeat: no-repeat;
+  background-position: 0 -12723px;
+  height: 74px;
+  width: 74px;
+}
+.wedding-dress-window .description-block {
+  float: left;
+  width: 330px;
+  margin: 0 0 0 40px;
+}
+.wedding-dress-window .description-block a, .wedding-dress-window .description-block .breadcrumbs span, .breadcrumbs .wedding-dress-window .description-block span {
+  font-size: 34px;
+  line-height: 34px;
+  display: block;
+  margin: 0 0 20px 0;
+}
+.wedding-dress-window .description-block > span {
+  margin: 0 0 30px 0;
+  display: inline-block;
+  border: 1px solid #eaeaea;
+  padding: 5px 15px;
+  color: #db1c5d;
+  font-size: 30px;
+  line-height: normal;
+  background-color: #fffbec;
+}
+.wedding-dress-window .description-block > span > span {
+  color: #c8c2b4;
+  font-size: 20px;
+}
+.wedding-dress-window .description-block p {
+  font-size: 14px;
+  color: #333;
+}
+.wedding-dress-window .description-block table {
+  margin: 50px 0 0 0;
+}
+.wedding-dress-window .description-block table tr {
+  color: #333;
+  font-size: 15px;
+}
+.wedding-dress-window .description-block table tr td {
+  padding: 0 10px 10px 0;
+}
+.wedding-dress-window .description-block table tr td.title {
+  color: #72838d;
+  font-weight: bold;
+}
+.wedding-dress-window .window-footer {
+  padding: 15px 15px 15px 30px;
+  border: 1px solid #e9e9e9;
+  vertical-align: middle;
+}
+.wedding-dress-window .window-footer > a, .wedding-dress-window .breadcrumbs .window-footer > span, .breadcrumbs .wedding-dress-window .window-footer > span {
+  float: left;
+  color: #db1c5d;
+  font-size: 22px;
+  display: block;
+  margin: 10px 0 0 0;
+}
+.wedding-dress-window .window-footer > .right {
+  float: right;
+}
+.wedding-dress-window .window-footer > .right .rating {
+  float: right;
+  margin: 0 0 15px 0;
+  float: none;
+  display: inline-block;
+  margin: 0 20px 0 0;
+}
+.wedding-dress-window .window-footer > .right .rating span {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0 10px 0 0;
+}
+.wedding-dress-window .window-footer > .right .rating span.good {
+  color: #666;
+}
+.wedding-dress-window .window-footer > .right .rating span.excellent {
+  color: #59a924;
+}
+.wedding-dress-window .window-footer > .right .rating span.bad {
+  color: #d35416;
+}
+.wedding-dress-window .window-footer > .right .rating a, .wedding-dress-window .window-footer > .right .rating .breadcrumbs span, .breadcrumbs .wedding-dress-window .window-footer > .right .rating span {
+  display: inline-block;
+  margin: 0 -15px 0 0;
+  vertical-align: middle;
+  height: 12px;
+  width: 12px;
+}
+.wedding-dress-window .window-footer > .right .rating a.full, .wedding-dress-window .window-footer > .right .rating .breadcrumbs span.full, .breadcrumbs .wedding-dress-window .window-footer > .right .rating span.full {
+  background-image: url('../images/icons-s6a0f003861.png');
+  background-repeat: no-repeat;
+  background-position: 0 -13600px;
+}
+.wedding-dress-window .window-footer > .right .rating a.nofull, .wedding-dress-window .window-footer > .right .rating .breadcrumbs span.nofull, .breadcrumbs .wedding-dress-window .window-footer > .right .rating span.nofull {
+  background-image: url('../images/icons-s6a0f003861.png');
+  background-repeat: no-repeat;
+  background-position: 0 -13828px;
+}
+.wedding-dress-window .window-footer > .right .rating a:hover, .wedding-dress-window .window-footer > .right .rating .breadcrumbs span:hover, .breadcrumbs .wedding-dress-window .window-footer > .right .rating span:hover {
+  background-image: url('../images/icons-s6a0f003861.png');
+  background-repeat: no-repeat;
+  background-position: 0 -13600px;
+}
+.wedding-dress-window .window-footer > .right .rating a, .wedding-dress-window .window-footer > .right .rating .breadcrumbs span, .breadcrumbs .wedding-dress-window .window-footer > .right .rating span {
+  margin: 0;
+}
+.wedding-dress-window .window-footer > .right .buttons {
+  display: inline-block;
+}
+.wedding-dress-window .window-footer > .right .buttons .msg {
+  display: inline-block;
+  background-image: url('../images/icons-s6a0f003861.png');
+  background-repeat: no-repeat;
+  background-position: 0 -7404px;
+  background-position: 7px -7397px;
+  font-size: 12px;
+  color: #666;
+  text-decoration: none;
+  padding: 6px 15px 6px 30px;
+  background-color: #fafafa;
+  border: 1px solid #d1d1d1;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+.wedding-dress-window .window-footer > .right .buttons .bookmark {
+  display: inline-block;
+  background-image: url('../images/icons-s6a0f003861.png');
+  background-repeat: no-repeat;
+  background-position: 0 -794px;
+  background-position: 7px -787px;
+  font-size: 12px;
+  color: #666;
+  text-decoration: none;
+  padding: 6px 15px 6px 30px;
+  background-color: #fafafa;
+  border: 1px solid #d1d1d1;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
 .top .top-menu a, .top .top-menu .breadcrumbs span, .breadcrumbs .top .top-menu span {
   border-bottom: 1px dashed #b8cadb;
   padding: 0 0 3px 0;
@@ -3892,7 +4117,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   font-weight: normal;
 }
 .wrapper .main h2:after {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -3057px;
   height: 35px;
@@ -3961,9 +4186,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   padding: 20px 0 0 0;
 }
 .wrapper .main .central-block .wedding-magazine-block h2:after {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -4877px;
+  background-position: 0 -5166px;
   height: 33px;
   width: 44px;
   position: absolute;
@@ -4000,16 +4225,16 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   margin: 0 0 10px 0;
 }
 .wrapper .main .central-block .wedding-magazine-block .wedding-magazine .item .counter .likes {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -4456px;
-  background-position: 0 -4453px;
+  background-position: 0 -4745px;
+  background-position: 0 -4742px;
   padding: 0 5px 0 20px;
   color: #f07677;
   font-size: 18px;
 }
 .wrapper .main .central-block .wedding-magazine-block .wedding-magazine .item .counter .comments {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -2344px;
   background-position: 0 -2341px;
@@ -4087,16 +4312,16 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   font-size: 14px;
 }
 .content .article_list .article-topic .description .counter .likes {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -4456px;
-  background-position: 0 -4453px;
+  background-position: 0 -4745px;
+  background-position: 0 -4742px;
   padding: 0 5px 0 20px;
   color: #f07677;
   font-size: 18px;
 }
 .content .article_list .article-topic .description .counter .comments {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -2344px;
   background-position: 0 -2341px;
@@ -4141,16 +4366,16 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   font-size: 14px;
 }
 .content .article_list .article-topic .articles .item .counter .likes {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -4456px;
-  background-position: 0 -4453px;
+  background-position: 0 -4745px;
+  background-position: 0 -4742px;
   padding: 0 5px 0 20px;
   color: #f07677;
   font-size: 18px;
 }
 .content .article_list .article-topic .articles .item .counter .comments {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -2344px;
   background-position: 0 -2341px;
@@ -4200,10 +4425,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   font-size: 14px;
 }
 .sidebar-right .new-articles .item .counter .likes {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -4344px;
-  background-position: 0 -4341px;
+  background-position: 0 -4633px;
+  background-position: 0 -4630px;
   padding: 0 5px 0 15px;
   color: #f07677;
   font-size: 14px;
@@ -4257,9 +4482,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   float: right;
 }
 .content .main-article .main-article-footer .likes-counter a, .content .main-article .main-article-footer .likes-counter .breadcrumbs span, .breadcrumbs .content .main-article .main-article-footer .likes-counter span {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -4456px;
+  background-position: 0 -4745px;
   padding: 0 0 0 20px;
   font-size: 14px;
   color: #f07677;
@@ -4267,9 +4492,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 .content .main-article .main-article-footer .likes-counter span {
   padding: 3px 11px;
   font-size: 12px;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -4225px;
+  background-position: 0 -4514px;
 }
 .content .similar-articles {
   padding: 20px 0 20px 0;
@@ -4317,14 +4542,14 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 .content .similar-articles .item .description .counter .likes {
   padding: 0 0 0 15px;
   color: #f07677;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -4344px;
-  background-position: 0 -4341px;
+  background-position: 0 -4633px;
+  background-position: 0 -4630px;
 }
 .content .similar-articles .item .description .counter .comments {
   padding: 0 0 0 15px;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -2232px;
   background-position: 0 -2229px;
@@ -4396,17 +4621,17 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 .content .all-comments .user-comment .comment .comment-footer a.reply, .content .all-comments .user-comment .comment .comment-footer .breadcrumbs span.reply, .breadcrumbs .content .all-comments .user-comment .comment .comment-footer span.reply {
   text-decoration: none;
   margin: 0 40px 0 0;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -12018px;
+  background-position: 0 -12307px;
 }
 .content .all-comments .user-comment .comment .comment-footer a.reply:hover, .content .all-comments .user-comment .comment .comment-footer .breadcrumbs span.reply:hover, .breadcrumbs .content .all-comments .user-comment .comment .comment-footer span.reply:hover {
   text-decoration: underline;
 }
 .content .all-comments .user-comment .comment .comment-footer a.spam, .content .all-comments .user-comment .comment .comment-footer .breadcrumbs span.spam, .breadcrumbs .content .all-comments .user-comment .comment .comment-footer span.spam {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13025px;
+  background-position: 0 -13488px;
   color: #999;
 }
 .content .all-comments .user-comment .comment .comment-footer a.spam:hover, .content .all-comments .user-comment .comment .comment-footer .breadcrumbs span.spam:hover, .breadcrumbs .content .all-comments .user-comment .comment .comment-footer span.spam:hover {
@@ -4415,10 +4640,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 .content .all-comments .user-comment .comment .comment-footer a.likes, .content .all-comments .user-comment .comment .comment-footer .breadcrumbs span.likes, .breadcrumbs .content .all-comments .user-comment .comment .comment-footer span.likes {
   float: right;
   color: #f07677;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -4344px;
-  background-position: 0 -4341px;
+  background-position: 0 -4633px;
+  background-position: 0 -4630px;
 }
 .content .all-comments .user-comment .comment .comment-footer a.likes:hover, .content .all-comments .user-comment .comment .comment-footer .breadcrumbs span.likes:hover, .breadcrumbs .content .all-comments .user-comment .comment .comment-footer span.likes:hover {
   text-decoration: underline;
@@ -4457,7 +4682,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   position: relative;
 }
 .content .categories > span:before {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -350px;
   height: 9px;
@@ -4548,19 +4773,19 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   width: 16px;
 }
 .content .salon-card .rating a.full, .content .salon-card .rating .breadcrumbs span.full, .breadcrumbs .content .salon-card .rating span.full {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13137px;
+  background-position: 0 -13712px;
 }
 .content .salon-card .rating a.nofull, .content .salon-card .rating .breadcrumbs span.nofull, .breadcrumbs .content .salon-card .rating span.nofull {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13253px;
+  background-position: 0 -13940px;
 }
 .content .salon-card .rating a:hover, .content .salon-card .rating .breadcrumbs span:hover, .breadcrumbs .content .salon-card .rating span:hover {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13137px;
+  background-position: 0 -13712px;
 }
 .content .salon-card .rating a, .content .salon-card .rating .breadcrumbs span, .breadcrumbs .content .salon-card .rating span {
   margin: 0;
@@ -4639,9 +4864,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -8937px;
+  background-position: 0 -9226px;
 }
 .sidebar-right > span {
   padding: 10px 0 0 30px;
@@ -4667,7 +4892,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   position: relative;
 }
 .sidebar-right .options-down:before {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -3192px;
   height: 16px;
@@ -4678,7 +4903,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   top: 11px;
 }
 .sidebar-right .options-down:after {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -2687px;
   height: 20px;
@@ -4714,7 +4939,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   margin: 0 20px 0 0;
 }
 .content .brend:before {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -350px;
   height: 9px;
@@ -4781,7 +5006,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   top: -5px;
 }
 .content .brend-card > a:after, .content .breadcrumbs .brend-card > span:after, .breadcrumbs .content .brend-card > span:after {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -3541px;
   height: 26px;
@@ -4824,25 +5049,25 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   right: -10px;
 }
 .content .brend-card .collection-block .collection span.carouselLeft {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -4073px;
+  background-position: 0 -4188px;
 }
 .content .brend-card .collection-block .collection span.carouselLeft.active, .content .brend-card .collection-block .collection span.carouselLeft:hover {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -3921px;
+  background-position: 0 -4036px;
 }
 .content .brend-card .collection-block .collection span.carouselRight {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -12282px;
+  background-position: 0 -12571px;
   right: -10px;
 }
 .content .brend-card .collection-block .collection span.carouselRight.active, .content .brend-card .collection-block .collection span.carouselRight:hover {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -12130px;
+  background-position: 0 -12419px;
 }
 .content .brend-card .collection-block .collection-footer {
   margin: 0 0 20px 0;
@@ -4880,19 +5105,19 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   width: 16px;
 }
 .content .brend-card .rating a.full, .content .brend-card .rating .breadcrumbs span.full, .breadcrumbs .content .brend-card .rating span.full {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13137px;
+  background-position: 0 -13712px;
 }
 .content .brend-card .rating a.nofull, .content .brend-card .rating .breadcrumbs span.nofull, .breadcrumbs .content .brend-card .rating span.nofull {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13253px;
+  background-position: 0 -13940px;
 }
 .content .brend-card .rating a:hover, .content .brend-card .rating .breadcrumbs span:hover, .breadcrumbs .content .brend-card .rating span:hover {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13137px;
+  background-position: 0 -13712px;
 }
 .content .brend-card .rating a, .content .brend-card .rating .breadcrumbs span, .breadcrumbs .content .brend-card .rating span {
   margin: 0;
@@ -4931,9 +5156,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -8937px;
+  background-position: 0 -9226px;
 }
 .sidebar-right > span {
   padding: 10px 0 0 30px;
@@ -4959,7 +5184,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   position: relative;
 }
 .sidebar-right .options-up:before {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -3192px;
   height: 16px;
@@ -4970,9 +5195,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   top: 11px;
 }
 .sidebar-right .options-up:after {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13776px;
+  background-position: 0 -14463px;
   height: 20px;
   width: 20px;
   position: absolute;
@@ -5016,7 +5241,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 }
 
 .content > .dress span:before {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -350px;
   height: 9px;
@@ -5050,7 +5275,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   position: relative;
 }
 .content .dress-card:after {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -3541px;
   height: 26px;
@@ -5084,7 +5309,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   margin: 0 15px 0 0;
 }
 .content .dress-card > .price .old-price:before {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -2460px;
   height: 14px;
@@ -5138,25 +5363,25 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   width: 16px;
 }
 .content .dress-card .description .rating a.full, .content .dress-card .description .rating .breadcrumbs span.full, .breadcrumbs .content .dress-card .description .rating span.full {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13137px;
+  background-position: 0 -13712px;
 }
 .content .dress-card .description .rating a.nofull, .content .dress-card .description .rating .breadcrumbs span.nofull, .breadcrumbs .content .dress-card .description .rating span.nofull {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13253px;
+  background-position: 0 -13940px;
 }
 .content .dress-card .description .rating a:hover, .content .dress-card .description .rating .breadcrumbs span:hover, .breadcrumbs .content .dress-card .description .rating span:hover {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13137px;
+  background-position: 0 -13712px;
 }
 .content .dress-card .description .rating a, .content .dress-card .description .rating .breadcrumbs span, .breadcrumbs .content .dress-card .description .rating span {
   margin: 0;
 }
 .content > .like:after {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -3415px;
   height: 26px;
@@ -5164,7 +5389,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   position: absolute;
   content: '';
   top: 10px;
-  right: 1;
+  right: 10px;
 }
 
 .sidebar-right form .section2 .box2 {
@@ -5177,9 +5402,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   margin: 20px 0 25px 0;
   display: block;
   padding: 0 0 0 20px;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -9060px;
+  background-position: 0 -9349px;
   font-weight: bold;
 }
 .sidebar-right form .section2 .box2.visible .form-header {
@@ -5209,13 +5434,13 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   font-weight: bold;
   margin: 0px 0 10px 0;
   padding: 0 0 0 15px;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -568px;
   background-position: 0 -565px;
 }
 .sidebar-right form .section2 .box2.visible .close {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -679px;
   background-position: 0 -679px;
@@ -5247,9 +5472,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 }
 
 .content .offers-50:before {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -8337px;
+  background-position: 0 -8626px;
   height: 57px;
   width: 59px;
   position: absolute;
@@ -5258,9 +5483,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   left: 10px;
 }
 .content .offers-25:before {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -8180px;
+  background-position: 0 -8469px;
   height: 57px;
   width: 59px;
   position: absolute;
@@ -5269,9 +5494,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   left: 10px;
 }
 .content .offers-15:before {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -8023px;
+  background-position: 0 -8312px;
   height: 57px;
   width: 59px;
   position: absolute;
@@ -5339,19 +5564,19 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   width: 16px;
 }
 .card .main-salon-card .description .rating a.full, .card .main-salon-card .description .rating .breadcrumbs span.full, .breadcrumbs .card .main-salon-card .description .rating span.full {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13137px;
+  background-position: 0 -13712px;
 }
 .card .main-salon-card .description .rating a.nofull, .card .main-salon-card .description .rating .breadcrumbs span.nofull, .breadcrumbs .card .main-salon-card .description .rating span.nofull {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13253px;
+  background-position: 0 -13940px;
 }
 .card .main-salon-card .description .rating a:hover, .card .main-salon-card .description .rating .breadcrumbs span:hover, .breadcrumbs .card .main-salon-card .description .rating span:hover {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13137px;
+  background-position: 0 -13712px;
 }
 .card .main-salon-card .description .rating a, .card .main-salon-card .description .rating .breadcrumbs span, .breadcrumbs .card .main-salon-card .description .rating span {
   margin: 0;
@@ -5369,10 +5594,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 }
 .card .main-salon-card .description .buttons .msg {
   display: inline-block;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -7115px;
-  background-position: 7px -7108px;
+  background-position: 0 -7404px;
+  background-position: 7px -7397px;
   font-size: 12px;
   color: #666;
   text-decoration: none;
@@ -5385,7 +5610,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 }
 .card .main-salon-card .description .buttons .bookmark {
   display: inline-block;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -794px;
   background-position: 7px -787px;
@@ -5424,12 +5649,12 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 .card .section .tabs li, .card .section .tabs li.current {
   position: relative;
   display: inline-block;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13369px;
+  background-position: 0 -14056px;
   height: 32px;
   width: 156px;
-  background-position: 0 -13362px;
+  background-position: 0 -14049px;
   text-align: center;
   padding: 12px 0 0 0;
   height: 26px;
@@ -5539,19 +5764,19 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   width: 16px;
 }
 .card .section .box .main-block-salon .dress-card-catalog .description .rating a.full, .card .section .box .main-block-salon .dress-card-catalog .description .rating .breadcrumbs span.full, .breadcrumbs .card .section .box .main-block-salon .dress-card-catalog .description .rating span.full {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13137px;
+  background-position: 0 -13712px;
 }
 .card .section .box .main-block-salon .dress-card-catalog .description .rating a.nofull, .card .section .box .main-block-salon .dress-card-catalog .description .rating .breadcrumbs span.nofull, .breadcrumbs .card .section .box .main-block-salon .dress-card-catalog .description .rating span.nofull {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13253px;
+  background-position: 0 -13940px;
 }
 .card .section .box .main-block-salon .dress-card-catalog .description .rating a:hover, .card .section .box .main-block-salon .dress-card-catalog .description .rating .breadcrumbs span:hover, .breadcrumbs .card .section .box .main-block-salon .dress-card-catalog .description .rating span:hover {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13137px;
+  background-position: 0 -13712px;
 }
 .card .section .box .main-block-salon .dress-card-catalog .description .rating a, .card .section .box .main-block-salon .dress-card-catalog .description .rating .breadcrumbs span, .breadcrumbs .card .section .box .main-block-salon .dress-card-catalog .description .rating span {
   margin: 0;
@@ -5645,19 +5870,19 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   width: 16px;
 }
 .card .section .box .main-block-salon > .review .rating-block .rating a.full, .card .section .box .main-block-salon > .review .rating-block .rating .breadcrumbs span.full, .breadcrumbs .card .section .box .main-block-salon > .review .rating-block .rating span.full {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13137px;
+  background-position: 0 -13712px;
 }
 .card .section .box .main-block-salon > .review .rating-block .rating a.nofull, .card .section .box .main-block-salon > .review .rating-block .rating .breadcrumbs span.nofull, .breadcrumbs .card .section .box .main-block-salon > .review .rating-block .rating span.nofull {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13253px;
+  background-position: 0 -13940px;
 }
 .card .section .box .main-block-salon > .review .rating-block .rating a:hover, .card .section .box .main-block-salon > .review .rating-block .rating .breadcrumbs span:hover, .breadcrumbs .card .section .box .main-block-salon > .review .rating-block .rating span:hover {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13137px;
+  background-position: 0 -13712px;
 }
 .card .section .box .main-block-salon > .review .rating-block .rating a, .card .section .box .main-block-salon > .review .rating-block .rating .breadcrumbs span, .breadcrumbs .card .section .box .main-block-salon > .review .rating-block .rating span {
   margin: 0;
@@ -5674,10 +5899,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 .card .section .box .main-block-salon .address > span.street {
   font-size: 15px;
   color: #ac296a;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -7231px;
-  background-position: 0 -7231px;
+  background-position: 0 -7520px;
+  background-position: 0 -7520px;
 }
 .card .section .box .main-block-salon .address > span.metro {
   font-size: 15px;
@@ -5685,14 +5910,14 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 .card .section .box .main-block-salon .address > span.phone {
   font-weight: bold;
   font-size: 13px;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -8717px;
-  background-position: 0 -8717px;
+  background-position: 0 -9006px;
+  background-position: 0 -9006px;
 }
 .card .section .box .main-block-salon .address > span.time {
   font-size: 13px;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -1462px;
   background-position: 0 -1462px;
@@ -5763,7 +5988,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   margin: 10px 0 0 0;
   color: #59a924;
   padding: 0 0 0 15px;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -3308px;
   background-position: 0 -3303px;
@@ -5774,10 +5999,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   margin: 5px 0 0 0;
   color: #d35416;
   padding: 0 0 0 15px;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -11685px;
-  background-position: 0 -11680px;
+  background-position: 0 -11974px;
+  background-position: 0 -11969px;
 }
 .card .section .box .add-review form .review input {
   background: #58a5cf;
@@ -5841,32 +6066,32 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   width: 16px;
 }
 .card .section .box .add-review form .overall-rating div .rating a.full, .card .section .box .add-review form .overall-rating div .rating .breadcrumbs span.full, .breadcrumbs .card .section .box .add-review form .overall-rating div .rating span.full {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13137px;
+  background-position: 0 -13712px;
 }
 .card .section .box .add-review form .overall-rating div .rating a.nofull, .card .section .box .add-review form .overall-rating div .rating .breadcrumbs span.nofull, .breadcrumbs .card .section .box .add-review form .overall-rating div .rating span.nofull {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13253px;
+  background-position: 0 -13940px;
 }
 .card .section .box .add-review form .overall-rating div .rating a:hover, .card .section .box .add-review form .overall-rating div .rating .breadcrumbs span:hover, .breadcrumbs .card .section .box .add-review form .overall-rating div .rating span:hover {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13137px;
+  background-position: 0 -13712px;
 }
 .card .section .box .add-review form .overall-rating div .rating a, .card .section .box .add-review form .overall-rating div .rating .breadcrumbs span, .breadcrumbs .card .section .box .add-review form .overall-rating div .rating span {
   margin: 0;
 }
 .card .section .box .add-review form .overall-rating div .rating a.full:hover, .card .section .box .add-review form .overall-rating div .rating .breadcrumbs span.full:hover, .breadcrumbs .card .section .box .add-review form .overall-rating div .rating span.full:hover {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13137px;
+  background-position: 0 -13712px;
 }
 .card .section .box .add-review form .overall-rating div .rating a.nofull:hover, .card .section .box .add-review form .overall-rating div .rating .breadcrumbs span.nofull:hover, .breadcrumbs .card .section .box .add-review form .overall-rating div .rating span.nofull:hover {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13253px;
+  background-position: 0 -13940px;
 }
 .card .section .box .options {
   width: 235px;
@@ -5892,7 +6117,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   position: relative;
 }
 .card .section .box .options .options-up:before {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -3192px;
   height: 16px;
@@ -5903,9 +6128,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   top: 11px;
 }
 .card .section .box .options .options-up:after {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13776px;
+  background-position: 0 -14463px;
   height: 20px;
   width: 20px;
   position: absolute;
@@ -5929,7 +6154,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   position: relative;
 }
 .card .section .box .options .options-down:before {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -3192px;
   height: 16px;
@@ -5940,7 +6165,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   top: 11px;
 }
 .card .section .box .options .options-down:after {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -2687px;
   height: 20px;
@@ -5992,9 +6217,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   margin: 20px 0 25px 0;
   display: block;
   padding: 0 0 0 20px;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -9060px;
+  background-position: 0 -9349px;
   font-weight: bold;
 }
 #filter .section2 .box2.visible .form-header {
@@ -6025,7 +6250,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   font-weight: bold;
   margin: 0px 0 10px 0;
   padding: 0 0 0 15px;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -568px;
   background-position: 0 -565px;
@@ -6034,7 +6259,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   cursor: pointer;
 }
 #filter .section2 .box2.visible .close {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -679px;
   background-position: 0 -679px;
@@ -6071,7 +6296,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   font-weight: bold;
   margin: 0px 0 10px 0;
   padding: 0 0 0 15px;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -568px;
   background-position: 0 -565px;
@@ -6092,7 +6317,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 }
 #filter .checkboxes div label.color-1 {
   padding: 0 0 0 15px;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -1692px;
   background-position: 0 -1689px;
@@ -6113,7 +6338,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 }
 #filter .checkboxes div label.color-2 {
   padding: 0 0 0 15px;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -1800px;
   background-position: 0 -1797px;
@@ -6134,7 +6359,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 }
 #filter .checkboxes div label.color-3 {
   padding: 0 0 0 15px;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -1908px;
   background-position: 0 -1905px;
@@ -6155,7 +6380,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 }
 #filter .checkboxes div label.color-4 {
   padding: 0 0 0 15px;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -2016px;
   background-position: 0 -2013px;
@@ -6176,7 +6401,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 }
 #filter .checkboxes div label.color-5 {
   padding: 0 0 0 15px;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -2124px;
   background-position: 0 -2121px;
@@ -6196,21 +6421,21 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   position: absolute;
   top: 0px;
   left: -22px;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -7778px;
+  background-position: 0 -8067px;
   height: 13px;
   width: 13px;
 }
 #filter .checkboxes div input[type=checkbox]:checked + label:before {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -1242px;
   height: 13px;
   width: 13px;
 }
 #filter .close {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -679px;
   background-position: 0 -679px;
@@ -6264,9 +6489,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   margin: 20px 0 25px 0;
   display: block;
   padding: 0 0 0 20px;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -9060px;
+  background-position: 0 -9349px;
   font-weight: bold;
 }
 
@@ -6313,19 +6538,19 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   width: 16px;
 }
 .registry-office-card .main-registry-office-card .rating a.full, .registry-office-card .main-registry-office-card .rating .breadcrumbs span.full, .breadcrumbs .registry-office-card .main-registry-office-card .rating span.full {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13137px;
+  background-position: 0 -13712px;
 }
 .registry-office-card .main-registry-office-card .rating a.nofull, .registry-office-card .main-registry-office-card .rating .breadcrumbs span.nofull, .breadcrumbs .registry-office-card .main-registry-office-card .rating span.nofull {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13253px;
+  background-position: 0 -13940px;
 }
 .registry-office-card .main-registry-office-card .rating a:hover, .registry-office-card .main-registry-office-card .rating .breadcrumbs span:hover, .breadcrumbs .registry-office-card .main-registry-office-card .rating span:hover {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13137px;
+  background-position: 0 -13712px;
 }
 .registry-office-card .main-registry-office-card .rating a, .registry-office-card .main-registry-office-card .rating .breadcrumbs span, .breadcrumbs .registry-office-card .main-registry-office-card .rating span {
   margin: 0;
@@ -6342,22 +6567,22 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 .registry-office-card .main-registry-office-card .address > span.street {
   font-size: 15px;
   color: #ac296a;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -7231px;
-  background-position: 0 -7231px;
+  background-position: 0 -7520px;
+  background-position: 0 -7520px;
 }
 .registry-office-card .main-registry-office-card .address > span.phone {
   font-weight: bold;
   font-size: 13px;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -8717px;
-  background-position: 0 -8717px;
+  background-position: 0 -9006px;
+  background-position: 0 -9006px;
 }
 .registry-office-card .main-registry-office-card .address > span.time {
   font-size: 13px;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -1462px;
   background-position: 0 -1462px;
@@ -6377,12 +6602,12 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 .registry-office-card .section .tabs li, .registry-office-card .section .tabs li.current {
   position: relative;
   display: inline-block;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13369px;
+  background-position: 0 -14056px;
   height: 32px;
   width: 156px;
-  background-position: 0 -13362px;
+  background-position: 0 -14049px;
   text-align: center;
   padding: 12px 0 0 0;
   height: 26px;
@@ -6478,19 +6703,19 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   width: 16px;
 }
 .content .registry-office-block .rating a.full, .content .registry-office-block .rating .breadcrumbs span.full, .breadcrumbs .content .registry-office-block .rating span.full {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13137px;
+  background-position: 0 -13712px;
 }
 .content .registry-office-block .rating a.nofull, .content .registry-office-block .rating .breadcrumbs span.nofull, .breadcrumbs .content .registry-office-block .rating span.nofull {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13253px;
+  background-position: 0 -13940px;
 }
 .content .registry-office-block .rating a:hover, .content .registry-office-block .rating .breadcrumbs span:hover, .breadcrumbs .content .registry-office-block .rating span:hover {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -13137px;
+  background-position: 0 -13712px;
 }
 .content .registry-office-block .rating a, .content .registry-office-block .rating .breadcrumbs span, .breadcrumbs .content .registry-office-block .rating span {
   margin: 0;
@@ -6519,22 +6744,22 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 .content .registry-office-block .address > span.street {
   font-size: 15px;
   color: #ac296a;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -7231px;
-  background-position: 0 -7231px;
+  background-position: 0 -7520px;
+  background-position: 0 -7520px;
 }
 .content .registry-office-block .address > span.phone {
   font-weight: bold;
   font-size: 13px;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -8717px;
-  background-position: 0 -8717px;
+  background-position: 0 -9006px;
+  background-position: 0 -9006px;
 }
 .content .registry-office-block .address > span.time {
   font-size: 13px;
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
   background-position: 0 -1462px;
   background-position: 0 -1462px;
@@ -6581,10 +6806,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   font-size: 14px;
 }
 .sidebar-right .new-articles-top .item .counter .likes {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -4344px;
-  background-position: 0 -4341px;
+  background-position: 0 -4633px;
+  background-position: 0 -4630px;
   padding: 0 5px 0 15px;
   color: #f07677;
   font-size: 14px;
@@ -6810,9 +7035,9 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   position: relative;
 }
 .site-map > ul > li > ul > li:before, .card .section .tabs .site-map > ul > li.current > ul > li:before, .registry-office-card .section .tabs .site-map > ul > li.current > ul > li:before, .card .section .tabs .site-map > ul > li > ul > li.current:before, .registry-office-card .section .tabs .site-map > ul > li > ul > li.current:before {
-  background-image: url('../images/icons-sfe825b00b9.png');
+  background-image: url('../images/icons-s6a0f003861.png');
   background-repeat: no-repeat;
-  background-position: 0 -8830px;
+  background-position: 0 -9119px;
   height: 7px;
   width: 5px;
   position: absolute;
