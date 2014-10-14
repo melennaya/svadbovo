@@ -1,4 +1,4 @@
-.card{
+.card2{
 	width: 996px;
 	border: none;
 	> .breadcrumbs {
@@ -226,7 +226,8 @@
 						span{
 							font-size: 15px;
 							font-weight: bold;
-							float: right;
+							float: left;
+							line-height: 20px;
 							&.good{
 								color: #666;
 							}
