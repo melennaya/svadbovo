@@ -4199,6 +4199,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   width: 291px;
   display: inline-block;
   margin: 0 40px 40px -4px;
+  vertical-align: top;
 }
 .wrapper .main .central-block .wedding-magazine-block .wedding-magazine .item img {
   width: 291px;
