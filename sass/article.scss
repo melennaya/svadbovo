@@ -199,12 +199,19 @@
 						}
 					}
 				}
-			}
-			> .reply{
-				margin: 40px 0 0 0;
-				float: right;
-				.comment{
-					width: 571px;
+				.reply{
+					form{
+						textarea{
+							width: 406px;
+						}
+					}
+				}
+				.edit{
+					form{
+						textarea{
+							width: 367px;
+						}
+					}
 				}
 			}
 		}

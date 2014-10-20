@@ -4650,12 +4650,11 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 .content .all-comments .user-comment .comment .comment-footer a.likes:hover, .content .all-comments .user-comment .comment .comment-footer .breadcrumbs span.likes:hover, .breadcrumbs .content .all-comments .user-comment .comment .comment-footer span.likes:hover {
   text-decoration: underline;
 }
-.content .all-comments .user-comment > .reply {
-  margin: 40px 0 0 0;
-  float: right;
+.content .all-comments .user-comment .comment .reply form textarea {
+  width: 406px;
 }
-.content .all-comments .user-comment > .reply .comment {
-  width: 571px;
+.content .all-comments .user-comment .comment .edit form textarea {
+  width: 367px;
 }
 .content .all-comments .pre-comments-text {
   margin: 20px 0 0 0;
