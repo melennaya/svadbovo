@@ -7079,17 +7079,17 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   top: -60px;
 }
 
-.firm-catalog {
+.firm-catalog-block .firm-catalog {
   margin: 40px 0 0 0;
 }
-.firm-catalog .breadcrumbs {
+.firm-catalog-block .firm-catalog .breadcrumbs {
   margin: 16px 0 16px 0;
 }
-.firm-catalog .block-company {
+.firm-catalog-block .firm-catalog .block-company {
   float: left;
   margin: 0 10px 30px 0;
 }
-.firm-catalog .block-company img {
+.firm-catalog-block .firm-catalog .block-company img {
   width: 174px;
   height: 163px;
   box-sizing: border-box;
@@ -7101,43 +7101,42 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   display: inline-block;
   margin: 0 20px 0 0;
 }
-.firm-catalog .block-company .left {
+.firm-catalog-block .firm-catalog .block-company .left {
   width: 165px;
   float: left;
 }
-.firm-catalog .block-company .left > a, .firm-catalog .block-company .breadcrumbs .left > span, .breadcrumbs .firm-catalog .block-company .left > span {
+.firm-catalog-block .firm-catalog .block-company .left > a, .firm-catalog-block .firm-catalog .block-company .breadcrumbs .left > span, .breadcrumbs .firm-catalog-block .firm-catalog .block-company .left > span {
   font-size: 24px;
   line-height: 24px;
   display: block;
   margin: 20px 0 20px 0;
 }
-.firm-catalog .block-company .left .number-of-firms {
+.firm-catalog-block .firm-catalog .block-company .left .number-of-firms {
   display: block;
   margin: 0 0 5px 0;
   font-weight: bold;
   font-size: 14px;
   color: #ac296a;
 }
-.firm-catalog .block-company .left .number-of-firms > span {
+.firm-catalog-block .firm-catalog .block-company .left .number-of-firms > span {
   font-weight: normal;
 }
-.firm-catalog .block-company .left .number-of-proposals {
+.firm-catalog-block .firm-catalog .block-company .left .number-of-proposals {
   font-weight: bold;
   font-size: 14px;
   color: #333;
 }
-.firm-catalog .block-company .left .number-of-proposals > span {
+.firm-catalog-block .firm-catalog .block-company .left .number-of-proposals > span {
   font-weight: normal;
   color: #999;
 }
-
-.sidebar-right {
+.firm-catalog-block .sidebar-right {
   margin: 60px 0 0 17px;
 }
-.sidebar-right .novelty {
+.firm-catalog-block .sidebar-right .novelty {
   margin: 0 0 40px 0;
 }
-.sidebar-right .novelty h2 {
+.firm-catalog-block .sidebar-right .novelty h2 {
   color: #ac296a;
   font-size: 23px;
   font-weight: normal;
@@ -7147,7 +7146,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   float: left;
   display: block;
 }
-.sidebar-right .novelty > a, .sidebar-right .breadcrumbs .novelty > span, .breadcrumbs .sidebar-right .novelty > span {
+.firm-catalog-block .sidebar-right .novelty > a, .firm-catalog-block .sidebar-right .breadcrumbs .novelty > span, .breadcrumbs .firm-catalog-block .sidebar-right .novelty > span {
   font-size: 12px;
   line-height: 23px;
   float: right;
@@ -7155,7 +7154,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   position: relative;
   margin: 0 15px 0 0;
 }
-.sidebar-right .novelty > a:after, .sidebar-right .breadcrumbs .novelty > span:after, .breadcrumbs .sidebar-right .novelty > span:after {
+.firm-catalog-block .sidebar-right .novelty > a:after, .firm-catalog-block .sidebar-right .breadcrumbs .novelty > span:after, .breadcrumbs .firm-catalog-block .sidebar-right .novelty > span:after {
   background-image: url('../images/icons-sc398468b3e.png');
   background-repeat: no-repeat;
   background-position: 0 -12723px;
@@ -7166,10 +7165,10 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   top: 8px;
   right: -15px;
 }
-.sidebar-right .novelty .item {
+.firm-catalog-block .sidebar-right .novelty .item {
   margin: 0 0 20px 0;
 }
-.sidebar-right .novelty .item img {
+.firm-catalog-block .sidebar-right .novelty .item img {
   height: 71px;
   width: 71px;
   box-sizing: border-box;
@@ -7179,37 +7178,36 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   display: inline-block;
   margin: 0 10px 0 0;
 }
-.sidebar-right .novelty .item .left {
+.firm-catalog-block .sidebar-right .novelty .item .left {
   width: 149px;
   float: left;
 }
-.sidebar-right .novelty .item .left > a, .sidebar-right .novelty .item .breadcrumbs .left > span, .breadcrumbs .sidebar-right .novelty .item .left > span {
+.firm-catalog-block .sidebar-right .novelty .item .left > a, .firm-catalog-block .sidebar-right .novelty .item .breadcrumbs .left > span, .breadcrumbs .firm-catalog-block .sidebar-right .novelty .item .left > span {
   display: block;
   margin: 5px 0 10px 0;
 }
-.sidebar-right .novelty .item .left .price {
+.firm-catalog-block .sidebar-right .novelty .item .left .price {
   font-size: 23px;
   color: #db1c5d;
 }
-.sidebar-right .novelty .item .left .valuta {
+.firm-catalog-block .sidebar-right .novelty .item .left .valuta {
   color: #c8c2b4;
   font-size: 15px;
 }
-.sidebar-right .banner {
+.firm-catalog-block .sidebar-right .banner {
   display: block;
   margin: 20px 0;
 }
-.sidebar-right .banner img {
+.firm-catalog-block .sidebar-right .banner img {
   max-width: 230px;
 }
-
-.sidebar-left {
+.firm-catalog-block .sidebar-left {
   width: 230px;
 }
-.sidebar-left .special-offers-block {
+.firm-catalog-block .sidebar-left .special-offers-block {
   margin: 45px 0 0 0;
 }
-.sidebar-left .special-offers-block h2 {
+.firm-catalog-block .sidebar-left .special-offers-block h2 {
   color: #ac296a;
   font-size: 23px;
   font-weight: normal;
@@ -7217,13 +7215,13 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   margin: 0 0 20px 0;
   line-height: 23px;
 }
-.sidebar-left .special-offers-block .item {
+.firm-catalog-block .sidebar-left .special-offers-block .item {
   border: 1px solid #d0e3ef;
   border-bottom: none;
   background-color: #fbfdff;
   padding: 10px;
 }
-.sidebar-left .special-offers-block .item img {
+.firm-catalog-block .sidebar-left .special-offers-block .item img {
   height: 103px;
   width: 72px;
   box-sizing: border-box;
@@ -7231,31 +7229,31 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   -webkit-box-sizing: border-box;
   float: left;
 }
-.sidebar-left .special-offers-block .item .left {
+.firm-catalog-block .sidebar-left .special-offers-block .item .left {
   float: left;
   width: 125px;
   margin: 0 0 0 10px;
 }
-.sidebar-left .special-offers-block .item .left .item-link {
+.firm-catalog-block .sidebar-left .special-offers-block .item .left .item-link {
   display: inline-block;
   margin: 0 0 10px 0;
   font-size: 14px;
 }
-.sidebar-left .special-offers-block .item .left .crossed {
+.firm-catalog-block .sidebar-left .special-offers-block .item .left .crossed {
   display: block;
   margin: 0 0 5px 0;
   color: #db1c5d;
   font-size: 12px;
   text-decoration: line-through;
 }
-.sidebar-left .special-offers-block .item .left .price {
+.firm-catalog-block .sidebar-left .special-offers-block .item .left .price {
   font-size: 23px;
   color: #69c20b;
 }
-.sidebar-left .special-offers-block .item .left .valuta {
+.firm-catalog-block .sidebar-left .special-offers-block .item .left .valuta {
   color: #c8c2b4;
   font-size: 15px;
 }
-.sidebar-left .special-offers-block .last {
+.firm-catalog-block .sidebar-left .special-offers-block .last {
   border-bottom: 1px solid #d0e3ef;
 }

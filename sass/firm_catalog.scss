@@ -1,169 +1,171 @@
-.firm-catalog{
-	margin: 40px 0 0 0;
-	.breadcrumbs{
-		margin: 16px 0 16px 0;
-	}
-	.block-company{
-		float: left;
-		margin: 0 10px 30px 0;
-		img{
-			width: 174px;
-			height: 163px;
-			@include box-sizing;
-			padding: 5px;
-			border: 1px solid #e3e3e3;
+.firm-catalog-block{
+	.firm-catalog{
+		margin: 40px 0 0 0;
+		.breadcrumbs{
+			margin: 16px 0 16px 0;
+		}
+		.block-company{
 			float: left;
-			display: inline-block;
-			margin: 0 20px 0 0;
-		}
-		.left{
-			width: 165px;
-			float: left;
-			> a{
-				font-size: 24px;
-				line-height: 24px;
-				display: block;
-				margin: 20px 0 20px 0;
-			}
-			.number-of-firms{
-				display: block;
-				margin: 0 0 5px 0;
-				font-weight: bold;
-				font-size: 14px;
-				color: #ac296a;
-				>span{
-					font-weight: normal;
-				}
-			}
-			.number-of-proposals{
-				font-weight: bold;
-				font-size: 14px;
-				color: #333;
-				> span{
-					font-weight: normal;
-					color: #999;
-				}
-			}
-		}
-	}
-}
-.sidebar-right{
-	margin: 60px 0 0 17px;
-	.novelty{
-		margin: 0 0 40px 0;
-		h2{
-			color: #ac296a;
-			font-size: 23px;
-			font-weight: normal;
-			text-transform: uppercase;
-			margin: 0 0 20px 0;
-			line-height: 23px;
-			float: left;
-			display: block;
-		}
-		> a{
-			font-size: 12px;
-			line-height: 23px;
-			float: right;
-			display: block;
-			position: relative;
-			margin: 0 15px 0 0;
-			&:after{
-				@include background(right-arrow, 0);
-				@include sprite-dimensions($icons, right-arrow);
-				position: absolute;
-				content: '';
-				top: 8px;
-				right: -15px;
-			}
-		}
-		.item{
-			margin: 0 0 20px 0;
+			margin: 0 10px 30px 0;
 			img{
-				height: 71px;
-				width: 71px;
+				width: 174px;
+				height: 163px;
 				@include box-sizing;
+				padding: 5px;
+				border: 1px solid #e3e3e3;
 				float: left;
 				display: inline-block;
-				margin: 0 10px 0 0;
+				margin: 0 20px 0 0;
 			}
 			.left{
-				width: 149px;
+				width: 165px;
 				float: left;
 				> a{
+					font-size: 24px;
+					line-height: 24px;
 					display: block;
-					margin: 5px 0 10px 0;
+					margin: 20px 0 20px 0;
 				}
-				.price{
-					font-size: 23px;
-					color: #db1c5d;
-				}
-				.valuta{
-					color: #c8c2b4;
-					font-size: 15px;
-				}
-			}
-		}
-	}
-	.banner{
-		display: block;
-		margin: 20px 0;
-		img{
-		max-width: 230px;
-		}
-	}
-}
-.sidebar-left{
-	width: 230px;
-	.special-offers-block{
-		margin: 45px 0 0 0;
-		h2{
-			color: #ac296a;
-			font-size: 23px;
-			font-weight: normal;
-			text-transform: uppercase;
-			margin: 0 0 20px 0;
-			line-height: 23px;
-		}
-		.item{
-			border: 1px solid #d0e3ef;
-			border-bottom: none;
-			background-color: #fbfdff;
-			padding: 10px;
-			img{
-				height: 103px;
-				width: 72px;
-				@include box-sizing;
-				float: left;
-			}
-			.left{
-				float: left;
-				width: 125px;
-				margin: 0 0 0 10px;
-				.item-link{
-				display: inline-block;
-				margin: 0 0 10px 0;
-				font-size: 14px;
-				}
-				.crossed{
+				.number-of-firms{
 					display: block;
 					margin: 0 0 5px 0;
-					color: #db1c5d;
-					font-size: 12px;
-					text-decoration: line-through;
+					font-weight: bold;
+					font-size: 14px;
+					color: #ac296a;
+					>span{
+						font-weight: normal;
+					}
 				}
-				.price{
-					font-size: 23px;
-					color: #69c20b;
-				}
-				.valuta{
-					color: #c8c2b4;
-					font-size: 15px;
+				.number-of-proposals{
+					font-weight: bold;
+					font-size: 14px;
+					color: #333;
+					> span{
+						font-weight: normal;
+						color: #999;
+					}
 				}
 			}
 		}
-		.last{
-			border-bottom: 1px solid #d0e3ef;
+	}
+	.sidebar-right{
+		margin: 60px 0 0 17px;
+		.novelty{
+			margin: 0 0 40px 0;
+			h2{
+				color: #ac296a;
+				font-size: 23px;
+				font-weight: normal;
+				text-transform: uppercase;
+				margin: 0 0 20px 0;
+				line-height: 23px;
+				float: left;
+				display: block;
+			}
+			> a{
+				font-size: 12px;
+				line-height: 23px;
+				float: right;
+				display: block;
+				position: relative;
+				margin: 0 15px 0 0;
+				&:after{
+					@include background(right-arrow, 0);
+					@include sprite-dimensions($icons, right-arrow);
+					position: absolute;
+					content: '';
+					top: 8px;
+					right: -15px;
+				}
+			}
+			.item{
+				margin: 0 0 20px 0;
+				img{
+					height: 71px;
+					width: 71px;
+					@include box-sizing;
+					float: left;
+					display: inline-block;
+					margin: 0 10px 0 0;
+				}
+				.left{
+					width: 149px;
+					float: left;
+					> a{
+						display: block;
+						margin: 5px 0 10px 0;
+					}
+					.price{
+						font-size: 23px;
+						color: #db1c5d;
+					}
+					.valuta{
+						color: #c8c2b4;
+						font-size: 15px;
+					}
+				}
+			}
+		}
+		.banner{
+			display: block;
+			margin: 20px 0;
+			img{
+				max-width: 230px;
+			}
+		}
+	}
+	.sidebar-left{
+		width: 230px;
+		.special-offers-block{
+			margin: 45px 0 0 0;
+			h2{
+				color: #ac296a;
+				font-size: 23px;
+				font-weight: normal;
+				text-transform: uppercase;
+				margin: 0 0 20px 0;
+				line-height: 23px;
+			}
+			.item{
+				border: 1px solid #d0e3ef;
+				border-bottom: none;
+				background-color: #fbfdff;
+				padding: 10px;
+				img{
+					height: 103px;
+					width: 72px;
+					@include box-sizing;
+					float: left;
+				}
+				.left{
+					float: left;
+					width: 125px;
+					margin: 0 0 0 10px;
+					.item-link{
+						display: inline-block;
+						margin: 0 0 10px 0;
+						font-size: 14px;
+					}
+					.crossed{
+						display: block;
+						margin: 0 0 5px 0;
+						color: #db1c5d;
+						font-size: 12px;
+						text-decoration: line-through;
+					}
+					.price{
+						font-size: 23px;
+						color: #69c20b;
+					}
+					.valuta{
+						color: #c8c2b4;
+						font-size: 15px;
+					}
+				}
+			}
+			.last{
+				border-bottom: 1px solid #d0e3ef;
+			}
 		}
 	}
 }
