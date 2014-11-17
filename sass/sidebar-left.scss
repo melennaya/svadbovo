@@ -118,4 +118,54 @@
 			}
 		}
 	}
+	.main-menu-2 {
+		@for $i from 1 through 7 {
+			ul {
+				> li {
+					&.main2-cat-#{$i} {
+						position:relative;
+						border-bottom: 1px dotted #bfbfbf;
+						padding: 15px 0 10px 38px;
+						> a {
+							text-decoration: none;
+							color: #000;
+							display: block;
+							padding: 0 0 5px 0;
+						}
+						&:hover, &.active {
+							>a{
+								text-decoration: underline;
+								color: #db1c5d;
+							}
+						}
+						&:before {
+							@include background(main2-cat-#{$i}, 0);
+							@include sprite-dimensions($icons, main2-cat-#{$i});
+							position:absolute;
+							display: block;
+							content: '';
+							left: -10px;
+							top: 7px;
+						}
+					}
+					ul {
+						li {
+							a {
+								font-size: 12px;
+								padding: 2px 3px 0;
+							}
+							&:hover, &.active {
+								a{
+									background-color: #ca76a0;
+									text-decoration: none;
+									color: #fff;
+									@include border-radius(2px);
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 }
