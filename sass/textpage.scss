@@ -1,0 +1,55 @@
+.rules, .location{
+	.breadcrumbs{
+		margin: 10px 0 20px;
+	}
+	h2{
+		margin: 0 0 10px 0;
+		font-size: 18px;
+		font-weight: bold;
+		color: #000;
+	}
+	p{
+		margin: 0 0 30px 0;
+		font-size: 14px;
+		line-height: 18px;
+	}
+	ul{
+		margin: 0 0 25px 0;
+		font-size: 14px;
+	}
+	ul{
+		font-size: 14px;
+		line-height: 21px;
+		margin: 0 0 25px 0;
+		li{
+			@include background(right-arrow, 0px);
+			@include sprite-background-position($icons, right-arrow, 0, +7);
+			padding: 0 0 0 18px;
+			margin: 0 0 30px 0;
+		}
+	}
+}
+.location{
+	a{
+		&.mail{
+			margin: 0 0 0 5px;
+		}
+	}
+	span{
+		&.tel{
+			font-weight: bold;
+			margin: 0 0 0 5px;
+		}
+	}
+	b{
+		font-size: 17px;
+		font-weight: bold;
+		margin-bottom: -20px;
+		display: block;
+	}
+	ul{
+		li{
+			margin: 0 0 15px 0;
+		}
+	}
+}
