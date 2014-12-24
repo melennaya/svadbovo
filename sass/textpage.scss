@@ -1,4 +1,4 @@
-.rules, .location{
+.rules{
 	.breadcrumbs{
 		margin: 10px 0 20px;
 	}
@@ -30,9 +30,11 @@
 	}
 }
 .location{
+	@extend .rules;
 	a{
 		&.mail{
 			margin: 0 0 0 5px;
+			text-decoration: none;
 		}
 	}
 	span{
@@ -50,6 +52,88 @@
 	ul{
 		li{
 			margin: 0 0 15px 0;
+		}
+	}
+}
+.advertising{
+	@extend .rules;
+	h2{
+		margin: 0 0 20px 0;
+	}
+	a{
+		&.mail{
+			margin: 0 0 0 2px;
+			text-decoration: none;
+		}
+		&.block{
+			line-height: 22px;
+			display: block;
+		}
+	}
+	b{
+		font-weight: bold;
+		display: block;
+		line-height: 22px;;
+	}
+	span{
+		&.info{
+			line-height: 22px;
+			display: block;
+		}
+	}
+	>img{
+		margin: 0 0 20px 0;
+	}
+}
+.support{
+	@extend .rules;
+	p{
+		margin: 0 0 20px 0;
+	}
+	form{
+		border: 1px solid #e3e3e3;
+		padding: 35px 40px 40px 45px;
+		width: 485px;
+		@include box-sizing;
+		span{
+			font-size: 15px;
+			font-weight: bold;
+			color: #72838d;
+			display: block;
+			margin: 0 0 5px 0;
+		}
+		input{
+			border: 1px solid #e8e8e8;
+			width: 99%;
+			height: 35px;
+			margin: 0 0 20px 0;
+			padding: 0 0 0 10px;
+			font-size: 14px;
+			line-height: 35px;
+			@include box-sizing;
+			@include border-radius(3px);
+			&[type=submit]{
+				width: 175px;
+				border-color: #2e87bb;
+				color: #fff;
+				font-size: 19px;
+				background-color: #58a5cf;
+				margin: 0;
+				height: 40px;
+				padding: 0;
+				cursor: pointer;
+
+			}
+		}
+		textarea{
+			resize: none;
+			width: 99%;
+			height: 80px;
+			@include box-sizing;
+			border: 1px solid #e8e8e8;
+			@include border-radius(3px);
+			padding: 10px;
+			margin: 0 0 10px 0;
 		}
 	}
 }

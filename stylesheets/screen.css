@@ -7531,30 +7531,30 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
   border-bottom: 1px solid #d0e3ef;
 }
 
-.rules .breadcrumbs, .location .breadcrumbs {
+.rules .breadcrumbs, .location .breadcrumbs, .advertising .breadcrumbs, .support .breadcrumbs {
   margin: 10px 0 20px;
 }
-.rules h2, .location h2 {
+.rules h2, .location h2, .advertising h2, .support h2 {
   margin: 0 0 10px 0;
   font-size: 18px;
   font-weight: bold;
   color: #000;
 }
-.rules p, .location p {
+.rules p, .location p, .advertising p, .support p {
   margin: 0 0 30px 0;
   font-size: 14px;
   line-height: 18px;
 }
-.rules ul, .location ul {
+.rules ul, .location ul, .advertising ul, .support ul {
   margin: 0 0 25px 0;
   font-size: 14px;
 }
-.rules ul, .location ul {
+.rules ul, .location ul, .advertising ul, .support ul {
   font-size: 14px;
   line-height: 21px;
   margin: 0 0 25px 0;
 }
-.rules ul li, .rules ul .card2 .section .tabs li.current, .card2 .section .tabs .rules ul li.current, .rules ul .registry-office-card .section .tabs li.current, .registry-office-card .section .tabs .rules ul li.current, .location ul li, .location ul .card2 .section .tabs li.current, .card2 .section .tabs .location ul li.current, .location ul .registry-office-card .section .tabs li.current, .registry-office-card .section .tabs .location ul li.current {
+.rules ul li, .location ul li, .advertising ul li, .support ul li, .rules ul .card2 .section .tabs li.current, .card2 .section .tabs .rules ul li.current, .location ul .card2 .section .tabs li.current, .card2 .section .tabs .location ul li.current, .advertising ul .card2 .section .tabs li.current, .card2 .section .tabs .advertising ul li.current, .support ul .card2 .section .tabs li.current, .card2 .section .tabs .support ul li.current, .rules ul .registry-office-card .section .tabs li.current, .registry-office-card .section .tabs .rules ul li.current, .location ul .registry-office-card .section .tabs li.current, .registry-office-card .section .tabs .location ul li.current, .advertising ul .registry-office-card .section .tabs li.current, .registry-office-card .section .tabs .advertising ul li.current, .support ul .registry-office-card .section .tabs li.current, .registry-office-card .section .tabs .support ul li.current {
   background-image: url('../images/icons-s99ea9e5a2c.png');
   background-repeat: no-repeat;
   background-position: 0 -13699px;
@@ -7565,6 +7565,7 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 
 .location a.mail, .location .breadcrumbs span.mail, .breadcrumbs .location span.mail {
   margin: 0 0 0 5px;
+  text-decoration: none;
 }
 .location span.tel {
   font-weight: bold;
@@ -7578,4 +7579,87 @@ h3, .profile-reklamodatel .firm-card .catalog-source span, .profile-reklamodatel
 }
 .location ul li, .location ul .card2 .section .tabs li.current, .card2 .section .tabs .location ul li.current, .location ul .registry-office-card .section .tabs li.current, .registry-office-card .section .tabs .location ul li.current {
   margin: 0 0 15px 0;
+}
+
+.advertising h2 {
+  margin: 0 0 20px 0;
+}
+.advertising a.mail, .advertising .breadcrumbs span.mail, .breadcrumbs .advertising span.mail {
+  margin: 0 0 0 2px;
+  text-decoration: none;
+}
+.advertising a.block, .advertising .breadcrumbs span.block, .breadcrumbs .advertising span.block {
+  line-height: 22px;
+  display: block;
+}
+.advertising b {
+  font-weight: bold;
+  display: block;
+  line-height: 22px;
+}
+.advertising span.info {
+  line-height: 22px;
+  display: block;
+}
+.advertising > img {
+  margin: 0 0 20px 0;
+}
+
+.support p {
+  margin: 0 0 20px 0;
+}
+.support form {
+  border: 1px solid #e3e3e3;
+  padding: 35px 40px 40px 45px;
+  width: 485px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.support form span {
+  font-size: 15px;
+  font-weight: bold;
+  color: #72838d;
+  display: block;
+  margin: 0 0 5px 0;
+}
+.support form input {
+  border: 1px solid #e8e8e8;
+  width: 99%;
+  height: 35px;
+  margin: 0 0 20px 0;
+  padding: 0 0 0 10px;
+  font-size: 14px;
+  line-height: 35px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+.support form input[type=submit] {
+  width: 175px;
+  border-color: #2e87bb;
+  color: #fff;
+  font-size: 19px;
+  background-color: #58a5cf;
+  margin: 0;
+  height: 40px;
+  padding: 0;
+  cursor: pointer;
+}
+.support form textarea {
+  resize: none;
+  width: 99%;
+  height: 80px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: 1px solid #e8e8e8;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 0 0 10px 0;
 }
