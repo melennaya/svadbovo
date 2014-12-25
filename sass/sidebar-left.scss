@@ -60,10 +60,10 @@
 		}
 	}
 	.main-menu {
-		@for $i from 1 through 14 {
+		@for $i from 1 through 14{
 			ul {
 				> li {
-					&.main-cat-#{$i} {
+					&.main-cat-#{$i}{
 						position:relative;
 						border-bottom: 1px dotted #bfbfbf;
 						padding: 15px 0 10px 38px;
@@ -119,10 +119,10 @@
 		}
 	}
 	.main-menu-2 {
-		@for $i from 1 through 7 {
+		@for $i from 1 through 7{
 			ul {
 				> li {
-					&.main2-cat-#{$i} {
+					&.main2-cat-#{$i}{
 						position:relative;
 						border-bottom: 1px dotted #bfbfbf;
 						padding: 15px 0 10px 38px;
@@ -162,6 +162,33 @@
 									@include border-radius(2px);
 								}
 							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.main-menu-3{
+		@for $i from 1 through 4{
+			ul{
+				li{
+					&.main3-cat-#{$i}{
+						position:relative;
+						border-bottom: 1px dotted #bfbfbf;
+						padding: 15px 0 10px 45px;
+						> a {
+							color: #1f75b0;
+							display: block;
+							padding: 0 0 5px 0;
+						}
+						&:before {
+							@include background(main3-cat-#{$i}, 0);
+							@include sprite-dimensions($icons, main3-cat-#{$i});
+							position:absolute;
+							display: block;
+							content: '';
+							left: -10px;
+							top: 7px;
 						}
 					}
 				}
