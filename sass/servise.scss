@@ -170,3 +170,264 @@
 		}
 	}
 }
+.svadba-calc{
+	.left{
+		float: left;
+	}
+	.right{
+		float: right;
+	}
+	.calculator-box{
+		margin: 20px 0 33px 0;
+		border: 1px solid #d9e7f2;
+		padding: 10px;
+		.calculator{
+			background-color: #f1f6fa;
+			padding: 32px 30px 30px 45px;
+			.titile{
+				text-align: center;
+				font-size: 20px;
+				color: #426275;
+				margin: 0 0 20px 0;
+			}
+			p{
+				font-size: 14px;
+				color: #666;
+				text-align: center;
+				margin: 0 0 40px 0;
+			}
+			.group{
+				margin: 0 0 10px 0;
+				.guests-count-block{
+					span{
+						font-size: 15px;
+						color: #72838d;
+						font-weight: bold;
+						&.guests-count{
+							font-weight: normal;
+						}
+					}
+					input{
+						width: 76px;
+						height: 30px;
+						font-size: 15px;
+						text-align: center;
+						@include border-radius(3px);
+						border: 1px solid #e8e8e8;
+						margin: 0 5px;
+					}
+				}
+				.paysum-block{
+					span{
+						font-size: 15px;
+						color: #72838d;
+						font-weight: bold;
+						&.paysum{
+							font-weight: normal;
+						}
+					}
+					input{
+						width: 116px;
+						height: 30px;
+						font-size: 15px;
+						text-align: center;
+						@include border-radius(3px);
+						border: 1px solid #e8e8e8;
+						margin: 0 5px;
+					}
+				}
+			}
+			.balance{
+				@include box-shadow(#e7ebef 0px 4px 5px);
+				@include box-sizing;
+				height: 84px;
+				width: 214px;
+				background-color: #fff;
+				float: left;
+				color: #666;
+				text-align: center;
+				padding: 10px 0 15px;
+				border-right: 1px solid #e5e5e5;
+				span{
+					&.cost{
+					font-size: 28px;
+					line-height: 40px;
+					margin: 0 8px 0 0;
+					}
+				}
+			}
+			.paid{
+				@extend .balance;
+				color: #5dab0a;
+			}
+			.left2pay{
+				@extend .balance;
+				color: #ac296a;
+				border: none;
+			}
+		}
+	}
+	.header{
+		margin: 0 0 10px 0;
+		span{
+			color: #ac296a;
+			font-size: 18px;
+			text-transform: uppercase;
+		}
+		a{
+			font-size: 14px;
+		}
+	}
+	.heading{
+		border: 1px solid #dbdbdb;
+		background-color: #f5f5f5;
+		padding: 10px 10px 10px 10px;
+		font-size: 12px;
+		margin: 0 0 9px 0;
+		.title{
+			width: 300px;
+			display: inline-block;
+			margin: 0 8px 0 0px;
+		}
+		.value{
+			width: 125px;
+			display: inline-block;
+			margin: 0 8px 0 -3px;
+		}
+		.paid{
+			width: 125px;
+			display: inline-block;
+			margin: 0 8px 0 -3px;
+		}
+		.left2pay{
+			width: 140px;
+			display: inline-block;
+		}
+	}
+	.expenses-group{
+		margin: 0 0 28px 0;
+		.main-cost{
+			background-color: #efd6e3;
+			padding: 10px;
+			font-size: 14px;
+			.title{
+				border: 1px solid #e8e8e8;
+				@include border-radius(3px);
+				@include box-sizing;
+				padding: 0 12px;
+				line-height: 33px;
+				height: 33px;
+				width: 300px;
+				background-color: #fff;
+				display: inline-block;
+				margin: 0 8px 0 0px;
+			}
+			.value{
+				width: 125px;
+				display: inline-block;
+				border: 1px solid #e8e8e8;
+				@include border-radius(3px);
+				@include box-sizing;
+				padding: 0 12px;
+				line-height: 33px;
+				height: 33px;
+				background-color: #fff;
+				margin: 0 8px 0 -3px;
+			}
+			.paid{
+				width: 125px;
+				display: inline-block;
+				border: 1px solid #e8e8e8;
+				@include border-radius(3px);
+				@include box-sizing;
+				padding: 0 12px;
+				line-height: 33px;
+				height: 33px;
+				background-color: #fff;
+				margin: 0 8px 0 -3px;
+			}
+			.left2pay{
+				display: inline-block;
+				border: 1px solid #e8e8e8;
+				@include border-radius(3px);
+				@include box-sizing;
+				padding: 0 12px;
+				line-height: 33px;
+				height: 33px;
+				width: 125px;
+				background-color: #fff;
+				margin: 0 3px 0 0px;
+			}
+			.del{
+				display: inline-block;
+				@include background(delete-small, 0);
+				@include sprite-dimensions($icons, delete-small);
+				cursor: pointer;
+			}
+		}
+		.cost{
+			padding: 10px;
+			font-size: 14px;
+			border-bottom: 1px solid #f1f1f1;
+			.title{
+				border: 1px solid #e8e8e8;
+				@include border-radius(3px);
+				@include box-sizing;
+				padding: 0 12px;
+				line-height: 33px;
+				height: 33px;
+				width: 300px;
+				background-color: #fff;
+				display: inline-block;
+				margin: 0 8px 0 0px;
+			}
+			.value{
+				width: 125px;
+				display: inline-block;
+				border: 1px solid #e8e8e8;
+				@include border-radius(3px);
+				@include box-sizing;
+				padding: 0 12px;
+				line-height: 33px;
+				height: 33px;
+				background-color: #fff;
+				margin: 0 8px 0 -3px;
+			}
+			.paid{
+				width: 125px;
+				display: inline-block;
+				border: 1px solid #e8e8e8;
+				@include border-radius(3px);
+				@include box-sizing;
+				padding: 0 12px;
+				line-height: 33px;
+				height: 33px;
+				background-color: #fff;
+				margin: 0 8px 0 -3px;
+			}
+			.left2pay{
+				display: inline-block;
+				border: 1px solid #e8e8e8;
+				@include border-radius(3px);
+				@include box-sizing;
+				padding: 0 12px;
+				line-height: 33px;
+				height: 33px;
+				width: 125px;
+				background-color: #fff;
+				margin: 0 3px 0 0px;
+			}
+			.del{
+				display: inline-block;
+				@include background(delete-small, 0);
+				@include sprite-dimensions($icons, delete-small);
+				cursor: pointer;
+			}
+		}
+		.add{
+			display: block;
+			font-size: 14px;
+			margin: 15px 0 0 0;
+		}
+	}
+}
