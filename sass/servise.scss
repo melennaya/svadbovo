@@ -431,3 +431,166 @@
 		}
 	}
 }
+.car-calc{
+	.left{
+		float: left;
+	}
+	.right{
+		float: right;
+	}
+	.calculator-box{
+		margin: 20px 0 33px 0;
+		border: 1px solid #d9e7f2;
+		padding: 10px;
+		.calculator{
+			background-color: #f1f6fa;
+			padding: 20px 30px 30px 45px;
+			background: #f1f6fa url(../images/wedding-car.png) no-repeat 410px 70px;
+			> .left{
+				margin: 0 55px 0 0;
+				label{
+					margin: 0 30px 0 0;
+				}
+			}
+			.title{
+				margin: 15px 0 15px 0;
+				span{
+					color: #72838d;
+					font-size: 15px;
+					font-weight: bold;
+				}
+			}
+			.number-of-guests{
+				border: 1px solid #e8e8e8;
+				background-color: #fff;
+				width: 135px;
+				height: 35px;
+				@include box-sizing;
+				@include border-radius(3px);
+				line-height: 35px;
+				font-size: 15px;
+				color: 000;
+				text-align: center;
+				padding: 0 10px;
+				margin: -5px 0 0 0;
+			}
+			.photographer{
+				margin: 0 0 10px 0;
+				font-size: 15px;
+				color: #000;
+				input{
+					margin: 0 10px 0 0;
+				}
+			}
+			.continue{
+				margin: 15px 0 0 0;
+				color: #fff;
+				font-size: 22px;
+				text-align: center;
+				line-height: 58px;
+				height: 58px;
+				width: 268px;
+				@include box-sizing;
+				@include border-radius(3px);
+				background-color: #58a5cf;
+				border: 1px solid #2e87bb;
+				cursor: pointer;
+			}
+		}
+	}
+	> .group{
+		display: inline-block;
+		margin: 0 45px 0 0;
+		span{
+			font-size: 14px;
+			color: #ac296a;
+			&.title{
+				color: #333;
+				margin: 0 5px 0 0;
+			}
+		}
+	}
+	.car-box{
+		margin: 15px 0 0 0;
+		> .right{
+			width: 573px;
+		}
+		.guests-block{
+			width: 166px;
+			margin: 10px 0 0 0;
+			.guests{
+				border: 1px solid #dbdbdb;
+				height: 38px;
+				font-size: 14px;
+				color: #333;
+				background-color: #f5f5f5;
+				line-height: 38px;
+				text-align: center;
+				margin: 0 0 5px 0;
+				&-main{
+					background-color: #f8edf2;
+				}
+			}
+		}
+		.machine-guest{
+			background: url(../images/car-bg2.png);
+			height: 120px;
+			display: inline-block;
+			width: 284px;
+			padding: 28px 25px 20px 30px;
+			@include box-sizing;
+			.number{
+				display: inline-block;
+				margin: 0 10px 0 0;
+				color: #333;
+				font-size: 24px;
+				position: relative;
+				top: -15px;
+			}
+			.car{
+				width: 198px;
+				display: inline-block;
+				.guest{
+					display: inline-block;
+					width: 94px;
+					height: 30px;
+					color: #333;
+					border: 1px solid #dbdbdb;
+					text-align: center;
+					margin-bottom: 5px;
+					cursor: pointer;
+					line-height: 32px;
+				}
+				.driver{
+					display: inline-block;
+					background-color: #a7a7a7;
+					color: #fff;
+					width: 94px;
+					height: 30px;
+					border: 1px solid #a7a7a7;
+					text-align: center;
+					cursor: pointer;
+					line-height: 32px;
+				}
+				.green{
+					display: inline-block;
+					background-color: #5dab0a;
+					color: #fff;
+					width: 94px;
+					height: 30px;
+					border: 1px solid #5dab0a;
+					margin-bottom: 5px;
+				}
+			}
+		}
+		.add-reset{
+			margin: 30px 0 0 0;
+			.add-car{
+				margin: 0 0 0 15px;
+			}
+			.reset-car{
+				margin: 0 15px 0 0;
+			}
+		}
+	}
+}
